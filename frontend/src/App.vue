@@ -7,10 +7,6 @@ import Home from "./components/Home.vue";
 </template>
 
 <style scoped>
-body {
-  background-color: #eeeeee;
-}
-
 header {
   line-height: 1.5;
 }
