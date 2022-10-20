@@ -11585,14 +11585,14 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
+  width: 70px;
+  height: 70px;
+  margin-left: 5px;
   text-align: center;
-  color: white;
+  color: black;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #ffffff;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11647,9 +11647,9 @@ header.masthead .masthead-heading {
   }
   .timeline > li .timeline-image {
     left: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 13px;
@@ -11664,18 +11664,18 @@ header.masthead .masthead-heading {
 }
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px;
+    min-height: 17px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 26px;
     margin-top: 30px;
   }
@@ -11685,15 +11685,15 @@ header.masthead .masthead-heading {
 }
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px;
+    min-height: 17px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     margin-top: 40px;
@@ -11775,7 +11775,49 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
-  text-align: center;
-  font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  display: block;
+  flex: none;
+  background-color: #111;
+  color: #a5a5a5;
+  font-size: .875em;
+}
+
+.footer-item {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  color: #a5a5a5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  flex: 33%;
+}
+
+.wrap {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  color: #a5a5a5;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  max-width: 69rem;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: content-box;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  font-weight: 300;
+}
+
+.footer-item:last-child {
+  text-align: right;
 }
