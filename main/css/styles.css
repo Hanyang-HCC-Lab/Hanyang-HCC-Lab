@@ -11294,6 +11294,8 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
+  margin-left: 22.5rem;
+  margin-right: 22.5rem;
 }
 
 p {
