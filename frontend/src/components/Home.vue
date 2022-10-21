@@ -8,6 +8,7 @@ import MainPage from "./MainPage.vue";
   <div id="wrap">
     <Nav />
     <MainPage />
+
     <Footer />
   </div>
 </template>
