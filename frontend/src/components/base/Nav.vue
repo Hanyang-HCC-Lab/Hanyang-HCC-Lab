@@ -23,7 +23,7 @@
         <i class="fas fa-bars ms-1"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <p class="fs-3" style="margin: 0">
+        <p class="fs-3" style="margin: 0; color: white">
           Hanyang Human-Centered Computing Lab
         </p>
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
