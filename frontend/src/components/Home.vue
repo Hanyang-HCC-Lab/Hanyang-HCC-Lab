@@ -15,15 +15,24 @@ export default {
   data() {
     // 최초 default page에 대한 선언 (문자열로 page 변수에 선언)
     return {
-      // page: "MainPage",
-      page: "Members",
+      page: "MainPage",
+      scrollTarget: null,
+      // page: "Members",
     };
   },
 
   methods: {
     changePage(value) {
       this.page = value;
+      this.scrollingTop(); //Page 이동시 top scrolling
     },
+    scrollingTop() {
+      scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
+
+  mounted() {
+    this.scrollTarget = document.querySelector("#wrap");
   },
 };
 </script>
