@@ -1,14 +1,39 @@
-<script setup>
+<script>
 import Nav from "./base/Nav.vue";
 import Footer from "./base/Footer.vue";
 import MainPage from "./MainPage.vue";
+import Members from "./Members.vue";
+
+export default {
+  components: {
+    Nav,
+    Footer,
+    MainPage,
+    Members,
+  },
+
+  data() {
+    // 최초 default page에 대한 선언 (문자열로 page 변수에 선언)
+    return {
+      // page: "MainPage",
+      page: "Members",
+    };
+  },
+
+  methods: {
+    changePage(value) {
+      this.page = value;
+    },
+  },
+};
 </script>
 
 <template>
   <div id="wrap">
-    <Nav />
-    <MainPage />
-
+    <Nav :page="this.page" @changePage="changePage" />
+    <MainPage v-if="page === 'MainPage'" />
+    <Members v-if="page === 'Members'" />
+    <button @click="changePage('Members')">CHANGE</button>
     <Footer />
   </div>
 </template>

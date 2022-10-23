@@ -28,25 +28,46 @@
         </p>
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="/main/index.html">Home</a>
+            <a class="nav-link" @click.self="$emit('changePage', 'MainPage')"
+              >Home</a
+            >
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/main/research.html">Research</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" @click.self="$emit('changePage', 'Members')"
+              >Members</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/main/members.html">Members</a>
+            <a
+              class="nav-link"
+              @click.self="$emit('changePage', 'Publications')"
+              >Publications</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/main/publications.html">Publications</a>
+            <a class="nav-link" @click.self="$emit('changePage', 'Courses')"
+              >Courses</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/main/courses.html">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/main/gallery.html">Gallery</a>
+            <a class="nav-link" @click.self="$emit('changePage', 'Gallery')"
+              >Gallery</a
+            >
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  props: {
+    page: String,
+    changePage: Function,
+  },
+};
+</script>
