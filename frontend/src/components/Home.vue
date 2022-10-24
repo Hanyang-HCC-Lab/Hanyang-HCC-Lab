@@ -13,6 +13,9 @@
     <transition name="fade">
       <Courses v-show="page === 'Courses'" />
     </transition>
+    <transition name="fade">
+      <Gallery v-show="page === 'Gallery'" />
+    </transition>
     <!-- <button @click="changePage('Members')">CHANGE</button> -->
     <Footer />
   </div>
@@ -44,6 +47,7 @@ import MainPage from "./MainPage.vue";
 import Members from "./Members.vue";
 import Publications from "./Publications.vue";
 import Courses from "./Courses.vue";
+import Gallery from "./Gallery.vue";
 
 export default {
   components: {
@@ -53,14 +57,15 @@ export default {
     Members,
     Publications,
     Courses,
+    Gallery,
   },
 
   data() {
     // 최초 default page에 대한 선언 (문자열로 page 변수에 선언)
     return {
-      page: "MainPage",
+      // page: "MainPage",
       scrollTarget: "null",
-      // page: "Courses",
+      page: "Gallery",
     };
   },
 
