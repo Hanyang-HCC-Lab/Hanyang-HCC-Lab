@@ -1,3 +1,15 @@
+<script>
+import news from "../news.json";
+
+export default {
+  data() {
+    return {
+      news: news,
+    };
+  },
+};
+</script>
+
 <template>
   <div class="container">
     <div class="text-center">

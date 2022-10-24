@@ -14,11 +14,15 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_346627f99d4b4681983355302cf56a27~mv2.jpg/v1/crop/x_0,y_121,w_2624,h_2680/fill/w_336,h_343,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/re%20SB_04732%204%20.jpg"
+            src="../assets/members/한경식 교수님.webp"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Kyungsik Han
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              (한경식)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -40,11 +44,15 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="../assets/members/김보관.webp"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Bogoan Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              (김보관)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -53,11 +61,15 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="../assets/members/진승완.webp"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Seungwan Jin
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              (진승완)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -66,11 +78,15 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="../assets/members/김다솜.webp"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Dasom Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              (김다솜)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -97,8 +113,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -110,8 +130,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -123,8 +147,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -149,8 +177,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -162,8 +194,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -175,8 +211,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -188,8 +228,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -201,8 +245,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -214,8 +262,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -240,8 +292,12 @@
             src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
           />
           <div class="text-center mt-1">
-            <p style="font-size: 1rem; margin: 0">Name (En)</p>
-            <p style="font-size: 1rem; margin: 0">Name (Ko)</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (En)
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Name (Ko)
+            </p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -290,5 +346,9 @@
 .memberImage {
   width: 85%;
   object-fit: fill;
+}
+
+.member_name {
+  font-weight: bold;
 }
 </style>
