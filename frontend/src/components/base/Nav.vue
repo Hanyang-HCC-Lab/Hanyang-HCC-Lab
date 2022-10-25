@@ -7,7 +7,7 @@
       <a class="navbar-brand"
         ><img
           style="width: 5rem; height: auto"
-          src="../../assets/lab_logo_white.png"
+          src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/lab_logo_white.png"
           @click.self="$emit('changePage', 'MainPage')"
       /></a>
       <button
@@ -89,3 +89,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.nav-link {
+  color: white;
+}
+</style>

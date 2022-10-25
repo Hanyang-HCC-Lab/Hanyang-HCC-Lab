@@ -14,8 +14,8 @@ export default {
   <div class="container">
     <div class="text-center">
       <img
-        class="mb-3"
-        style="width: 50rem; height: auto"
+        class="mb-3 mt-5"
+        style="width: 100%; height: auto"
         src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/HYU+FTC.webp"
         alt="..."
       />
