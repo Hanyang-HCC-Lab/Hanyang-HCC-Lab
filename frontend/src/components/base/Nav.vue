@@ -4,11 +4,11 @@
     id="mainNav"
   >
     <div class="container">
-      <a class="navbar-brand" href="#page-top"
+      <a class="navbar-brand"
         ><img
           style="width: 5rem; height: auto"
           src="../../assets/lab_logo_white.png"
-          alt="..."
+          @click.self="$emit('changePage', 'MainPage')"
       /></a>
       <button
         class="navbar-toggler"
