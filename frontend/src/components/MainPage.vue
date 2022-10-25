@@ -226,5 +226,12 @@ export default {
     >
       이 외에 다양한 분야에서의 AI + HCI 연구를 수행하고 있습니다.
     </h2>
+    <div class="mb-5">
+      <div class="text-center mb-4"><span class="h3">Recent News</span></div>
+      <div v-for="news in news" :key="news.index" class="item-content mt-3">
+        <span class="h6">[{{ news.date }}]&nbsp;</span>
+        <span class="h6" v-html="news.content"></span>
+      </div>
+    </div>
   </div>
 </template>
