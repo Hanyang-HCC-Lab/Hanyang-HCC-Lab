@@ -16,7 +16,7 @@ export default {
       <img
         class="mb-3"
         style="width: 50rem; height: auto"
-        src="../assets/한양대 FTC관_edited.webp"
+        src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/HYU+FTC.webp"
         alt="..."
       />
 
@@ -66,9 +66,9 @@ export default {
         >
           한양대학교 인텔리전스컴퓨팅학부, 인공지능학과, 인공지능융합대학원의
           인간 중심 컴퓨팅 연구실 (Human-Centered Computing Laboratory)에서는
-          컴퓨터 기술, 인간 활동 및 사회 간의 관계를 연구하고, 결과를 해석하며,
-          사람에게 도움이 되는 기술 개발 및 디자인 관점을 제시하는 연구를 활발히
-          진행하고 있습니다.
+          컴퓨터 기술, 인간 활동 및 사회 간의 관계를 연구하고, 결과를
+          <br />해석하며, 사람에게 도움이 되는 기술 개발 및 디자인 관점을
+          제시하는 연구를 활발히 진행하고 있습니다.
         </h2>
         <h2
           class="font_2 mb-5"
@@ -80,9 +80,9 @@ export default {
           "
         >
           우리 연구실에서는 디자인, 컴퓨터과학, 사회과학, 심리학 등의 다양한
-          방법론의 활용, 학제 간 연구 및 교육을 통해 인간의 능력, 목표 및 사회적
-          환경과 조화되고 향상되는 기술을 이해하고 개발하는 것을 목표로 하고
-          있습니다.
+          방법론의 활용, 학제 간 연구 및 교육을 통해 <br />인간의 능력, 목표 및
+          사회적 환경과 조화되고 향상되는 기술을 이해하고 개발하는 것을 목표로
+          하고 있습니다.
         </h2>
         <h2
           class="font_2 mb-5"
@@ -114,10 +114,6 @@ export default {
               class="rounded-circle mt-3"
               src="https://static.wixstatic.com/media/e03b1d_b7b72a22d8e448f19557b8ae66b51e70~mv2.png/v1/crop/x_373,y_0,w_446,h_446/fill/w_70,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2_ux.png"
               alt="2_ux.png"
-              srcset="
-                https://static.wixstatic.com/media/e03b1d_b7b72a22d8e448f19557b8ae66b51e70~mv2.png/v1/crop/x_373,y_0,w_446,h_446/fill/w_70,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2_ux.png   1x,
-                https://static.wixstatic.com/media/e03b1d_b7b72a22d8e448f19557b8ae66b51e70~mv2.png/v1/crop/x_373,y_0,w_446,h_446/fill/w_140,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2_ux.png 2x
-              "
               fetchpriority="high"
               style="width: 70px; height: 70px; object-fit: cover"
             />
@@ -127,8 +123,10 @@ export default {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Social Computing Research</h4>
-            <p class="text-muted">
+            <h4 class="my-3" style="margin-left: 0.5rem">
+              Social Computing Research
+            </h4>
+            <p class="text-muted" style="margin-left: 0.5rem">
               social media big data 및 machine/deep learning 기반 사용자
               모델링(user modeling) 및 사회 현상(social phenomena)을 파악하는
               연구
@@ -152,8 +150,8 @@ export default {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Human-AI Research</h4>
-            <p class="text-muted">
+            <h4 class="my-3" style="margin-left: 0.5rem">Human-AI Research</h4>
+            <p class="text-muted" style="margin-left: 0.5rem">
               도메인과 사용자에 따른 다양한 요소를 심리학, 사회학을 기반으로
               파악 하고, 인공지능 모델 구축에 활용하는 연구
             </p>
@@ -177,8 +175,10 @@ export default {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Mobile Computing Research</h4>
-            <p class="text-muted">
+            <h4 class="my-3" style="margin-left: 0.5rem">
+              Mobile Computing Research
+            </h4>
+            <p class="text-muted" style="margin-left: 0.5rem">
               모바일(smartphone, wearable)기반 기술을 활용하여 사용자를 이해하고
               도움을 주기 위한 새로운 시스템을 개발하고, 수집된 이종 데이터를
               분석하는 연구
@@ -203,8 +203,10 @@ export default {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">Immersive Experience Research</h4>
-            <p class="text-muted">
+            <h4 class="my-3" style="margin-left: 0.5rem">
+              Immersive Experience Research
+            </h4>
+            <p class="text-muted" style="margin-left: 0.5rem">
               가상 및 증강 환경에서 사용자 경험(user experience) 향상을 위한
               요소 발굴 및 기술 개발 연구
             </p>

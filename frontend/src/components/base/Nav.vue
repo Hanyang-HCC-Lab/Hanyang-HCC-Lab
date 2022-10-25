@@ -28,7 +28,11 @@
         </p>
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
           <li class="nav-item">
-            <a class="nav-link" @click.self="$emit('changePage', 'MainPage')"
+            <a
+              class="nav-link"
+              @click.self="$emit('changePage', 'MainPage')"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >Home</a
             >
           </li>
@@ -36,7 +40,11 @@
             <a class="nav-link" href="/main/research.html">Research</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" @click.self="$emit('changePage', 'Members')"
+            <a
+              class="nav-link"
+              @click.self="$emit('changePage', 'Members')"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >Members</a
             >
           </li>
@@ -44,16 +52,26 @@
             <a
               class="nav-link"
               @click.self="$emit('changePage', 'Publications')"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >Publications</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click.self="$emit('changePage', 'Courses')"
+            <a
+              class="nav-link"
+              @click.self="$emit('changePage', 'Courses')"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >Courses</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click.self="$emit('changePage', 'Gallery')"
+            <a
+              class="nav-link"
+              @click.self="$emit('changePage', 'Gallery')"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >Gallery</a
             >
           </li>

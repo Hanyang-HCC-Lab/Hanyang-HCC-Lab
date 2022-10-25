@@ -5,7 +5,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/skcc-1.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/skcc-1.JPG"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -16,7 +16,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/skcc-2.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/skcc-2.JPG"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -27,7 +27,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/c2s2-1.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/c2s2-1.jpg"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -38,7 +38,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/c2s2-2.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/c2s2-2.JPG"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -49,7 +49,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/mt-2.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/mt-2.jpg"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -60,7 +60,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/mt-1.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/mt-1.jpg"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -71,7 +71,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/mt-3.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/mt-3.jpg"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -82,7 +82,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/study-1.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/study-1.jpg"
             class="rounded"
             style="max-height: 20rem"
           />
@@ -93,7 +93,7 @@
       <div class="col-md-4 text-center">
         <div class="img-wrapper" style="width: 95%; max-height: auto">
           <img
-            src="../assets/photo/itrc-1.jpg"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/itrc-1.jpg"
             class="rounded"
             style="max-height: 20rem"
           />

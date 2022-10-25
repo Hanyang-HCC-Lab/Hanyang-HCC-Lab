@@ -14,7 +14,7 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="../assets/members/한경식 교수님.webp"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%92%E1%85%A1%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8+%E1%84%80%E1%85%AD%E1%84%89%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
@@ -44,7 +44,7 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="../assets/members/김보관.webp"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%87%E1%85%A9%E1%84%80%E1%85%AA%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
@@ -61,7 +61,7 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="../assets/members/진승완.webp"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%AA%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
@@ -78,7 +78,7 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="../assets/members/김다솜.webp"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%84%89%E1%85%A9%E1%86%B7.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
@@ -110,15 +110,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Dayoung Jeong
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">정다영</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -127,15 +125,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%82%E1%85%A9%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%BC.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Taehyeong Noh
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">노태형</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -144,15 +140,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Haein Yeo
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">여해인</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -174,15 +168,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Mingon Jeong
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">정민곤</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -191,15 +183,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8E%E1%85%AC%E1%84%92%E1%85%A9%E1%84%8B%E1%85%A7%E1%86%BC.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Hoyoung Choi
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">최호영</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -208,15 +198,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Jaehoon Kim
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김재훈</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -225,15 +213,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%8C%E1%85%B5.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Eunji Kim
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김은지</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -242,15 +228,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Myungjin Kim
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김명진</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -259,15 +243,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%BC.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Sunyoung Jung
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">정선영</p>
           </div>
         </div>
         <!-- End Member Profile -->
@@ -289,15 +271,13 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://static.wixstatic.com/media/0135f3_b5f4b9420e8941e69717c61fc28883c7~mv2.png/v1/fill/w_336,h_336,al_c,q_85,enc_auto/%EA%B9%80%EC%9E%AC%ED%9B%88.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.webp"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (En)
+              Sohyun Park
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Name (Ko)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">박소현</p>
           </div>
         </div>
         <!-- End Member Profile -->
