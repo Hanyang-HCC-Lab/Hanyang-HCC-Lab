@@ -4,9 +4,9 @@
     id="mainNav"
   >
     <div class="container">
-      <a class="navbar-brand"
+      <a class="navbar-brand" style="width: 3rem"
         ><img
-          style="width: 5rem; height: auto"
+          style="width: 100%; height: auto"
           src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/lab_logo_white.png"
           @click.self="$emit('changePage', 'MainPage')"
       /></a>
