@@ -55,7 +55,7 @@ export default {
 
   <div class="container mt-5" style="width: 75%">
     <!-- Start 2022 Publications -->
-    <div>
+    <div class="mb-4">
       <span style="font-size: 2rem">2022</span>
       <div
         v-for="paper in pub2022"
@@ -68,17 +68,66 @@ export default {
         <span class="h6">{{ paper.author }}</span
         ><br />
         <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
         ><br />
-        <!-- <span class="h6">{{ paper.tags }}</span
-        ><br />
-        <span class="h6">{{ paper.kImpact }}</span
-        ><br /> -->
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
       </div>
     </div>
     <!-- End 2022 Publications -->
 
     <!-- Start 2021 Publications -->
-    <div class="mt-5">
+    <div class="mb-4">
       <span style="font-size: 2rem">2021</span>
       <div
         v-for="paper in pub2021"
@@ -91,13 +140,373 @@ export default {
         <span class="h6">{{ paper.author }}</span
         ><br />
         <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
         ><br />
-        <!-- <span class="h6">{{ paper.tags }}</span
-        ><br />
-        <span class="h6">{{ paper.kImpact }}</span
-        ><br /> -->
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
       </div>
     </div>
-    <!-- End 2022 Publications -->
+    <!-- End 2021 Publications -->
+
+    <!-- Start 2020 Publications -->
+    <div class="mb-4">
+      <span style="font-size: 2rem">2020</span>
+      <div
+        v-for="paper in pub2020"
+        :key="paper.index"
+        class="item-content mt-3"
+      >
+        <span class="h5">[{{ paper.index }}]&nbsp;</span>
+        <span class="h5">{{ paper.title }}</span
+        ><br />
+        <span class="h6">{{ paper.author }}</span
+        ><br />
+        <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
+        ><br />
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- End 2020 Publications -->
+
+    <!-- Start 2019 Publications -->
+    <div class="mb-4">
+      <span style="font-size: 2rem">2019</span>
+      <div
+        v-for="paper in pub2019"
+        :key="paper.index"
+        class="item-content mt-3"
+      >
+        <span class="h5">[{{ paper.index }}]&nbsp;</span>
+        <span class="h5">{{ paper.title }}</span
+        ><br />
+        <span class="h6">{{ paper.author }}</span
+        ><br />
+        <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
+        ><br />
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- End 2019 Publications -->
+
+    <!-- Start 2018 Publications -->
+    <div class="mb-4">
+      <span style="font-size: 2rem">2018</span>
+      <div
+        v-for="paper in pub2018"
+        :key="paper.index"
+        class="item-content mt-3"
+      >
+        <span class="h5">[{{ paper.index }}]&nbsp;</span>
+        <span class="h5">{{ paper.title }}</span
+        ><br />
+        <span class="h6">{{ paper.author }}</span
+        ><br />
+        <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
+        ><br />
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- End 2018 Publications -->
+
+    <!-- Start 2017 Publications -->
+    <div class="mb-4">
+      <span style="font-size: 2rem">2017</span>
+      <div
+        v-for="paper in pub2017"
+        :key="paper.index"
+        class="item-content mt-3"
+      >
+        <span class="h5">[{{ paper.index }}]&nbsp;</span>
+        <span class="h5">{{ paper.title }}</span
+        ><br />
+        <span class="h6">{{ paper.author }}</span
+        ><br />
+        <i>{{ paper.venue }}</i
+        >&nbsp;
+        <!-- KImpact 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.kImpact"
+          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          >]</span
+        ><br />
+
+        <span v-for="tag in paper.tags" :key="tag.id">
+          <label
+            class="paper-tag"
+            v-if="tag === 'hai'"
+            style="background-color: rgba(176, 226, 246)"
+            >Human-AI Interaction</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'vr'"
+            style="background-color: rgba(195, 195, 247)"
+            >VR/AR/XR</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'dm'"
+            style="background-color: rgba(250, 210, 182)"
+            >Data Mining</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'cv'"
+            style="background-color: rgba(238, 237, 164)"
+            >Computer Vision</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'fashion'"
+            style="background-color: rgba(150, 245, 201)"
+            >Fashion</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'social'"
+            style="background-color: rgba(247, 194, 230)"
+            >Social Computing</label
+          >
+          <label
+            class="paper-tag"
+            v-if="tag === 'health'"
+            style="background-color: rgba(217, 236, 179)"
+            >Health Informatics</label
+          >
+        </span>
+
+        <br />
+        <br />
+      </div>
+    </div>
+    <!-- End 2017 Publications -->
   </div>
 </template>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+.paper-tag {
+  font-family: "Didact Gothic", sans-serif;
+  color: black;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.5;
+  min-width: 2rem;
+
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+
+  /* border: 1px solid transparent; */
+  margin-left: 0.15rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 0.7rem;
+  border-radius: 0.5rem;
+}
+</style>

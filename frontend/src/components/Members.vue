@@ -295,26 +295,33 @@
       </div>
       <div class="mt-2 mb-1">
         <p style="font-size: 0.9rem; margin: 0">
-          Seungwon Paik (MS) 2022.02​: LG Electronics
+          Seungwon Paik MS 2022 and undergraduate researcher (Currently @ LG
+          Electronics)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Youngseung Jeon (MS) 2021.02: Ph.D. Student @ UCLA
-        </p>
-        <p style="font-size: 0.9rem; margin: 0">Jaeho Han (MS) 2021.02: KT</p>
-        <p style="font-size: 0.9rem; margin: 0">
-          Woojeong Kim (MS) 2021.02: Samsung Research
+          Youngseung Jeon Researcher and MS 2021 (Currently @ UCLA as a PhD
+          Student)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Jisu Yu (MS) 2021.02: FiscalNote
+          Jaeho Han MS 2021 and undergraduate researcher (Currently @ KT)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Seung-Gon Jeon (​MS) 2020.08: Teneleven (Military Service)
+          Woojeong Kim MS 2021 and undergraduate researcher (Currently @ Samsung
+          Research)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Soyoung Rhim (MS) 2020.08: Hyundai Card
+          Jisu Yu MS 2021 (Currently @ FiscalNote)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Yonggeol Jo (MS) 2020.02: Kbank
+          Seung-Gon Jeon MS 2020 and undergraduate researcher (Currently @
+          Teneleven (Military Service))
+        </p>
+        <p style="font-size: 0.9rem; margin: 0">
+          Soyoung Rhim MS 2020 and undergraduate researcher (Currently @ Hyundai
+          Card)
+        </p>
+        <p style="font-size: 0.9rem; margin: 0">
+          Yonggeol Jo MS 2020 (Currently @ Kbank)
         </p>
       </div>
     </div>

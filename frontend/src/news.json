@@ -1,39 +1,48 @@
 [{
-    "index" : 20,
+    "index" : 22,
     "date" : "Oct. 2022",
     "content" : "Our two papers <i>\"VISTA: User-centered VR Training System for Effectively Deriving Characteristics of People with Autism Spectrum Disorder\"</i> and <i>\"Poster: Leveraging multimodal sensory information in cybersickness prediction\"</i> have been accpted to VRST 2022."
 },{
-    "index" : 19,
+    "index" : 21,
     "date" : "Sep. 2022",
     "content" : "Our paper <i>\"Social Telecommunication Experience with Full-Body Ownership Humanoid Robot\"</i> has been accepted to International Journal of Social Robotics." 
 },{
-    "index" : 18,
+    "index" : 20,
     "date" : "Sep. 2022",
     "content" : "Haein will join our lab as a Ph.D student (MS & Ph.D Integrated Course), and Myungjin will join as a master student."
 },{
-    "index" : 17,
+    "index" : 19,
     "date" :"Aug. 2022",
     "content" : "Our two papers <i>\"AI-Augmented Art Psychotherapy through a Hierarchical Co-Attention Mechanism\"</i> and <i>\"ST-GAT: Spatio-Temporal Graph Attention Network for Traffic Speed Prediction<i>\" have been accepted to CIKM 2022."
+},
+{
+    "index" : 18,
+    "date" :"Aug. 2022",
+    "content" : "Youngseung will be continuing his research as a Ph.D student at the department of Electrical and Computer Engineering, UCLA. He will be advised by Professor Xiang Chen. Wish you all the best!"
 },{
-    "index" : 16,
+    "index" : 17,
     "date" : "July 2022",
     "content" :"Our paper <i>\"APOTS: A Framework for Adversarial Prediction of Traffic Speed\"</i> has been accepted to ICDE 2022."
 },{
-    "index" : 15,
+    "index" : 16,
     "date" : "May. 2022",
     "content" : "Myungjin will join our lab as a research intern."
 },{
-    "index" : 14,
+    "index" : 15,
     "date" : "Mar. 2022",
     "content" : "Haein will join our lab as a research intern."
 },{
-    "index" : 13,
+    "index" : 14,
     "date" : "Mar. 2022",
     "content" : "Dayoung and Taehyoung will join our lab as Ph.D students (MS & Ph.D Integrated Course), Dasom will join as Ph.D student, and and Mingon, Hoyoung, Jaehoon, Eunji will join as master students."
 },{
-    "index" : 12,
+    "index" : 13,
     "date" :"Feb. 2022",
     "content" : "Our paper <i>\"Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health\"</i> has been accepted to CHI 2022."
+},{
+    "index" : 12,
+    "date" :"Feb. 2022",
+    "content" : "Seungwon has successfully defended his thesis and will be joining LG Electronics as a researcher. Congratulations!"
 },{
     "index" : 11,
     "date" : "Jan. 2022",
