@@ -116,7 +116,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 
@@ -188,7 +188,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 
@@ -260,7 +260,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 
@@ -332,7 +332,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 
@@ -404,7 +404,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 
@@ -476,7 +476,7 @@ export default {
             class="paper-tag"
             v-if="tag === 'health'"
             style="background-color: rgba(217, 236, 179)"
-            >Health Informatics</label
+            >Digital Health</label
           >
         </span>
 

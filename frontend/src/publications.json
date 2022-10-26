@@ -24,6 +24,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "vr"
   ]
 },{
@@ -49,6 +50,7 @@
   ],
   "tags" : [
     "hai", 
+    "dm",
     "health"
   ],
   "link" : {
@@ -85,9 +87,9 @@
 }},{
   "index" : 86,
   "year" : 2022,
-  "title" : "ST-GAT: Spatio-Temporal Graph Attention Network for Traffic Speed Prediction.",
-  "author" : "Junho Song, Jiwon Son, Dong-hyuk Seo, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
-  "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
+  "title" : "APOTS: A Model for Adversarial Prediction of Traffic Speed.",
+  "author" : "Namhyuk Kim, Junho Song, Siyoung Lee, Jaewon Choe, Kyungsik Han, Sunghwan Park, Sang-Wook Kim.",
+  "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
     "BK21 Conference"
   ],
@@ -110,6 +112,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "health"
   ],
   "link" : {
@@ -120,8 +123,8 @@
 },{
   "index" : 84,
   "year" : 2022,
-  "title" : "Junho Song, Kyungsik Han, Sang-Wook Kim. (2022).",
-  "author" : "\"I Have No Text in My Post”: Using Visual Hints to Model User Emotions in Social Media.",
+  "title" : "\"I Have No Text in My Post”: Using Visual Hints to Model User Emotions in Social Media.",
+  "author" : "Junho Song, Kyungsik Han, Sang-Wook Kim. (2022).",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
     "BK21 Conference"
@@ -158,6 +161,7 @@
     "BK21 Conference"
   ],
   "tags" : [
+    "hai",
     "dm"
   ],
   "link" : {
@@ -259,6 +263,7 @@
   ],
   "tags" : [
     "hai", 
+    "dm",
     "fashion"
   ],
   "link" : {
@@ -277,6 +282,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "vr"
   ],
   "link" : {
@@ -305,6 +311,7 @@
   "venue" : "SIGGRAPH ASIA",
   "tags" : [
     "hai", 
+    "dm",
     "vr"
   ],
   "link" : {
@@ -371,6 +378,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -414,7 +422,8 @@
   "author" : "Woojeong Kim, Soyoung Rhim, John Y. J. Choi, Kyungsik Han.",
   "venue" : "HCI International.",
   "tags" : [
-    "hai"
+    "hai",
+    "dm"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B66%5D+HCII_Modeling_Learners'_Programming_Skills_and_Question_Levels_through_ML.pdf"
@@ -429,6 +438,7 @@
     "BK21 Conference"
   ],
   "tags" : [
+    "hai",
     "dm"
   ],
   "link" : {
@@ -443,6 +453,7 @@
   "venue" : "ACM International Conference on Human-Computer Interaction on Mobile Devices and Services (MobileHCI).",
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -460,6 +471,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -502,7 +514,7 @@
   "author" : "Daehyoung Lee, Donetta Cothran, Scott Bellini, Patrick C. Shih, Kyungsik Han, Bogoan Kim, Aehong Min, Seungwon Paik, Georgia C. Frey.", 
   "venue" : "International Society for Autism Research (INSAR).",
   "tags" : [
-    "qolt", 
+    "hai", 
     "health"
   ],
   "link" : {
@@ -535,6 +547,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "health"
   ],
   "link" : {
@@ -552,6 +565,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -566,6 +580,7 @@
   "venue" : "ACM Transactions on Social Computing.",
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -631,6 +646,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -648,6 +664,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -727,6 +744,7 @@
     "SCI(E)"
   ],
   "tags" : [
+    "hai",
     "dm"
   ],
   "link" : {
@@ -743,6 +761,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -756,6 +775,7 @@
   "venue" :"ACM International Conference on User Modeling, Adaptation, and Personalization (UMAP).",
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -773,6 +793,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -806,6 +827,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
@@ -823,6 +845,7 @@
   ],
   "tags" : [
     "hai",
+    "dm",
     "social"
   ],
   "link" : {
