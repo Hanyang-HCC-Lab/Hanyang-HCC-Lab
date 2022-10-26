@@ -23,6 +23,26 @@
             <p class="member_name" style="font-size: 1rem; margin: 0">
               (한경식)
             </p>
+            <!-- Start Personal Link -->
+            <div class="mt-1">
+              <a
+                type="button"
+                class="btn btn-circle btn-dark"
+                href="mailto: kyungsikhan@hanyang.ac.kr"
+                target="_blank"
+              >
+                <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+              >&nbsp;
+              <a
+                type="button"
+                class="btn btn-circle btn-dark"
+                href="https://scholar.google.com/citations?user=htyp0xsAAAAJ&hl=ko"
+                target="_blank"
+              >
+                <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+              </a>
+            </div>
+            <!-- End Personal Link -->
           </div>
         </div>
         <!-- End Member Profile -->
@@ -54,6 +74,26 @@
               (김보관)
             </p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: bogoankim@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Bogoan_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -71,6 +111,26 @@
               (진승완)
             </p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: seungwanjin@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Seungwan_Jin.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -88,6 +148,26 @@
               (김다솜)
             </p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: dasom910@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
       </div>
@@ -118,6 +198,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">정다영</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: dayoungjeong@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://sites.google.com/view/dayoung-jeong/home"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -133,6 +233,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">노태형</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: yestaehyung@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Taehyung_Noh.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -148,6 +268,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">여해인</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: haeinyeo@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Haein_Yeo.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
       </div>
@@ -176,6 +316,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">정민곤</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: mingon21@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Mingon_Jeong.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -191,6 +351,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">최호영</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: choiho00@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Hoyoung_Choi.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -206,6 +386,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김재훈</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: jaehoonkimm@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Jaehoon_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -221,6 +421,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김은지</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: angiekim@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Eunji_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -236,6 +456,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김명진</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: myungkim331@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Myungjin_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
         <!-- Start Member Profile -->
@@ -251,6 +491,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">정선영</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: lilikajsy@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
       </div>
@@ -279,6 +539,26 @@
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">박소현</p>
           </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: sally5004@ajou.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
       </div>
@@ -337,5 +617,15 @@
 
 .member_name {
   font-weight: bold;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
 }
 </style>
