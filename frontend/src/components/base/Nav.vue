@@ -5,12 +5,11 @@
   <nav
     class="navbar navbar-expand-lg navbar-dark fixed-top bg-black"
     id="mainNav"
-    style="height: 5.5rem"
   >
     <div class="container">
       <a class="navbar-brand" style="width: 3rem"
         ><img
-          style="width: 100%; height: auto"
+          style="width: 110%; height: auto"
           src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/hccl_logo(white+width_add).png"
           @click.self="$emit('changePage', 'MainPage')"
       /></a>

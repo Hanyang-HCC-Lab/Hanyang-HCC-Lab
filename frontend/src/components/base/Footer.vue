@@ -67,8 +67,6 @@
         </p>
       </div>
 
-      <div class="footerItem"></div>
-
       <div class="footerItem">
         <img
           class="img-fluid mb-3 mr-1"
