@@ -482,7 +482,7 @@
   "year" : 2020,
   "title" : "Objectively Measured Physical Activity and Sedentary Time in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Patrick C. Shih, Bogoan Kim, Kyungsik Han, Aehong Min, Donetta Cothran, Scott Bellini, Georgia C. Frey.",
-  "venue" : "Medicine and SCI(E)nce in Sports and Exercise.",
+  "venue" : "Medicine and Science in Sports and Exercise.",
   "kImpact" : [
     "SCI(E)"
   ],
@@ -705,7 +705,7 @@
 },{
   "index" : 48,
   "year" : 2019,
-  "title" : "The Effect of Color Scales on Climate SCI(E)ntists’ Objective and Subjective Performance in Spatial Data Analysis Tasks.",
+  "title" : "The Effect of Color Scales on Climate Scientists’ Objective and Subjective Performance in Spatial Data Analysis Tasks.",
   "author" : "Aritra Dasgupta, Jorge Poco, Bernice Rogowitz, Kyungsik Han, Enrico Bertini, Claudio T. Silva.",
   "venue" : "IEEE Transactions on Visualization and Computer Graphics.",
   "kImpact" : [
@@ -715,7 +715,7 @@
     "hai"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B48%5D+The+Effect+of+Color+Scales+on+Climate+SCI(E)ntists+Objective+and+Subjective+Performance+in+Spatial+Data+Analysis+Tasks.pdf",
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B48%5D+The+Effect+of+Color+Scales+on+Climate+Scientists+Objective+and+Subjective+Performance+in+Spatial+Data+Analysis+Tasks.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/document/8494817"
   }
 },{
@@ -854,7 +854,7 @@
 },{
   "index" : 39,
   "year" : 2017,
-  "title" : "Empirical Analysis of the Subjective Impressions and Objective Measures of Domain SCI(E)ntists’ Visual Analytic Judgments.",
+  "title" : "Empirical Analysis of the Subjective Impressions and Objective Measures of Domain Scientists’ Visual Analytic Judgments.",
   "author" : "Aritra Dasgupta, Susannah Burrows, Kyungsik Han, Philip J. Rasch.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
@@ -864,13 +864,13 @@
     "hai"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B39%5DCHI17_Domain_SCI(E)ntists_Visual_Analytic_Judgements.pdf",
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B39%5DCHI17_Domain_Scientists_Visual_Analytic_Judgements.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3025453.3025882"
   }
 },{
   "index" : 38,
   "year" : 2017,
-  "title" : "Design SCI(E)nce Methodology Applied to a Chemical Surveillance Tool.",
+  "title" : "Design Science Methodology Applied to a Chemical Surveillance Tool.",
   "author" : "Zhuanyi Huang, Kyungsik Han, Lauren Charles-Smith, Michael J. Henry.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
