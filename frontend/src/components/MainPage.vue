@@ -119,10 +119,6 @@ export default {
             />
           </div>
           <div class="col-9" style="text-align: left">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
             <h4 class="my-3" style="margin-left: 0.5rem">
               Social Computing Research
             </h4>
@@ -146,10 +142,6 @@ export default {
             />
           </div>
           <div class="col-9" style="text-align: left">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
             <h4 class="my-3" style="margin-left: 0.5rem">Human-AI Research</h4>
             <p class="text-muted" style="margin-left: 0.5rem">
               도메인과 사용자에 따른 다양한 요소를 심리학, 사회학을 기반으로
@@ -171,10 +163,6 @@ export default {
             />
           </div>
           <div class="col-9" style="text-align: left">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
             <h4 class="my-3" style="margin-left: 0.5rem">
               Mobile Computing Research
             </h4>
@@ -199,10 +187,6 @@ export default {
             />
           </div>
           <div class="col-9" style="text-align: left">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
             <h4 class="my-3" style="margin-left: 0.5rem">
               Immersive Experience Research
             </h4>

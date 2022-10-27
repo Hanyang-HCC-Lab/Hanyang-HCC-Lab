@@ -60,7 +60,7 @@ export default {
       <div
         v-for="paper in pub2022"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -73,52 +73,81 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
@@ -132,7 +161,7 @@ export default {
       <div
         v-for="paper in pub2021"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -145,52 +174,82 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
@@ -204,7 +263,7 @@ export default {
       <div
         v-for="paper in pub2020"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -217,52 +276,82 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
@@ -276,7 +365,7 @@ export default {
       <div
         v-for="paper in pub2019"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -289,52 +378,82 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
@@ -348,7 +467,7 @@ export default {
       <div
         v-for="paper in pub2018"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -361,52 +480,82 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
@@ -420,7 +569,7 @@ export default {
       <div
         v-for="paper in pub2017"
         :key="paper.index"
-        class="item-content mt-3"
+        class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
         <span class="h5">{{ paper.title }}</span
@@ -433,52 +582,82 @@ export default {
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
-        ><br />
-
-        <span v-for="tag in paper.tags" :key="tag.id">
-          <label
-            class="paper-tag"
-            v-if="tag === 'hai'"
-            style="background-color: rgba(176, 226, 246)"
-            >Human-AI Interaction</label
+        >
+        <!-- Link 존재하면 표출-->
+        <span class="h7" style="color: red" v-if="paper.link"
+          ><span class="h7" v-if="paper.link.ACM"
+            ><a
+              :href="paper.link.ACM"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[ACM DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'vr'"
-            style="background-color: rgba(195, 195, 247)"
-            >VR/AR/XR</label
+          <span class="h7" v-if="paper.link.IEEE"
+            ><a
+              :href="paper.link.IEEE"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[IEEE DL]</a
+            ></span
           >
-          <label
-            class="paper-tag"
-            v-if="tag === 'dm'"
-            style="background-color: rgba(250, 210, 182)"
-            >Data Mining</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'cv'"
-            style="background-color: rgba(238, 237, 164)"
-            >Computer Vision</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'fashion'"
-            style="background-color: rgba(150, 245, 201)"
-            >Fashion</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'social'"
-            style="background-color: rgba(247, 194, 230)"
-            >Social Computing</label
-          >
-          <label
-            class="paper-tag"
-            v-if="tag === 'health'"
-            style="background-color: rgba(217, 236, 179)"
-            >Digital Health</label
+          <span class="h7" v-if="paper.link.presentation"
+            ><a
+              :href="paper.link.presentation"
+              target="_blank"
+              style="color: rgba(115, 177, 235)"
+              >[Presentation]</a
+            ></span
           >
         </span>
+        <br />
+
+        <div class="mt-2">
+          <span v-for="tag in paper.tags" :key="tag.id">
+            <label
+              class="paper-tag"
+              v-if="tag === 'hai'"
+              style="background-color: rgba(176, 226, 246)"
+              >Human-AI Interaction</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'vr'"
+              style="background-color: rgba(195, 195, 247)"
+              >VR/AR/XR</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'dm'"
+              style="background-color: rgba(250, 210, 182)"
+              >Data Mining</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'cv'"
+              style="background-color: rgba(238, 237, 164)"
+              >Computer Vision</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'fashion'"
+              style="background-color: rgba(150, 245, 201)"
+              >Fashion</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'social'"
+              style="background-color: rgba(247, 194, 230)"
+              >Social Computing</label
+            >
+            <label
+              class="paper-tag"
+              v-if="tag === 'health'"
+              style="background-color: rgba(217, 236, 179)"
+              >Digital Health</label
+            >
+          </span>
+        </div>
 
         <br />
         <br />
