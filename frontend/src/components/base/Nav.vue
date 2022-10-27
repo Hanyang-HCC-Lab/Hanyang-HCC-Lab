@@ -7,7 +7,7 @@
       <a class="navbar-brand" style="width: 3rem"
         ><img
           style="width: 100%; height: auto"
-          src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/lab_logo_white.png"
+          src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/hccl_logo(white+width_add).png"
           @click.self="$emit('changePage', 'MainPage')"
       /></a>
       <button

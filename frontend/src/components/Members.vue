@@ -583,6 +583,7 @@
             ><a
               class="alumni_link"
               href="https://sites.google.com/view/youngseung-jeon"
+              target="_blank"
               >Youngseung Jeon</a
             ></span
           >&nbsp;|&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD

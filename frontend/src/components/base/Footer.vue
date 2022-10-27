@@ -73,7 +73,7 @@
         <img
           class="img-fluid mb-3 mr-1"
           style="height: 3.8rem"
-          src="../../assets/lab_logo_white.png"
+          src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/hccl_logo(white+full).png"
         />
         <img
           class="img-fluid mb-3 mr-1"
