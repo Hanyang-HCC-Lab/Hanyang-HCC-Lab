@@ -570,38 +570,48 @@
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">Graduated</span></span
+          ><span style="font-size: 1.5rem">Alumni</span></span
         >
       </div>
-      <div class="mt-2 mb-1">
+      <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
-          Seungwon Paik MS 2022 and undergraduate researcher (Currently @ LG
-          Electronics)
+          <span class="alumni_name">Seungwon Paik</span> &nbsp;|&nbsp; MS 2022
+          and undergraduate researcher (Currently @ LG Electronics)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Youngseung Jeon Researcher and MS 2021 (Currently @ UCLA as a PhD
+          <span class="alumni_name"
+            ><a
+              class="alumni_link"
+              href="https://sites.google.com/view/youngseung-jeon"
+              >Youngseung Jeon</a
+            ></span
+          >&nbsp;|&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD
           Student)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Jaeho Han MS 2021 and undergraduate researcher (Currently @ KT)
+          <span class="alumni_name">Jaeho Han</span> &nbsp;|&nbsp;MS 2021 and
+          undergraduate researcher (Currently @ KT)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Woojeong Kim MS 2021 and undergraduate researcher (Currently @ Samsung
-          Research)
+          <span class="alumni_name">Woojeong Kim</span> &nbsp;|&nbsp;MS 2021 and
+          undergraduate researcher (Currently @ Samsung Research)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Jisu Yu MS 2021 (Currently @ FiscalNote)
+          <span class="alumni_name">Jisu Yu</span> &nbsp;|&nbsp;MS 2021
+          (Currently @ FiscalNote)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Seung-Gon Jeon MS 2020 and undergraduate researcher (Currently @
-          Teneleven (Military Service))
+          <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
+          and undergraduate researcher (Currently @ Teneleven (Military
+          Service))
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Soyoung Rhim MS 2020 and undergraduate researcher (Currently @ Hyundai
-          Card)
+          <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and
+          undergraduate researcher (Currently @ Hyundai Card)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          Yonggeol Jo MS 2020 (Currently @ Kbank)
+          <span class="alumni_name">Yonggeol Jo</span> &nbsp;|&nbsp;MS 2020
+          (Currently @ Kbank)
         </p>
       </div>
     </div>
@@ -627,5 +637,14 @@
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 15px;
+}
+
+.alumni_name {
+  font-weight: bold;
+}
+
+.alumni_link {
+  color: rgba(115, 177, 235);
+  font-weight: bold;
 }
 </style>

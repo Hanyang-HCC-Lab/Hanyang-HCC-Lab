@@ -63,7 +63,16 @@ export default {
         class="item-content mt-1 mb-2"
       >
         <span class="h5">[{{ paper.index }}]&nbsp;</span>
-        <span class="h5">{{ paper.title }}</span
+        <span v-if="paper.link" class="h5">
+          <a
+            v-if="paper.link.paper"
+            :href="paper.link.paper"
+            target="_blank"
+            style="color: black"
+            >{{ paper.title }}</a
+          >
+          <span v-if="!paper.link.paper">{{ paper.title }}</span> </span
+        ><span v-if="!paper.link" class="h5">{{ paper.title }}</span
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
