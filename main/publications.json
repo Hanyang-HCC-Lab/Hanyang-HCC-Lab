@@ -11,11 +11,14 @@
     "hai",
     "vr",
     "health"
-  ]
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf"
+  }
 },{
   "index" : 91,
   "year" : 2022,
-  "title" : "Poster: Leveraging multimodal sensory information in cybersickness prediction.",
+  "title" : "Poster: Leveraging Multimodal Sensory Information in Cybersickness Prediction.",
   "author" : "Dayoung Jeong, Kyungsik Han.",
   "venue" : "ACM Symposium on Virtual Reality Software and Technology (VRST).",
   "kImpact" : [
@@ -24,19 +27,25 @@
   "tags" : [
     "hai",
     "vr"
-  ]
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B91%5D+Leveraging_Multimodal_Sensory_Information_in_Cybersickeness_Prediction.pdf"
+  }
 },{
   "index" : 90,
   "year" : 2022,
   "title" : "Social Telecommunication Experience with Full-Body Ownership Humanoid Robot.",
-  "author" : "Myungirl Jung, Jiwhan Kim, Kyungsik Han, Kwanguk Kim.",
+  "author" : "Myeongul Jung, Jejoong Kim, Kyungsik Han, Kwanguk Kim.",
   "venue" : "International Journal of Social Robotics.",
   "kImpact" : [
     "SCIE"
   ],
   "tags" : [
     "hai"
-  ]
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B90%5D+Social_Telecommunication_Experience_with_Full_body_Ownership_humanoid_robot.pdf"
+  }
 },{
   "index" : 89,
   "year" : 2022,
@@ -51,6 +60,7 @@
     "health"
   ],
   "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B89%5D+AI_Augmented_Art_Psychotherapy.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557542"
   }
 },{
@@ -67,6 +77,7 @@
     "dm"
   ],
   "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B88%5D+ST-GAT.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557705"
   }
 },{
