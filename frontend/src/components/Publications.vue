@@ -94,13 +94,17 @@ export default {
               style="color: #a9a9a9"
               v-html="paper.additional.AR"
             ></span
-            >%<br
-          /></i>
+            >%</i
+          >
         </span>
 
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
-          >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
+          ><br />[<span
+            class="h7"
+            style="color: red"
+            v-html="paper.kImpact"
+          ></span
           >]</span
         >
 
