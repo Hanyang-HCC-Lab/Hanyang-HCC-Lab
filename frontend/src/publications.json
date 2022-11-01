@@ -15,6 +15,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf"
+  },
+  "additional" : {
+    "AR" : 24.4
   }
 },{
   "index" : 91,
@@ -65,6 +68,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B89%5D+AI_Augmented_Art_Psychotherapy.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557542"
+  },
+  "additional" : {
+    "AR" : 29.0
   }
 },{
   "index" : 88,
@@ -82,6 +88,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B88%5D+ST-GAT.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557705"
+  },
+  "additional" : {
+    "AR" : 29.0
   }
 },{
   "index" : 87,
@@ -130,6 +139,9 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B85%5D+CHI22_Prediction_for_Restrospection.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3491102.3517701",
     "presentation" : "https://www.youtube.com/watch?v=iATPtKkLFHo&ab_channel=ACMSIGCHI"
+  },
+  "additional" : {
+    "AR" : 24.7
   }
 },{
   "index" : 84,
@@ -148,6 +160,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B84%5D+WWW22_I_Have_No_Text_in_My_Post.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3485447.3512009"
+  },
+  "additional" : {
+    "AR" : 17.7
   }
 },{
   "index" : 83,
@@ -178,6 +193,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B82%5D+ICDM21_Adversarial_Learning_of_Balanced_Triangles_for_Accurate_Community_Detection_on_Signed_Networks.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/document/9679159"
+  },
+  "additional" : {
+    "AR" : 20.0
   }
 },{
   "index" : 81,
@@ -246,7 +264,10 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B78%5D+CHI21_FashionQ.pdf",
     "ACM" : "https://dl.acm.org/doi/pdf/10.1145/3411764.3445093",
     "presentation" : "https://youtu.be/MU8T-I5O4wg"
-  } 
+  } ,
+  "additional" : {
+    "AR" : 26.3
+  }
 },{
   "index" : 77,
   "year" : 2021,
@@ -281,6 +302,9 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B76%5D+WWW21_FANCY.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3442381.3449833",
     "presentation" : "https://youtu.be/E_iwMvfO_Ew"
+  },
+  "additional" : {
+    "AR" : 20.6
   }
 },{
   "index" : 75,
@@ -300,6 +324,9 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B75%5D+IEEE_VR_I_Feel_More_Engaged_When_I_Move_Deep_Learning-based_Backward_Movement_Detection_and_its_Application.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9417770",
     "presentation" : "https://www.youtube.com/watch?v=vByEPQUFGKI&ab_channel=%EB%B0%B1%EC%8A%B9%EC%9B%90"
+  },
+  "additional" : {
+    "AR" : 23.6
   }
 },{
   "index" : 74,
@@ -377,6 +404,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B70%5D+CIKM20_ART(Attractive_Recommendation_Trailor).pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3340531.3412687"
+  },
+  "additional" : {
+    "AR" : 26.0
   }
 },{
   "index" : 69,
@@ -455,6 +485,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B65%5D+AsiNe_Adeversarial_Signed_Network_Embedding.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3397271.3401079"
+  },
+  "additional" : {
+    "AR" : 24.0
   }
 },{
   "index" : 64,
@@ -517,6 +550,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B61%5D+UMAP20_Tracking_and_Modeling_subjective_Well-Being_Smartphone-Based_Digital_Phenotype.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3340631.3394855"
+  },
+  "additional" : {
+    "AR" : 23.0
   } 
 },{
   "index" : 60,
@@ -547,6 +583,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B59%5D+CHIEA20_FashionQ.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3334480.3382978"
+  },
+  "additional" : {
+    "AR" : 41.0
   }
 },{
   "index" : 58,
@@ -564,6 +603,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B58%5D+CHI20_MindForecaster.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3313831.3376475"
+  },
+  "additional" : {
+    "AR" : 24.0
   }
 },{
   "index" : 57,
@@ -614,6 +656,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B55%5D+VRST'19+-+Being+More+Focused+and+Engaged+in+Firefighting+Training.pdf",
     "ACM" : "https://dl.acm.org/citation.cfm?id=3359996.3364268"
+  },
+  "additional" : {
+    "AR" : 21.0
   }
 },{
   "index" : 54,
@@ -681,6 +726,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B51%5D+CHI'19+-+How+Do+You+Access+the+Credibility+of+Weblogs.pdf",
     "ACM" : "https://dl.acm.org/citation.cfm?id=3300904" 
+  },
+  "additional" : {
+    "AR" : 24.0
   }
 },{
   "index" : 50,
@@ -697,6 +745,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B50%5D+ICDE'19+-+No+Thats+Not+My+Feedback.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/abstract/document/8731575"
+  },
+  "additional" : {
+    "AR" : 26.0
   }
 },{
   "index" : 49,
@@ -792,6 +843,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B44%5D+Photos+Don_t+Have+Me%2C+But+How+Do+You+Know+Me.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3213586.3225232"
+  },
+  "additional" : {
+    "AR" : 25.0
   }
 },{
   "index" : 43,
@@ -877,6 +931,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B39%5DCHI17_Domain_Scientists_Visual_Analytic_Judgements.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3025453.3025882"
+  },
+  "additional" : {
+    "AR" : 25.0
   }
 },{
   "index" : 38,
@@ -893,6 +950,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B38%5DCHIEA_17_ChemVeillance.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3027063.3053263"
+  },
+  "additional" : {
+    "AR" : 39.0
   }
 },{
   "index" : 37,
