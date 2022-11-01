@@ -27,7 +27,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <p
-          class="fs-3"
+          class="fs-4"
           style="
             margin: 0;
             color: white;

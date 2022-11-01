@@ -84,13 +84,26 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
           >]</span
         >
+
         <!-- Link 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.link"
           ><span class="h7" v-if="paper.link.ACM"
@@ -202,8 +215,20 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
@@ -321,8 +346,20 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
@@ -440,8 +477,20 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
@@ -559,8 +608,20 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
@@ -678,8 +739,20 @@ export default {
         ><br />
         <span class="h6">{{ paper.author }}</span
         ><br />
-        <i>{{ paper.venue }}</i
-        >&nbsp;
+        <i>{{ paper.venue }}</i>
+        <!-- AR 존재하면 표출-->
+        <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+          ><i>
+            Acceptance Rate:
+            <span
+              class="h7"
+              style="color: #a9a9a9"
+              v-html="paper.additional.AR"
+            ></span
+            >%<br
+          /></i>
+        </span>
+
         <!-- KImpact 존재하면 표출-->
         <span class="h7" style="color: red" v-if="paper.kImpact"
           >[<span class="h7" style="color: red" v-html="paper.kImpact"></span
