@@ -211,7 +211,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://sites.google.com/view/dayoung-jeong/home"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Dayoung_Jeong.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
