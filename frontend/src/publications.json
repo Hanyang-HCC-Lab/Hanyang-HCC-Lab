@@ -1,4 +1,18 @@
 [{
+  "index" : 93,
+  "year" : 2022,
+  "title" : "Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality.",
+  "author" : "Dayoung Jeong, Mingon Jeong, Ungyeon Yang, Kyungsik Han.",
+  "venue" : "PloS one.",
+  "kImpact" : [
+    "SCI(E)"
+  ],
+  "tags" : [
+    "hai",
+    "dm",
+    "vr"
+  ]
+},{
   "index" : 92,
   "year" : 2022,
   "title" : "VISTA: User-centered VR Training System for Effectively Deriving Characteristics of People with Autism Spectrum Disorder.",
