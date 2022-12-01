@@ -131,7 +131,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
@@ -265,7 +265,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
@@ -400,7 +400,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
@@ -535,7 +535,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
@@ -670,7 +670,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
@@ -805,7 +805,7 @@ export default {
               :href="paper.link.presentation"
               target="_blank"
               style="color: rgba(115, 177, 235)"
-              >[Presentation]</a
+              >[Presentation video]</a
             ></span
           >
         </span>
