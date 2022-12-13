@@ -20,9 +20,7 @@
             <p class="member_name" style="font-size: 1rem; margin: 0">
               Kyungsik Han
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              (한경식)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">한경식</p>
             <!-- Start Personal Link -->
             <div class="mt-1">
               <a
@@ -70,9 +68,7 @@
             <p class="member_name" style="font-size: 1rem; margin: 0">
               Bogoan Kim
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              (김보관)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김보관</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -107,9 +103,7 @@
             <p class="member_name" style="font-size: 1rem; margin: 0">
               Seungwan Jin
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              (진승완)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">진승완</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -144,9 +138,7 @@
             <p class="member_name" style="font-size: 1rem; margin: 0">
               Dasom Kim
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              (김다솜)
-            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김다솜</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -229,7 +221,7 @@
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Taehyeong Noh
+              Taehyung Noh
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">노태형</p>
           </div>
