@@ -603,6 +603,7 @@
   }
 },{
   "index" : 58,
+  "year" : 2020,
   "title" : "Toward Future-Centric Personal Informatics: Expecting Stressful Events and Preparing Personalized Interventions in Stress Management.",
   "author" : "Kwangyoung Lee, Hyewon Cho, Kobiljon Toshnazarov, Nematjon Narziev, So Young Rhim, Kyungsik Han, YoungTae Noh, Hwajung Hong.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
@@ -725,7 +726,7 @@
   }
 },{
   "index" : 51,
-  "year" : 2020,
+  "year" : 2019,
   "title" : "How Do Humans Access the Credibility of Weblogs: Qualifying and Verifying Human Factors with Machine Learning.",
   "author" : "Yonggeol Jo, Minwoo Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
@@ -746,6 +747,7 @@
   }
 },{
   "index" : 50,
+  "year" : 2019,
   "title" : "No, That's Not My Feedback: TV Show Recommendation Using Watchable Interval.",
   "author" : "Kyung-Jae Cho, Yeon-Chang Lee, Kyungsik Han, Jaeho Choi, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
