@@ -28,7 +28,8 @@
     "health"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf",
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565608"
   },
   "additional" : {
     "AR" : 24.4
@@ -48,7 +49,8 @@
     "vr"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B91%5D+Leveraging_Multimodal_Sensory_Information_in_Cybersickeness_Prediction.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B91%5D+Leveraging_Multimodal_Sensory_Information_in_Cybersickeness_Prediction.pdf",
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565667?casa_token=6NuQ2k1EA7UAAAAA:KTL74dLRlOjvlBdFejoqHvpPklrYU_xIKML19zZQkYHl-6th-GmpyWn7uyTLek4vszYE0HlZBGMTFqM" 
   }
 },{
   "index" : 90,
@@ -109,9 +111,9 @@
 },{
   "index" : 87,
   "year" : 2022,
-  "title" : "자폐증이 있는 개인의 데일리 루틴 지원을 위한 모바일 게임 디자인 연구.",
-  "author" : "김보관, 김성인, 박상원, 유희정, 홍화정, 한경식.",
-  "venue" : "한국HCI학회 논문지 17 (2).",
+  "title" : "A Study on Mobile Game Design to Support Daily Routines of Individuals with Autism.",
+  "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.", 
+  "venue" : "HCI Korea, 17 (2).",
   "tags" : [
     "hai", 
     "health"
@@ -345,9 +347,9 @@
 },{
   "index" : 74,
   "year" : 2021,
-  "title" : "팩트체크 뉴스에 대한 이용자 반응 분석: 언어적 특성, 인지/정서적 반응 및 논쟁 댓글의 출현 양상을 중심으로.",
-  "author" : "고예나, 김우정, 한경식, 홍화정.",
-  "venue" : "언론정보연구, 58 (1).",
+  "title" : "Exploring the Landscape of User Behaviors to Fact-Checking News: Based on Linguistic Characteristics, Cognitive and Emotional Responses, and the Emergence of Controversial Comments.",
+  "author" : "Yena Ko, Woojeong Kim, Kyungsik Han, Hwajung Hong.",
+  "venue" : "Journal of Communication Research, 58 (1).",
   "tags" : [
     "hai",
     "social"
@@ -443,9 +445,9 @@
 },{
   "index" : 68,
   "year" : 2020,
-  "title" : "가상 소방 훈련에서 컨트롤러 양식에 따른 사용자 요인 조사.",
-  "author" : "전승곤, 백승원, 양웅연, 한경식.",
-  "venue" : "한국차세대컴퓨팅학회 논문지, 16 (5).",
+  "title" : "Investigating Human Factors in VR Control Modality in a FireFighting Training Context.",
+  "author" : "Seung Gon Jeon, Seungwon Paik, Ungyeon Yang, Kyungsik Han.",
+  "venue" : "The Journal of Korean Institute of Next Generation Computing, 16 (5).",
   "tags" : [
     "hai",
     "vr"
