@@ -1,4 +1,17 @@
 [{
+  "index" : 94,
+  "year" : 2023,
+  "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
+  "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
+  "venue" : "IEEE Transactions on Knowledge and Data Engineering.",
+  "kImpact" : [
+    "SCI(E)"
+  ],
+  "tags" : [
+    "hai",
+    "dm"
+  ]
+},{
   "index" : 93,
   "year" : 2022,
   "title" : "Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality.",
@@ -21,7 +34,6 @@
   "kImpact" : [
     "BK21 Conference"
   ],
-
   "tags" : [
     "hai",
     "vr",
