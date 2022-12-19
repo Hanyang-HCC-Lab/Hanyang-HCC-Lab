@@ -29,7 +29,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf",
-    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565608"
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565608",
+    "demo" : "https://www.youtube.com/watch?v=btzOP79RlIc",
+    "presentation" : "https://www.youtube.com/watch?v=ZxZ8IvcbDw8"
   },
   "additional" : {
     "AR" : 24.4
