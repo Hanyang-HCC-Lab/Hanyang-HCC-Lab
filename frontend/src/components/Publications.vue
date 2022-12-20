@@ -189,6 +189,15 @@ export default {
                   >[Presentation video]</a
                 ></span
               >
+
+              <span class="h7" v-if="paper.link.demo"
+                ><a
+                  :href="paper.link.demo"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[Demo video]</a
+                ></span
+              >
             </span>
 
             <div class="mt-2">
