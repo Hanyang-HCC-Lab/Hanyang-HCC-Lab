@@ -1,4 +1,10 @@
-[{
+[
+    {
+        "index" : 23,
+        "date" : "Dec. 2022",
+        "content" : "Our paper <i>\"Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality\"</i> have been accepted to PloS One."
+    },
+    {
     "index" : 22,
     "date" : "Oct. 2022",
     "content" : "Our two papers <i>\"VISTA: User-centered VR Training System for Effectively Deriving Characteristics of People with Autism Spectrum Disorder\"</i> and <i>\"Poster: Leveraging multimodal sensory information in cybersickness prediction\"</i> have been accepted to VRST 2022."
@@ -70,7 +76,7 @@
 },{
     "index" : 7,
     "date" : "Sep. 2021",
-    "content" : "Our paper <i>\" The More, The Better? Improving VR Firefighting Training System with Realistic Firefighter Tools as Controllers\"</i> has been accepted to Sensors."
+    "content" : "Our paper <i>\"The More, The Better? Improving VR Firefighting Training System with Realistic Firefighter Tools as Controllers\"</i> has been accepted to Sensors."
 },{
     "index" : 6,
     "date" : "Aug. 2021",
