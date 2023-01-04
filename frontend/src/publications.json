@@ -10,7 +10,11 @@
   "tags" : [
     "hai",
     "dm"
-  ]
+  ], 
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B94%5DA_Framework_for_Accurate_Community_Detection_on_Signed_Networks_Using_Adversarial_Learning.pdf",
+    "IEEE" : "https://ieeexplore.ieee.org/document/9996133"
+  }
 },{
   "index" : 93,
   "year" : 2022,
@@ -24,7 +28,10 @@
     "hai",
     "dm",
     "vr"
-  ]
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B93%5DEyes+on+Me.pdf"
+  }
 },{
   "index" : 92,
   "year" : 2022,
@@ -43,7 +50,8 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+VISTA.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565608",
     "demo" : "https://www.youtube.com/watch?v=btzOP79RlIc",
-    "presentation" : "https://www.youtube.com/watch?v=ZxZ8IvcbDw8"
+    "presentation" : "https://www.youtube.com/watch?v=ZxZ8IvcbDw8",
+    "media" : "https://www.etnews.com/20221230000056"
   },
   "additional" : {
     "AR" : 24.4

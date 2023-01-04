@@ -186,7 +186,7 @@ export default {
                   :href="paper.link.presentation"
                   target="_blank"
                   style="color: rgba(115, 177, 235)"
-                  >[Presentation video]</a
+                  >[Video presentation ]</a
                 ></span
               >
 
@@ -196,6 +196,15 @@ export default {
                   target="_blank"
                   style="color: rgba(115, 177, 235)"
                   >[Demo video]</a
+                ></span
+              >
+
+              <span class="h7" v-if="paper.link.media"
+                ><a
+                  :href="paper.link.media"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[Media]</a
                 ></span
               >
             </span>
