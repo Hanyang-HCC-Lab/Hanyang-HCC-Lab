@@ -104,7 +104,12 @@ export default {
     </div>
     <!-- End Topic Filter -->
     <div class="mb-4" v-for="year in years" :key="year">
-      <span style="font-size: 2rem">{{ year }}</span>
+      <!-- filterByYear 함수가 return하는 array의 길이를 이용하여, 년도 별로 논문 수가 0인 경우 Year 표출 X -->
+      <span
+        style="font-size: 2rem"
+        v-if="filterByYear(publications, year, showTopic).length"
+        >{{ year }}</span
+      >
       <!-- Start Publications Form -->
       <div class="mb-4">
         <transition-group name="fade">
