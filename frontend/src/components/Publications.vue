@@ -186,7 +186,7 @@ export default {
                   :href="paper.link.presentation"
                   target="_blank"
                   style="color: rgba(115, 177, 235)"
-                  >[Video presentation ]</a
+                  >[Video presentation]</a
                 ></span
               >
 
