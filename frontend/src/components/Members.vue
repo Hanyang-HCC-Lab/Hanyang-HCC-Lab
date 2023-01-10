@@ -53,7 +53,7 @@
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">PhD Students</span></span
+          ><span style="font-size: 1.5rem">Ph.D Candidates</span></span
         >
       </div>
       <div class="row row-cols-10">
@@ -127,41 +127,6 @@
           <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%84%89%E1%85%A9%E1%86%B7.webp"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Dasom Kim
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">김다솜</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: dasom910@hanyang.ac.kr"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <!-- <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href=""
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
       </div>
     </div>
     <!-- End PhD Students Tap -->
@@ -171,9 +136,7 @@
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem"
-            >MS & PhD Integrated Students</span
-          ></span
+          ><span style="font-size: 1.5rem">Ph.D Students</span></span
         >
       </div>
       <div class="row row-cols-10">
@@ -282,6 +245,42 @@
           <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
+
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%83%E1%85%A1%E1%84%89%E1%85%A9%E1%86%B7.webp"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Dasom Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김다솜</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: dasom910@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
       </div>
     </div>
     <!-- End MS & PhD Integrated Students Tap -->
@@ -291,7 +290,7 @@
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">MS Students</span></span
+          ><span style="font-size: 1.5rem">M.S Students</span></span
         >
       </div>
       <div class="row row-cols-10">
@@ -453,7 +452,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: myungkim331@hanyang.ac.kr"
+              href="mailto: 0987someday@naver.com"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
@@ -466,6 +465,76 @@
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
             </a>
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Misun Joo
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">주미선</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: "
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%92%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AB.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Somin Park
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">박소민</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: someeeen@naver.com"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Myungjin_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
           </div>
           <!-- End Personal Link -->
         </div>
