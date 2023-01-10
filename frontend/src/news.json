@@ -1,5 +1,10 @@
 [
     {
+        "index" : 24,
+        "date" : "Jan. 2023",
+        "content" : "Misun and Somin will join our lab as master students."
+    },
+    {
         "index" : 23,
         "date" : "Dec. 2022",
         "content" : "Our paper <i>\"Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality\"</i> have been accepted to PloS One."
