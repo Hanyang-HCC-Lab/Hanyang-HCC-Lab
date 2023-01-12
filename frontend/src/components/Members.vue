@@ -513,7 +513,7 @@
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Somin Park
+              Someen Park
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">박소민</p>
           </div>
