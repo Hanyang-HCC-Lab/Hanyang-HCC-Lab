@@ -1,4 +1,23 @@
 [{
+  "index" : 95,
+  "year" : 2023,
+  "title" : "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism.",
+  "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+  "kImpact" : [
+    "BK21 Conference"
+  ],
+  "tags" : [
+    "hai",
+    "health"
+  ], 
+  "link" : {
+    "demo" : "https://youtu.be/Eln3-DpU0pA"
+  },
+  "additional" : {
+    "AR" : 28.4
+  }
+},{
   "index" : 94,
   "year" : 2023,
   "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
