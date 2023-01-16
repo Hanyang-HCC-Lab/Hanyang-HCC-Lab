@@ -492,14 +492,14 @@
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
             >&nbsp;
-            <!-- <a
+            <a
               type="button"
               class="btn btn-circle btn-dark"
-              href=""
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Misun_Joo.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
+            </a>
           </div>
           <!-- End Personal Link -->
         </div>
@@ -527,14 +527,14 @@
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
             >&nbsp;
-            <!-- <a
+            <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Myungjin_Kim.pdf"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Someen_Park.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
+            </a>
           </div>
           <!-- End Personal Link -->
         </div>
