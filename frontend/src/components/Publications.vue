@@ -1,6 +1,8 @@
 <script>
 import publicationData from "../publications.json";
 
+// https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/contents/publications.json
+
 export default {
   data() {
     return {
@@ -289,6 +291,7 @@ export default {
   vertical-align: middle;
 
   margin-right: 0.15rem !important;
+  margin-bottom: 0.15rem !important;
   /* border: 1px solid transparent; */
   padding: 0.35rem 0.35rem;
   font-size: 0.75rem;
