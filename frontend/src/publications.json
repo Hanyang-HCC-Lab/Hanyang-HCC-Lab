@@ -10,7 +10,10 @@
   "tags" : [
     "hai",
     "dm"
-  ]
+  ],
+  "additional" : {
+    "AR" : 19.2
+  }
 },
   {
   "index" : 95,
