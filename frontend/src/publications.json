@@ -1,4 +1,18 @@
 [{
+  "index" : 96,
+  "year" : 2023,
+  "title" : "KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction.",
+  "author" : "Yunyong Ko, Seongeun Ryu, Soeun Han, Youngseung Jeon, Jaehoon Kim, Sohyun Park, Kyungsik Han, Hanghang Tong, Sang-Wook Kim.",
+  "venue" : "International Conference on World Wide Web (WWW).",
+  "kImpact" : [
+    "BK21 Conference"
+  ],
+  "tags" : [
+    "hai",
+    "dm"
+  ]
+},
+  {
   "index" : 95,
   "year" : 2023,
   "title" : "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism.",
