@@ -1,4 +1,8 @@
-[
+[    {
+    "index" : 26,
+    "date" : "Jan. 2023",
+    "content" : "Our paper <i>\"KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction\"</i> has been accepted to WWW 2023."
+},
     {
         "index" : 25,
         "date" : "Jan. 2023",
