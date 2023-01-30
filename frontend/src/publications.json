@@ -1,5 +1,5 @@
 [{
-  "index" : 96,
+  "index" : 95,
   "year" : 2023,
   "title" : "KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction.",
   "author" : "Yunyong Ko, Seongeun Ryu, Soeun Han, Youngseung Jeon, Jaehoon Kim, Sohyun Park, Kyungsik Han, Hanghang Tong, Sang-Wook Kim.",
@@ -15,27 +15,7 @@
     "AR" : 19.2
   }
 },
-  {
-  "index" : 95,
-  "year" : 2023,
-  "title" : "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism.",
-  "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
-  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
-  "kImpact" : [
-    "BK21 Conference"
-  ],
-  "tags" : [
-    "hai",
-    "health"
-  ], 
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B95%5DRoutineAid_Externalizing_Key_Design_Elements_to_Support_Daily_Routines_of_Individuals_with_Autism.pdf",
-    "demo" : "https://youtu.be/Eln3-DpU0pA"
-  },
-  "additional" : {
-    "AR" : 28.4
-  }
-},{
+{
   "index" : 94,
   "year" : 2023,
   "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
