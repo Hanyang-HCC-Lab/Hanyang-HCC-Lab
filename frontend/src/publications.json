@@ -1,4 +1,25 @@
 [{
+  "index" : 96,
+  "year" : 2023,
+  "title" : "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism.",
+  "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+  "kImpact" : [
+    "BK21 Conference"
+  ],
+  "tags" : [
+    "hai",
+    "health"
+  ], 
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B96%5DRoutineAid_Externalizing_Key_Design_Elements_to_Support_Daily_Routines_of_Individuals_with_Autism.pdf",
+    "demo" : "https://youtu.be/Eln3-DpU0pA"
+  },
+  "additional" : {
+    "AR" : 28.4
+  }
+},
+  {
   "index" : 95,
   "year" : 2023,
   "title" : "KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction.",
@@ -15,7 +36,7 @@
     "AR" : 19.2
   }
 },
-{
+{ 
   "index" : 94,
   "year" : 2023,
   "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
@@ -68,7 +89,8 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565608",
     "demo" : "https://www.youtube.com/watch?v=btzOP79RlIc",
     "presentation" : "https://www.youtube.com/watch?v=ZxZ8IvcbDw8",
-    "media" : "https://www.etnews.com/20221230000056"
+    "media" : "https://www.etnews.com/20221230000056",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+Slide-VISTA.pdf"
   },
   "additional" : {
     "AR" : 24.4
@@ -356,7 +378,8 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B76%5D+WWW21_FANCY.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3442381.3449833",
-    "presentation" : "https://youtu.be/E_iwMvfO_Ew"
+    "presentation" : "https://youtu.be/E_iwMvfO_Ew",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B76%5D+WWW21_FANCY.pdf"
   },
   "additional" : {
     "AR" : 20.6
@@ -458,7 +481,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B70%5D+CIKM20_ART(Attractive_Recommendation_Trailor).pdf",
-    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3340531.3412687"
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3340531.3412687",
+    "presentation" : "https://youtu.be/Jh_pv1HNTHM",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B70%5D+Slide-CIKM20_ART(Attractive_Recommendation_Trailor).pdf"
   },
   "additional" : {
     "AR" : 26.0
@@ -604,7 +629,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B61%5D+UMAP20_Tracking_and_Modeling_subjective_Well-Being_Smartphone-Based_Digital_Phenotype.pdf",
-    "ACM" : "https://dl.acm.org/doi/10.1145/3340631.3394855"
+    "ACM" : "https://dl.acm.org/doi/10.1145/3340631.3394855",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B61%5D+Slide-UMAP20_Tracking_and_Modeling_subjective_Well-Being_Smartphone-Based_Digital_Phenotype.pdf",
+    "presentation" : "https://youtu.be/FAFPRJ5sw4k"
   },
   "additional" : {
     "AR" : 23.0
@@ -711,7 +738,8 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B55%5D+VRST'19+-+Being+More+Focused+and+Engaged+in+Firefighting+Training.pdf",
-    "ACM" : "https://dl.acm.org/citation.cfm?id=3359996.3364268"
+    "ACM" : "https://dl.acm.org/citation.cfm?id=3359996.3364268",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B55%5D+Slide-VRST'19+-+Being+More+Focused+and+Engaged+in+Firefighting+Training.pdf"
   },
   "additional" : {
     "AR" : 21.0
@@ -851,7 +879,8 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B47%5D+UbiComp_18+-+Leveraging+Mobile+Technology+to+Support+Goal+Setting+of+College+Student.pdf",
-    "ACM" : "https://dl.acm.org/doi/10.1145/3267305.3267653"
+    "ACM" : "https://dl.acm.org/doi/10.1145/3267305.3267653",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B47%5D+Slide-UbiComp_18+-+Leveraging+Mobile+Technology+to+Support+Goal+Setting+of+College+Student.pdf"
   }
 },{
   "index" : 46,
@@ -954,7 +983,8 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B41%5D+ICWS_18-+Analyzing+the+Role+of+Tags+in+Like+Networks.pdf",
-    "IEEE" : "https://ieeexplore.ieee.org/document/8456372"
+    "IEEE" : "https://ieeexplore.ieee.org/document/8456372",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B41%5D+Slide-ICWS_18-+Analyzing+the+Role+of+Tags+in+Like+Networks.pdf"
   }
 },{
   "index" : 40,
