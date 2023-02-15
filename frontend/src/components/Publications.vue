@@ -188,6 +188,16 @@ export default {
                   >[IEEE DL]</a
                 ></span
               >
+
+              <span class="h7" v-if="paper.link.slide"
+                ><a
+                  :href="paper.link.slide"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[Slides]</a
+                ></span
+              >
+
               <span class="h7" v-if="paper.link.presentation"
                 ><a
                   :href="paper.link.presentation"
