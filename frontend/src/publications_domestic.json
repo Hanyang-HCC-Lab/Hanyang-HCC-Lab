@@ -1,0 +1,185 @@
+[ {
+  "index" : 33,
+  "year" : 2023,
+  "title" : "Capstone: 가상 현실 기반 사회 불안 환경 디자인 연구.",
+  "author" : "채예진, 김은지, 진승완, 박소현.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "health"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-33%5DHCIK_Social_Anxiety.pdf"
+      }
+},
+
+{
+  "index" : 32,
+  "year" : 2023,
+  "title" : "Capstone: 가상 현실 상의 사이버 멀미 예측을 위한 모델 구축.",
+  "author" : "백유진, 유승길, 정유리, 정다영, 최호영.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "vr"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-32%5DHCIK_Cybersickness.pdf"
+      }
+},
+
+{
+  "index" : 31,
+  "year" : 2023,
+  "title" : "Capstone: 이동장애인의 실재감을 포용하는 가상 환경 유니버설 디자인을 위한 그룹 간 사용자 경험 비교 연구.",
+  "author" : "오지영, 윤은서, 정민곤, 김재훈.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "vr"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DHCIK_Locomotion_capstone.pdf",
+      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DSlide-HCIK_Locomotion_capstone.pdf"
+      }
+},
+
+{
+  "index" : 30,
+  "year" : 2023,
+  "title" : "Poster: 우울증상 정도와 마음건강 앱 활동 로그 관계.",
+  "author" : "김명진, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "health"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-30%5DHCIK_Mental.pdf"
+      }
+},
+
+{
+  "index" : 29,
+  "year" : 2023,
+  "title" : "가상 현실에서 제자리 걸음의 추가 센서 대체 이동 방향 결정.",
+  "author" : "정민곤, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "vr"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DHCIK_Locomotion.pdf",
+      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DSlide-HCIK_Locomotion.pdf"
+      }
+},
+
+
+{
+  "index" : 28,
+  "year" : 2022,
+  "title" : "Poster: 주제 및 주요 온라인 커뮤니티에 대한 혐오표현 분석.",
+  "author" : "박소현, 한경식.",
+  "venue" : "한국소프트웨어종합학술대회.",
+  "tags" : [
+    "hai",
+    "social"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-28%5DKSC_HateSpeech.pdf"
+      }
+},
+
+{
+  "index" : 27,
+  "year" : 2022,
+  "title" : "정치 양극화 완화를 위한 AI 웹 인터페이스 구축.",
+  "author" : "김재훈, 박소현, 한경식.",
+  "venue" : "한국소프트웨어종합학술대회.",
+  "tags" : [
+    "hai",
+    "social"
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DKSC_PoliticalPolarization.pdf",
+      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DSlide-KSC_PoliticalPolarization.pdf"
+      }
+},
+
+
+{
+  "index" : 26,
+  "year" : 2022,
+  "title" : "Poster: MR환경에서 사용자 경험 증진을 위한 Human+AI 연구 방향.",
+  "author" : "한경식.",
+  "venue" : "한국차세대컴퓨팅학회 춘계학술대회.",
+  "tags" : [
+    "hai",
+    "vr"
+  ],
+  "link" : {
+      }
+},
+
+{
+  "index" : 25,
+  "year" : 2022,
+  "title" : "가상 현실에서의 멀티 모달, 딥러닝 기반 사이버 멀미 예측.",
+  "author" : "정다영, 백승원, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "vr"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf"
+      }
+},
+
+{
+  "index" : 24,
+  "year" : 2022,
+  "title" : "스트레스 인지 및 관리를 위한 AI 기반 지원 어플리케이션(MindScope)의 개발과 사용자 스터디.",
+  "author" : "정민곤, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "health"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DHCIK_MindScope.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DSlide-HCIK_MindScope.pdf"
+  }
+},
+
+{
+  "index" : 23,
+  "year" : 2022,
+  "title" : "정량적인 기준 기반의 Fashion style 에 관한 연구: 전문가 지식 및 딥러닝 결합 모델링 중심으로.",
+  "author" : "전영승, 노태형, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "fashion"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-23%5DHCIK_FashionStyle.pdf"
+  }
+},
+
+{
+  "index" : 22,
+  "year" : 2022,
+  "title" : "미술 심리 치료 분야의 의사결정 지원을 위한 비지도학습 기반의 AI 모델 적용에 관한 연구.",
+  "author" : "최호영, 진승완, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai",
+    "health"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DHCIK_Art-Psychotherapy.pdf",
+     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DSlide-HCIK_Art-Psychotherapy.pdf"
+  }
+}]
