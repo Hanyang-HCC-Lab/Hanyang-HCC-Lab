@@ -1,13 +1,17 @@
 <script>
-import publicationData from "../publications.json";
+import publicationInternational from "../publications.json";
+import publicationDomestic from "../publications_domestic.json";
 
 // https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/contents/publications.json
 
 export default {
   data() {
     return {
-      publications: publicationData,
+      publications: publicationInternational,
+      pubInternational: publicationInternational,
+      pubDomestic: publicationDomestic,
       showTopic: "all",
+      international: true
     };
   },
 
@@ -35,6 +39,17 @@ export default {
     changeTopic(targetTopic) {
       this.showTopic = targetTopic;
     },
+
+    changeType() {
+      if (this.international == true) {
+        this.publications = this.pubDomestic; 
+      } else {
+        this.publications = this.pubInternational; 
+      }
+
+      this.international = !this.international;
+
+    }
   },
 
   computed: {
@@ -51,7 +66,8 @@ export default {
 <template>
   <div class="container mt-5" style="width: 75%">
     <!-- Start Topic Filter -->
-    <span class="" style="font-size: 2rem">Topic</span>
+    <span class="" style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;">TOPIC</span>
+    <span class="" style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; float: right; margin-right: 1rem;">TYPE</span>
     <div class="mb-5 mt-2">
       <label
         class="paper-tag paper-tag-button"
@@ -103,12 +119,24 @@ export default {
         v-on:click="changeTopic('health')"
         >Digital Health</label
       >
+      <label
+        class="paper-tag paper-tag-button"
+        style="border: solid 1px;
+          float: right;
+          background-color: rgba(150, 200, 150)
+          "
+        v-on:click="changeType()"
+        >
+          <span v-show="international" style="font-weight: bold;">International</span>
+          <span v-show="!international" style="font-weight: bold;">Domestic</span>
+        </label
+      >
     </div>
     <!-- End Topic Filter -->
     <div class="mb-4" v-for="year in years" :key="year">
       <!-- filterByYear 함수가 return하는 array의 길이를 이용하여, 년도 별로 논문 수가 0인 경우 Year 표출 X -->
       <span
-        style="font-size: 2rem"
+        style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;"
         v-if="filterByYear(publications, year, showTopic).length"
         >{{ year }}</span
       >
