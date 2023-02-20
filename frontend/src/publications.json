@@ -30,10 +30,11 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B95%5DKHAN_Knowledge-Aware+Hierarchical+Attention+Networks+for+Accurate+Political+Stance+Prediction.pdf"
-  }
+  },
   "tags" : [
     "hai",
-    "dm"
+    "dm",
+    "social"
   ],
   "additional" : {
     "AR" : 19.2
@@ -50,7 +51,8 @@
   ],
   "tags" : [
     "hai",
-    "dm"
+    "dm",
+    "social"
   ], 
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B94%5DA_Framework_for_Accurate_Community_Detection_on_Signed_Networks_Using_Adversarial_Learning.pdf",
