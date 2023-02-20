@@ -28,6 +28,9 @@
   "kImpact" : [
     "BK21 Conference"
   ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B95%5DKHAN_Knowledge-Aware+Hierarchical+Attention+Networks+for+Accurate+Political+Stance+Prediction.pdf"
+  }
   "tags" : [
     "hai",
     "dm"
