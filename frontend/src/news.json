@@ -1,6 +1,11 @@
 [{
+    "index" : 27,
+    "date" : "Feb. 2023",
+    "content" : "Our paper <i>\"Adversarial Normalization: I Can visualize Everything (ICE)\"</i> has been accepted to CVPR 2023."
+},
+    {
     "index" : 26,
-    "date" : "Jan. 2023",
+    "date" : "Feb. 2023",
     "content" : "Our paper <i>\"RoutineAid : Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism\"</i> has been accepted to CHI 2023."
 },
         {

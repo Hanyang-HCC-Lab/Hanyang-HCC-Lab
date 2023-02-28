@@ -95,12 +95,6 @@ export default {
         v-on:click="changeTopic('dm')"
         >Data Mining</label
       >
-      <!-- <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(238, 237, 164)"
-        v-on:click="changeTopic('cv')"
-        >Computer Vision</label
-      > -->
       <label
         class="paper-tag paper-tag-button"
         style="background-color: rgba(150, 245, 201)"
@@ -118,6 +112,12 @@ export default {
         style="background-color: rgba(217, 236, 179)"
         v-on:click="changeTopic('health')"
         >Digital Health</label
+      >
+      <label
+        class="paper-tag paper-tag-button"
+        style="background-color: rgba(238, 237, 164)"
+        v-on:click="changeTopic('cv')"
+        >Computer Vision</label
       >
       <label
         class="paper-tag paper-tag-button"
