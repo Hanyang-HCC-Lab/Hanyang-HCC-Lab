@@ -1,28 +1,38 @@
 [{
-    "index" : 27,
+    "index" : 29,
     "date" : "Feb. 2023",
     "content" : "Our paper <i>\"Adversarial Normalization: I Can visualize Everything (ICE)\"</i> has been accepted to CVPR 2023."
+},
+{
+    "index" : 28,
+    "date" : "Feb. 2023",
+    "content" : "Our paper <i>\"A Study on hate speech in major online communities\"</i> has been accepted to Journal of the HCI Society of Korea."
+},
+{
+    "index" : 27,
+    "date" : "Feb. 2023",
+    "content" : "Our paper <i>\"A Competition-Aware Approach to Accurate TV Show Recommendation\"</i> has been accepted to ICDE 2023."
 },
     {
     "index" : 26,
     "date" : "Feb. 2023",
-    "content" : "Our paper <i>\"RoutineAid : Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism\"</i> has been accepted to CHI 2023."
+    "content" : "Our two papers <i>\"RoutineAid : Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism\"</i> and <i>\"A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains.\"</i> have been accepted to CHI 2023."
 },
         {
     "index" : 25,
     "date" : "Jan. 2023",
     "content" : "Our paper <i>\"KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction\"</i> has been accepted to WWW 2023."
 },
-    {
-        "index" : 24,
-        "date" : "Jan. 2023",
-        "content" : "Misun and Someen will join our lab as master students."
-    },
-    {
-        "index" : 23,
-        "date" : "Dec. 2022",
-        "content" : "Our paper <i>\"Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality\"</i> has been accepted to PloS One."
-    },
+{
+    "index" : 24,
+    "date" : "Jan. 2023",
+    "content" : "Misun and Someen will join our lab as master students."
+},
+{
+    "index" : 23,
+    "date" : "Dec. 2022",
+    "content" : "Our paper <i>\"Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality\"</i> has been accepted to PloS One."
+},
     {
     "index" : 22,
     "date" : "Oct. 2022",

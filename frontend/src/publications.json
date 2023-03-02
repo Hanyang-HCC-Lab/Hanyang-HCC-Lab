@@ -1,5 +1,5 @@
 [{
-  "index" : 99,
+  "index" : 100,
   "year" : 2023,
   "title" : "Adversarial Normalization: I Can visualize Everything (ICE).",
   "author" : "Hoyoung Choi, Seungwan Jin, Kyungsik Han.",
@@ -12,7 +12,7 @@
     "AR" : 25.78
   }
 },{
-  "index" : 98,
+  "index" : 99,
   "year" : 2023,
   "title" : "A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains.",
   "author" : "Taehyung Noh, Haein Yeo, Myungjin Kim, Kyungsik Han.",
@@ -25,19 +25,36 @@
     "fashion"
   ]
 },{
-  "index" : 97,
+  "index" : 98,
   "year" : 2023,
   "title" : "A Study on hate speech in major online communities.",
   "author" : "Jaehoon Kim, Sohyun Park, Kyungsik Han.",
-  "venue" : "HCI Korea, 18 (1).",
+  "venue" : "Journal of the HCI Society of Korea, 18 (1).",
   "tags" : [
     "hai",
     "social"
   ], 
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B97%5DHCIK_HateSpeech.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B98%5DHCIK_HateSpeech.pdf"
+  }
+},{
+  "index" : 97,
+  "year" : 2023,
+  "title" : "A Competition-Aware Approach to Accurate TV Show Recommendation.",
+  "author" : "Hong-Kyun Bae, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
+  "venue" : "IEEE International Conference on Data Engineering (ICDE).",
+  "kImpact" : [
+    "BK21 Conference"
+  ],
+  "tags" : [
+    "hai",
+    "dm"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B97%5DTVShow.pdf"
   }
 },
+
   {
   "index" : 96,
   "year" : 2023,
