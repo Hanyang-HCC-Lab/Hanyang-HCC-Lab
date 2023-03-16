@@ -1,5 +1,21 @@
 <template>
   <div class="container mt-5" style="width: 75%">
+
+    <!-- Start 2023 Courses -->
+    <div class="mb-5">
+      <span style="font-size: 1.75rem; font-weight: bold">2023</span>
+      <div class="item-content mt-3">
+        <span class="h5">Spring&nbsp;</span>
+        <ul style="font-size: 1.15rem">
+          <li>소프트웨어 입문 설계 (Undergraduate)</li>
+          <li>커리어 개발 (Undergraduate)</li>
+          <li>인간중심인공지능 (Graduate)</li>
+          <li>석사주제탐색연구 (Graduate)</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End 2022 Courses -->
+
     <!-- Start 2022 Courses -->
     <div class="mb-5">
       <span style="font-size: 1.75rem; font-weight: bold">2022</span>
