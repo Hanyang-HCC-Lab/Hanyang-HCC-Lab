@@ -149,6 +149,8 @@ export default {
             class="item-content mt-1 mb-2"
           >
             <span class="h5">[{{ paper.index }}]&nbsp;</span>
+
+
             <span v-if="paper.link" class="h5">
               <a
                 v-if="paper.link.paper"
@@ -157,6 +159,9 @@ export default {
                 style="color: black; font-weight: bold"
                 >{{ paper.title }}</a
               >
+
+
+
               <span
                 v-if="!paper.link.paper"
                 style="color: black; font-weight: bold"

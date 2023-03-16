@@ -9,7 +9,7 @@
         <ul style="font-size: 1.15rem">
           <li>소프트웨어 입문 설계 (Undergraduate)</li>
           <li>커리어 개발 (Undergraduate)</li>
-          <li>인간중심인공지능 (Graduate)</li>
+          <li>인공지능 인간요소 (Graduate)</li>
           <li>석사주제탐색연구 (Graduate)</li>
         </ul>
       </div>
