@@ -7,6 +7,9 @@
   "kImpact" : [
     "BK21 Conference"
   ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf"
+  },
   "tags" : [
     "hai",
     "cv"
@@ -23,6 +26,9 @@
   "kImpact" : [
     "BK21 Conference"
   ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf"
+  },
   "tags" : [
     "hai",
     "fashion"
