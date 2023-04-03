@@ -622,6 +622,43 @@
           <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
+
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A9.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Jongho Jo
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">조종호</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: charliejo6274@naver.com"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href=""
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+
       </div>
     </div>
     <!-- End Undergraduate Students Tap -->

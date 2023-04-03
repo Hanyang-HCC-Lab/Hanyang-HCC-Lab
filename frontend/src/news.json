@@ -1,4 +1,9 @@
 [{
+    "index" : 30,
+    "date" : "Apr. 2023",
+    "content" : "Jongho will join our lab as a research intern."
+},
+    {
     "index" : 29,
     "date" : "Feb. 2023",
     "content" : "Our paper <i>\"Adversarial Normalization: I Can visualize Everything (ICE)\"</i> has been accepted to CVPR 2023."
