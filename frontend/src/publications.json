@@ -2,7 +2,7 @@
   "index" : 100,
   "year" : 2023,
   "title" : "Adversarial Normalization: I Can visualize Everything (ICE).",
-  "author" : "Hoyoung Choi, Seungwan Jin, Kyungsik Han.",
+  "author" : "Hoyoung Choi*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
   "venue" : "IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
   "kImpact" : [
     "BK21 Conference"
