@@ -65,7 +65,6 @@ export default {
     return {
       page: "MainPage",
       scrollTarget: "null",
-      // page: "Gallery",
     };
   },
 

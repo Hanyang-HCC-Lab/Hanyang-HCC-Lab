@@ -11,7 +11,7 @@ export default {
       pubInternational: publicationInternational,
       pubDomestic: publicationDomestic,
       showTopic: "all",
-      international: true
+      international: true,
     };
   },
 
@@ -42,14 +42,23 @@ export default {
 
     changeType() {
       if (this.international == true) {
-        this.publications = this.pubDomestic; 
+        this.publications = this.pubDomestic;
       } else {
-        this.publications = this.pubInternational; 
+        this.publications = this.pubInternational;
       }
 
       this.international = !this.international;
+    },
 
-    }
+    changeTypeToTaget(targetType) {
+      if (targetType == "domestic") {
+        this.publications = this.pubDomestic;
+        this.international = false;
+      } else {
+        this.publications = this.pubInternational;
+        this.international = true;
+      }
+    },
   },
 
   computed: {
@@ -66,77 +75,133 @@ export default {
 <template>
   <div class="container mt-5" style="width: 75%">
     <!-- Start Topic Filter -->
-    <span class="" style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;">TOPIC</span>
-    <span class="" style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700; float: right; margin-right: 1rem;">TYPE</span>
-    <div class="mb-5 mt-2">
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(89, 155, 210)"
-        v-on:click="changeTopic('all')"
+    <div class="mb-3" style="width: 100%">
+      <div
+        class=""
+        style="
+          font-size: 1.7rem;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 700;
+        "
       >
-        Show All
-      </label>
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(176, 226, 246)"
-        v-on:click="changeTopic('hai')"
-      >
-        Human-AI Interaction
-      </label>
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(195, 195, 247)"
-        v-on:click="changeTopic('vr')"
-        >VR/AR/XR</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(250, 210, 182)"
-        v-on:click="changeTopic('dm')"
-        >Data Mining</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(150, 245, 201)"
-        v-on:click="changeTopic('fashion')"
-        >Fashion</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(247, 194, 230)"
-        v-on:click="changeTopic('social')"
-        >Social Computing</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(217, 236, 179)"
-        v-on:click="changeTopic('health')"
-        >Digital Health</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="background-color: rgba(238, 237, 164)"
-        v-on:click="changeTopic('cv')"
-        >Computer Vision</label
-      >
-      <label
-        class="paper-tag paper-tag-button"
-        style="border: solid 1px;
-          float: right;
-          background-color: rgba(150, 200, 150)
-          "
-        v-on:click="changeType()"
+        TOPIC
+      </div>
+      <div>
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'all' }"
+          style="background-color: rgba(89, 155, 210)"
+          v-on:click="changeTopic('all')"
         >
-          <span v-show="international" style="font-weight: bold;">International</span>
-          <span v-show="!international" style="font-weight: bold;">Domestic</span>
-        </label
-      >
+          Show All
+        </label>
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'hai' }"
+          style="background-color: rgba(176, 226, 246)"
+          v-on:click="changeTopic('hai')"
+        >
+          Human-AI Interaction
+        </label>
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'vr' }"
+          style="background-color: rgba(195, 195, 247)"
+          v-on:click="changeTopic('vr')"
+          >VR/AR/XR</label
+        >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'dm' }"
+          style="background-color: rgba(250, 210, 182)"
+          v-on:click="changeTopic('dm')"
+          >Data Mining</label
+        >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'fashion' }"
+          style="background-color: rgba(150, 245, 201)"
+          v-on:click="changeTopic('fashion')"
+          >Fashion</label
+        >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'social' }"
+          style="background-color: rgba(247, 194, 230)"
+          v-on:click="changeTopic('social')"
+          >Social Computing</label
+        >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'health' }"
+          style="background-color: rgba(217, 236, 179)"
+          v-on:click="changeTopic('health')"
+          >Digital Health</label
+        >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'cv' }"
+          style="background-color: rgba(238, 237, 164)"
+          v-on:click="changeTopic('cv')"
+          >Computer Vision</label
+        >
+      </div>
     </div>
+    <!-- Pub Type (Domestic/International) -->
+    <div class="mb-5" style="display: inline-block">
+      <div
+        class=""
+        style="
+          font-size: 1.7rem;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 700;
+          <!-- float: right; -->
+          margin-right: 1rem;
+        "
+      >
+        TYPE
+      </div>
+      <div>
+        <!-- <label
+          class="paper-tag paper-tag-button clicked_button_border"
+          style="float: right; background-color: rgba(150, 200, 150)"
+          v-on:click="changeType()"
+        >
+          <span v-show="international" style="font-weight: bold"
+            >International</span
+          >
+          <span v-show="!international" style="font-weight: bold"
+            >Domestic</span
+          >
+        </label> -->
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: international === false }"
+          style="float: right; background-color: rgba(150, 200, 150)"
+          v-on:click="changeTypeToTaget('domestic')"
+        >
+          <span style="font-weight: bold">Domestic</span>
+        </label>
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: international === true }"
+          style="float: right; background-color: rgba(150, 200, 150)"
+          v-on:click="changeTypeToTaget('international')"
+        >
+          <span style="font-weight: bold">International</span>
+        </label>
+      </div>
+    </div>
+
     <!-- End Topic Filter -->
     <div class="mb-4" v-for="year in years" :key="year">
       <!-- filterByYear 함수가 return하는 array의 길이를 이용하여, 년도 별로 논문 수가 0인 경우 Year 표출 X -->
       <span
-        style="font-size: 2rem; font-family: 'Noto Sans KR', sans-serif; font-weight: 700;"
+        style="
+          font-size: 2rem;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 700;
+        "
         v-if="filterByYear(publications, year, showTopic).length"
         >{{ year }}</span
       >
@@ -150,7 +215,6 @@ export default {
           >
             <span class="h5">[{{ paper.index }}]&nbsp;</span>
 
-
             <span v-if="paper.link" class="h5">
               <a
                 v-if="paper.link.paper"
@@ -159,8 +223,6 @@ export default {
                 style="color: black; font-weight: bold"
                 >{{ paper.title }}</a
               >
-
-
 
               <span
                 v-if="!paper.link.paper"
@@ -359,5 +421,9 @@ export default {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+.clicked_button_border {
+  border: 1.75px solid rgba(1, 1, 1);
 }
 </style>
