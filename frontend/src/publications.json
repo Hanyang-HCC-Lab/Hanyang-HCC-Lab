@@ -1,4 +1,19 @@
 [{
+  "index" : 101,
+  "year" : 2023,
+  "title" : "MAC: Multimodal, Attention-based Cybersickness Prediction Modeling in Virtual Reality.",
+  "author" : "Dayoung Jeong, Seungwon Paik, Youngtae Noh, Kyungsik Han.",
+  "venue" : "Virtual Reality.",
+  "kImpact" : [
+    "SCI(E)"
+  ],
+  "tags" : [
+    "hai",
+    "vr",
+    "dm"
+  ]
+},
+  {
   "index" : 100,
   "year" : 2023,
   "title" : "Adversarial Normalization: I Can visualize Everything (ICE).",
