@@ -42,7 +42,8 @@
     "BK21 Conference"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf",
+    "presentation" : "https://youtu.be/L2ZH-R64o3M"
   },
   "tags" : [
     "hai",
@@ -94,10 +95,12 @@
   ], 
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B96%5DRoutineAid_Externalizing_Key_Design_Elements_to_Support_Daily_Routines_of_Individuals_with_Autism.pdf",
-    "demo" : "https://youtu.be/Eln3-DpU0pA"
+    "demo" : "https://youtu.be/Eln3-DpU0pA",
+    "ACM" : "https://dl.acm.org/doi/10.1145/3544548.3581048",
+    "presentation" : "https://youtu.be/TUu0Nq7Po5s"
   },
   "additional" : {
-    "AR" : 28.4
+    "AR" : 27.6
   }
 },
   {
