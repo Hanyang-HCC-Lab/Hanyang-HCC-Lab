@@ -73,13 +73,35 @@ export default {
 </script>
 
 <template>
-  <div class="container mt-5" style="width: 75%">
+  <div class="container mt-4" style="width: 75%">
     <!-- Start Topic Filter -->
+    <div
+        class="mb-3"
+        style="
+          font-size: 1.9rem;
+          font-family: 'Noto Sans KR', sans-serif;
+          font-weight: 700;
+        "
+      >
+      PUBLICATIONS 
+      <span>
+              <a
+                type="button"
+                class="mb-1 btn btn-circle btn-dark btn-sm "
+                href="https://scholar.google.co.kr/citations?hl=en&user=9c9apWIAAAAJ"
+                target="_blank"
+                style="border-radius: 3rem;"
+              >
+                <font-awesome-icon icon="fa-solid fa-graduation-cap" size="xs" />
+              </a>
+
+      </span>
+      </div>
     <div class="mb-3" style="width: 100%">
       <div
         class=""
         style="
-          font-size: 1.7rem;
+          font-size: 1.5rem;
           font-family: 'Noto Sans KR', sans-serif;
           font-weight: 700;
         "
@@ -152,7 +174,7 @@ export default {
       <div
         class=""
         style="
-          font-size: 1.7rem;
+          font-size: 1.5rem;
           font-family: 'Noto Sans KR', sans-serif;
           font-weight: 700;
           <!-- float: right; -->

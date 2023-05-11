@@ -9,6 +9,7 @@
         >
       </div>
       <div class="row row-cols-10">
+
         <!-- Start Member Profile -->
         <div class="col-12 col-md-3 col-sm-6 text-center">
           <img
