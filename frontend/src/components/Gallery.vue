@@ -5,7 +5,7 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/KCC2023-2.jpg"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/KCC2023-2.JPG"
             style="max-height: 20rem"
           />
           <div class="card-body">
