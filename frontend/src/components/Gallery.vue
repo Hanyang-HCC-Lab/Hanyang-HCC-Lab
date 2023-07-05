@@ -5,6 +5,58 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt(23)-2.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.06] MT</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt(23)-1.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.06] MT</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/CVPR(23)-2.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.06] CVPR 2023</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/CVPR(23)-1.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.06] CVPR 2023</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/KCC2023-2.JPG"
             style="max-height: 20rem"
           />
@@ -13,7 +65,7 @@
           </div>
         </div>
       </div>
-      <!-- End Picture -->
+<!-- End Picture -->
 <!-- Start Picture -->
 <!-- Start Picture -->
 <div class="col-md-4 text-center mb-3">
@@ -296,19 +348,6 @@
       <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/Jeju-3.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.08] In Jeju</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/c2s2-1.jpg"
             style="max-height: 20rem"
           />
@@ -362,58 +401,6 @@
       <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-2.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-3.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-4.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-5.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-6.jpg"
             style="max-height: 20rem"
           />
@@ -427,46 +414,7 @@
       <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-7.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-8.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-9.jpg"
-            style="max-height: 20rem"
-          />
-          <div class="card-body">
-            <span class="h6 card-text">[2022.07] MT</span>
-          </div>
-        </div>
-      </div>
-      <!-- End Picture -->
-      <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
-        <div class="card img-wrapper">
-          <img
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-10.jpg"
             style="max-height: 20rem"
           />
           <div class="card-body">
