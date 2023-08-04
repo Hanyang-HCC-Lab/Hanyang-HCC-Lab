@@ -1,4 +1,9 @@
 [{
+    "index" : 32,
+    "date" : "Aug. 2023",
+    "content" : "Our paper <i>\"V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data\"</i> has been accepted to UIST 2023."
+},
+    {
     "index" : 31,
     "date" : "May. 2023",
     "content" : "Our paper <i>\"MAC: Multimodal, Attention-based Cybersickness Prediction Modeling in Virtual Reality\"</i> has been accepted to Springer Virtual Reality."

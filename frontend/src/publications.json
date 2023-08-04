@@ -1,4 +1,23 @@
-[{
+[
+  {
+  "index" : 102,
+  "year" : 2023,
+  "title" : "V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data.",
+  "author" : "Bogoan Kim, Dayoung Jeong, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
+  "venue" : "ACM Symposium on User Interface Software and Technology (UIST).",
+  "kImpact" : [
+    "BK21 Conference"
+  ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DVDAT.pdf",
+    "demo" : "https://youtu.be/qH6f5-jtjgk",
+    "ACM" : "https://doi.org/10.1145/3586183.3606797"
+  },
+  "tags" : [
+    "hai", "vr", "health"
+  ]
+},
+  {
   "index" : 101,
   "year" : 2023,
   "title" : "MAC: Multimodal, Attention-based Cybersickness Prediction Modeling in Virtual Reality.",
