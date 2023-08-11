@@ -361,6 +361,11 @@
   "kImpact" : [
     "BK21 Conference"
   ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B83%5D+The_Workplace_Playbook_VR.pdf",
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3555082",
+    "presentation" : "https://www.youtube.com/watch?v=p82eEGxY8fQ"
+  },
   "tags" : [
     "hai",
     "health"
