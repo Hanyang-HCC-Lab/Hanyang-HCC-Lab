@@ -84,7 +84,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://sites.google.com/view/bogoan-kim/"
+              href="https://www.bogoankim.com/"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
