@@ -1,5 +1,21 @@
 [
   {
+    "index" : 103,
+    "year" : 2023,
+    "title" : "HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System.",
+    "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
+    "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
+    "kImpact" : [
+      "BK21 Conference"
+    ],
+    "link" : {
+      "paper" : ""
+    },
+    "tags" : [
+      "hai", "social"
+    ]
+  },
+  {
   "index" : 102,
   "year" : 2023,
   "title" : "V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data.",

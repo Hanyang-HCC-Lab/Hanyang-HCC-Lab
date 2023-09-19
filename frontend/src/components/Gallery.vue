@@ -5,6 +5,45 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/Hyundai2023.JPG"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.08] Hyundai Driving Center</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/CRC2023-2.jpeg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.08] C2S2 Workshop</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/CRC2023-1.jpeg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.08] C2S2 Workshop</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt(23)-2.jpg"
             style="max-height: 20rem"
           />
