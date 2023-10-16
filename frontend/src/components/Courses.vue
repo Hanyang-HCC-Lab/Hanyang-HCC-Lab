@@ -11,6 +11,7 @@
           <li>인간-컴퓨터상호작용 (Undergraduate)</li>
           <li>인공지능프로젝트2 (Undergraduate)</li>
           <li>창의적소프트웨어 프로그래밍 (Undergraduate)</li>
+          <li>커리어 개발 (Undergraduate)</li>
         </ul>
 
         <span class="h5">Spring&nbsp;</span>
