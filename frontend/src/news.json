@@ -1,4 +1,9 @@
-[{
+[    {
+    "index" : 36,
+    "date" : "Oct. 2023",
+    "content" : "Yoonseon will join our lab as a research intern."
+},
+    {
     "index" : 35,
     "date" : "Sep. 2023",
     "content" : "Our paper <i>\"HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System\"</i> has been accepted to CSCW 2024."
