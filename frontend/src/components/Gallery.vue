@@ -316,8 +316,9 @@
         </div>
       </div>
       <!-- End Picture -->
+      
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/skcc-1.jpg"
@@ -327,8 +328,9 @@
             <span class="h6 card-text">[2022.09] SKCC Kick-off</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
+
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
@@ -462,8 +464,9 @@
         </div>
       </div>
       <!-- End Picture -->
+
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/study-2.jpg"
@@ -473,8 +476,9 @@
             <span class="h6 card-text">[2022.05] Random Day in HY</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
+
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
@@ -488,8 +492,9 @@
         </div>
       </div>
       <!-- End Picture -->
+
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/study-1.jpg"
@@ -499,7 +504,7 @@
             <span class="h6 card-text">[2022.04] Random Day in HY</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
 
       <!-- Start Picture -->
@@ -515,8 +520,9 @@
         </div>
       </div>
       <!-- End Picture -->
+
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/fire_expo1.png"
@@ -528,8 +534,9 @@
             >
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
+
     </div>
   </div>
 </template>
