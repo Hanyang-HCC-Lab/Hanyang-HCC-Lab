@@ -1,6 +1,19 @@
 [
   {
-    "index" : 103,
+    "index" : 105,
+    "year" : 2023,
+    "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
+    "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
+    "venue" : "JMIR Formative Research.",
+    "kImpact" : [
+      "SCI(E)"
+    ],
+    "tags" : [
+      "hai", "vr", "health"
+    ]
+  },
+  {
+    "index" : 104,
     "year" : 2023,
     "title" : "HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System.",
     "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
@@ -16,7 +29,7 @@
     ]
   },
   {
-  "index" : 102,
+  "index" : 103,
   "year" : 2023,
   "title" : "V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data.",
   "author" : "Bogoan Kim, Dayoung Jeong, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
@@ -32,6 +45,20 @@
   "tags" : [
     "hai", "vr", "health"
   ]
+},
+{
+  "index" : 102,
+  "year" : 2023,
+  "title" : "An AI Web-based Interface for Mitigating Political Polarization.",
+  "author" : "Jaehoon Kim, Sohyun Park, Kyungsik Han.",
+  "venue" : "Journal of KIISE, 50 (9).",
+  "tags" : [
+    "hai",
+    "social"
+  ], 
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DPolitical_Polarization.pdf"
+  }
 },
   {
   "index" : 101,

@@ -1,22 +1,32 @@
-[    {
-    "index" : 36,
+[   {
+    "index" : 38,
+    "date" : "Nov. 2023",
+    "content" : "Our paper <i>\"Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study\"</i> has been accepted to JMIR Formative Research."
+    }, 
+    {
+    "index" : 37,
     "date" : "Oct. 2023",
     "content" : "Yoonseon will join our lab as a research intern."
 },
     {
-    "index" : 35,
+    "index" : 36,
     "date" : "Sep. 2023",
     "content" : "Our paper <i>\"HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System\"</i> has been accepted to CSCW 2024."
     },
     {
-    "index" : 34,
+    "index" : 35,
     "date" : "Sep. 2023",
     "content" : "Jongho will join our lab as a Ph.D student (MS & Ph.D Integrated Course)."
     },
     {
-    "index" : 33,
+    "index" : 34,
     "date" : "Aug. 2023",
     "content" : "Our paper <i>\"V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data\"</i> has been accepted to UIST 2023."
+},
+{
+    "index" : 33,
+    "date" : "Jun. 2023",
+    "content" : "Our paper <i>\"An AI Web-based Interface for Mitigating Political Polarization\"</i> has been accepted to Journal of KIISE."
 },
     {
     "index" : 32,
