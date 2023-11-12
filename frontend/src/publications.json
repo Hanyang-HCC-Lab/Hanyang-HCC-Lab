@@ -45,7 +45,10 @@
   },
   "tags" : [
     "hai", "vr", "health"
-  ]
+  ],
+  "additional" : {
+    "AR" : 25.1
+  }
 },
 {
   "index" : 102,
