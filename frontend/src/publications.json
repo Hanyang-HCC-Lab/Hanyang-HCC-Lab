@@ -40,7 +40,8 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DVDAT.pdf",
     "demo" : "https://youtu.be/qH6f5-jtjgk",
-    "ACM" : "https://doi.org/10.1145/3586183.3606797"
+    "ACM" : "https://doi.org/10.1145/3586183.3606797",
+    "presentation" : "https://www.youtube.com/watch?v=UWg-84muk5U"
   },
   "tags" : [
     "hai", "vr", "health"
