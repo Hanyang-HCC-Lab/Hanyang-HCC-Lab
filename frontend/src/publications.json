@@ -1,5 +1,18 @@
 [
   {
+    "index" : 106,
+    "year" : 2023,
+    "title" : "Consistency of Code: A prompt based approach to comprehend functionality.",
+    "author" : "Hoyoung Choi, Hyunjae Park, Young-June Choi, Kyungsik Han.",
+    "venue" : "Asia-Pacific Software Engineering Conference (APSEC).",
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B106%5DAPSEC.pdf"
+    },
+    "tags" : [
+      "hai", "dm"
+    ]
+  },
+  {
     "index" : 105,
     "year" : 2023,
     "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
