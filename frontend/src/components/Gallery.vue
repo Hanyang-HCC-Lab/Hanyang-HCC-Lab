@@ -5,7 +5,20 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/uist2023-1.jpg"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/UIST%5B23%5D-1.jpeg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2023.11] UIST 2023</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/UIST%5B23%5D-2.jpeg"
             style="max-height: 20rem"
           />
           <div class="card-body">
