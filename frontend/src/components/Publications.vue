@@ -167,6 +167,13 @@ export default {
           v-on:click="changeTopic('cv')"
           >Computer Vision</label
         >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'nlp' }"
+          style="background-color: rgba(180, 235, 40)"
+          v-on:click="changeTopic('nlp')"
+          >Natural Language Processing</label
+        >
       </div>
     </div>
     <!-- Pub Type (Domestic/International) -->
@@ -386,6 +393,12 @@ export default {
                   v-if="tag === 'health'"
                   style="background-color: rgba(217, 236, 179)"
                   >Digital Health</label
+                >
+                <label
+                  class="paper-tag"
+                  v-if="tag === 'nlp'"
+                  style="background-color: rgba(180, 235, 40)"
+                  >Natural Language Processing</label
                 >
               </span>
             </div>
