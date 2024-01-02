@@ -1,42 +1,41 @@
 [ {
-  "index" : 40,
+  "index" : 39,
   "year" : 2023,
   "title" : "대규모 언어모델의 환각 현상 완화를 위한 딥러닝 기반 시각적인 힌트 사용 방법.",
   "author" : "노태형, 여해인, 한경식.",
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
     "hai", "fashion", "nlp"
-  ]
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-40%5DLLMHallu.pdf"
+      }
 },
   {
-  "index" : 39,
+  "index" : 38,
   "year" : 2023,
   "title" : "메타패스 기반 이종 그래프 모델을 활용한 패션 커뮤니티 사용자의 패션 착장 선호도 연구.",
   "author" : "김은지, 여해인, 한경식.",
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
     "hai", "fashion"
-  ]
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DGLAM.pdf"
+      }
 },
   {
-  "index" : 38,
+  "index" : 37,
   "year" : 2023,
   "title" : "사회불안 매개 요인과 센서 데이터 분석을 통한 가상환경 기반 사회불안 조성 연구.",
   "author" : "김은지, 진승완, 한경식.",
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
     "hai", "vr", "health"
-  ]
-},
-{
-  "index" : 37,
-  "year" : 2023,
-  "title" : "문장 수준 데이터 증강 기술에 관한 연구.",
-  "author" : "최호영, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai", "dm", "nlp"
-  ]
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DXR.pdf"
+      }
 },
   {
   "index" : 36,
@@ -46,7 +45,10 @@
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
   "hai", "fashion", "nlp"
-  ]
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf"
+      }
   },
   {
   "index" : 35,
@@ -56,7 +58,10 @@
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
     "hai","fashion"
-  ]
+  ],
+  "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf"
+      }
 },
   
 {
