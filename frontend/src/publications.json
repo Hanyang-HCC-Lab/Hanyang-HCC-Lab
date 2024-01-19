@@ -1,5 +1,35 @@
 [
   {
+    "index" : 108,
+    "year" : 2024,
+    "title" : "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals.",
+    "author" : "Bogoan Kim, Dayoung Jeong, Hwajung Hong, Kyungsik Han",
+    "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+    "kImpact" : [
+      "BK21"
+    ],
+    "additional" : {
+      "AR" : 26.3
+    },
+    "tags" : [
+      "hai", "vr", "health"
+    ]
+  },
+  {
+    "index" : 107,
+    "year" : 2023,
+    "title" : "A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
+    "author" : "Dayoung Jeong and Kyungsik Han.",
+    "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+    "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B107%5DICNGC_VR.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B107%5DICNGC_VR_slide.pdf"
+    },
+    "tags" : [
+    "hai", "vr", "dm"
+    ]
+    },
+  {
     "index" : 106,
     "year" : 2023,
     "title" : "Poster: Consistency of Code: A prompt based approach to comprehend functionality.",
@@ -21,6 +51,9 @@
     "kImpact" : [
       "SCI(E)"
     ],
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf"
+    },
     "tags" : [
       "hai", "vr", "health"
     ]

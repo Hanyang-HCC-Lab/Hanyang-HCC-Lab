@@ -1,4 +1,15 @@
-[   {
+[
+    {
+    "index" : 441,
+    "date" : "Jan. 2024",
+    "content" : "Our paper <i>\"Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals\"</i> has been accepted to CHI 2024."
+    }, 
+    {
+    "index" : 40,
+    "date" : "Dec. 2023",
+    "content" : "Our paper <i>\"A Study on the Importance of Multimodal Sensor Data in Virtual Reality\"</i> has been accepted to ICNGC 2023."
+    }, 
+    {
     "index" : 39,
     "date" : "Nov. 2023",
     "content" : "Our paper <i>\"Consistency of Code: A prompt based approach to comprehend functionality\"</i> has been accepted to APSEC 2023."
