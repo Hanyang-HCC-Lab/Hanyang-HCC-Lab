@@ -5,6 +5,32 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/graduation_24-1.JPG"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2024.02] Commencement Ceremony</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/HCIK(24).jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2024.01] HCI Korea 2024</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/year-end+party-23.jpg"
             style="max-height: 20rem"
           />
@@ -15,7 +41,7 @@
       </div>
 <!-- End Picture -->
 <!-- Start Picture -->
-<div class="col-md-4 text-center mb-3">
+<!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/ICNGC(23)-2.jpg"
@@ -25,7 +51,7 @@
             <span class="h6 card-text">[2023.12] ICNGC 2023</span>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- End Picture -->
 <!-- Start Picture -->
 <div class="col-md-4 text-center mb-3">
@@ -145,7 +171,7 @@
       </div>
 <!-- End Picture -->
 <!-- Start Picture -->
-<div class="col-md-4 text-center mb-3">
+<!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/CRC2023-2.jpeg"
@@ -155,7 +181,7 @@
             <span class="h6 card-text">[2023.08] C2S2 Workshop</span>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- End Picture -->
 <!-- Start Picture -->
 <div class="col-md-4 text-center mb-3">
@@ -184,7 +210,7 @@
       </div>
 <!-- End Picture -->
 <!-- Start Picture -->
-<div class="col-md-4 text-center mb-3">
+<!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt(23)-1.jpg"
@@ -194,7 +220,7 @@
             <span class="h6 card-text">[2023.06] MT</span>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- End Picture -->
 <!-- Start Picture -->
 <div class="col-md-4 text-center mb-3">
@@ -223,7 +249,7 @@
       </div>
 <!-- End Picture -->
 <!-- Start Picture -->
-<div class="col-md-4 text-center mb-3">
+<!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/KCC2023-2.JPG"
@@ -233,7 +259,7 @@
             <span class="h6 card-text">[2023.06] KCC 2023</span>
           </div>
         </div>
-      </div>
+      </div> -->
 <!-- End Picture -->
 <!-- Start Picture -->
 <!-- Start Picture -->
@@ -317,7 +343,7 @@
       </div>
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/hcik2023-4.JPG"
@@ -327,10 +353,10 @@
             <span class="h6 card-text">[2023.02] HCI Korea 2023</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/gallery/hcik2023-3.jpg"
@@ -340,7 +366,7 @@
             <span class="h6 card-text">[2023.02] HCI Korea 2023</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
@@ -369,7 +395,7 @@
       </div>
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/ksc2022-1.jpeg"
@@ -379,7 +405,7 @@
             <span class="h6 card-text">[2022.12] KSC 2022</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
@@ -503,7 +529,7 @@
       </div>
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/Jeju-2.jpg"
@@ -513,10 +539,10 @@
             <span class="h6 card-text">[2022.08] In Jeju</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/c2s2-1.jpg"
@@ -526,7 +552,7 @@
             <span class="h6 card-text">[2022.08] C2S2 Workshop</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
@@ -542,7 +568,7 @@
       </div>
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/c2s2-3.jpg"
@@ -553,10 +579,10 @@
             <span class="h6 card-text">[2022.08] C2S2 Workshop</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-1.jpg"
@@ -566,10 +592,10 @@
             <span class="h6 card-text">[2022.07] MT</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
-      <div class="col-md-4 text-center mb-3">
+      <!-- <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/mt-6.jpg"
@@ -579,7 +605,7 @@
             <span class="h6 card-text">[2022.07] MT</span>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Picture -->
       <!-- Start Picture -->
       <div class="col-md-4 text-center mb-3">
