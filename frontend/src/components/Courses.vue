@@ -1,6 +1,23 @@
 <template>
   <div class="container mt-5" style="width: 75%">
 
+    <!-- Start 2024 Courses -->
+    <div class="mb-5">
+      <span style="font-size: 1.75rem; font-weight: bold">2023</span>
+      <div class="item-content mt-3">
+
+        <span class="h5">Spring&nbsp;</span>
+        <ul style="font-size: 1.15rem">
+          <li>소프트웨어 입문 설계 (Undergraduate)</li>
+          <li>커리어 개발 (Undergraduate)</li>
+          <li>인공지능프로젝트1 (Undergraduate)</li>
+          <li>컴퓨테이셔널 소셜사이언스 (Undergraduate)</li>
+          <li>데이터사이언스연구실현장실습1 (Undergraduate)</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End 2024 Courses -->
+
     <!-- Start 2023 Courses -->
     <div class="mb-5">
       <span style="font-size: 1.75rem; font-weight: bold">2023</span>
@@ -23,7 +40,7 @@
         </ul>
       </div>
     </div>
-    <!-- End 2022 Courses -->
+    <!-- End 2023 Courses -->
 
     <!-- Start 2022 Courses -->
     <div class="mb-5">
