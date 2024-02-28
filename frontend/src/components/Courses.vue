@@ -3,7 +3,7 @@
 
     <!-- Start 2024 Courses -->
     <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2023</span>
+      <span style="font-size: 1.75rem; font-weight: bold">2024</span>
       <div class="item-content mt-3">
 
         <span class="h5">Spring&nbsp;</span>
