@@ -1,4 +1,17 @@
 [ {
+  "index" : 40,
+  "year" : 2024,
+  "title" : "온라인 커뮤니티의 혐오 표현 양상: 19대 대통령 선거와 20대 대통령 선거를 기반으로.",
+  "author" : "박소민, 김재훈, 박소현, 진승완, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-40%5Dkorea_election.pdf"
+  },
+  "tags" : [
+    "hai", "social"
+  ]
+},
+{
   "index" : 39,
   "year" : 2023,
   "title" : "대규모 언어모델의 환각 현상 완화를 위한 딥러닝 기반 시각적인 힌트 사용 방법.",
@@ -22,7 +35,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DGLAM.pdf"
-      }
+      },
+  "award":{
+    "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC_2023_best_presentation_award.jpg"
+  }
 },
   {
   "index" : 37,
@@ -137,7 +153,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-30%5DHCIK_Mental.pdf"
-      }
+      },
+  "award":{
+    "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/HCIK_2023_best_paper_award.png"
+  }
 },
 
 {
@@ -185,7 +204,10 @@
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DKSC_PoliticalPolarization.pdf",
       "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DSlide-KSC_PoliticalPolarization.pdf"
-      }
+      },
+  "award": {
+    "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KSC_2022_best_paper_award.jpg"
+  }
 },
 
 

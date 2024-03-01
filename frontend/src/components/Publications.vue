@@ -291,6 +291,40 @@ export default {
                 >%</i
               >
             </span>
+            
+            <!-- Award 존재하면 표출-->
+            <span class="h7" style="color: #999900" v-if="paper.award">
+              <br />
+              <!-- <font-awesome-icon icon="fas fa-medal" size="xs" /> -->
+              <font-awesome-icon icon="fas fa-trophy" size="xs" />
+              <span class="h7" v-if="paper.award.best_paper"
+                ><a
+                  :href="paper.award.best_paper"
+                  target="_blank"
+                  style="color: #999900"
+                  > Best Paper Award</a
+                ></span
+              >
+
+              <span class="h7" v-if="paper.award.honorable_mention"
+                ><a
+                  :href="paper.award.honorable_mention"
+                  target="_blank"
+                  style="color: #999900"
+                  > Honorable Mention Award</a
+                ></span
+              >
+
+              <span class="h7" v-if="paper.award.best_presentation"
+                ><a
+                  :href="paper.award.best_presentation"
+                  target="_blank"
+                  style="color: #999900"
+                  > Best Presentation Award</a
+                ></span
+              >
+            
+            </span>
 
             <!-- Link 존재하면 표출-->
             <span class="h7" style="color: red" v-if="paper.link">
