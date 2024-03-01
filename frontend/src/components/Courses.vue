@@ -12,7 +12,7 @@
           <li>커리어 개발 (Undergraduate)</li>
           <li>인공지능프로젝트1 (Undergraduate)</li>
           <li>컴퓨테이셔널 소셜사이언스 (Undergraduate)</li>
-          <li>데이터사이언스연구실현장실습1 (Undergraduate)</li>
+          <li>데이터사이언스연구실 현장실습1 (Undergraduate)</li>
         </ul>
       </div>
     </div>
