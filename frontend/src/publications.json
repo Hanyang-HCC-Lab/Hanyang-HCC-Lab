@@ -9,7 +9,7 @@
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B108%5DNarrating_Routines.pdf"
     },
     "kImpact" : [
-      "BK21"
+      "BK21 Conference"
     ],
     "additional" : {
       "AR" : 26.3
@@ -20,6 +20,22 @@
   },
   {
     "index" : 107,
+    "year" : 2024,
+    "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
+    "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
+    "venue" : "JMIR Formative Research.",
+    "kImpact" : [
+      "SCI(E)"
+    ],
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf"
+    },
+    "tags" : [
+      "hai", "vr", "health"
+    ]
+  },
+  {
+    "index" : 106,
     "year" : 2023,
     "title" : "A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
@@ -33,7 +49,7 @@
     ]
     },
   {
-    "index" : 106,
+    "index" : 105,
     "year" : 2023,
     "title" : "Poster: Consistency of Code: A prompt based approach to comprehend functionality.",
     "author" : "Hoyoung Choi, Hyunjae Park, Young-June Choi, Kyungsik Han.",
@@ -43,22 +59,6 @@
     },
     "tags" : [
       "hai", "nlp"
-    ]
-  },
-  {
-    "index" : 105,
-    "year" : 2023,
-    "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
-    "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
-    "venue" : "JMIR Formative Research.",
-    "kImpact" : [
-      "SCI(E)"
-    ],
-    "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf"
-    },
-    "tags" : [
-      "hai", "vr", "health"
     ]
   },
   {
