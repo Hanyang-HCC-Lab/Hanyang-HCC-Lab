@@ -5,7 +5,25 @@ export default {
   data() {
     return {
       news: news,
+      visibleItemCount: 0, // 초기에 보여줄 뉴스 항목의 개수
     };
+  },
+
+  created() {
+    this.setVisibleItemCount();
+  },
+
+  methods: {
+    setVisibleItemCount() {
+      const currentYearNewsCount = this.news.filter(newsItem => {
+        const year = new Date(newsItem.date).getFullYear();
+        return year === 2023 || year === 2024;
+      }).length;
+      this.visibleItemCount = currentYearNewsCount; // 2023년과 2024년 뉴스 항목의 개수를 설정합니다.
+    },
+    showMore() {
+      this.visibleItemCount = this.news.length; // "더보기" 버튼을 클릭하면 모든 뉴스 항목을 보여줍니다.
+    },
   },
 };
 </script>
@@ -227,10 +245,38 @@ export default {
     </h2>
     <div class="mb-5">
       <div class="text-center mb-4"><span class="h3">Recent News</span></div>
-      <div v-for="news in news" :key="news.index" class="item-content mt-3">
+      <!-- <div v-for="news in news" :key="news.index" class="item-content mt-3">
         <span class="h6">[{{ news.date }}]&nbsp;</span>
         <span class="h6" v-html="news.content"></span>
-      </div>
+      </div> -->
+      <div v-for="(newsItem, index) in news.slice(0, visibleItemCount)" :key="newsItem.index" class="item-content mt-3">
+        <span class="h6">[{{ newsItem.date }}]&nbsp;</span>
+        <span class="h6" v-html="newsItem.content"></span>
+    </div>
+    <div v-if="visibleItemCount < news.length" class="text-center mt-4">
+        <button @click="showMore" class="more-button">Previous news (2021-2022)</button> <!-- 버튼에 클래스 추가 -->
+    </div>
+    <!-- <button v-if="visibleItemCount < news.length" @click="showMore" class="h6">Previous news (2021-2022)</button> previous news 버튼 추가 -->
     </div>
   </div>
 </template>
+
+<style>
+.more-button {
+  padding: 7.5px 7.5px;
+  background-color: black; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.more-button:hover {
+  color: black;
+  background-color: #FFC32B; /* 마우스 오버 시 색상 변경 */
+  transform: scale(1.05); /* 버튼을 약간 확대 */
+}
+</style>
