@@ -1,5 +1,18 @@
 [
   {
+    "index" : 109,
+    "year" : 2024,
+    "title" : "An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data.",
+    "author" : "Eunji Kim, Seungwan Jin, Kyungsik Han",
+    "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
+    "kImpact" : [
+      "BK21 Conference"
+    ],
+    "tags" : [
+      "hai", "vr", "health"
+    ]
+  },
+  {
     "index" : 108,
     "year" : 2024,
     "title" : "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals.",
