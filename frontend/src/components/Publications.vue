@@ -87,14 +87,24 @@ export default {
       <span>
               <a
                 type="button"
-                class="mb-1 btn btn-circle btn-dark btn-sm "
+                class="mb-1 btn btn-circle btn-dark btn-sm me-1"
                 href="https://scholar.google.co.kr/citations?hl=en&user=9c9apWIAAAAJ"
                 target="_blank"
                 style="border-radius: 3rem;"
               >
                 <font-awesome-icon icon="fa-solid fa-graduation-cap" size="xs" />
               </a>
-
+      </span>
+      <span>
+              <a
+                type="button"
+                class="mb-1 btn btn-circle btn-dark btn-sm me-1"
+                href="https://www.youtube.com/@hanyanghuman-centeredcomputing"
+                target="_blank"
+                style="border-radius: 3rem;"
+              >
+                <font-awesome-icon icon="fa-solid fa-video" size="xs" />
+              </a>
       </span>
       </div>
     <div class="mb-3" style="width: 100%">
