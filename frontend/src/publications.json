@@ -1,6 +1,6 @@
 [
   {
-    "index" : 109,
+    "index" : 116,
     "year" : 2024,
     "title" : "An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data.",
     "author" : "Eunji Kim, Seungwan Jin, Kyungsik Han",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "index" : 108,
+    "index" : 115,
     "year" : 2024,
     "title" : "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals.",
     "author" : "Bogoan Kim, Dayoung Jeong, Hwajung Hong, Kyungsik Han",
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "index" : 107,
+    "index" : 114,
     "year" : 2024,
     "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
     "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "index" : 106,
+    "index" : 113,
     "year" : 2023,
     "title" : "A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
@@ -62,7 +62,7 @@
     ]
     },
   {
-    "index" : 105,
+    "index" : 112,
     "year" : 2023,
     "title" : "Poster: Consistency of Code: A prompt based approach to comprehend functionality.",
     "author" : "Hoyoung Choi, Hyunjae Park, Young-June Choi, Kyungsik Han.",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "index" : 104,
+    "index" : 111,
     "year" : 2023,
     "title" : "HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System.",
     "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
@@ -94,7 +94,7 @@
     }
   },
   {
-  "index" : 103,
+  "index" : 110,
   "year" : 2023,
   "title" : "V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data.",
   "author" : "Bogoan Kim, Dayoung Jeong, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
@@ -116,7 +116,7 @@
   }
 },
 {
-  "index" : 102,
+  "index" : 109,
   "year" : 2023,
   "title" : "An AI Web-based Interface for Mitigating Political Polarization.",
   "author" : "Jaehoon Kim, Sohyun Park, Kyungsik Han.",
@@ -130,7 +130,7 @@
   }
 },
   {
-  "index" : 101,
+  "index" : 108,
   "year" : 2023,
   "title" : "MAC: Multimodal, Attention-based Cybersickness Prediction Modeling in Virtual Reality.",
   "author" : "Dayoung Jeong, Seungwon Paik, Youngtae Noh, Kyungsik Han.",
@@ -148,7 +148,7 @@
   ]
 },
   {
-  "index" : 100,
+  "index" : 107,
   "year" : 2023,
   "title" : "Adversarial Normalization: I Can visualize Everything (ICE).",
   "author" : "Hoyoung Choi*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
@@ -167,7 +167,7 @@
     "AR" : 25.78
   }
 },{
-  "index" : 99,
+  "index" : 106,
   "year" : 2023,
   "title" : "A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains.",
   "author" : "Taehyung Noh, Haein Yeo, Myungjin Kim, Kyungsik Han.",
@@ -184,7 +184,7 @@
     "fashion"
   ]
 },{
-  "index" : 98,
+  "index" : 105,
   "year" : 2023,
   "title" : "A Study on hate speech in major online communities.",
   "author" : "Jaehoon Kim, Sohyun Park, Kyungsik Han.",
@@ -197,7 +197,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B98%5DHCIK_HateSpeech.pdf"
   }
 },{
-  "index" : 97,
+  "index" : 104,
   "year" : 2023,
   "title" : "A Competition-Aware Approach to Accurate TV Show Recommendation.",
   "author" : "Hong-Kyun Bae, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
@@ -215,7 +215,7 @@
 },
 
   {
-  "index" : 96,
+  "index" : 103,
   "year" : 2023,
   "title" : "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism.",
   "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
@@ -238,7 +238,7 @@
   }
 },
   {
-  "index" : 95,
+  "index" : 102,
   "year" : 2023,
   "title" : "KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction.",
   "author" : "Yunyong Ko, Seongeun Ryu, Soeun Han, Youngseung Jeon, Jaehoon Kim, Sohyun Park, Kyungsik Han, Hanghang Tong, Sang-Wook Kim.",
@@ -259,7 +259,7 @@
   }
 },
 { 
-  "index" : 94,
+  "index" : 101,
   "year" : 2023,
   "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
@@ -277,7 +277,7 @@
     "IEEE" : "https://ieeexplore.ieee.org/document/9996133"
   }
 },{
-  "index" : 93,
+  "index" : 100,
   "year" : 2022,
   "title" : "Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality.",
   "author" : "Dayoung Jeong, Mingon Jeong, Ungyeon Yang, Kyungsik Han.",
@@ -294,7 +294,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B93%5DEyes+on+Me.pdf"
   }
 },{
-  "index" : 92,
+  "index" : 99,
   "year" : 2022,
   "title" : "VISTA: User-centered VR Training System for Effectively Deriving Characteristics of People with Autism Spectrum Disorder.",
   "author" : "Bogoan Kim, Dayoung Jeong, Mingon Jeong, Taehyung Noh, Sung-In Kim, Taewan Kim, So-youn Jang, Hee Jeong Yoo, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
@@ -319,7 +319,7 @@
     "AR" : 24.4
   }
 },{
-  "index" : 91,
+  "index" : 98,
   "year" : 2022,
   "title" : "Poster: Leveraging Multimodal Sensory Information in Cybersickness Prediction.",
   "author" : "Dayoung Jeong, Kyungsik Han.",
@@ -337,7 +337,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565667?casa_token=6NuQ2k1EA7UAAAAA:KTL74dLRlOjvlBdFejoqHvpPklrYU_xIKML19zZQkYHl-6th-GmpyWn7uyTLek4vszYE0HlZBGMTFqM" 
   }
 },{
-  "index" : 90,
+  "index" : 97,
   "year" : 2022,
   "title" : "Social Telecommunication Experience with Full-Body Ownership Humanoid Robot.",
   "author" : "Myeongul Jung, Jejoong Kim, Kyungsik Han, Kwanguk Kim.",
@@ -352,7 +352,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B90%5D+Social_Telecommunication_Experience_with_Full_body_Ownership_humanoid_robot.pdf"
   }
 },{
-  "index" : 89,
+  "index" : 96,
   "year" : 2022,
   "title" : "AI-Augmented Art Psychotherapy through a Hierarchical Co-Attention Mechanism.",
   "author" : "Seungwan Jin, Hoyoung Choi, Kyungsik Han.",
@@ -372,8 +372,20 @@
   "additional" : {
     "AR" : 29.0
   }
-},{
-  "index" : 88,
+},
+{
+  "index" : 95,
+  "year" : 2022,
+  "title" : "Poster: Does It Support Left-Handed Users? Modeling Postures for Both Right- and Left-Handed People in Virtual Reality.",
+  "author" : "Mingon Jeong, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "vr"
+  ]
+},
+{
+  "index" : 94,
   "year" : 2022,
   "title" : "ST-GAT: Spatio-Temporal Graph Attention Network for Traffic Speed Prediction.",
   "author" : "Junho Song, Jiwon Son, Dong-hyuk Seo, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
@@ -393,7 +405,7 @@
     "AR" : 29.0
   }
 },{
-  "index" : 87,
+  "index" : 93,
   "year" : 2022,
   "title" : "A Study on Mobile Game Design to Support Daily Routines of Individuals with Autism.",
   "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.", 
@@ -405,7 +417,7 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B87%5D+KCI_%EC%9E%90%ED%8F%90%EC%A6%9D%EC%9D%B4_%EC%9E%88%EB%8A%94_%EA%B0%9C%EC%9D%B8%EC%9D%98_%EB%8D%B0%EC%9D%BC%EB%A6%AC_%EB%A3%A8%ED%8B%B4_%EC%A7%80%EC%9B%90%EC%9D%84_%EC%9C%84%ED%95%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B2%8C%EC%9E%84.pdf"
 }},{
-  "index" : 86,
+  "index" : 92,
   "year" : 2022,
   "title" : "APOTS: A Model for Adversarial Prediction of Traffic Speed.",
   "author" : "Namhyuk Kim, Junho Song, Siyoung Lee, Jaewon Choe, Kyungsik Han, Sunghwan Park, Sang-Wook Kim.",
@@ -422,7 +434,7 @@
     "IEEE" : "https://ieeexplore.ieee.org/abstract/document/9835704"
   }
 },{
-  "index" : 85,
+  "index" : 91,
   "year" : 2022,
   "title" : "Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health.",
   "author" : "Taewan Kim, Haesoo Kim, Ha Yeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong.",
@@ -444,7 +456,7 @@
     "AR" : 24.7
   }
 },{
-  "index" : 84,
+  "index" : 90,
   "year" : 2022,
   "title" : "\"I Have No Text in My Post”: Using Visual Hints to Model User Emotions in Social Media.",
   "author" : "Junho Song, Kyungsik Han, Sang-Wook Kim. (2022).",
@@ -465,7 +477,7 @@
     "AR" : 17.7
   }
 },{
-  "index" : 83,
+  "index" : 89,
   "year" : 2022,
   "title" : "The Workplace Playbook VR: Exploring the Design Space of Virtual Reality to Foster Understanding and Support of Autistic People in the Workplace.",
   "author" : "Jennifer G. Kim, Taewan Kim, Sung-In Kim, So-Youn Jang, Stephanie Lee, Heejung Yoo, Kyungsik Han, Hwajung Hong.",
@@ -483,7 +495,7 @@
     "health"
   ]
 },{
-  "index" : 82,
+  "index" : 88,
   "year" : 2021,
   "title" : "Adversarial Learning of Balanced Triangles for Accurate Community Detection on Signed Networks.",
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
@@ -503,7 +515,7 @@
     "AR" : 20.0
   }
 },{
-  "index" : 81,
+  "index" : 87,
   "year" : 2021,
   "title" : "A systematic review on fake news research through the lens of news creation and consumption: Research efforts, challenges, and future directions.",
   "author" : "Bogoan Kim, Aiping Xiong, Dongwon Lee, Kyungsik Han.",
@@ -519,7 +531,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B81%5D+PLoSOne_A_Systematic_Review_on_Fake_News_Research_through_the_Lens_of_News_Creation_and_Consumption.pdf"
   }
 },{
-  "index" : 80,
+  "index" : 86,
   "year" : 2021,
   "title" : "The More, The Better? Improving VR Firefighting Training System with Realistic Firefighter Tools as Controllers.",
   "author" : "Seung-Gon Jeon, Seungwon Paik, Ungyeon Yang, Patrick C. Shih, Kyungsik Han.",
@@ -534,8 +546,31 @@
    "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B80%5D+Sensors_The_More_The_Better.pdf"
   }
-},{
-  "index" : 79,
+},
+{
+  "index" : 85,
+  "year" : 2021,
+  "title" : "Fashion Category Detection and Classification with Detectron2 and Fashionpedia.",
+  "author" : "Taehyung Noh, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "fashion"
+  ]
+},
+{
+  "index" : 84,
+  "year" : 2021,
+  "title" : "Multimodal, Deep Learning-based Cybersickness Prediction in Virtual Reality.",
+  "author" : "Dayoung Jeong, Seungwon Paik, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "vr"
+  ]
+},
+{
+  "index" : 83,
   "year" : 2021,
   "title" : "ChamberBreaker: Mitigating Echo Chamber Effect and Supporting Information Hygiene through a Gamified Inoculation System.",
   "author" : "Youngseung Jeon, Bogoan Kim, Aiping Xiong, Dongwon Lee, Kyungsik Han.",
@@ -553,7 +588,7 @@
     "presentation" : "https://youtu.be/GgWCM7BKAOY"
   }
 },{
-  "index" : 78,
+  "index" : 82,
   "year" : 2021,
   "title" : "FashionQ: An AI-Driven Creativity Support Tool for Facilitating Ideation in Fashion Design.",
   "author" : "Youngseung Jeon, Seungwan Jin, Patrick C. Shih, Kyungsik Han.",
@@ -574,7 +609,7 @@
     "AR" : 26.3
   }
 },{
-  "index" : 77,
+  "index" : 81,
   "year" : 2021,
   "title" : "Disentangling the Clinical Data Chaos: User-Centered Interface System Design for Trauma Centers.",
   "author" : "JaeYeon Park, Soyoung Rhim, Kyungsik Han, JeongGil Ko.",
@@ -590,7 +625,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B77%5D+PLoSOne_Disentangling_the_Clinical_Data_Chaos_User_Centered_Interface_System_Design_for_Trauma_Centers.pdf"
   }
 },{
-  "index" : 76,
+  "index" : 80,
   "year" : 2021,
   "title" : "FANCY: Human-centered, Deep Learning-based Framework for Fashion Style Analysis.",
   "author" : "Youngseung Jeon, Seungwan Jin, Kyungsik Han.",
@@ -613,7 +648,7 @@
     "AR" : 20.6
   }
 },{
-  "index" : 75,
+  "index" : 79,
   "year" : 2021,
   "title" : "I Feel More Engaged When I Move!: Deep Learning-based Backward Movement Detection and its Application.",
   "author" : "Seungwon Paik, Youngseung Jeon, Patrick C. Shih, Kyungsik Han.",
@@ -635,7 +670,7 @@
     "AR" : 23.6
   }
 },{
-  "index" : 74,
+  "index" : 78,
   "year" : 2021,
   "title" : "Exploring the Landscape of User Behaviors to Fact-Checking News: Based on Linguistic Characteristics, Cognitive and Emotional Responses, and the Emergence of Controversial Comments.",
   "author" : "Yena Ko, Woojeong Kim, Kyungsik Han, Hwajung Hong.",
@@ -647,8 +682,44 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B74%5D+KCI_%ED%8C%A9%ED%8A%B8%EC%B2%B4%ED%81%AC_%EB%89%B4%EC%8A%A4%EC%97%90_%EB%8C%80%ED%95%9C_%EC%9D%B4%EC%9A%A9%EC%9E%90_%EB%B0%98%EC%9D%91_%EB%B6%84%EC%84%9D.pdf"
   }
-},{
-  "index" : 73,
+},
+{
+  "index" : 77,
+  "year" : 2020,
+  "title" : "News Information Verification System (NIVS) supporting Heuristic Information Processing and Building a Healthy News Diet.",
+  "author" : "Seungwan Jin, Hye Jin Jeon, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "dm",
+    "vr"
+  ]
+},
+{
+  "index" : 76,
+  "year" : 2020,
+  "title" : "A Study on the Text-Based Characteristics of Individuals with Autism Spectrum Disorder through Social Media Data Analysis.",
+  "author" : "Jungwoo Han ,Bogoan Kim, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "health"
+  ]
+},
+{
+  "index" : 75,
+  "year" : 2020,
+  "title" : "A Study on the Development of Decision Making System to Quantify the Analysis of Fashion Style Trends.",
+  "author" : "Jiseok Jang, Youngseung Jeon, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai", 
+    "dm",
+    "vr"
+  ]
+},
+{
+  "index" : 74,
   "year" : 2020,
   "title" : "Poster: I Need to Step Back from It! Modeling Backward Movement from Multimodal Sensors in Virtual Reality.",
   "author" : "Seungwon Paik, Kyungsik Han.",
@@ -663,7 +734,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3415264.3425469"
   }
 },{
-  "index" : 72,
+  "index" : 73,
   "year" : 2020,
   "title" : "PuzzleWalk: A Theory-Driven Iterative Design Inquiry of a Mobile Game for Promoting Physical Activity in Adults with Autism Spectrum Disorder.",
   "author" : "Bogoan Kim, Daehyoung Lee, Aehong Min, Seungwon Paik, Georgia C. Frey, Scott Bellini, Kyungsik Han, Patrick C. Shih.",
@@ -679,7 +750,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B72%5D+PLoSOne_PuzzleWalk.pdf"
   }
 },{
-  "index" :71,
+  "index" :72,
   "year" : 2020,
   "title" : "Usability Assessment of a Mobile Health Intervention for Increasing Physical Activity in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Georgia C. Frey, Aehong Min, Bogoan Kim, Donetta Cothran, Scott Bellini, Kyungsik Han, Patrick C. Shih.",
@@ -695,7 +766,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B71%5D+HIJ_Usability_Assessment_of_a_Mobile_Health_Intervention_for_Increasing_Physical_Activity_in_Adults_with_ASD.pdf"
   }
 },{
-  "index" : 70,
+  "index" : 71,
   "year" : 2020,
   "title" : "ART (Attractive Recommendation Tailor): How the Diversity of Product Recommendations Affects Customer Purchase Preference in Fashion Industry?",
   "author" : "Hyokmin Kwon, Jaeho Han, Kyungsik Han.",
@@ -717,7 +788,7 @@
     "AR" : 26.0
   }
 },{
-  "index" : 69,
+  "index" : 70,
   "year" : 2020,
   "title" : "Do You Really Like Her Post?: Network-Based Analysis for Understanding Like Activities in SNS.",
   "author" : "Junho Song, Hyekyoung Park, Kyungsik Han, Sang-Wook Kim.",
@@ -735,7 +806,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3340531.3412166"
   }
 },{
-  "index" : 68,
+  "index" : 69,
   "year" : 2020,
   "title" : "Investigating Human Factors in VR Control Modality in a FireFighting Training Context.",
   "author" : "Seung Gon Jeon, Seungwon Paik, Ungyeon Yang, Kyungsik Han.",
@@ -748,7 +819,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B68%5D+KCI_%EA%B0%80%EC%83%81_%EC%86%8C%EB%B0%A9_%ED%9B%88%EB%A0%A8%EC%97%90%EC%84%9C_%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC_%EC%96%91%EC%8B%9D%EC%97%90_%EB%94%B0%EB%A5%B8_%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9A%94%EC%9D%B8_%EC%A1%B0%EC%82%AC.pdf"
   }
 },{
-  "index" : 67,
+  "index" : 68,
   "year" : 2020,
   "title" : "Smombie Forecaster: Alerting Smartphone Users of Potential Hazards in their Surroundings.",
   "author" : "Hwarang Goh, Woojeong Kim, Jaeho Han, Kyungsik Han, Youngtae Noh.",
@@ -765,7 +836,7 @@
     "IEEE" : "https://ieeexplore.ieee.org/abstract/document/9170547"
   }
 },{
-  "index" : 66,
+  "index" : 67,
   "year" : 2020,
   "title" : "Modeling Learners’ Programming Skills and Question Levels Through Machine Learning.",
   "author" : "Woojeong Kim, Soyoung Rhim, John Y. J. Choi, Kyungsik Han.",
@@ -778,7 +849,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B66%5D+HCII_Modeling_Learners'_Programming_Skills_and_Question_Levels_through_ML.pdf"
   }
 },{
-  "index" : 65,
+  "index" : 66,
   "year" : 2020,
   "title" : "ASiNE: Adversarial Signed Network Embedding.",
   "author" : "Yeon-Chang Lee, Nayoun Seo, Kyungsik Han, Sang-Wook Kim.",
@@ -798,7 +869,7 @@
     "AR" : 24.0
   }
 },{
-  "index" : 64,
+  "index" : 65,
   "year" : 2020,
   "title" : "Messaging Beyond Texts with Real-time Image Suggestions.",
   "author" : "Joon-gyum Kim, Taesik Gong, Kyungsik Han, Juho Kim, JeongGil Ko, Sung-Ju Lee.",
@@ -813,7 +884,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3379503.3403553"
   }
 },{
-  "index" : 63,
+  "index" : 64,
   "year" : 2020,
   "title" : "Better Targeting of Consumers: Modeling Multifactorial Gender and Biological Sex from Instagram Posts.",
   "author" : "Youngseung Jeon, Seung-Gon Jeon, Kyungsik Han.",
@@ -830,7 +901,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B63%5D+UMUAI_Better_Targeting_of_Consumers.pdf"
   }
 },{
-  "index" : 62,
+  "index" : 63,
   "year" : 2020,
   "title" : "Objectively Measured Physical Activity and Sedentary Time in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Patrick C. Shih, Bogoan Kim, Kyungsik Han, Aehong Min, Donetta Cothran, Scott Bellini, Georgia C. Frey.",
@@ -846,7 +917,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B62%5D+MSSE_Objectively_Measured_Physical_Acitivity_and_Sedentary_Time_in_ASD.pdf"
   }
 },{
-  "index" : 61,
+  "index" : 62,
   "year" : 2020,
   "title" : "Tracking and Modeling Subjective Well-Being Using Smartphone-Based Digital Phenotype.",
   "author" : "Soyoung Rhim, Uichin Lee, Kyungsik Han.",
@@ -865,7 +936,7 @@
     "AR" : 23.0
   } 
 },{
-  "index" : 60,
+  "index" : 61,
   "year" : 2020,
   "title" : "Ecological Momentary Assessment of Physical Activity, Sedentary Time and Anxiety in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Donetta Cothran, Scott Bellini, Patrick C. Shih, Kyungsik Han, Bogoan Kim, Aehong Min, Seungwon Paik, Georgia C. Frey.", 
@@ -878,7 +949,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B60%5D+INSAR20_EMA_for_Autism.pdf"
   }
 },{
-  "index" : 59,
+  "index" : 60,
   "year" : 2020,
   "title" : "FashionQ: An Interactive Tool for Analyzing Fashion Style Trend with Quantitative Criteria.",
   "author" : "Youngseung Jeon, Seungwan Jin, Bogoan Kim, Kyungsik Han.",
@@ -898,7 +969,7 @@
     "AR" : 41.0
   }
 },{
-  "index" : 58,
+  "index" : 59,
   "year" : 2020,
   "title" : "Toward Future-Centric Personal Informatics: Expecting Stressful Events and Preparing Personalized Interventions in Stress Management.",
   "author" : "Kwangyoung Lee, Hyewon Cho, Kobiljon Toshnazarov, Nematjon Narziev, So Young Rhim, Kyungsik Han, YoungTae Noh, Hwajung Hong.",
@@ -919,7 +990,7 @@
     "AR" : 24.0
   }
 },{
-  "index" : 57,
+  "index" : 58,
   "year" : 2020,
   "title" : "Understanding Emotions in SNS Images From Posters' Perspectives.",
   "author" : "Junho Song, Kyungsik Han, Dongwon Lee, Sang-Wook Kim.",
@@ -937,7 +1008,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3341105.3373923"
   }
 },{
-  "index" : 56,
+  "index" : 57,
   "year" : 2019,
   "title" : "No More One Liners: Bringing Context into Emoji Recommendations.",
   "author" : "Joon-Gyum Kim, Taesik Gong, Bogoan Kim, JaeYeon Park, Woojeong Kim, Evey Huang, Kyungsik Han, Juho Kim, JeongGil Ko, Sung-Ju Lee.",
@@ -951,7 +1022,19 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B56%5D+TSC'19+-+No+More+One+Liners.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3373146"
   }
-},{
+},
+{
+  "index" : 56,
+  "year" : 2019,
+  "title" : "Poster: Iterative Design and Usability of Gamified Application for Adults with ASD.",
+  "author" : "Seungwon Paik, Bogoan Kim, Kyungsik Han.",
+  "venue" : "The International Conference on Next Generation Computing (ICNGC).",
+  "tags" : [
+    "hai",
+    "health"
+  ]
+},
+{
   "index" : 55,
   "year" : 2019,
   "title" : "Being More Focused and Engaged in Firefighting Training: Applying User-Centered Design to VR System Development.",
