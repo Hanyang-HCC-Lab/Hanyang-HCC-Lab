@@ -563,6 +563,47 @@
     </div> -->
     <!-- End Undergraduate Students Tap -->
 
+    <!-- Start Staff Tap -->
+    <div class="container mt-5" style="width: 50%">
+      <div class="row-cols-2">
+        <span style="letter-spacing: normal"
+          ><span style="font-size: 1.5rem">Administrative Staff</span></span
+        >
+      </div>
+      <div class="row row-cols-10">
+  
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%B3%E1%86%AB+%E1%84%89%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A2%E1%86%BC%E1%84%82%E1%85%B5%E1%86%B7.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Jieun Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김지은</p>
+          </div>
+            <!-- Start Personal Link -->
+            <div class="mt-1">
+              <a
+                type="button"
+                class="btn btn-circle btn-dark"
+                href="mailto: jieunkim1835@gmail.com"
+                target="_blank"
+              >
+                <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+              >&nbsp;
+            </div>
+            <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+
+      </div>
+    </div>
+    <!-- End Staff Tap -->
+
     <!-- Start Graduated Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
@@ -573,7 +614,7 @@
       </div>
       <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024
+          <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as a AI Engineer)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Hoyoung Choi</span> &nbsp;|&nbsp; MS 2024 and undergraduate researcher
@@ -583,13 +624,15 @@
           and undergraduate researcher (Currently @ LG Electronics)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name"
-            ><a
+          <span class="alumni_name">
+            Youngseung Jeon
+            <!-- <a
               class="alumni_link"
               href="https://sites.google.com/view/youngseung-jeon"
               target="_blank"
               >Youngseung Jeon</a
-            ></span
+            > -->
+            </span
           >&nbsp;|&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD
           Student)
         </p>
@@ -603,12 +646,11 @@
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Jisu Yu</span> &nbsp;|&nbsp;MS 2021
-          (Currently @ FiscalNote)
+          (Currently @ M3SEN)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
-          and undergraduate researcher (Currently @ Teneleven (Military
-          Service))
+          and undergraduate researcher 
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and
