@@ -1,5 +1,21 @@
 [
   {
+    "index" : 117,
+    "year" : 2024,
+    "title" : "PRECYSE: Predicting Cybersickness using Transformer for Multimodal Time-Series Sensor Data.",
+    "author" : "Dayoung Jeong and Kyungsik Han.",
+    "venue" : "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT).",
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B117%5DPRECYSE.pdf"
+    },
+    "kImpact" : [
+    "BK21 Conference"
+    ],
+    "tags" : [
+    "hai", "vr", "dm"
+    ]
+  },
+  {
     "index" : 116,
     "year" : 2024,
     "title" : "An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data.",
