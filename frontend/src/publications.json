@@ -1,5 +1,21 @@
 [
   {
+    "index" : 118,
+    "year" : 2024,
+    "title" : "The hatred of all against all? Evidence from online community platforms in South Korea.",
+    "author" : "Jeong-Woo Koo, Chan S. Suh, Jin Won Chung, Kyung-Ah Sohn, Kyungsik Han.",
+    "venue" : "PloS one.",
+    "link" : {
+      "paper" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530"
+    },
+    "kImpact" : [
+    "BK21 Conference"
+    ],
+    "tags" : [
+    "hai", "social"
+    ]
+  },
+  {
     "index" : 117,
     "year" : 2024,
     "title" : "PRECYSE: Predicting Cybersickness using Transformer for Multimodal Time-Series Sensor Data.",

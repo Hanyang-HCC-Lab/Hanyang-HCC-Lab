@@ -1,5 +1,15 @@
 [
     {
+    "index" : 44,
+    "date" : "May. 2024",
+    "content" : "Our paper <i>\"The hatred of all against all? Evidence from online community platforms in South Korea\"</i> has been accepted to PloS one."
+    },
+    {
+    "index" : 43,
+    "date" : "Apr. 2024",
+    "content" : "Our paper <i>\"PRECYSE: Predicting Cybersickness using Transformer for Multimodal Time-Series Sensor Data\"</i> has been accepted to IMWUT (UbiComp 2024)."
+    },
+    {
     "index" : 42,
     "date" : "Mar. 2024",
     "content" : "Our paper <i>\"An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data\"</i> has been accepted to CSCW 2024."
@@ -143,7 +153,7 @@
 },{
     "index" : 12,
     "date" :"Feb. 2022",
-    "content" : "Seungwon has successfully defended his thesis and will be joining LG Electronics as a researcher. Congratulations!"
+    "content" : "Seungwon has successfully defended his thesis and will be joining LG Electronics as a AI researcher. Congratulations!"
 },{
     "index" : 11,
     "date" : "Jan. 2022",
