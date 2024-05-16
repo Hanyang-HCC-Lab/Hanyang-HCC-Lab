@@ -1,5 +1,10 @@
 [
     {
+    "index" : 45,
+    "date" : "May. 2024",
+    "content" : "Our paper <i>\"Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection\"</i> has been accepted to ACL 2024."
+    },
+    {
     "index" : 44,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"The hatred of all against all? Evidence from online community platforms in South Korea\"</i> has been accepted to PloS one."
