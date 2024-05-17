@@ -18,6 +18,9 @@
     "title" : "The hatred of all against all? Evidence from online community platforms in South Korea.",
     "author" : "Jeong-Woo Koo, Chan S. Suh, Jin Won Chung, Kyung-Ah Sohn, Kyungsik Han.",
     "venue" : "PloS one.",
+    "kImpact" : [
+      "SCI(E)"
+    ],
     "link" : {
       "paper" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530"
     },
@@ -32,7 +35,8 @@
     "author" : "Dayoung Jeong and Kyungsik Han.",
     "venue" : "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT).",
     "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B117%5DPRECYSE.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B117%5DPRECYSE.pdf",
+      "ACM" : "https://dl.acm.org/doi/10.1145/3659594"
     },
     "kImpact" : [
     "BK21 Conference"
@@ -62,7 +66,7 @@
     "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B108%5DNarrating_Routines.pdf",
-      "presentation" : "https://youtu.be/cuwkBHdsna8"
+      "presentation" : "https://youtu.be/DhuRw9zGIiY?si=1f8RlUF5wJJZPaMh"
     },
     "kImpact" : [
       "BK21 Conference"
