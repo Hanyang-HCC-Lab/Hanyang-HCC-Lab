@@ -22,7 +22,8 @@
       "SCI(E)"
     ],
     "link" : {
-      "paper" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0300530"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B118%5DThe_hatred_of_all_against_all.pdf",
+      "DOI" : "https://doi.org/10.1371/journal.pone.0300530"
     },
     "tags" : [
     "hai", "social"
@@ -66,7 +67,9 @@
     "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B108%5DNarrating_Routines.pdf",
-      "presentation" : "https://youtu.be/DhuRw9zGIiY?si=1f8RlUF5wJJZPaMh"
+      "presentation" : "https://youtu.be/DhuRw9zGIiY?si=1f8RlUF5wJJZPaMh",
+      "demo" : "https://www.youtube.com/watch?v=Eln3-DpU0pA",
+      "ACM" : "https://dl.acm.org/doi/10.1145/3613904.3642357"
     },
     "kImpact" : [
       "BK21 Conference"
@@ -88,7 +91,9 @@
       "SCI(E)"
     ],
     "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf",
+      "DOI" : "https://doi.org/10.2196/52157",
+      "demo" : "https://www.youtube.com/watch?v=KkZDhsB2Ze0"
     },
     "tags" : [
       "hai", "vr", "health"
@@ -184,7 +189,8 @@
     "SCI(E)"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B101%5DMAC.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B101%5DMAC.pdf",
+    "DOI" : "https://doi.org/10.1007/s10055-023-00804-0"
   },
   "tags" : [
     "hai",
@@ -573,7 +579,8 @@
     "social"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B81%5D+PLoSOne_A_Systematic_Review_on_Fake_News_Research_through_the_Lens_of_News_Creation_and_Consumption.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B81%5D+PLoSOne_A_Systematic_Review_on_Fake_News_Research_through_the_Lens_of_News_Creation_and_Consumption.pdf",
+    "DOI" : "https://doi.org/10.1371/journal.pone.0260080" 
   }
 },{
   "index" : 86,
