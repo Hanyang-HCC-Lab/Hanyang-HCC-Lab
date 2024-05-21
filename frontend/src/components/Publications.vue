@@ -348,6 +348,15 @@ export default {
                 ></span
               >
 
+              <span class="h7" v-if="paper.link.DOI"
+                ><a
+                  :href="paper.link.DOI"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[DOI]</a
+                ></span
+              >
+
               <span class="h7" v-if="paper.link.IEEE"
                 ><a
                   :href="paper.link.IEEE"
