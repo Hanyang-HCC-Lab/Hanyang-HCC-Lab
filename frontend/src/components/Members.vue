@@ -548,8 +548,9 @@
     </div>
     <!-- End MS Students Tap -->
 
-    <!-- Start Research Interns Tap -->
-    <!-- <div class="container mt-5" style="width: 50%">
+
+   <!-- Start Staff Tap -->
+   <div class="container mt-5" style="width: 50%">
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Research Interns</span></span
@@ -557,11 +558,45 @@
       </div>
       <div class="row row-cols-10">
   
-        memeber card
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Beejin Son
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">손비진</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: bijin1111@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <!-- <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yoonseon_Choi.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a> -->
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
 
       </div>
-    </div> -->
-    <!-- End Undergraduate Students Tap -->
+    </div>
+    <!-- Research Interns Tap -->
 
     <!-- Start Staff Tap -->
     <div class="container mt-5" style="width: 50%">
@@ -614,14 +649,14 @@
       </div>
       <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as a AI Engineer)
+          <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Hoyoung Choi</span> &nbsp;|&nbsp; MS 2024 and undergraduate researcher
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seungwon Paik</span> &nbsp;|&nbsp; MS 2022
-          and undergraduate researcher (Currently @ LG Electronics)
+          and undergraduate researcher (Currently @ LG Electronics as an AI Researcher)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">
@@ -650,7 +685,8 @@
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
-          and undergraduate researcher 
+          and undergraduate researcher (Currently @ Korea University as a PhD
+          Student)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and
