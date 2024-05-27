@@ -553,7 +553,7 @@
    <div class="container mt-5" style="width: 50%">
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">Research Interns</span></span
+          ><span style="font-size: 1.5rem">Undergraduate Students</span></span
         >
       </div>
       <div class="row row-cols-10">
@@ -683,10 +683,14 @@
           <span class="alumni_name">Jisu Yu</span> &nbsp;|&nbsp;MS 2021
           (Currently @ M3SEN)
         </p>
-        <p style="font-size: 0.9rem; margin: 0">
+        <!-- <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
           and undergraduate researcher (Currently @ Korea University as a PhD
           Student)
+        </p> -->
+        <p style="font-size: 0.9rem; margin: 0">
+          <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
+          and undergraduate researcher (Military Service)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and
