@@ -1,5 +1,10 @@
 [
     {
+    "index" : 46,
+    "date" : "Jun. 2024",
+    "content" : "Beejin will join our lab as a research intern."
+    },
+    {
     "index" : 45,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection\"</i> has been accepted to ACL 2024."
