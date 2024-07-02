@@ -1,4 +1,18 @@
-[ {
+[ 
+{
+  "index" : 41,
+  "year" : 2024,
+  "title" : "Poster: 장기 시계열 예측 모델을 활용한 가상현실에서의 사이버멀미 선제적 예측.",
+  "author" : "최윤선, 정다영, 김보관, 한경식.",
+  "venue" : "한국소프트웨어종합학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-41%5Dcybersickness.pdf"
+  },
+  "tags" : [
+    "hai", "vr"
+  ]
+},
+{
   "index" : 40,
   "year" : 2024,
   "title" : "온라인 커뮤니티의 혐오 표현 양상: 19대 대통령 선거와 20대 대통령 선거를 기반으로.",
