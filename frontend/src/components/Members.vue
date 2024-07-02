@@ -581,14 +581,14 @@
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
             >&nbsp;
-            <!-- <a
+            <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yoonseon_Choi.pdf"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Beejin_Son.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
+            </a>
           </div>
           <!-- End Personal Link -->
         </div>
@@ -606,6 +606,7 @@
               Minchae Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김민채</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -642,6 +643,7 @@
               Hyunji Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김현지</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -678,6 +680,7 @@
               Jibin Hwang
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">황지빈</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
