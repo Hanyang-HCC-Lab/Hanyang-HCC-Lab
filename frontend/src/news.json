@@ -1,8 +1,12 @@
-[
+[   {
+    "index" : 48,
+    "date" : "Jul. 2024",
+    "content" : "Our paper <i>\"Integration of Global and Local Representations for Fine-grained Cross-modal Alignment\"</i> has been accepted to ECCV 2024."
+    },
     {
     "index" : 47,
     "date" : "Jul. 2024",
-    "content" : "Our paper <i>\"Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data\"</i> has been accepted to IMWUT (UbiComp 2024)."
+    "content" : "Our paper <i>\"Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data\"</i> has been accepted to UbiComp 2024."
     },
     {
     "index" : 46,
