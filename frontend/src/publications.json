@@ -1,4 +1,18 @@
-[{
+[
+  {
+    "index" : 122,
+    "year" : 2024,
+    "title" : "Poster: Exploring the Impact of AI-Generated Images on Political News Perception and Understanding.",
+    "author" : "Sohyun Park, Someen Park, Jaehoon Kim, Kyungsik Han.",
+    "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
+    "kImpact" : [
+      "BK21 Conference"
+    ],
+    "tags" : [
+      "hai", "social", "cv"
+    ]
+  },
+  {
   "index" : 121,
   "year" : 2024,
   "title" : "Integration of Global and Local Representations for Fine-grained Cross-modal Alignment.",
