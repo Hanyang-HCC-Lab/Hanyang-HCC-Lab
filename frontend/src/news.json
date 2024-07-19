@@ -1,227 +1,265 @@
-[   {
-    "index" : 48,
+[   
+{
+    "index" : 53,
     "date" : "Jul. 2024",
     "content" : "Our paper <i>\"Integration of Global and Local Representations for Fine-grained Cross-modal Alignment\"</i> has been accepted to ECCV 2024."
-    },
-    {
-    "index" : 47,
+},
+{
+    "index" : 52,
     "date" : "Jul. 2024",
     "content" : "Our paper <i>\"Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data\"</i> has been accepted to UbiComp 2024."
-    },
-    {
-    "index" : 46,
+},
+{
+    "index" : 51,
     "date" : "Jun. 2024",
     "content" : "Beejin will join our lab as a research intern."
-    },
-    {
-    "index" : 45,
+},
+{
+    "index" : 50,
+    "date" : "Jun. 2024",
+    "content" : "Jaehoon has been selected for the NRF Korea Ph.D. Fellowship (2024-2026) with the proposal titled <i>\"A Research on Development of Implicit Hate Speech Detection Model-based AI Interface System for Improving Awareness of Hate Speech\"</i>."
+},
+{
+    "index" : 49,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection\"</i> has been accepted to ACL 2024."
-    },
-    {
-    "index" : 44,
+},
+{
+    "index" : 48,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"The hatred of all against all? Evidence from online community platforms in South Korea\"</i> has been accepted to PloS one."
-    },
-    {
-    "index" : 43,
+},
+{
+    "index" : 47,
     "date" : "Apr. 2024",
     "content" : "Our paper <i>\"PRECYSE: Predicting Cybersickness using Transformer for Multimodal Time-Series Sensor Data\"</i> has been accepted to IMWUT (UbiComp 2024)."
-    },
-    {
-    "index" : 42,
+},
+{
+    "index" : 46,
     "date" : "Mar. 2024",
     "content" : "Our paper <i>\"An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data\"</i> has been accepted to CSCW 2024."
-    },
-    {
-    "index" : 41,
+},
+{
+    "index" : 45,
     "date" : "Mar. 2024",
     "content" : "Sohyun and Yoonseon will join our lab as master students."
-    }, 
-    {
-    "index" : 40,
+}, 
+{
+    "index" : 44,
     "date" : "Feb. 2024",
     "content" : "Hoyoung and Eunji graduated with their masters degree."
-    }, 
-    {
-    "index" : 39,
+}, 
+{
+    "index" : 43,
     "date" : "Jan. 2024",
     "content" : "Our paper <i>\"Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals\"</i> has been accepted to CHI 2024."
-    }, 
-    {
-    "index" : 38,
+}, 
+{
+    "index" : 42,
     "date" : "Dec. 2023",
     "content" : "Our paper <i>\"A Study on the Importance of Multimodal Sensor Data in Virtual Reality\"</i> has been accepted to ICNGC 2023."
-    }, 
-    {
-    "index" : 37,
+}, 
+{
+    "index" : 41,
     "date" : "Nov. 2023",
     "content" : "Our paper <i>\"Consistency of Code: A prompt based approach to comprehend functionality\"</i> has been accepted to APSEC 2023."
-    }, 
-    {
-    "index" : 36,
+}, 
+{
+    "index" : 40,
     "date" : "Nov. 2023",
     "content" : "Our paper <i>\"Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study\"</i> has been accepted to JMIR Formative Research."
-    }, 
-    {
-    "index" : 35,
+}, 
+{
+    "index" : 39,
     "date" : "Oct. 2023",
     "content" : "Yoonseon will join our lab as a research intern."
 },
-    {
-    "index" : 34,
+{
+    "index" : 38,
     "date" : "Sep. 2023",
     "content" : "Our paper <i>\"HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System\"</i> has been accepted to CSCW 2024."
-    },
-    {
-    "index" : 33,
+},
+{
+    "index" : 37,
+    "date" : "Aug. 2023",
+    "content" : "Bogoan has been selected for the NRF Korea Ph.D. Fellowship (2023-2025) with the proposal titled <i>\"A Research on Development of AI+VR-based QoLT (Quality of Life Technology) Systems for Social Independence of Individuals with Autism Spectrum Disorder\"</i>."
+},
+{
+    "index" : 36,
     "date" : "Aug. 2023",
     "content" : "Our paper <i>\"V-DAT (Virtual Reality Data Analysis Tool): Supporting Self-Awareness for Autistic People from Multimodal VR Sensor Data\"</i> has been accepted to UIST 2023."
 },
 {
-    "index" : 32,
+    "index" : 35,
     "date" : "Jun. 2023",
     "content" : "Our paper <i>\"An AI Web-based Interface for Mitigating Political Polarization\"</i> has been accepted to Journal of KIISE."
 },
-    {
-    "index" : 31,
+{
+    "index" : 34,
     "date" : "May. 2023",
     "content" : "Our paper <i>\"MAC: Multimodal, Attention-based Cybersickness Prediction Modeling in Virtual Reality\"</i> has been accepted to Springer Virtual Reality."
 },
-    {
-    "index" : 30,
+{
+    "index" : 33,
     "date" : "Mar. 2023",
     "content" : "Misun and Someen will join our lab as master students."
 },
-    {
-    "index" : 29,
+{
+    "index" : 32,
     "date" : "Feb. 2023",
     "content" : "Our paper <i>\"Adversarial Normalization: I Can visualize Everything (ICE)\"</i> has been accepted to CVPR 2023."
 },
 {
-    "index" : 28,
+    "index" : 31,
     "date" : "Feb. 2023",
     "content" : "Our paper <i>\"A Study on hate speech in major online communities\"</i> has been accepted to Journal of the HCI Society of Korea."
 },
 {
-    "index" : 27,
+    "index" : 30,
     "date" : "Feb. 2023",
     "content" : "Our paper <i>\"A Competition-Aware Approach to Accurate TV Show Recommendation\"</i> has been accepted to ICDE 2023."
 },
-    {
-    "index" : 26,
+{
+    "index" : 29,
     "date" : "Feb. 2023",
     "content" : "Our two papers <i>\"RoutineAid : Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism\"</i> and <i>\"A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains.\"</i> have been accepted to CHI 2023."
 },
-        {
-    "index" : 25,
+{
+    "index" : 28,
     "date" : "Jan. 2023",
     "content" : "Our paper <i>\"KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction\"</i> has been accepted to WWW 2023."
 },
 {
-    "index" : 24,
+    "index" : 27,
     "date" : "Jan. 2023",
     "content" : "Misun and Someen will join our lab as research interns."
 },
 {
-    "index" : 23,
+    "index" : 26,
     "date" : "Dec. 2022",
     "content" : "Our paper <i>\"Eyes on Me: Investigating the Role and Influence of Eye-tracking Data on User Modeling in Virtual Reality\"</i> has been accepted to PloS One."
 },
-    {
-    "index" : 22,
+{
+    "index" : 25,
     "date" : "Oct. 2022",
     "content" : "Our two papers <i>\"VISTA: User-centered VR Training System for Effectively Deriving Characteristics of People with Autism Spectrum Disorder\"</i> and <i>\"Poster: Leveraging multimodal sensory information in cybersickness prediction\"</i> have been accepted to VRST 2022."
-},{
-    "index" : 21,
+},
+{
+    "index" : 24,
     "date" : "Sep. 2022",
     "content" : "Our paper <i>\"Social Telecommunication Experience with Full-Body Ownership Humanoid Robot\"</i> has been accepted to International Journal of Social Robotics." 
-},{
-    "index" : 20,
+},
+{
+    "index" : 23,
     "date" : "Sep. 2022",
     "content" : "Haein will join our lab as a Ph.D student (MS & Ph.D Integrated Course), and Myungjin will join as a master student."
-},{
-    "index" : 19,
+},
+{
+    "index" : 22,
     "date" :"Aug. 2022",
     "content" : "Our two papers <i>\"AI-Augmented Art Psychotherapy through a Hierarchical Co-Attention Mechanism\"</i> and <i>\"ST-GAT: Spatio-Temporal Graph Attention Network for Traffic Speed Prediction<i>\" have been accepted to CIKM 2022."
 },
 {
-    "index" : 18,
+    "index" : 21,
     "date" :"Aug. 2022",
     "content" : "Youngseung will be continuing his research as a Ph.D student at the department of Electrical and Computer Engineering, UCLA. He will be advised by Professor Xiang Chen. Wish you all the best!"
-},{
-    "index" : 17,
+},
+{
+    "index" : 20,
     "date" : "July 2022",
     "content" :"Our paper <i>\"APOTS: A Framework for Adversarial Prediction of Traffic Speed\"</i> has been accepted to ICDE 2022."
-},{
-    "index" : 16,
+},
+{
+    "index" : 19,
     "date" : "May. 2022",
     "content" : "Myungjin will join our lab as a research intern."
-},{
-    "index" : 15,
+},
+{
+    "index" : 18,
     "date" : "Mar. 2022",
     "content" : "Haein will join our lab as a research intern."
-},{
-    "index" : 14,
+},
+{
+    "index" : 17,
     "date" : "Mar. 2022",
     "content" : "Dayoung and Taehyung will join our lab as Ph.D students (MS & Ph.D Integrated Course), Dasom will join as Ph.D student, and and Mingon, Hoyoung, Jaehoon, Eunji will join as master students."
-},{
-    "index" : 13,
+},
+{
+    "index" : 16,
     "date" :"Feb. 2022",
     "content" : "Our paper <i>\"Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health\"</i> has been accepted to CHI 2022."
-},{
-    "index" : 12,
+},
+{
+    "index" : 15,
     "date" :"Feb. 2022",
     "content" : "Seungwon has successfully defended his thesis and will be joining LG Electronics as a AI researcher. Congratulations!"
-},{
-    "index" : 11,
+},
+{
+    "index" : 14,
     "date" : "Jan. 2022",
     "content" : "Eunji will join our lab as a research intern."
-},{
-    "index" : 10,
+},
+{
+    "index" : 13,
     "date" : "Dec. 2021",
     "content" : "Jaehoon will join our lab as a research intern."
-},{
-    "index" : 11,
+},
+{
+    "index" : 12,
     "date" :"Nov. 2021",
     "content" :"Our paper <i>\"'I Have No Text in My Post': Using Visual Hints to Model User Emotions in Social Media\"</i> has been accepted to WWW 2022."
-},{
-    "index" : 10,
+},
+{
+    "index" : 11,
     "date" :"Nov. 2021",
     "content" :"Our paper <i>\"The Workplace Playbook VR: Exploring the Design Space of Virtual Reality to Foster Understanding and Support of Autistic People in the Workplace\"</i> has been accepted to CSCW 2022."
-},{
-    "index" : 9,
+},
+{
+    "index" : 10,
     "date" : "Oct. 2021",
     "content" : "Our paper <i>\"Adversarial Learning of Balanced Triangles for Accurate Community Detection on Signed Networks\"</i> has been accepted to ICDM 2022."
-},{
-    "index" : 8,
+},
+{
+    "index" : 9,
     "date" : "Sep. 2021",
     "content" : "Our paper <i>\"A systematic review on fake news research through the lens of news creation and consumption: Research efforts, challenges, and future directions\"</i> has been accepted to PloS One."
-},{
-    "index" : 7,
+},
+{
+    "index" : 8,
     "date" : "Sep. 2021",
     "content" : "Our paper <i>\"The More, The Better? Improving VR Firefighting Training System with Realistic Firefighter Tools as Controllers\"</i> has been accepted to Sensors."
-},{
+},
+{
+    "index" : 7,
+    "date" : "Sep. 2021",
+    "content" : "Seungwan has been selected for the NRF Korea Ph.D. Fellowship (2021-2023) with the proposal titled <i>\"Research on Supporting Art Psychotherapy through Augmented Artificial Intelligence (AAAI)\"</i>."
+},
+{
     "index" : 6,
     "date" : "Aug. 2021",
     "content" : "Our paper <i>\"ChamberBreaker: Mitigating Echo Chamber Effect and Supporting Information Hygiene through a Gamified Inoculation System\"</i> has been accepted to CSCW 2022."
-},{
+},
+{
     "index" : 5,
     "date" : "Aug. 2021",
     "content" : "Youngseung will join our lab as a researcher."
-},{
+},
+{
     "index" : 4,
     "date" : "Aug. 2021",
     "content" : "Taehyoung, Hoyoung, and Sohyun will join our lab as undergraduate intern."
-},{
+},
+{
     "index" : 3,
     "date" : "Aug. 2021",
     "content" : "Dayoung and Mingon will join our lab as research interns."
-},{
+},
+{
     "index" : 2,
     "date" : "Aug. 2021",
     "content" : "Bogoan, Seungwan will continue their research in Human-Centered Computing Lab as Ph.D students at Hanyang University starting Fall 2021."
-},{
+},
+{
     "index" : 1,
     "date" : "Aug. 2021",
     "content" : "Our lab has moved from Ajou university to Hanyang University."
