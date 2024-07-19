@@ -70,6 +70,7 @@
               Bogoan Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김보관</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(NRF Korea Ph.D. Fellowship, 2023-2025)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -105,6 +106,7 @@
               Seungwan Jin
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">진승완</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(NRF Korea Ph.D. Fellowship, 2021-2023)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -223,6 +225,7 @@
               Jaehoon Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김재훈</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(NRF Korea Ph.D. Fellowship, 2024-2026)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -606,7 +609,7 @@
               Minchae Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김민채</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -643,7 +646,7 @@
               Hyunji Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김현지</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
@@ -680,7 +683,7 @@
               Jibin Hwang
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">황지빈</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;">(Co-advised by Prof. Hyungsook Kim)</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
