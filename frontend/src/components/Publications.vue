@@ -366,6 +366,15 @@ export default {
                 ></span
               >
 
+              <span class="h7" v-if="paper.link.ACL"
+                ><a
+                  :href="paper.link.ACL"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[ACL Anthology]</a
+                ></span
+              >
+
               <span class="h7" v-if="paper.link.slide"
                 ><a
                   :href="paper.link.slide"
