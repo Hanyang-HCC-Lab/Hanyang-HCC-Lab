@@ -1,5 +1,18 @@
 [
   {
+    "index" : 123,
+    "year" : 2024,
+    "title" : "CoCoStyle: Mixed Initiative Co-creative System to Support Creative Process of Fashion Design.",
+    "author" : "Myungjin kim, Misun Joo, Kyungsik Han.",
+    "venue" : "Elsevier SoftwareX.",
+    "kImpact" : [
+        "SCI(E)"
+    ],
+    "tags" : [
+      "hai", "fashion"
+    ]
+  },
+  {
     "index" : 122,
     "year" : 2024,
     "title" : "Poster: Exploring the Impact of AI-Generated Images on Political News Perception and Understanding.",
