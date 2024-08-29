@@ -487,6 +487,7 @@
               Sohyun Park
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">박소현</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(NRF Korea Master's Fellowship, 2024-2025)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
