@@ -805,7 +805,7 @@
         </p> -->
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
-          and undergraduate researcher (Military Service)
+          and undergraduate researcher (Researcher @ Korea Univ.)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and

@@ -3,11 +3,15 @@
     "index" : 123,
     "year" : 2024,
     "title" : "CoCoStyle: Mixed Initiative Co-creative System to Support Creative Process of Fashion Design.",
-    "author" : "Myungjin kim, Misun Joo, Kyungsik Han.",
+    "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
     "venue" : "Elsevier SoftwareX.",
     "kImpact" : [
         "SCI(E)"
     ],
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DCoCoStyle.pdf",
+      "DOI" : "https://www.sciencedirect.com/science/article/pii/S2352711024002279"
+    },
     "tags" : [
       "hai", "fashion"
     ]
