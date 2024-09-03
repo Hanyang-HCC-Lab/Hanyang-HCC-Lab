@@ -1,5 +1,15 @@
 [
   {
+    "index" : 124,
+    "year" : 2024,
+    "title" : "CoCoStyle: Reflecting subjectivity of style to support decision making process for fashion designers.",
+    "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
+    "venue" : "Journal of the HCI Society of Korea.",
+    "tags" : [
+      "hai", "fashion"
+    ]
+  },
+  {
     "index" : 123,
     "year" : 2024,
     "title" : "CoCoStyle: Mixed Initiative Co-creative System to Support Creative Process of Fashion Design.",
