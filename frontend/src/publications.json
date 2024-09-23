@@ -1,8 +1,21 @@
 [
+{
+    "index" : 125,
+    "year" : 2024,
+    "title" : "PREDICT: Multi-Agent-based Debate Simulation for Generalized Hate Speech Detection.",
+    "author" : "Someen Park, Jaehoon Kim, Seungwan Jin, Sohyun Park, Kyungsik Han.",
+    "venue" : "Conference on Empirical Methods in Natural Language Processing (EMNLP).",
+    "kImpact" : [
+      "BK21 Conference"
+    ],
+    "tags" : [
+      "hai", "social", "nlp"
+    ]
+},
   {
     "index" : 124,
     "year" : 2024,
-    "title" : "CoCoStyle: Reflecting subjectivity of style to support decision making process for fashion designers.",
+    "title" : "Reflecting subjectivity of style to support decision making process for fashion designers.",
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
     "venue" : "Journal of the HCI Society of Korea.",
     "tags" : [
