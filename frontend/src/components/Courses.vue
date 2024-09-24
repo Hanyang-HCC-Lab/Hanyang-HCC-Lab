@@ -6,6 +6,14 @@
       <span style="font-size: 1.75rem; font-weight: bold">2024</span>
       <div class="item-content mt-3">
 
+        <span class="h5">Fall&nbsp;</span>
+        <ul style="font-size: 1.15rem">
+          <li>인간-컴퓨터상호작용 (Undergraduate)</li>
+          <li>인공지능프로젝트2 (Undergraduate)</li>
+          <li>창의적소프트웨어 프로그래밍 (Undergraduate)</li>
+          <li>데이터사이언스연구실 현장실습2 (Undergraduate)</li>
+        </ul>
+
         <span class="h5">Spring&nbsp;</span>
         <ul style="font-size: 1.15rem">
           <li>소프트웨어 입문 설계 (Undergraduate)</li>
