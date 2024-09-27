@@ -74,6 +74,11 @@
   "kImpact" : [
     "BK21 Conference"
   ],
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B120%5DEarly_prediction.pdf",
+    "ACM" : "https://dl.acm.org/doi/10.1145/3675094.3677578",
+    "presentation": "https://youtu.be/HFv--4UgVVM?si=nHEpqoQL73kNrmeg"
+  },
   "tags" : [
     "hai", "vr"
   ]
@@ -89,7 +94,8 @@
       ],
       "link" : {
         "paper" : "https://aclanthology.org/2024.findings-acl.957.pdf",
-        "ACL" : "https://aclanthology.org/2024.findings-acl.957/"
+        "ACL" : "https://aclanthology.org/2024.findings-acl.957/",
+        "presentation": "https://youtu.be/D18by4N67pI?si=pMR58hbaJUDwRadB"
       },
     "tags" : [
     "hai", "social", "nlp"
