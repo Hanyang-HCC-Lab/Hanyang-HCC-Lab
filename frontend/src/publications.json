@@ -68,7 +68,9 @@
     "hai", "dm", "cv", "nlp"
   ],
   "link" : {
-    "presentation" : "https://youtu.be/fcOX4BCSLlQ"
+    "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10886.pdf",
+    "presentation" : "https://youtu.be/fcOX4BCSLlQ",
+    "ECVA": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10886_ECCV_2024_paper.php"
   }
   },
   {
@@ -303,7 +305,8 @@
     "BK21 Conference"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf",
+    "IEEE" : "https://ieeexplore.ieee.org/document/10203641"
   },
   "tags" : [
     "hai",
