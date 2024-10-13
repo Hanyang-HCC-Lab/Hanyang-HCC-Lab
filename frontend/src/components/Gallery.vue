@@ -5,6 +5,19 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/UbiComp(24)-3.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2024.10] UbiComp 2024</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/UbiComp(24)-2.jpg"
             style="max-height: 20rem"
           />
