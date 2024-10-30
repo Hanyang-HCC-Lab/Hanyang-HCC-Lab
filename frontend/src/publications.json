@@ -1,6 +1,19 @@
 [
+  {
+    "index" : 127,
+    "year" : 2024,
+    "title" : "ICEv2: Interpretability, Comprehensiveness, and Explainability in Vision Transformer.",
+    "author" : "Hoyoung Choi, Seungwan Jin, Kyungsik Han.",
+    "venue" : "International Journal of Computer Vision.",
+    "kImpact" : [
+      "SCI(E)"
+    ],
+    "tags" : [
+      "hai", "cv"
+    ]
+},
 {
-    "index" : 125,
+    "index" : 126,
     "year" : 2024,
     "title" : "PREDICT: Multi-Agent-based Debate Simulation for Generalized Hate Speech Detection.",
     "author" : "Someen Park, Jaehoon Kim, Seungwan Jin, Sohyun Park, Kyungsik Han.",
@@ -8,12 +21,18 @@
     "kImpact" : [
       "BK21 Conference"
     ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 3.6
+    },
     "tags" : [
       "hai", "social", "nlp"
     ]
 },
   {
-    "index" : 124,
+    "index" : 125,
     "year" : 2024,
     "title" : "Reflecting subjectivity of style to support decision making process for fashion designers.",
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
@@ -26,7 +45,7 @@
     }
   },
   {
-    "index" : 123,
+    "index" : 124,
     "year" : 2024,
     "title" : "CoCoStyle: Mixed Initiative Co-creative System to Support Creative Process of Fashion Design.",
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
@@ -43,7 +62,7 @@
     ]
   },
   {
-    "index" : 122,
+    "index" : 123,
     "year" : 2024,
     "title" : "Poster: Exploring the Impact of AI-Generated Images on Political News Perception and Understanding.",
     "author" : "Sohyun Park, Someen Park, Jaehoon Kim, Kyungsik Han.",
@@ -51,12 +70,15 @@
     "kImpact" : [
       "BK21 Conference"
     ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DIPNA.pdf"
+    },
     "tags" : [
       "hai", "social", "cv"
     ]
   },
   {
-  "index" : 121,
+  "index" : 122,
   "year" : 2024,
   "title" : "Integration of Global and Local Representations for Fine-grained Cross-modal Alignment.",
   "author" : "Seungwan Jin, Hoyoung Choi, Taehyung Noh, Kyungsik Han.",
@@ -74,7 +96,7 @@
   }
   },
   {
-  "index" : 120,
+  "index" : 121,
   "year" : 2024,
   "title" : "Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data.",
   "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
@@ -92,7 +114,7 @@
   ]
   },
   {
-    "index" : 119,
+    "index" : 120,
     "year" : 2024,
     "title" : "Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection.",
     "author" : "Jaehoon Kim, Seungwan Jin, Sohyun Park, Someen Park, Kyungsik Han.",
@@ -110,7 +132,7 @@
     ]
   },
   {
-    "index" : 118,
+    "index" : 119,
     "year" : 2024,
     "title" : "The hatred of all against all? Evidence from online community platforms in South Korea.",
     "author" : "Jeong-Woo Koo, Chan S. Suh, Jin Won Chung, Kyung-Ah Sohn, Kyungsik Han.",
@@ -127,7 +149,7 @@
     ]
   },
   {
-    "index" : 117,
+    "index" : 118,
     "year" : 2024,
     "title" : "PRECYSE: Predicting Cybersickness using Transformer for Multimodal Time-Series Sensor Data.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
@@ -145,7 +167,7 @@
     ]
   },
   {
-    "index" : 116,
+    "index" : 117,
     "year" : 2024,
     "title" : "An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data.",
     "author" : "Eunji Kim*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
@@ -158,7 +180,7 @@
     ]
   },
   {
-    "index" : 115,
+    "index" : 116,
     "year" : 2024,
     "title" : "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals.",
     "author" : "Bogoan Kim, Dayoung Jeong, Hwajung Hong, Kyungsik Han.",
@@ -172,7 +194,7 @@
     "kImpact" : [
       "BK21 Conference"
     ],
-    "additional" : {
+    "acceptance_rate" : {
       "AR" : 26.3
     },
     "tags" : [
@@ -180,7 +202,7 @@
     ]
   },
   {
-    "index" : 114,
+    "index" : 115,
     "year" : 2024,
     "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
     "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
@@ -198,7 +220,7 @@
     ]
   },
   {
-    "index" : 113,
+    "index" : 114,
     "year" : 2023,
     "title" : "A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
@@ -212,7 +234,7 @@
     ]
     },
   {
-    "index" : 112,
+    "index" : 113,
     "year" : 2023,
     "title" : "Poster: Consistency of Code: A prompt based approach to comprehend functionality.",
     "author" : "Hoyoung Choi, Hyunjae Park, Young-June Choi, Kyungsik Han.",
@@ -225,7 +247,7 @@
     ]
   },
   {
-    "index" : 111,
+    "index" : 112,
     "year" : 2023,
     "title" : "HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System.",
     "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
@@ -240,6 +262,20 @@
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B104%5DHearHere.pdf",
       "ACM" : "https://dl.acm.org/doi/10.1145/3637340"
     }
+  },
+  {
+    "index" : 111,
+    "year" : 2023,
+    "title" : "Supporting Independence of Autistic Adults through Mobile and Virtual Reality Technologies.",
+    "author" : "Bogoan Kim.",
+    "venue" : "ACM Symposium on User Interface Software and Technology (UIST 2023 Doctoral Symposium).",
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/UIST2023_Doctoral_Symposium_Bogoan.pdf",
+      "ACM" : "https://dl.acm.org/doi/abs/10.1145/3586182.3616706"
+    },
+    "tags" : [
+      "hai", "vr", "health"
+    ]
   },
   {
   "index" : 110,
@@ -259,7 +295,7 @@
   "tags" : [
     "hai", "vr", "health"
   ],
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 25.1
   }
 },
@@ -313,7 +349,7 @@
     "hai",
     "cv"
   ], 
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 25.78
   }
 },{
@@ -383,7 +419,7 @@
     "ACM" : "https://dl.acm.org/doi/10.1145/3544548.3581048",
     "presentation" : "https://youtu.be/TUu0Nq7Po5s"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 27.6
   }
 },
@@ -404,7 +440,7 @@
     "dm",
     "social"
   ],
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 19.2
   }
 },
@@ -465,7 +501,7 @@
     "media" : "https://www.etnews.com/20221230000056",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B92%5D+Slide-VISTA.pdf"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 24.4
   }
 },{
@@ -519,7 +555,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B89%5D+AI_Augmented_Art_Psychotherapy.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557542"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 29.0
   }
 },
@@ -551,7 +587,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B88%5D+ST-GAT.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557705"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 29.0
   }
 },{
@@ -602,7 +638,7 @@
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3491102.3517701",
     "presentation" : "https://www.youtube.com/watch?v=iATPtKkLFHo&ab_channel=ACMSIGCHI"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 24.7
   }
 },{
@@ -623,7 +659,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B84%5D+WWW22_I_Have_No_Text_in_My_Post.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3485447.3512009"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 17.7
   }
 },{
@@ -661,7 +697,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B82%5D+ICDM21_Adversarial_Learning_of_Balanced_Triangles_for_Accurate_Community_Detection_on_Signed_Networks.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/document/9679159"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 20.0
   }
 },{
@@ -756,7 +792,7 @@
     "ACM" : "https://dl.acm.org/doi/pdf/10.1145/3411764.3445093",
     "presentation" : "https://youtu.be/MU8T-I5O4wg"
   } ,
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 26.3
   }
 },{
@@ -795,7 +831,7 @@
     "presentation" : "https://youtu.be/E_iwMvfO_Ew",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/%5B76%5D+WWW21_FANCY.pdf"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 20.6
   }
 },{
@@ -817,7 +853,7 @@
     "IEEE" : "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9417770",
     "presentation" : "https://www.youtube.com/watch?v=vByEPQUFGKI&ab_channel=%EB%B0%B1%EC%8A%B9%EC%9B%90"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 23.6
   }
 },{
@@ -936,7 +972,7 @@
     "presentation" : "https://youtu.be/Jh_pv1HNTHM",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B70%5D+Slide-CIKM20_ART(Attractive_Recommendation_Trailor).pdf"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 26.0
   }
 },{
@@ -1017,7 +1053,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B65%5D+AsiNe_Adeversarial_Signed_Network_Embedding.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3397271.3401079"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 24.0
   }
 },{
@@ -1084,7 +1120,7 @@
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B61%5D+Slide-UMAP20_Tracking_and_Modeling_subjective_Well-Being_Smartphone-Based_Digital_Phenotype.pdf",
     "presentation" : "https://youtu.be/FAFPRJ5sw4k"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 23.0
   } 
 },{
@@ -1117,7 +1153,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B59%5D+CHIEA20_FashionQ.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3334480.3382978"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 41.0
   }
 },{
@@ -1138,7 +1174,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B58%5D+CHI20_MindForecaster.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3313831.3376475"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 24.0
   }
 },{
@@ -1204,7 +1240,7 @@
     "ACM" : "https://dl.acm.org/citation.cfm?id=3359996.3364268",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B55%5D+Slide-VRST'19+-+Being+More+Focused+and+Engaged+in+Firefighting+Training.pdf"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 21.0
   }
 },{
@@ -1274,7 +1310,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B51%5D+CHI'19+-+How+Do+You+Access+the+Credibility+of+Weblogs.pdf",
     "ACM" : "https://dl.acm.org/citation.cfm?id=3300904" 
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 24.0
   }
 },{
@@ -1294,7 +1330,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2019/%5B50%5D+ICDE'19+-+No+Thats+Not+My+Feedback.pdf",
     "IEEE" : "https://ieeexplore.ieee.org/abstract/document/8731575"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 26.0
   }
 },{
@@ -1393,7 +1429,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B44%5D+Photos+Don_t+Have+Me%2C+But+How+Do+You+Know+Me.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3213586.3225232"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 25.0
   }
 },{
@@ -1482,7 +1518,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B39%5DCHI17_Domain_Scientists_Visual_Analytic_Judgements.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3025453.3025882"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 25.0
   }
 },{
@@ -1501,7 +1537,7 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B38%5DCHIEA_17_ChemVeillance.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3027063.3053263"
   },
-  "additional" : {
+  "acceptance_rate" : {
     "AR" : 39.0
   }
 },{
