@@ -6,7 +6,7 @@
     "author" : "Hoyoung Choi, Seungwan Jin, Kyungsik Han.",
     "venue" : "International Journal of Computer Vision.",
     "kImpact" : [
-      "SCI(E)"
+      "SCI(E) Q1, JCR IF = 11.6"
     ],
     "tags" : [
       "hai", "cv"
@@ -19,7 +19,7 @@
     "author" : "Someen Park, Jaehoon Kim, Seungwan Jin, Sohyun Park, Kyungsik Han.",
     "venue" : "Conference on Empirical Methods in Natural Language Processing (EMNLP).",
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf"
@@ -51,7 +51,7 @@
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
     "venue" : "Elsevier SoftwareX.",
     "kImpact" : [
-        "SCI(E)"
+      "SCI(E) Q2, JCR IF = 2.4"
     ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DCoCoStyle.pdf",
@@ -68,7 +68,7 @@
     "author" : "Sohyun Park, Someen Park, Jaehoon Kim, Kyungsik Han.",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DIPNA.pdf"
@@ -84,7 +84,7 @@
   "author" : "Seungwan Jin, Hoyoung Choi, Taehyung Noh, Kyungsik Han.",
   "venue" : "The European Conference on Computer Vision (ECCV)",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai", "dm", "cv", "nlp"
@@ -102,7 +102,7 @@
   "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
   "venue" : "ACM International Symopsium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp)",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B120%5DEarly_prediction.pdf",
@@ -120,7 +120,7 @@
     "author" : "Jaehoon Kim, Seungwan Jin, Sohyun Park, Someen Park, Kyungsik Han.",
     "venue" : "Findings of the Association for Computational Linguistics (ACL).",
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
       ],
       "link" : {
         "paper" : "https://aclanthology.org/2024.findings-acl.957.pdf",
@@ -138,7 +138,7 @@
     "author" : "Jeong-Woo Koo, Chan S. Suh, Jin Won Chung, Kyung-Ah Sohn, Kyungsik Han.",
     "venue" : "PloS one.",
     "kImpact" : [
-      "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
     ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B118%5DThe_hatred_of_all_against_all.pdf",
@@ -160,7 +160,7 @@
       "presentation" : "https://www.youtube.com/watch?v=GsztMrbyV1M"
     },
     "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "tags" : [
     "hai", "vr", "dm"
@@ -173,7 +173,7 @@
     "author" : "Eunji Kim*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "tags" : [
       "hai", "vr", "health"
@@ -192,7 +192,7 @@
       "ACM" : "https://dl.acm.org/doi/10.1145/3613904.3642357"
     },
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "acceptance_rate" : {
       "AR" : 26.3
@@ -208,7 +208,7 @@
     "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
     "venue" : "JMIR Formative Research.",
     "kImpact" : [
-      "SCI(E)"
+      "SCI(E) Q3, JCR IF = 2.2"
     ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B105%5DFR_VR-ASD.pdf",
@@ -222,7 +222,7 @@
   {
     "index" : 114,
     "year" : 2023,
-    "title" : "A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
+    "title" : "Poster: A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
     "venue" : "The International Conference on Next Generation Computing (ICNGC).",
     "link" : {
@@ -253,7 +253,7 @@
     "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
     ],
     "tags" : [
       "hai", "social"
@@ -284,7 +284,7 @@
   "author" : "Bogoan Kim, Dayoung Jeong, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
   "venue" : "ACM Symposium on User Interface Software and Technology (UIST).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DVDAT.pdf",
@@ -320,7 +320,7 @@
   "author" : "Dayoung Jeong, Seungwon Paik, Youngtae Noh, Kyungsik Han.",
   "venue" : "Springer Virtual Reality.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 4.2"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B101%5DMAC.pdf",
@@ -339,7 +339,7 @@
   "author" : "Hoyoung Choi*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
   "venue" : "IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf",
@@ -359,7 +359,7 @@
   "author" : "Taehyung Noh, Haein Yeo, Myungjin Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf",
@@ -389,7 +389,7 @@
   "author" : "Hong-Kyun Bae, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -407,7 +407,7 @@
   "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -430,7 +430,7 @@
   "author" : "Yunyong Ko, Seongeun Ryu, Soeun Han, Youngseung Jeon, Jaehoon Kim, Sohyun Park, Kyungsik Han, Hanghang Tong, Sang-Wook Kim.",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B95%5DKHAN_Knowledge-Aware+Hierarchical+Attention+Networks+for+Accurate+Political+Stance+Prediction.pdf"
@@ -451,7 +451,7 @@
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE Transactions on Knowledge and Data Engineering.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 8.9"
   ],
   "tags" : [
     "hai",
@@ -469,7 +469,7 @@
   "author" : "Dayoung Jeong, Mingon Jeong, Ungyeon Yang, Kyungsik Han.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags" : [
     "hai",
@@ -486,7 +486,7 @@
   "author" : "Bogoan Kim, Dayoung Jeong, Mingon Jeong, Taehyung Noh, Sung-In Kim, Taewan Kim, So-youn Jang, Hee Jeong Yoo, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
   "venue" : "ACM Symposium on Virtual Reality Software and Technology (VRST).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -511,7 +511,7 @@
   "author" : "Dayoung Jeong, Kyungsik Han.",
   "venue" : "ACM Symposium on Virtual Reality Software and Technology (VRST).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -529,7 +529,7 @@
   "author" : "Myeongul Jung, Jejoong Kim, Kyungsik Han, Kwanguk Kim.",
   "venue" : "International Journal of Social Robotics.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 4.7"
   ],
   "tags" : [
     "hai"
@@ -544,7 +544,7 @@
   "author" : "Seungwan Jin, Hoyoung Choi, Kyungsik Han.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -577,7 +577,7 @@
   "author" : "Junho Song, Jiwon Son, Dong-hyuk Seo, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -609,7 +609,7 @@
   "author" : "Namhyuk Kim, Junho Song, Siyoung Lee, Jaewon Choe, Kyungsik Han, Sunghwan Park, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -626,7 +626,7 @@
   "author" : "Taewan Kim, Haesoo Kim, Ha Yeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -648,7 +648,7 @@
   "author" : "Junho Song, Kyungsik Han, Sang-Wook Kim. (2022).",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -669,7 +669,7 @@
   "author" : "Jennifer G. Kim, Taewan Kim, Sung-In Kim, So-Youn Jang, Stephanie Lee, Heejung Yoo, Kyungsik Han, Hwajung Hong.",
   "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B83%5D+The_Workplace_Playbook_VR.pdf",
@@ -687,7 +687,7 @@
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Mining (ICDM)",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -724,7 +724,7 @@
   "author" : "Seung-Gon Jeon, Seungwon Paik, Ungyeon Yang, Patrick C. Shih, Kyungsik Han.",
   "venue" : "Sensors",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 3.9"
   ],
   "tags" : [
     "hai",
@@ -737,7 +737,7 @@
 {
   "index" : 85,
   "year" : 2021,
-  "title" : "Fashion Category Detection and Classification with Detectron2 and Fashionpedia.",
+  "title" : "Poster: Fashion Category Detection and Classification with Detectron2 and Fashionpedia.",
   "author" : "Taehyung Noh, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "tags" : [
@@ -748,7 +748,7 @@
 {
   "index" : 84,
   "year" : 2021,
-  "title" : "Multimodal, Deep Learning-based Cybersickness Prediction in Virtual Reality.",
+  "title" : "Poster: Multimodal, Deep Learning-based Cybersickness Prediction in Virtual Reality.",
   "author" : "Dayoung Jeong, Seungwon Paik, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "tags" : [
@@ -763,7 +763,7 @@
   "author" : "Youngseung Jeon, Bogoan Kim, Aiping Xiong, Dongwon Lee, Kyungsik Han.",
   "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -781,7 +781,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Patrick C. Shih, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -802,7 +802,7 @@
   "author" : "JaeYeon Park, Soyoung Rhim, Kyungsik Han, JeongGil Ko.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags" : [
     "hai",
@@ -818,7 +818,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Kyungsik Han.",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -841,7 +841,7 @@
   "author" : "Seungwon Paik, Youngseung Jeon, Patrick C. Shih, Kyungsik Han.",
   "venue" : "The International IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -873,7 +873,7 @@
 {
   "index" : 77,
   "year" : 2020,
-  "title" : "News Information Verification System (NIVS) supporting Heuristic Information Processing and Building a Healthy News Diet.",
+  "title" : "Poster: News Information Verification System (NIVS) supporting Heuristic Information Processing and Building a Healthy News Diet.",
   "author" : "Seungwan Jin, Hye Jin Jeon, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "tags" : [
@@ -885,7 +885,7 @@
 {
   "index" : 76,
   "year" : 2020,
-  "title" : "A Study on the Text-Based Characteristics of Individuals with Autism Spectrum Disorder through Social Media Data Analysis.",
+  "title" : "Poster: A Study on the Text-Based Characteristics of Individuals with Autism Spectrum Disorder through Social Media Data Analysis.",
   "author" : "Jungwoo Han, Bogoan Kim, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "tags" : [
@@ -897,7 +897,7 @@
 {
   "index" : 75,
   "year" : 2020,
-  "title" : "A Study on the Development of Decision Making System to Quantify the Analysis of Fashion Style Trends.",
+  "title" : "Poster: A Study on the Development of Decision Making System to Quantify the Analysis of Fashion Style Trends.",
   "author" : "Jiseok Jang, Youngseung Jeon, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "tags" : [
@@ -928,7 +928,7 @@
   "author" : "Bogoan Kim, Daehyoung Lee, Aehong Min, Seungwon Paik, Georgia C. Frey, Scott Bellini, Kyungsik Han, Patrick C. Shih.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags" : [
     "hai",
@@ -944,7 +944,7 @@
   "author" : "Daehyoung Lee, Georgia C. Frey, Aehong Min, Bogoan Kim, Donetta Cothran, Scott Bellini, Kyungsik Han, Patrick C. Shih.",
   "venue" : "Health Informatics Journal.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 2.2"
   ],
   "tags" : [
     "hai",
@@ -960,7 +960,7 @@
   "author" : "Hyokmin Kwon, Jaeho Han, Kyungsik Han.",
   "venue" :"ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -982,7 +982,7 @@
   "author" : "Junho Song, Hyekyoung Park, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1013,7 +1013,7 @@
   "author" : "Hwarang Goh, Woojeong Kim, Jaeho Han, Kyungsik Han, Youngtae Noh.",
   "venue" : "IEEE Access",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 3.4"
   ],
   "tags" : [
     "hai", 
@@ -1043,7 +1043,7 @@
   "author" : "Yeon-Chang Lee, Nayoun Seo, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Research and Development in Information Retrieval (SIGIR)",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1078,7 +1078,7 @@
   "author" : "Youngseung Jeon, Seung-Gon Jeon, Kyungsik Han.",
   "venue" : "Journal of User Modeling and User-Adapted Interaction.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 3.0"
   ],
   "tags" : [
     "hai",
@@ -1091,11 +1091,11 @@
 },{
   "index" : 63,
   "year" : 2020,
-  "title" : "Objectively Measured Physical Activity and Sedentary Time in Adults with Autism Spectrum Disorder.",
+  "title" : "Poster: Objectively Measured Physical Activity and Sedentary Time in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Patrick C. Shih, Bogoan Kim, Kyungsik Han, Aehong Min, Donetta Cothran, Scott Bellini, Georgia C. Frey.",
   "venue" : "Medicine and Science in Sports and Exercise.",
   "kImpact" : [
-    "SCI(E)"
+    "SCI(E) Q1 4.1"
   ],
   "tags" : [
     "hai",
@@ -1126,7 +1126,7 @@
 },{
   "index" : 61,
   "year" : 2020,
-  "title" : "Ecological Momentary Assessment of Physical Activity, Sedentary Time and Anxiety in Adults with Autism Spectrum Disorder.",
+  "title" : "Poster: Ecological Momentary Assessment of Physical Activity, Sedentary Time and Anxiety in Adults with Autism Spectrum Disorder.",
   "author" : "Daehyoung Lee, Donetta Cothran, Scott Bellini, Patrick C. Shih, Kyungsik Han, Bogoan Kim, Aehong Min, Seungwon Paik, Georgia C. Frey.", 
   "venue" : "International Society for Autism Research (INSAR).",
   "tags" : [
@@ -1143,7 +1143,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Bogoan Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1163,7 +1163,7 @@
   "author" : "Kwangyoung Lee, Hyewon Cho, Kobiljon Toshnazarov, Nematjon Narziev, So Young Rhim, Kyungsik Han, YoungTae Noh, Hwajung Hong.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1183,9 +1183,6 @@
   "title" : "Understanding Emotions in SNS Images From Posters' Perspectives.",
   "author" : "Junho Song, Kyungsik Han, Dongwon Lee, Sang-Wook Kim.",
   "venue" : "ACM/SIGAPP Symposium On Applied Computing (SAC).",
-  "kImpact" : [
-    "BK21 Conference"
-  ],
   "tags" : [
     "hai",
     "dm",
@@ -1229,7 +1226,7 @@
   "author" : "Seung-Gon Jeon, Jaeho Han, Yonggeol Jo, Kyungsik Han.",
   "venue" : "ACM Symposium on Virtual Reality Software and Technology (VRST).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1250,7 +1247,7 @@
   "author" : "Inyeop Kim, Rihun Kim, Heepyung Kim, Duyeon Kim, Kyungsik Han, Paul H. Lee, Gloria Mark, Uichin Lee.",
   "venue" : "Computers & Education.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 8.9"
   ],
   "tags" : [
     "hai"
@@ -1265,7 +1262,7 @@
   "author" : "Bogoan Kim, Seok-Won Lee, Hwajung Hong, Kyungsik Han.",
   "venue" : "IEEE Access.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 3.4"
   ],
   "tags" : [
     "hai"
@@ -1281,7 +1278,7 @@
   "author" : "Joon-Gyum Kim, Taesik Gong, Bogoan Kim, JaeYeon Park, Woojeong Kim, Evey Huang, Kyungsik Han, Juho Kim, JeongGil Ko, Sung-Ju Lee.",
   "venue" : "ACM International Conference on Mobile Systems, Applications, and Services (MobiSys).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1299,7 +1296,7 @@
   "author" : "Yonggeol Jo, Minwoo Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1320,7 +1317,7 @@
   "author" : "Kyung-Jae Cho, Yeon-Chang Lee, Kyungsik Han, Jaeho Choi, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1340,7 +1337,7 @@
   "author" : "Uichin Lee, Kyungsik Han, Hyunsung Cho, Kyong-Mee Chung, Hwajung Hong, Sung-Ju Lee, Youngtae Noh, Sooyoung Park, John M. Carroll.",
   "venue" : "Journal of Ad Hoc Networks",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 4.4"
   ],
   "tags" : [
     "hai"
@@ -1355,7 +1352,7 @@
   "author" : "Aritra Dasgupta, Jorge Poco, Bernice Rogowitz, Kyungsik Han, Enrico Bertini, Claudio T. Silva.",
   "venue" : "IEEE Transactions on Visualization and Computer Graphics.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 4.7"
   ],
   "tags" : [
     "hai"
@@ -1371,7 +1368,7 @@
   "author" : "Bogoan Kim, Soyoung Rhim, Kyungsik Han, Seok-Won Lee",
   "venue" : "ACM International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai"
@@ -1388,7 +1385,7 @@
   "author" : "Yong-Yeon Jo, Myung-Hwan Jang, Sang-Wook Kim, Kyungsik Han.",
   "venue" : "Journal of Supercomputing.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 2.5"
   ],
   "tags" : [
     "hai",
@@ -1404,7 +1401,7 @@
   "author" : "Junho Song, Kyungsik Han, Dongwon Lee, Sang-Wook Kim.",
   "venue" :"PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags" : [
     "hai",
@@ -1439,7 +1436,7 @@
   "author" : "Kyungsik Han, Hyunggu Jung, Jin Yea Jang, Dongwon Lee.",
   "venue" : "IEEE Computer",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q3, JCR IF = 2.0"
   ],
   "tags" : [
     "hai",
@@ -1457,7 +1454,7 @@
   "author" : "Donghee Kim, Kyungsik Han, Jeong Seop Sim, Youngtae Noh.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags": [
     "hai",
@@ -1473,7 +1470,7 @@
   "author" : "Hyekyoung Park, Junho Song, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Web Services (ICWS).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1492,7 +1489,7 @@
   "author" : "Kyungsik Han.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q1, JCR IF = 2.9"
   ],
   "tags" : [
     "hai",
@@ -1509,7 +1506,7 @@
   "author" : "Aritra Dasgupta, Susannah Burrows, Kyungsik Han, Philip J. Rasch.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai"
@@ -1528,7 +1525,7 @@
   "author" : "Zhuanyi Huang, Kyungsik Han, Lauren Charles-Smith, Michael J. Henry.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-    "BK21 Conference"
+      "컴퓨터공학분야 최우수 학술대회"
   ],
   "tags" : [
     "hai"
@@ -1547,7 +1544,7 @@
   "author" : "John M. Carroll, Patrick C. Shih, Kyungsik Han, Jessica Kropczynski.",
   "venue" : "International Journal of Design.",
   "kImpact" : [
-    "SCI(E)"
+      "SCI(E) Q2, JCR IF = 1.6"
   ],
   "tags" : [
     "hai"
