@@ -1,75 +1,93 @@
 [ 
-  {
-    "index" : 4,
-    "year" : 2024,
-    "title" : "Poster: LLM을 활용한 가상현실에서의 사이버멀미 선제적 예측 모델 및 개인 맞춤형 모델 개발.",
-    "author" : "최윤선, 정다영, 김보관, 한경식.",
-    "venue" : "한국데이터마이닝학회 추계학술대회.",
-    "award" : {
-      "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.jpg"
-    },
-    "tags" : [
-      "hai", "vr", "health"
-    ]
-  },
-  {
-    "index" : 4,
-    "year" : 2024,
-    "title" : "Poster: AI 생성 이미지가 정치 뉴스 인식 및 이해에 미치는 영향.",
-    "author" : "손비진, 박소현, 김재훈, 한경식.",
-    "venue" : "한국데이터마이닝학회 추계학술대회.",
-    "award" : {
-      "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg"
-    },
-    "tags" : [
-      "hai", "social", "cv"
-    ]
-  },
-  {
-    "index" : 4,
-    "year" : 2024,
-    "title" : "Poster: 멀티모달 데이터를 통한 VR 기반 마음챙김 인지치료(VR-MBCT) 효과성 검증 연구.",
-    "author" : "정다영, 김보관, 최윤선, 한경식.",
-    "venue" : "한국데이터마이닝학회 추계학술대회.",
-    "award" : {
-      "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.jpg"
-    },
-    "tags" : [
-      "hai", "vr", "health"
-    ]
-  },
-  {
-    "index" : 4,
-    "year" : 2024,
-    "title" : "Poster: LLM을 활용한 한국 온라인 커뮤니티의 정치 성향 표현 및 분석 연구.",
-    "author" : "주미선, 한경식.",
-    "venue" : "한국데이터마이닝학회 추계학술대회.",
-    "award" : {
-      "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.jpg"
-    },
-    "tags" : [
-      "hai", "social", "nlp"
-    ]
-  },
-  {
-    "index" : 4,
-    "year" : 2024,
-    "title" : "Poster: 온라인 텍스트에서 성격을 예측하기 위한 다중 에이전트 비교 평가 연구.",
-    "author" : "여해인, 노태형, 진승완, 한경식.",
-    "venue" : "한국데이터마이닝학회 추계학술대회.",
-    "award" : {
-      "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.jpg"
-    },
-    "tags" : [
-      "hai", "social", "nlp"
-    ]
-  },
 {
-  "index" : 4,
+  "index" : 51,
+  "year" : 2024,
+  "title" : "Poster: LLM을 활용한 가상현실에서의 사이버멀미 선제적 예측 모델 및 개인 맞춤형 모델 개발.",
+  "author" : "최윤선, 정다영, 김보관, 한경식.",
+  "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+  },
+  "award" : {
+    "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+  },
+  "tags" : [
+    "hai", "vr", "dm"
+  ]
+},
+{
+  "index" : 50,
+  "year" : 2024,
+  "title" : "Poster: AI 생성 이미지가 정치 뉴스 인식 및 이해에 미치는 영향.",
+  "author" : "손비진, 박소현, 김재훈, 한경식.",
+  "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.pdf"
+  },
+  "award" : {
+    "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg"
+  },
+  "tags" : [
+    "hai", "social", "cv"
+  ]
+},
+{
+  "index" : 49,
+  "year" : 2024,
+  "title" : "Poster: 멀티모달 데이터를 통한 VR 기반 마음챙김 인지치료(VR-MBCT) 효과성 검증 연구.",
+  "author" : "정다영, 김보관, 최윤선, 한경식.",
+  "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.pdf"
+  },
+  "award" : {
+    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.jpg"
+  },
+  "tags" : [
+    "hai", "vr", "health"
+  ]
+},
+{
+  "index" : 48,
+  "year" : 2024,
+  "title" : "Poster: LLM을 활용한 한국 온라인 커뮤니티의 정치 성향 표현 및 분석 연구.",
+  "author" : "주미선, 한경식.",
+  "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+  },
+  "award" : {
+    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
+  "index" : 47,
+  "year" : 2024,
+  "title" : "Poster: 온라인 텍스트에서 성격을 예측하기 위한 다중 에이전트 비교 평가 연구.",
+  "author" : "여해인, 노태형, 진승완, 한경식.",
+  "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.pdf"
+  },
+  "award" : {
+    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.jpg"
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
+  "index" : 46,
   "year" : 2024,
   "title" : "Poster: LLM In-context learning 기반 암시적 혐오표현 탐지 개선 전략.",
   "author" : "김재훈, 진승완, 박소민, 박소현, 한경식.",
   "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.pdf"
+  },
   "award" : {
     "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.jpg"
   },
@@ -78,11 +96,14 @@
   ]
 },
 {
-  "index" : 4,
+  "index" : 45,
   "year" : 2024,
   "title" : "Poster: 정치 뉴스에서 AI 생성 이미지의 역할과 독자 인식 분석.",
   "author" : "박소현, 김재훈, 박소민, 한경식.",
   "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.pdf"
+  },
   "award" : {
     "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.jpg"
   },
@@ -91,31 +112,40 @@
   ]
 },
 {
-  "index" : 4,
+  "index" : 44,
   "year" : 2024,
   "title" : "Poster: 개인화된 추천을 위한 멀티 에이전트 기반 사용자 프로필 생성.",
   "author" : "노태형, 진승완, 여해인, 한경식.",
   "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%82%E1%85%A9%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%BC.pdf"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
 },
 {
-  "index" : 4,
+  "index" : 43,
   "year" : 2024,
   "title" : "Poster: LLM 기반 에이전트를 활용한 설문 데이터 분석 방법론 연구: 한국근로환경조사(KWCS) 데이터를 중심으로.",
   "author" : "박소민, 정다영, 김재훈, 한경식.",
   "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%86%E1%85%B5%E1%86%AB.pdf"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
 },
 {
-  "index" : 4,
+  "index" : 42,
   "year" : 2024,
   "title" : "Poster: VR 환경에서의 Transformer 기반 Human Activity Recognition.",
   "author" : "정민곤, 한경식.",
   "venue" : "한국데이터마이닝학회 추계학술대회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%AB.pdf"
+  },
   "tags" : [
     "hai", "vr", "dm"
   ]
