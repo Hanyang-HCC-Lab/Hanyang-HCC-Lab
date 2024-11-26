@@ -1,5 +1,15 @@
 [
   {
+    "index" : 128,
+    "year" : 2024,
+    "title" : "A Novel Traffic Flow Prediction Model based on a Direct Spatio-Temporal Graph.",
+    "author" : "Jiwon Son, Dong-Hyuk Seo, Junho Song, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
+    "venue" : "ACM/SIGAPP Symposium On Applied Computing (SAC).",
+    "tags" : [
+      "hai", "dm"
+    ]
+},
+  {
     "index" : 127,
     "year" : 2024,
     "title" : "ICEv2: Interpretability, Comprehensiveness, and Explainability in Vision Transformer.",
@@ -82,7 +92,7 @@
   "year" : 2024,
   "title" : "Integration of Global and Local Representations for Fine-grained Cross-modal Alignment.",
   "author" : "Seungwan Jin, Hoyoung Choi, Taehyung Noh, Kyungsik Han.",
-  "venue" : "The European Conference on Computer Vision (ECCV)",
+  "venue" : "The European Conference on Computer Vision (ECCV).",
   "kImpact" : [
       "컴퓨터공학분야 최우수 학술대회"
   ],
@@ -100,7 +110,7 @@
   "year" : 2024,
   "title" : "Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data.",
   "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
-  "venue" : "ACM International Symopsium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp)",
+  "venue" : "ACM International Symopsium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp).",
   "kImpact" : [
       "컴퓨터공학분야 최우수 학술대회"
   ],
@@ -707,8 +717,8 @@
   "author" : "Bogoan Kim, Aiping Xiong, Dongwon Lee, Kyungsik Han.",
   "venue" : "PloS one.",
   "kImpact" : [
-    "SCI(E)"
-  ],
+    "SCI(E) Q1, JCR IF = 2.9"
+],
   "tags" : [
     "hai",
     "social"
@@ -722,7 +732,7 @@
   "year" : 2021,
   "title" : "The More, The Better? Improving VR Firefighting Training System with Realistic Firefighter Tools as Controllers.",
   "author" : "Seung-Gon Jeon, Seungwon Paik, Ungyeon Yang, Patrick C. Shih, Kyungsik Han.",
-  "venue" : "Sensors",
+  "venue" : "Sensors.",
   "kImpact" : [
       "SCI(E) Q2, JCR IF = 3.9"
   ],
