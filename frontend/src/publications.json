@@ -1,5 +1,18 @@
 [
   {
+    "index" : 129,
+    "year" : 2024,
+    "title" : "PADO: Personality-induced multi-Agents for Detecting OCEAN in human-generated texts.",
+    "author" : "Haein Yeo, Taehyeong Noh, Seungwan Jin, Kyungsik Han.",
+    "venue" : "International Conference on Computational Linguistics (COLING).",
+    "kImpact" : [
+      "컴퓨터공학분야 우수 학술대회"
+    ],
+    "tags" : [
+      "hai", "social", "nlp"
+    ]
+},
+  {
     "index" : 128,
     "year" : 2024,
     "title" : "A Novel Traffic Flow Prediction Model based on a Direct Spatio-Temporal Graph.",
@@ -18,6 +31,11 @@
     "kImpact" : [
       "SCI(E) Q1, JCR IF = 11.6"
     ],
+    "link" : {
+      "DOI": "https://doi.org/10.1007/s11263-024-02290-6",
+      "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B127%5DICEv2.pdf"
+
+    },
     "tags" : [
       "hai", "cv"
     ]
