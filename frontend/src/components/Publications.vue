@@ -290,15 +290,25 @@ export default {
               ></span
             >
             <!-- AR 존재하면 표출-->
-            <span class="h7" style="color: #a9a9a9" v-if="paper.additional"
+            <span class="h7" style="color: #a9a9a9" v-if="paper.acceptance_rate"
               ><i>
                 Acceptance Rate:
                 <span
                   class="h7"
                   style="color: #a9a9a9"
-                  v-html="paper.additional.AR"
+                  v-html="paper.acceptance_rate.AR"
                 ></span
                 >%</i
+              >
+            </span>
+            <!-- Oral AR 존재하면 표출-->
+            <span class="h7" style="color: #a9a9a9" v-if="paper.oral_acceptance_rate"
+              ><i> <span style="color: black;"> Accepted as Oral Presentation</span> (<span
+                  class="h7"
+                  style="color: #a9a9a9"
+                  v-html="paper.oral_acceptance_rate.AR"
+                ></span
+                >% acceptance rate for oral-presentation papers)</i
               >
             </span>
             
@@ -313,6 +323,15 @@ export default {
                   target="_blank"
                   style="color: #999900"
                   > Best Paper Award</a
+                ></span
+              >
+
+              <span class="h7" v-if="paper.award.grand_paper"
+                ><a
+                  :href="paper.award.grand_paper"
+                  target="_blank"
+                  style="color: #999900"
+                  > Grand Paper Award</a
                 ></span
               >
 
@@ -372,6 +391,15 @@ export default {
                   target="_blank"
                   style="color: rgba(115, 177, 235)"
                   >[ACL Anthology]</a
+                ></span
+              >
+
+              <span class="h7" v-if="paper.link.ECVA"
+                ><a
+                  :href="paper.link.ECVA"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[ECVA DL]</a
                 ></span
               >
 

@@ -1,12 +1,25 @@
 [
   {
+    "index" : 130,
+    "year" : 2024,
+    "title" : "Understanding the Differences in an AI-based Creativity Support Tool Between Creativity Types in Fashion Design.",
+    "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
+    "venue" : "International Journal of Human-Computer Interaction.",
+    "kImpact" : [
+      "SCI(E) Q1, JCR IF = 3.4"
+    ],
+    "tags" : [
+      "hai", "fashion"
+    ]
+},
+  {
     "index" : 129,
     "year" : 2024,
     "title" : "PADO: Personality-induced multi-Agents for Detecting OCEAN in human-generated texts.",
     "author" : "Haein Yeo, Taehyeong Noh, Seungwan Jin, Kyungsik Han.",
     "venue" : "International Conference on Computational Linguistics (COLING).",
     "kImpact" : [
-      "컴퓨터공학분야 우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "tags" : [
       "hai", "social", "nlp"
@@ -47,7 +60,7 @@
     "author" : "Someen Park, Jaehoon Kim, Seungwan Jin, Sohyun Park, Kyungsik Han.",
     "venue" : "Conference on Empirical Methods in Natural Language Processing (EMNLP).",
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf"
@@ -96,7 +109,7 @@
     "author" : "Sohyun Park, Someen Park, Jaehoon Kim, Kyungsik Han.",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DIPNA.pdf"
@@ -112,7 +125,7 @@
   "author" : "Seungwan Jin, Hoyoung Choi, Taehyung Noh, Kyungsik Han.",
   "venue" : "The European Conference on Computer Vision (ECCV).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai", "dm", "cv", "nlp"
@@ -130,7 +143,7 @@
   "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
   "venue" : "ACM International Symopsium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B120%5DEarly_prediction.pdf",
@@ -148,7 +161,7 @@
     "author" : "Jaehoon Kim, Seungwan Jin, Sohyun Park, Someen Park, Kyungsik Han.",
     "venue" : "Findings of the Association for Computational Linguistics (ACL).",
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
       ],
       "link" : {
         "paper" : "https://aclanthology.org/2024.findings-acl.957.pdf",
@@ -188,7 +201,7 @@
       "presentation" : "https://www.youtube.com/watch?v=GsztMrbyV1M"
     },
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "tags" : [
     "hai", "vr", "dm"
@@ -201,7 +214,7 @@
     "author" : "Eunji Kim*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "tags" : [
       "hai", "vr", "health"
@@ -220,7 +233,7 @@
       "ACM" : "https://dl.acm.org/doi/10.1145/3613904.3642357"
     },
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "acceptance_rate" : {
       "AR" : 26.3
@@ -281,7 +294,7 @@
     "author" : "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yunyong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han.",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
     "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
     ],
     "tags" : [
       "hai", "social"
@@ -312,7 +325,7 @@
   "author" : "Bogoan Kim, Dayoung Jeong, Jennifer G Kim, Hwajung Hong, Kyungsik Han.",
   "venue" : "ACM Symposium on User Interface Software and Technology (UIST).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DVDAT.pdf",
@@ -367,7 +380,7 @@
   "author" : "Hoyoung Choi*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
   "venue" : "IEEE Conference on Computer Vision and Pattern Recognition (CVPR).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf",
@@ -387,7 +400,7 @@
   "author" : "Taehyung Noh, Haein Yeo, Myungjin Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf",
@@ -417,7 +430,7 @@
   "author" : "Hong-Kyun Bae, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -435,7 +448,7 @@
   "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -458,7 +471,7 @@
   "author" : "Yunyong Ko, Seongeun Ryu, Soeun Han, Youngseung Jeon, Jaehoon Kim, Sohyun Park, Kyungsik Han, Hanghang Tong, Sang-Wook Kim.",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B95%5DKHAN_Knowledge-Aware+Hierarchical+Attention+Networks+for+Accurate+Political+Stance+Prediction.pdf"
@@ -572,7 +585,7 @@
   "author" : "Seungwan Jin, Hoyoung Choi, Kyungsik Han.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -605,7 +618,7 @@
   "author" : "Junho Song, Jiwon Son, Dong-hyuk Seo, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -637,7 +650,7 @@
   "author" : "Namhyuk Kim, Junho Song, Siyoung Lee, Jaewon Choe, Kyungsik Han, Sunghwan Park, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -654,7 +667,7 @@
   "author" : "Taewan Kim, Haesoo Kim, Ha Yeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -676,7 +689,7 @@
   "author" : "Junho Song, Kyungsik Han, Sang-Wook Kim. (2022).",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -697,7 +710,7 @@
   "author" : "Jennifer G. Kim, Taewan Kim, Sung-In Kim, So-Youn Jang, Stephanie Lee, Heejung Yoo, Kyungsik Han, Hwajung Hong.",
   "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B83%5D+The_Workplace_Playbook_VR.pdf",
@@ -715,7 +728,7 @@
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Mining (ICDM)",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -791,7 +804,7 @@
   "author" : "Youngseung Jeon, Bogoan Kim, Aiping Xiong, Dongwon Lee, Kyungsik Han.",
   "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -809,7 +822,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Patrick C. Shih, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -846,7 +859,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Kyungsik Han.",
   "venue" : "International Conference on World Wide Web (WWW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai", 
@@ -869,7 +882,7 @@
   "author" : "Seungwon Paik, Youngseung Jeon, Patrick C. Shih, Kyungsik Han.",
   "venue" : "The International IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -988,7 +1001,7 @@
   "author" : "Hyokmin Kwon, Jaeho Han, Kyungsik Han.",
   "venue" :"ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1010,7 +1023,7 @@
   "author" : "Junho Song, Hyekyoung Park, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1071,7 +1084,7 @@
   "author" : "Yeon-Chang Lee, Nayoun Seo, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "ACM International Conference on Research and Development in Information Retrieval (SIGIR)",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1171,7 +1184,7 @@
   "author" : "Youngseung Jeon, Seungwan Jin, Bogoan Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1191,7 +1204,7 @@
   "author" : "Kwangyoung Lee, Hyewon Cho, Kobiljon Toshnazarov, Nematjon Narziev, So Young Rhim, Kyungsik Han, YoungTae Noh, Hwajung Hong.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1306,7 +1319,7 @@
   "author" : "Joon-Gyum Kim, Taesik Gong, Bogoan Kim, JaeYeon Park, Woojeong Kim, Evey Huang, Kyungsik Han, Juho Kim, JeongGil Ko, Sung-Ju Lee.",
   "venue" : "ACM International Conference on Mobile Systems, Applications, and Services (MobiSys).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1324,7 +1337,7 @@
   "author" : "Yonggeol Jo, Minwoo Kim, Kyungsik Han.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1345,7 +1358,7 @@
   "author" : "Kyung-Jae Cho, Yeon-Chang Lee, Kyungsik Han, Jaeho Choi, Sang-Wook Kim.",
   "venue" : "IEEE International Conference on Data Engineering (ICDE).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai",
@@ -1396,7 +1409,7 @@
   "author" : "Bogoan Kim, Soyoung Rhim, Kyungsik Han, Seok-Won Lee",
   "venue" : "ACM International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai"
@@ -1534,7 +1547,7 @@
   "author" : "Aritra Dasgupta, Susannah Burrows, Kyungsik Han, Philip J. Rasch.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai"
@@ -1553,7 +1566,7 @@
   "author" : "Zhuanyi Huang, Kyungsik Han, Lauren Charles-Smith, Michael J. Henry.",
   "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
   "kImpact" : [
-      "컴퓨터공학분야 최우수 학술대회"
+      "컴퓨터공학분야 최/우수 학술대회"
   ],
   "tags" : [
     "hai"
