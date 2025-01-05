@@ -1,5 +1,15 @@
 [
   {
+    "index" : 131,
+    "year" : 2025,
+    "title" : "Development of a Personalized Early Prediction Model for Cybersickness in Virtual Reality.",
+    "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
+    "venue" : "KTCP (KIISE Transactions on Computing Practices).",
+    "tags" : [
+      "hai", "vr"
+    ]
+},
+  {
     "index" : 130,
     "year" : 2024,
     "title" : "Understanding the Differences in an AI-based Creativity Support Tool Between Creativity Types in Fashion Design.",
