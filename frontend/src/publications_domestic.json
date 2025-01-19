@@ -2,6 +2,19 @@
 {
   "index" : 52,
   "year" : 2025,
+  "title" : "AI for Humanity.",
+  "author" : "박소민, 김재훈, 박소현, 박규동, 한경식.",
+  "venue" : "정보과학회지(Communications of the Korean Institute of Information Scientists and Engineers). 2025년 1월호.",
+  "link": {
+    "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_01_AI+for+Humanity.pdf"
+  },
+  "tags" : [
+    "hai", "social", "cv", "nlp", "vr"
+  ]
+},
+{
+  "index" : 52,
+  "year" : 2025,
   "title" : "우울증 완화를 위한 가상현실 기반 마음챙김: 콘텐츠 개발과 데이터 분석을 중심으로.",
   "author" : "최윤선, 김보관, 정다영, 김형숙, 한경식.",
   "venue" : "한국HCI학회.",

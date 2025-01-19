@@ -1,5 +1,31 @@
 [
   {
+    "index" : 133,
+    "year" : 2025,
+    "title" : "I Don’t Know Why I Should Use This App”: Holistic Analysis on User Engagement Challenges in Mobile Mental Health.",
+    "author" : "Seungwan Jin*, Bogoan Kim*, Kyungsik Han (*equal contribution).",
+    "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+    "kImpact" : [
+      "컴퓨터공학분야 우수국제학술대회"
+    ],
+    "acceptance_rate" : {
+      "AR" : 25.1
+    },
+    "tags" : [
+      "hai", "health"
+    ]
+  },
+  {
+    "index" : 132,
+    "year" : 2025,
+    "title" : "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling.",
+    "author" : "Eunji Kim, Haein Yeo, Kyungsik Han.",
+    "venue" : "KTCP (KIISE Transactions on Computing Practices).",
+    "tags" : [
+      "hai", "dm", "fashion"
+    ]
+},
+  {
     "index" : 131,
     "year" : 2025,
     "title" : "Development of a Personalized Early Prediction Model for Cybersickness in Virtual Reality.",
@@ -9,30 +35,34 @@
       "hai", "vr"
     ]
 },
+{
+  "index" : 130,
+  "year" : 2025,
+  "title" : "PADO: Personality-induced multi-Agents for Detecting OCEAN in human-generated texts.",
+  "author" : "Haein Yeo, Taehyeong Noh, Seungwan Jin, Kyungsik Han.",
+  "venue" : "International Conference on Computational Linguistics (COLING).",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
   {
-    "index" : 130,
-    "year" : 2024,
+    "index" : 129,
+    "year" : 2025,
     "title" : "Understanding the Differences in an AI-based Creativity Support Tool Between Creativity Types in Fashion Design.",
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
     "venue" : "International Journal of Human-Computer Interaction.",
     "kImpact" : [
       "SCI(E) Q1, JCR IF = 3.4"
     ],
+    "link" : {
+      "DOI": "https://doi.org/10.1080/10447318.2024.2448484",
+      "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/Understanding_the_Differences.pdf"
+    },
     "tags" : [
       "hai", "fashion"
-    ]
-},
-  {
-    "index" : 129,
-    "year" : 2024,
-    "title" : "PADO: Personality-induced multi-Agents for Detecting OCEAN in human-generated texts.",
-    "author" : "Haein Yeo, Taehyeong Noh, Seungwan Jin, Kyungsik Han.",
-    "venue" : "International Conference on Computational Linguistics (COLING).",
-    "kImpact" : [
-      "컴퓨터공학분야 우수국제학술대회"
-    ],
-    "tags" : [
-      "hai", "social", "nlp"
     ]
 },
   {
@@ -76,7 +106,8 @@
       "컴퓨터공학분야 우수국제학술대회"
     ],
     "link": {
-      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf"
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf",
+      "ACL": "https://aclanthology.org/2024.emnlp-main.1166/"
     },
     "oral_acceptance_rate": {
       "AR": 3.6
@@ -226,6 +257,10 @@
     "title" : "An Empirical Study on Social Anxiety in a Virtual Environment through Mediating Variables and Multiple Sensor Data.",
     "author" : "Eunji Kim*, Seungwan Jin*, Kyungsik Han (*equal contribution).",
     "venue" : "ACM International Conference on Computer-Supported Cooperative Work and Social Computing (CSCW).",
+    "link" : {
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/An_Empirical_Study_on_Social_Anxiety.pdf",
+      "ACM" : "https://dl.acm.org/doi/10.1145/3686977"
+    },
     "kImpact" : [
       "컴퓨터공학분야 우수국제학술대회"
     ],
@@ -1251,7 +1286,7 @@
   }
 },{
   "index" : 57,
-  "year" : 2019,
+  "year" : 2020,
   "title" : "No More One Liners: Bringing Context into Emoji Recommendations.",
   "author" : "Joon-Gyum Kim, Taesik Gong, Bogoan Kim, JaeYeon Park, Woojeong Kim, Evey Huang, Kyungsik Han, Juho Kim, JeongGil Ko, Sung-Ju Lee.",
   "venue" : "ACM Transactions on Social Computing.",
