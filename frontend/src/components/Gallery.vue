@@ -1,6 +1,19 @@
 <template>
   <div class="container mt-5 text-center" style="width: 100%">
     <div class="row">
+    <!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/COLING(25)-1.jpeg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2025.01] COLING 2025</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
 <!-- Start Picture -->
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
