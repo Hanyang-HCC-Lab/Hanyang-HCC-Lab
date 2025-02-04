@@ -85,7 +85,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://www.bogoankim.com/"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Bogoan_Kim.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
@@ -598,6 +598,42 @@
         </div>
         <!-- End Member Profile -->
 
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Junghyun Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김정현</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: jmmisung@gmail.com"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+
       </div>
     </div>
     <!-- End MS Students Tap -->
@@ -653,20 +689,20 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%AA%E1%86%A8%E1%84%83%E1%85%A9%E1%84%92%E1%85%AE%E1%86%AB.png"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Junghyun Kim
+            Dohoon Kwak
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">김정현</p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">곽도훈</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: bijin1111@hanyang.ac.kr"
+              href="mailto: kdh0327204@gmail.com"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
@@ -674,7 +710,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Dohoon_Kwak.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
@@ -689,33 +725,32 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%A2.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB.png"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Minchae Kim
+            Donghyeon Lee
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">김민채</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">이동현</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: minchae0225@hanyang.ac.kr"
+              href="mailto: dh11219@hanyang.ac.kr"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
             >&nbsp;
-            <!-- <a
+            <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yoonseon_Choi.pdf"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Donghyeon_Lee.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
+            </a>
           </div>
           <!-- End Personal Link -->
         </div>
@@ -726,70 +761,32 @@
           <img
             class="rounded-circle mt-3 memberImage"
             fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%92%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%B5.png"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B5%E1%86%AB.png"
           />
           <div class="text-center mt-1">
             <p class="member_name" style="font-size: 1rem; margin: 0">
-              Hyunji Kim
+            Aylin Fathi
             </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">김현지</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">아이린</p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: gennie1844@hanyang.ac.kr"
+              href="mailto: aylin@hanyang.ac.kr"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
             >&nbsp;
-            <!-- <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yoonseon_Choi.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%92%E1%85%AA%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%87%E1%85%B5%E1%86%AB.png"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Jibin Hwang
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">황지빈</p>
-            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(Co-advised by Prof. Hyungsook Kim)</b></p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: hjb7165@hanyang.ac.kr"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <!-- <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yoonseon_Choi.pdf"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_AYLIN_FATHI.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a> -->
+            </a>
           </div>
           <!-- End Personal Link -->
         </div>
