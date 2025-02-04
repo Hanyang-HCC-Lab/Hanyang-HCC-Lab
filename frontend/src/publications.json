@@ -2,7 +2,7 @@
   {
     "index" : 133,
     "year" : 2025,
-    "title" : "I Don’t Know Why I Should Use This App”: Holistic Analysis on User Engagement Challenges in Mobile Mental Health.",
+    "title" : "“I Don’t Know Why I Should Use This App”: Holistic Analysis on User Engagement Challenges in Mobile Mental Health.",
     "author" : "Seungwan Jin*, Bogoan Kim*, Kyungsik Han (*equal contribution).",
     "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
     "kImpact" : [
@@ -44,6 +44,11 @@
   "kImpact" : [
     "컴퓨터공학분야 우수국제학술대회"
   ],
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_COLING_PADO.pdf",
+    "ACM": "https://aclanthology.org/2025.coling-main.382/",
+    "presentation": "https://youtu.be/QTQoPADqg14?si=5H_mdXJSp83J-pis"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
