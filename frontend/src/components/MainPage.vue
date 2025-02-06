@@ -5,26 +5,32 @@ export default {
   data() {
     return {
       news: news,
-      // visibleItemCount: 20, // 초기에 보여줄 뉴스 항목의 개수
+      showAllNews: false, // ★ 추가: 초기에는 2023년 이전 뉴스 숨김
+      // visibleItemCount: 20, // 기존 주석 코드
     };
   },
-
-  // created() {
-  //   this.setVisibleItemCount();
-  // },
-
-  // methods: {
-  //   setVisibleItemCount() {
-  //     const currentYearNewsCount = this.news.filter(newsItem => {
-  //       const year = new Date(newsItem.date).getFullYear();
-  //       return year === 2023 || year === 2024;
-  //     }).length;
-  //     this.visibleItemCount = currentYearNewsCount; // 2023년과 2024년 뉴스 항목의 개수를 설정합니다.
-  //   },
-  //   showMore() {
-  //     this.visibleItemCount = this.news.length; // "더보기" 버튼을 클릭하면 모든 뉴스 항목을 보여줍니다.
-  //   },
-  // },
+  computed: {
+    // ★ 추가: 2024년 이상의 뉴스만 필터링
+    recentNews() {
+      return this.news.filter(newsItem => {
+        const year = new Date(newsItem.date).getFullYear();
+        return year >= 2024;
+      });
+    },
+    // ★ 추가: 2023년 이전 뉴스만 필터링
+    olderNews() {
+      return this.news.filter(newsItem => {
+        const year = new Date(newsItem.date).getFullYear();
+        return year < 2024;
+      });
+    },
+  },
+  methods: {
+    // ★ 변경: 기존 showMore() 대신 접기/펼치기 토글 메소드로 변경
+    toggleOlderNews() {
+      this.showAllNews = !this.showAllNews;
+    },
+  },
 };
 </script>
 
@@ -245,17 +251,27 @@ export default {
     </h2>
     <div class="mb-5">
       <div class="text-center mb-4"><span class="h3">Recent News</span></div>
-      <div v-for="news in news" :key="news.index" class="item-content mt-3">
-        <span class="h6">[{{ news.date }}]&nbsp;</span>
-        <span class="h6" v-html="news.content"></span>
+
+      <!-- ★ 수정: 최신 뉴스(2024년 이상) 표시 -->
+      <div v-for="newsItem in recentNews" :key="newsItem.index" class="item-content mt-3">
+        <span class="h6">[{{ newsItem.date }}]&nbsp;</span>
+        <span class="h6" v-html="newsItem.content"></span>
       </div>
-          <!-- <div v-for="(newsItem, index) in news.slice(0, visibleItemCount)" :key="newsItem.index" class="item-content mt-3">
-            <span class="h6">[{{ newsItem.date }}]&nbsp;</span>
-            <span class="h6" v-html="newsItem.content"></span>
+
+      <!-- ★ 수정: 접힌 뉴스(2023년 이전)는 showAllNews가 true일 때 표시 -->
+      <div v-if="showAllNews">
+        <div v-for="newsItem in olderNews" :key="newsItem.index" class="item-content mt-3">
+          <span class="h6">[{{ newsItem.date }}]&nbsp;</span>
+          <span class="h6" v-html="newsItem.content"></span>
         </div>
-        <div v-if="visibleItemCount < news.length" class="text-center mt-4">
-            <button @click="showMore" class="more-button">Previous news (2021-2022)</button> 
-        </div> -->
+      </div>
+
+      <!-- ★ 수정: 토글 버튼 (더보기/접기) -->
+      <div v-if="olderNews.length > 0" class="text-center mt-4">
+        <button @click="toggleOlderNews" class="more-button">
+          {{ showAllNews ? "Hide" : "Previous news (2023~)" }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
