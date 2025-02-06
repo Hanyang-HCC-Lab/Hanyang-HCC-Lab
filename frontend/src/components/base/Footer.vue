@@ -63,7 +63,7 @@
           #507, Fusion Technology Center (FTC), <br />
           222, Wangsimni-ro, Seongdong-gu, <br />
           Seoul, Republic of Korea (04763) <br />
-          © 2022. Hanyang HCC Lab. All rights reserved.
+          © 2025. Hanyang HCC Lab. All rights reserved.
         </p>
       </div>
 
