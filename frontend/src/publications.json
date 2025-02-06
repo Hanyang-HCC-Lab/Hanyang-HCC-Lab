@@ -357,7 +357,7 @@
     "title" : "Poster: A Study on the Importance of Multimodal Sensor Data in Virtual Reality.",
     "author" : "Dayoung Jeong and Kyungsik Han.",
     "venue" : "The International Conference on Next Generation Computing (ICNGC).",
-    "date" : "October 2023.",
+    "date" : "December 2023.",
     "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B107%5DICNGC_VR.pdf",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B107%5DICNGC_VR_slide.pdf"
@@ -601,7 +601,7 @@
 },
 { 
   "index" : 100,
-  "year" : 2023,
+  "year" : 2022,
   "title" : "A Framework for Accurate Community Detection on Signed Networks Using Adversarial Learning.",
   "author" : "Yoonsuk Kang, Woncheol Lee, Yeon-Chang Lee, Kyungsik Han, Sang-Wook Kim.",
   "venue" : "IEEE Transactions on Knowledge and Data Engineering.",
@@ -1625,7 +1625,7 @@
 },
 {
   "index" : 46,
-  "year" : 2019,
+  "year" : 2018,
   "title" : "Intelligent Positive Computing with Mobile, Wearable, and IoT Devices: Literature Review and Research Directions.",
   "author" : "Uichin Lee, Kyungsik Han, Hyunsung Cho, Kyong-Mee Chung, Hwajung Hong, Sung-Ju Lee, Youngtae Noh, Sooyoung Park, John M. Carroll.",
   "venue" : "Journal of Ad Hoc Networks",
