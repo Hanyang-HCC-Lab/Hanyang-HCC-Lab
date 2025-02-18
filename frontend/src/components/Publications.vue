@@ -184,6 +184,13 @@ export default {
           v-on:click="changeTopic('nlp')"
           >Natural Language Processing</label
         >
+        <label
+          class="paper-tag paper-tag-button"
+          :class="{ clicked_button_border: showTopic === 'safety' }"
+          style="background-color: rgba(255, 178, 190)"
+          v-on:click="changeTopic('safety')"
+          >AI Safety</label
+        >
       </div>
     </div>
     <!-- Pub Type (Domestic/International) -->
@@ -275,8 +282,10 @@ export default {
               >{{ paper.title }}</span
             ><br />
             <span class="h6">{{ paper.author }}</span
-            ><br />
-            <i>{{ paper.venue }}</i>
+            >
+            <v v-if="paper.venue"><br /></v>
+            <i>{{ paper.venue }}</i>&nbsp;<i>{{ paper.date }}</i>
+            
 
             <!-- KImpact 존재하면 표출-->
             <span class="h7" style="color: red" v-if="paper.kImpact"
@@ -489,6 +498,12 @@ export default {
                   v-if="tag === 'nlp'"
                   style="background-color: rgba(180, 235, 40)"
                   >Natural Language Processing</label
+                >
+                <label
+                  class="paper-tag"
+                  v-if="tag === 'safety'"
+                  style="background-color: rgba(255, 178, 190)"
+                  >AI Safety</label
                 >
               </span>
             </div>
