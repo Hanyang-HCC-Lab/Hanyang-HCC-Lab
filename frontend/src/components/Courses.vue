@@ -12,6 +12,7 @@
           <li>컴퓨테이셔널 소셜사이언스 (Undergraduate)</li>
           <li>데이터사이언스연구실 현장실습1 (Undergraduate)</li>
           <li>석사주제탐색연구 (Graduate)</li>
+          <li>디지털헬스케어데이터 이해 및 분석 (Graduate)</li>
         </ul>
       </div>
     </div>

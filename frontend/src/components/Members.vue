@@ -467,7 +467,7 @@
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">M.S Students</span></span
+          ><span style="font-size: 1.5rem">M.S. Students</span></span
         >
       </div>
       <div class="row row-cols-10">
