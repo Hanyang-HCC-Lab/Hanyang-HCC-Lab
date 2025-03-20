@@ -1,128 +1,138 @@
 [
 {
-    "index" : 61,
+    "index" : 74,
+    "date" : "Mar. 2024",
+    "content" : "Hoyoung will be joining Gauss Labs as a AI Scientist. Congratulations!"
+},
+{
+    "index" : 73,
     "date" : "Feb. 2025",
     "content" : "Mingon and Someen graduated with their Master's degrees."
 }, 
 {
-    "index" : 60,
+    "index" : 72,
     "date" : "Feb. 2025",
     "content" : "Bogoan graduated with his Ph.D. degree."
 }, 
 {
-    "index" : 59,
+    "index" : 71,
     "date" : "Feb. 2025",
     "content" : "Our report, <i>\"Risk Management Framework of General Purpose AI,' conducted in collaboration with TTA\"</i> has been released."
 },    
 {
-    "index" : 58,
+    "index" : 70,
     "date" : "Jan. 2025",
     "content" : "Our paper <i>\"I Don’t Know Why I Should Use This App': Holistic Analysis on User Engagement Challenges in Mobile Mental Health\"</i> has been accepted to CHI 2025."
 },    
 {
-    "index" : 57,
+    "index" : 69,
     "date" : "Jan. 2025",
     "content" : "Prof. Kyungsik Han has been selected for the Best Researcher (Science and Engineering) from Hanyang University."
 },    
 {
-    "index" : 67,
+    "index" : 68,
     "date" : "Jan. 2025",
     "content" : "Our paper <i>\"A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling\"</i> has been accepted to KIISE Transactions on Computing Practices."
 },
 {
-    "index" : 66,
+    "index" : 67,
     "date" : "Jan. 2025",
     "content" : "Dohoon, Donghyeon, and Aylin will join our lab as research interns."
 },
 {
-    "index" : 65,
+    "index" : 66,
     "date" : "Jan. 2025",
     "content" : "Our paper <i>\"Development of a Personalized Early Prediction Model for Cybersickness in Virtual Reality\"</i> has been accepted to KIISE Transactions on Computing Practices."
 },
 {
-    "index" : 64,
+    "index" : 65,
     "date" : "Dec. 2024",
     "content" : "Our paper <i>\"Understanding the Differences in an AI-based Creativity Support Tool Between Creativity Types in Fashion Design\"</i> has been accepted to International Journal of Human-Computer Interaction."
 },
 {
-    "index" : 63,
+    "index" : 64,
     "date" : "Dec. 2024",
     "content" : "Our paper <i>\"PADO: Personality-induced multi-Agents for Detecting OCEAN in human-generated texts\"</i> has been accepted to COLING 2025."
 },
 {
-    "index" : 62,
+    "index" : 63,
     "date" : "Nov. 2024",
     "content" : "Our paper <i>\"A Novel Traffic Flow Prediction Model based on a Direct Spatio-Temporal Graph\"</i> has been accepted to SAC 2025."
 },
 {
-    "index" : 61,
+    "index" : 62,
     "date" : "Oct. 2024",
     "content" : "Our paper <i>\"ICEv2: Interpretability, Comprehensiveness, and Explainability in Vision Transformer\"</i> has been accepted to International Journal of Computer Vision."
 },
 {
-    "index" : 60,
+    "index" : 61,
     "date" : "Sep. 2024",
     "content" : "Our paper <i>\"PREDICT: Multi-Agent-based Debate Simulation for Generalized Hate Speech Detection\"</i> has been accepted to EMNLP 2024."
 },
 {
-    "index" : 59,
+    "index" : 60,
     "date" : "Sep. 2024",
     "content" : "Junghyun will join our lab as a research intern."
 },
 {
-    "index" : 58,
+    "index" : 59,
     "date" : "Sep. 2024",
     "content" : "Our paper <i>\"Reflecting subjectivity of style to support decision making process for fashion designers\"</i> has been accepted to Journal of the HCI Society of Korea."
 },
 {
-    "index" : 57,
+    "index" : 58,
     "date" : "Aug. 2024",
     "content" : "Sohyun has been selected for the NRF Korea Master's Fellowship (2024-2025) with the proposal titled <i>\"A Research on the Development of a System to Mitigate Political Polarization Through AI-Based Generation of Balanced News Imagery\"</i>."
 },    
 {
-    "index" : 56,
+    "index" : 57,
     "date" : "Aug. 2024",
     "content" : "Myungjin graduated with her Master's degree."
 }, 
 {
-    "index" : 55,
+    "index" : 56,
     "date" : "Aug. 2024",
     "content" : "Our paper <i>\"CoCoStyle: Mixed Initiative Co-creative System to Support Creative Process of Fashion Design\"</i> has been accepted to Elsevier SoftwareX."
 },
 {
-    "index" : 54,
+    "index" : 55,
     "date" : "Jul. 2024",
     "content" : "Our paper <i>\"Poster: Exploring the Impact of AI-Generated Images on Political News Perception and Understanding\"</i> has been accepted to CSCW 2024."
 },
 {
-    "index" : 53,
+    "index" : 54,
     "date" : "Jul. 2024",
     "content" : "Our paper <i>\"Integration of Global and Local Representations for Fine-grained Cross-modal Alignment\"</i> has been accepted to ECCV 2024."
 },
 {
-    "index" : 52,
+    "index" : 53,
     "date" : "Jul. 2024",
     "content" : "Our paper <i>\"Poster: Early Prediction of Cybersickness in Virtual Reality Using a Large Language Model for Multimodal Time Series Data\"</i> has been accepted to UbiComp 2024."
 },
 {
-    "index" : 51,
+    "index" : 52,
     "date" : "Jun. 2024",
     "content" : "Beejin will join our lab as a research intern."
 },
 {
-    "index" : 50,
+    "index" : 51,
     "date" : "Jun. 2024",
     "content" : "Jaehoon has been selected for the NRF Korea Ph.D. Fellowship (2024-2026) with the proposal titled <i>\"A Research on Development of Implicit Hate Speech Detection Model-based AI Interface System for Improving Awareness of Hate Speech\"</i>."
 },
 {
-    "index" : 49,
+    "index" : 50,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection\"</i> has been accepted to ACL 2024."
 },
 {
-    "index" : 48,
+    "index" : 49,
     "date" : "May. 2024",
     "content" : "Our paper <i>\"The hatred of all against all? Evidence from online community platforms in South Korea\"</i> has been accepted to PloS one."
+},
+{
+    "index" : 48,
+    "date" : "Apr. 2024",
+    "content" : "Eunji will be joining CJ Logistics as a AI Engineer. Congratulations!"
 },
 {
     "index" : 47,

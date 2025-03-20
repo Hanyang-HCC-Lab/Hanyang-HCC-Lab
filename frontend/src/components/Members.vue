@@ -835,7 +835,7 @@
           <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Hoyoung Choi</span> &nbsp;|&nbsp; MS 2024 and undergraduate researcher
+          <span class="alumni_name">Hoyoung Choi</span> &nbsp;|&nbsp; MS 2024 and undergraduate researcher (Currently @ Gauss Labs as an AI Scientist)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seungwon Paik</span> &nbsp;|&nbsp; MS 2022
