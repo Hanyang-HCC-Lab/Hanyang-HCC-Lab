@@ -34,12 +34,13 @@
     "year" : 2025,
     "title" : "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling.",
     "author" : "Eunji Kim, Haein Yeo, Kyungsik Han.",
-    "venue" : "KTCP (KIISE Transactions on Computing Practices).",
+    "venue" : "KTCP (KIISE Transactions on Computing Practices), 31 (1).",
     "tags" : [
       "hai", "dm", "fashion"
     ],
     "link" : {
-      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf"
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf",
+      "DOI": "https://doi.org/10.5626/KTCP.2025.31.1.62" 
     }
 },
   {
@@ -47,12 +48,13 @@
     "year" : 2025,
     "title" : "Development of a Personalized Early Prediction Model for Cybersickness in Virtual Reality.",
     "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
-    "venue" : "KTCP (KIISE Transactions on Computing Practices).",
+    "venue" : "KTCP (KIISE Transactions on Computing Practices), 31 (2).",
     "tags" : [
       "hai", "vr"
     ],
     "link" : {
-      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_cybersickness.pdf"
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_cybersickness.pdf",
+      "DOI": "https://doi.org/10.5626/KTCP.2025.31.2.98" 
     }
 },
 {
