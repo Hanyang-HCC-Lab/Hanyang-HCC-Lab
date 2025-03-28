@@ -37,7 +37,10 @@
     "venue" : "KTCP (KIISE Transactions on Computing Practices).",
     "tags" : [
       "hai", "dm", "fashion"
-    ]
+    ],
+    "link" : {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf"
+    }
 },
   {
     "index" : 131,
@@ -47,7 +50,10 @@
     "venue" : "KTCP (KIISE Transactions on Computing Practices).",
     "tags" : [
       "hai", "vr"
-    ]
+    ],
+    "link" : {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_cybersickness.pdf"
+    }
 },
 {
   "index" : 130,
@@ -348,7 +354,7 @@
   {
     "index" : 114,
     "year" : 2024,
-    "title" : "Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study.",
+    "title" : "Promoting Self-Efficacy of Individuals With Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: Mixed Methods Study.",
     "author" : "Sung-In Kim, So-youn Jang, Taewan Kim, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim",
     "venue" : "JMIR Formative Research.",
     "date" : "January 2024.",
