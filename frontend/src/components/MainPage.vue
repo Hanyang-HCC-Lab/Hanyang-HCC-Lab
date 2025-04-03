@@ -34,6 +34,8 @@ export default {
 };
 </script>
 
+
+
 <template>
   <div class="container">
     <div class="text-center">
@@ -294,4 +296,10 @@ export default {
   background-color: #FFC32B; /* 마우스 오버 시 색상 변경 */
   transform: scale(1.05); /* 버튼을 약간 확대 */
 }
+
+.item-content a {
+  color: DarkSlateGray;
+  text-decoration: none; /* 밑줄 제거 (원하면) */
+}
+
 </style>
