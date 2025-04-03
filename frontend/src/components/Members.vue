@@ -422,42 +422,6 @@
         </div>
         <!-- End Member Profile -->
 
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%92%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%E1%86%AB.png"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Someen Park
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">박소민</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: someeeen@naver.com"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Someen_Park.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-
       </div>
     </div>
     <!-- End Research Associates Tap -->
@@ -831,6 +795,9 @@
         >
       </div>
       <div class="mt-2 mb-5">
+      <p style="font-size: 0.9rem; margin: 0">
+          <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025 
+        </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)
         </p>
@@ -852,7 +819,7 @@
             > -->
             </span
           >&nbsp;|&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD
-          Student)
+          Candidate)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Jaeho Han</span> &nbsp;|&nbsp;MS 2021 and
@@ -866,14 +833,10 @@
           <span class="alumni_name">Jisu Yu</span> &nbsp;|&nbsp;MS 2021
           (Currently @ M3SEN)
         </p>
-        <!-- <p style="font-size: 0.9rem; margin: 0">
+        <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
           and undergraduate researcher (Currently @ Korea University as a PhD
           Student)
-        </p> -->
-        <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Seung-Gon Jeon</span> &nbsp;|&nbsp;MS 2020
-          and undergraduate researcher (Researcher @ Korea Univ.)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Soyoung Rhim</span> &nbsp;|&nbsp;MS 2020 and
