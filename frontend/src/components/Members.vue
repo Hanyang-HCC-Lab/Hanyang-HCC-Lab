@@ -750,7 +750,7 @@
           <span class="alumni_name">Bogoan Kim</span> &nbsp;|&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ KAIST as a Postdoctoral Researcher)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025
+          <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025 (Currently @ Naver Cloud as a Research Intern)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)
