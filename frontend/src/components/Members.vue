@@ -250,6 +250,42 @@
           <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
+
+                <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB.webp"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Myungjin Kim
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">김명진</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: 0987someday@naver.com"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://mungjinnie.github.io/"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
       
 
         <!-- Start Member Profile -->
@@ -300,42 +336,6 @@
         >
       </div>
       <div class="row row-cols-10">
-        
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB.webp"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Myungjin Kim
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">김명진</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: 0987someday@naver.com"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://mungjinnie.github.io/"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
 
         <!-- Start Member Profile -->
         <div class="col-12 col-md-3 col-sm-6 text-center">
@@ -525,6 +525,43 @@
               type="button"
               class="btn btn-circle btn-dark"
               href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+
+
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%A8%E1%84%82%E1%85%A1.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+              Yena Choi
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">최예나</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: yenachoi@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yena_Choi.pdf"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
