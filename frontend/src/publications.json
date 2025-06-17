@@ -24,18 +24,9 @@
       "hai", "vr", "health"
     ]
 },
+
   {
     "index" : 134,
-    "year" : 2025,
-    "title" : "범용 인공지능 (GPAI) 위험 관리 프레임워크.",
-    "author" : "Yeajin Shin, Sangyeon Kang, Kyungsik Han, Haein Yeo, Misun Joo, Seungwan Jin, Sohyun Park, Junghyun Kim.",
-    "link":{"paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/TTA_%E1%84%87%E1%85%A5%E1%86%B7%E1%84%8B%E1%85%AD%E1%86%BC+%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC+(GPAI)+%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A5%E1%86%B7+%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5+%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3.pdf"},
-    "tags" : [
-      "hai", "social", "safety"
-    ]
-  },
-  {
-    "index" : 133,
     "year" : 2025,
     "title" : "“I Don’t Know Why I Should Use This App”: Holistic Analysis on User Engagement Challenges in Mobile Mental Health.",
     "author" : "Seungwan Jin*, Bogoan Kim*, Kyungsik Han (*equal contribution).",
@@ -45,7 +36,8 @@
       "컴퓨터공학분야 우수국제학술대회"
     ],
     "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CHI_TAPS.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CHI_TAPS.pdf",
+      "ACM": "https://dl.acm.org/doi/10.1145/3706598.3713732"
     },
     "acceptance_rate" : {
       "AR" : 25.1
@@ -54,22 +46,9 @@
       "hai", "health"
     ]
   },
+
   {
-    "index" : 132,
-    "year" : 2025,
-    "title" : "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling.",
-    "author" : "Eunji Kim, Haein Yeo, Kyungsik Han.",
-    "venue" : "KTCP (KIISE Transactions on Computing Practices), 31 (1).",
-    "tags" : [
-      "hai", "dm", "fashion"
-    ],
-    "link" : {
-      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf",
-      "DOI": "https://doi.org/10.5626/KTCP.2025.31.1.62" 
-    }
-},
-  {
-    "index" : 131,
+    "index" : 133,
     "year" : 2025,
     "title" : "Development of a Personalized Early Prediction Model for Cybersickness in Virtual Reality.",
     "author" : "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
@@ -77,13 +56,14 @@
     "tags" : [
       "hai", "vr"
     ],
+    "date" : "February 2025.",
     "link" : {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_cybersickness.pdf",
       "DOI": "https://doi.org/10.5626/KTCP.2025.31.2.98" 
     }
 },
 {
-  "index" : 130,
+  "index" : 132,
   "year" : 2025,
   "title" : "A Novel Traffic Flow Prediction Model based on a Direct Spatio-Temporal Graph.",
   "author" : "Jiwon Son, Dong-Hyuk Seo, Junho Song, Kyungsik Han, Namhyuk Kim, Sang-Wook Kim.",
@@ -94,7 +74,37 @@
   ],
   "tags" : [
     "hai", "dm"
+  ],
+    "link" : {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_SAC_DST_Graph.pdf",
+      "ACM": "https://dl.acm.org/doi/10.1145/3672608.3707881" 
+    }
+},
+{
+  "index" : 131,
+  "year" : 2025,
+  "title" : "범용 인공지능 (GPAI) 위험 관리 프레임워크.",
+  "author" : "Yeajin Shin, Sangyeon Kang, Kyungsik Han, Haein Yeo, Misun Joo, Seungwan Jin, Sohyun Park, Junghyun Kim.",
+  "link":{"paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/TTA_%E1%84%87%E1%85%A5%E1%86%B7%E1%84%8B%E1%85%AD%E1%86%BC+%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC+(GPAI)+%E1%84%8B%E1%85%B1%E1%84%92%E1%85%A5%E1%86%B7+%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5+%E1%84%91%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3.pdf"},
+  "date" : "February 2025.",
+  "tags" : [
+    "hai", "social", "safety"
   ]
+},
+  {
+    "index" : 130,
+    "year" : 2025,
+    "title" : "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling.",
+    "author" : "Eunji Kim, Haein Yeo, Kyungsik Han.",
+    "venue" : "KTCP (KIISE Transactions on Computing Practices), 31 (1).",
+    "tags" : [
+      "hai", "dm", "fashion"
+    ],
+    "date" : "January 2025.",
+    "link" : {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf",
+      "DOI": "https://doi.org/10.5626/KTCP.2025.31.1.62" 
+    }
 },
 {
   "index" : 129,
