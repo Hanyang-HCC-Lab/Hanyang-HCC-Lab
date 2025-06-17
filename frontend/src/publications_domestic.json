@@ -1,5 +1,15 @@
 [ 
 {
+  "index" : 54,
+  "year" : 2025,
+  "title" : "지식 그래프를 활용한 정치 성향별 뉴스 이미지 생성.",
+  "author" : "손비진, 박소현, 김재훈, 한경식.",
+  "venue" : "한국소프트웨어종합학술대회.",
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
   "index" : 53,
   "year" : 2025,
   "title" : "AI for Humanity.",
