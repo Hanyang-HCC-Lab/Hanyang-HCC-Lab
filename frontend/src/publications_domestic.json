@@ -7,7 +7,10 @@
   "venue" : "한국소프트웨어종합학술대회.",
   "tags" : [
     "hai", "social", "nlp"
-  ]
+  ],
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
 {
   "index" : 53,
@@ -20,7 +23,10 @@
   },
   "tags" : [
     "hai", "social", "cv", "nlp", "vr"
-  ]
+  ],
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
 {
   "index" : 52,
@@ -211,7 +217,10 @@
   },
   "tags" : [
     "hai", "social"
-  ]
+  ],
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
 {
   "index" : 39,
@@ -224,7 +233,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DLLMHallu.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
   {
   "index" : 38,
@@ -240,6 +252,9 @@
       },
   "award":{
     "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC_2023_best_presentation_award.jpg"
+  },
+  "oral_acceptance_rate": {
+    "AR": 0
   }
 },
   {
@@ -253,7 +268,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-37%5DXR.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
   {
   "index" : 36,
@@ -266,7 +284,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
   },
   {
   "index" : 35,
@@ -279,7 +300,10 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
   
 {
@@ -374,7 +398,10 @@
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DHCIK_Locomotion.pdf",
       "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DSlide-HCIK_Locomotion.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
 
 
@@ -409,6 +436,9 @@
       },
   "award": {
     "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KSC_2022_best_paper_award.jpg"
+  },
+  "oral_acceptance_rate": {
+    "AR": 0
   }
 },
 
@@ -439,7 +469,10 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf"
-      }
+      },
+  "oral_acceptance_rate": {
+    "AR": 0
+  }
 },
 
 {
@@ -455,6 +488,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DHCIK_MindScope.pdf",
     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DSlide-HCIK_MindScope.pdf"
+  },
+  "oral_acceptance_rate": {
+    "AR": 0
   }
 },
 
@@ -470,6 +506,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-23%5DHCIK_FashionStyle.pdf"
+  },
+  "oral_acceptance_rate": {
+    "AR": 0
   }
 },
 
@@ -486,5 +525,8 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DHCIK_Art-Psychotherapy.pdf",
      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DSlide-HCIK_Art-Psychotherapy.pdf"
+  },
+  "oral_acceptance_rate": {
+    "AR": 0
   }
 }]
