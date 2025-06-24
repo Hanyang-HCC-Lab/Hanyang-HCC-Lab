@@ -311,15 +311,19 @@ export default {
               >
             </span>
             <!-- Oral AR 존재하면 표출-->
-            <span class="h7" style="color: #a9a9a9" v-if="paper.oral_acceptance_rate"
-              ><i> <span style="color: black;"> Accepted as Oral Presentation</span> (<span
-                  class="h7"
-                  style="color: #a9a9a9"
-                  v-html="paper.oral_acceptance_rate.AR"
-                ></span
-                >% acceptance rate for oral-presentation papers)</i
-              >
+            <!-- AR 값이 존재하고 0보다 클 때 -->
+            <span class="h7" style="color: #a9a9a9" v-if="paper.oral_acceptance_rate && paper.oral_acceptance_rate.AR > 0">
+              <i>
+                <span style="color: black;"> Accepted as Oral Presentation</span>
+                (<span class="h7" style="color: #a9a9a9" v-html="paper.oral_acceptance_rate.AR"></span>% acceptance rate for oral-presentation papers)
+              </i>
             </span>
+
+            <!-- AR 값이 0일 때 -->
+            <span class="h7" style="color: #a9a9a9" v-else-if="paper.oral_acceptance_rate && paper.oral_acceptance_rate.AR === 0">
+              <i><span style="color: black;">[Accepted as Oral Presentation]</span></i>
+            </span>
+
             
             <!-- Award 존재하면 표출-->
             <span class="h7" style="color: #999900" v-if="paper.award">
