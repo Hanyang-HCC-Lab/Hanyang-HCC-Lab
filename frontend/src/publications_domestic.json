@@ -297,7 +297,8 @@
     "hai", "fashion"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DGLAM.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DGLAM.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_GLAM_Slide.pdf"
       },
   "award":{
     "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC_2023_best_presentation_award.jpg"
@@ -316,7 +317,8 @@
     "hai", "vr", "health"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-37%5DXR.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-37%5DXR.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_XR_Slide.pdf"
       },
   "oral_acceptance_rate": {
     "AR": 0
@@ -348,7 +350,8 @@
     "hai","fashion"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_CoFashion_Slide.pdf"
       },
   "oral_acceptance_rate": {
     "AR": 0
@@ -381,7 +384,8 @@
     "health"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-33%5DHCIK_Social_Anxiety.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-33%5DHCIK_Social_Anxiety.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_XR_Poster.pdf"
       }
 },
 
@@ -396,7 +400,9 @@
     "vr"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-32%5DHCIK_Cybersickness.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-32%5DHCIK_Cybersickness.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_VR_Poster.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_Cybersickness_Slide.pdf"
       }
 },
 
@@ -412,7 +418,8 @@
   ],
   "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DHCIK_Locomotion_capstone.pdf",
-      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DSlide-HCIK_Locomotion_capstone.pdf"
+      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DSlide-HCIK_Locomotion_capstone.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_VR_locomotion_Poster.pdf"
       }
 },
 
