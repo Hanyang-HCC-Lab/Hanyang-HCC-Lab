@@ -1,14 +1,19 @@
 [
 {
-    "index" : 81,
+    "index" : 82,
     "date" : "Jun. 2025",
     "content" : "Professor Han will serve as an Area Chair for the 12th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2025)."
 },
 {
-    "index" : 80,
+    "index" : 81,
     "date" : "Jun. 2025",
     "content" : "Seungmin will join our lab as a research intern."
 },
+{
+    "index" : 80,
+    "date" : "May. 2025",
+    "content" : "Our report, <i>\"An Empirical Analysis of Harmful Attack Strategies on Large Language Models,' conducted in collaboration with TTA\"</i> has been released."
+},    
 {
     "index" : 79,
     "date" : "May. 2025",

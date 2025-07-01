@@ -1,5 +1,18 @@
 [
   {
+    "index" : 137,
+    "year" : 2025,
+    "title" : "LLM 유해성 공격 전략에 대한 실증적 분석.",
+    "author" : "Yeajin Shin, Kyungsik Han, Taehyung Noh, Mingon Jeong.",
+    "date" : "May 2025.",
+    "tags" : [
+      "hai", "social", "safety", "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/TTA_LLM+%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A7%E1%86%A8+%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8%E1%84%8B%E1%85%A6+%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%AB+%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8+%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.pdf"
+    }
+},
+  {
     "index" : 136,
     "year" : 2025,
     "title" : "Designing a Visual Analytics Tool to Support Analysis Tasks of Digital Mental Health Interventions: A Proof-of-Concept Study.",
@@ -37,7 +50,9 @@
     ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CHI_TAPS.pdf",
-      "ACM": "https://dl.acm.org/doi/10.1145/3706598.3713732"
+      "ACM": "https://dl.acm.org/doi/10.1145/3706598.3713732",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CHI_TAPS_Slides.pdf",
+      "presentation": "https://www.youtube.com/watch?v=1gVSkG_tLMo"
     },
     "acceptance_rate" : {
       "AR" : 25.1
@@ -119,7 +134,8 @@
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_COLING_PADO.pdf",
     "ACM": "https://aclanthology.org/2025.coling-main.382/",
-    "presentation": "https://youtu.be/QTQoPADqg14?si=5H_mdXJSp83J-pis"
+    "presentation": "https://youtu.be/QTQoPADqg14?si=5H_mdXJSp83J-pis",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_COLING_PADO_Slide.pdf"
   },
   "tags" : [
     "hai", "social", "nlp"
@@ -192,7 +208,9 @@
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B126%5DPREDICT.pdf",
-      "ACL": "https://aclanthology.org/2024.emnlp-main.1166/"
+      "ACL": "https://aclanthology.org/2024.emnlp-main.1166/",
+      "presentation": "https://www.youtube.com/watch?v=yJaoKzgDro4",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/PREDICT_Slide.pdf"
     },
     "oral_acceptance_rate": {
       "AR": 3.6
@@ -232,7 +250,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B120%5DEarly_prediction.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3675094.3677578",
-    "presentation": "https://youtu.be/HFv--4UgVVM?si=nHEpqoQL73kNrmeg"
+    "presentation": "https://youtu.be/HFv--4UgVVM?si=nHEpqoQL73kNrmeg",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/UbiComp24_Early_prediction_Slide.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/UbiComp24_Early_prediction_Poster.pdf"
   },
   "tags" : [
     "hai", "vr"
@@ -303,7 +323,9 @@
       "link" : {
         "paper" : "https://aclanthology.org/2024.findings-acl.957.pdf",
         "ACL" : "https://aclanthology.org/2024.findings-acl.957/",
-        "presentation": "https://youtu.be/D18by4N67pI?si=pMR58hbaJUDwRadB"
+        "presentation": "https://youtu.be/D18by4N67pI?si=pMR58hbaJUDwRadB",
+        "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/ACL24_LAHN_Slide.pdf", 
+        "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/ACL24_LAHN_Poster.pdf"
       },
     "tags" : [
     "hai", "social", "nlp"
@@ -319,7 +341,8 @@
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B117%5DPRECYSE.pdf",
       "ACM" : "https://dl.acm.org/doi/10.1145/3659594",
-      "presentation" : "https://www.youtube.com/watch?v=GsztMrbyV1M"
+      "presentation" : "https://www.youtube.com/watch?v=GsztMrbyV1M",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/UbiComp'24_PRECYSE_Slide.pdf"
     },
     "kImpact" : [
       "컴퓨터공학분야 우수국제학술대회"
@@ -339,6 +362,7 @@
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B108%5DNarrating_Routines.pdf",
       "presentation" : "https://youtu.be/DhuRw9zGIiY?si=1f8RlUF5wJJZPaMh",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/CHI24_Narrating_Routines_Slide.pdf",
       "demo" : "https://www.youtube.com/watch?v=Eln3-DpU0pA",
       "ACM" : "https://dl.acm.org/doi/10.1145/3613904.3642357"
     },
@@ -385,7 +409,8 @@
     ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B104%5DHearHere.pdf",
-      "ACM" : "https://dl.acm.org/doi/10.1145/3637340"
+      "ACM" : "https://dl.acm.org/doi/10.1145/3637340", 
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/CSCW2024_HearHere_Presentation.pdf"
     }
   },
   {
@@ -466,7 +491,8 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DVDAT.pdf",
     "demo" : "https://youtu.be/qH6f5-jtjgk",
     "ACM" : "https://doi.org/10.1145/3586183.3606797",
-    "presentation" : "https://www.youtube.com/watch?v=UWg-84muk5U"
+    "presentation" : "https://www.youtube.com/watch?v=UWg-84muk5U",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/UIST_VDAT_Slide.pdf"
   },
   "tags" : [
     "hai", "vr", "health"
@@ -503,7 +529,9 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B100%5DAdversarial+Normalization_I+Can+visualize+Everything+(ICE).pdf",
-    "IEEE" : "https://ieeexplore.ieee.org/document/10203641"
+    "IEEE" : "https://ieeexplore.ieee.org/document/10203641",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/CVPR23_ICE_Poster.pdf",
+    "presentation": "https://www.youtube.com/watch?v=ZeZYWmrHqIw&t=8s"
   },
   "tags" : [
     "hai",
@@ -574,7 +602,8 @@
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B96%5DRoutineAid_Externalizing_Key_Design_Elements_to_Support_Daily_Routines_of_Individuals_with_Autism.pdf",
     "demo" : "https://youtu.be/Eln3-DpU0pA",
     "ACM" : "https://dl.acm.org/doi/10.1145/3544548.3581048",
-    "presentation" : "https://youtu.be/TUu0Nq7Po5s"
+    "presentation" : "https://youtu.be/TUu0Nq7Po5s", 
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/CHI23_RoutineAid_Slide.pdf"
   },
   "acceptance_rate" : {
     "AR" : 27.6
@@ -718,7 +747,8 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B91%5D+Leveraging_Multimodal_Sensory_Information_in_Cybersickeness_Prediction.pdf",
-    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565667?casa_token=6NuQ2k1EA7UAAAAA:KTL74dLRlOjvlBdFejoqHvpPklrYU_xIKML19zZQkYHl-6th-GmpyWn7uyTLek4vszYE0HlZBGMTFqM" 
+    "ACM" : "https://dl.acm.org/doi/abs/10.1145/3562939.3565667?casa_token=6NuQ2k1EA7UAAAAA:KTL74dLRlOjvlBdFejoqHvpPklrYU_xIKML19zZQkYHl-6th-GmpyWn7uyTLek4vszYE0HlZBGMTFqM",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/VRST22_Poster.pdf"
   }
 },
 {
