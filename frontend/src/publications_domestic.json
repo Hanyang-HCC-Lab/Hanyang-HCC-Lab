@@ -244,7 +244,8 @@
   "author" : "최윤선, 정다영, 김보관, 한경식.",
   "venue" : "한국소프트웨어종합학술대회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-41%5Dcybersickness.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-41%5Dcybersickness.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC2024_TimeSeries_Poster.pdf"
   },
   "award" : {
     "best_presentation" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC_2024_best_presentation_award.jpg"
@@ -260,7 +261,8 @@
   "author" : "박소민, 김재훈, 박소현, 진승완, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-40%5Dkorea_election.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-40%5Dkorea_election.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/HCI2024_PoliticalElection_Slide.pdf"
   },
   "tags" : [
     "hai", "social"
