@@ -425,6 +425,15 @@ export default {
                 ></span
               >
 
+              <span class="h7" v-if="paper.link.poster"
+                ><a
+                  :href="paper.link.poster"
+                  target="_blank"
+                  style="color: rgba(115, 177, 235)"
+                  >[Poster]</a
+                ></span
+              >
+
               <span class="h7" v-if="paper.link.presentation"
                 ><a
                   :href="paper.link.presentation"
