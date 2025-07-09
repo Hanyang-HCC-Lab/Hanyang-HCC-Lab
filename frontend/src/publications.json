@@ -190,7 +190,9 @@
     ],
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B123%5DIPNA.pdf",
-      "ACM": "https://dl.acm.org/doi/10.1145/3678884.3681907"
+      "ACM": "https://dl.acm.org/doi/10.1145/3678884.3681907",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/CSCW24_IPNA_Poster.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/CSCW24_IPNA_Slide.pdf"
     },
     "tags" : [
       "hai", "social", "cv"
@@ -289,6 +291,8 @@
   "link" : {
     "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10886.pdf",
     "presentation" : "https://youtu.be/fcOX4BCSLlQ",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/ECCV_2024_slide.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/ECCV_2024_poster.pdf",
     "ECVA": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10886_ECCV_2024_paper.php"
   }
   },
@@ -988,6 +992,9 @@
   "author" : "Dayoung Jeong, Seungwon Paik, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "date" : "November 2021.",
+  "link": {
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2021/ICNGC_2021_Cybersickness_Slide.pdf"
+  },
   "tags" : [
     "hai", 
     "vr"

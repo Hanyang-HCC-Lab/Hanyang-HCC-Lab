@@ -9,7 +9,8 @@
     "hai", "social", "nlp"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KCC_KG_Image.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KCC_KG_Image.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KCC2025_KG_Slide.pdf"
   },
   "oral_acceptance_rate": {
     "AR": 0
@@ -78,7 +79,9 @@
   "title" : "우울증 완화를 위한 가상현실 기반 마음챙김: 콘텐츠 개발과 데이터 분석을 중심으로.",
   "author" : "최윤선, 김보관, 정다영, 김형숙, 한경식.",
   "venue" : "한국HCI학회.",
-  "link": {"paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_HCIK_VR-Mindfulness.pdf"},
+  "link": {
+    "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_HCIK_VR-Mindfulness.pdf",
+    "slide":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/HCIK2025_VR_Slide.pdf"},
   "tags" : [
     "hai", "vr", "health"
   ],
@@ -524,7 +527,8 @@
     "vr"
   ],
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/HCIK2022_Cybersickness_Slide.pdf"
       },
   "oral_acceptance_rate": {
     "AR": 0
