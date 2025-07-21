@@ -729,6 +729,42 @@
         </div>
         <!-- End Member Profile -->
 
+        <!-- Start Member Profile -->
+        <div class="col-12 col-md-3 col-sm-6 text-center">
+          <img
+            class="rounded-circle mt-3 memberImage"
+            fetchpriority="high"
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%AE.png"
+          />
+          <div class="text-center mt-1">
+            <p class="member_name" style="font-size: 1rem; margin: 0">
+            Yeonju An
+            </p>
+            <p class="member_name" style="font-size: 1rem; margin: 0">안연주</p>
+          </div>
+          <!-- Start Personal Link -->
+          <div class="mt-1">
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="mailto: subw03@hanyang.ac.kr"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
+            >&nbsp;
+            <a
+              type="button"
+              class="btn btn-circle btn-dark"
+              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yeonju_An.pdf"
+              target="_blank"
+            >
+              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
+            </a>
+          </div>
+          <!-- End Personal Link -->
+        </div>
+        <!-- End Member Profile -->
+
       </div>
     </div>
     <!-- Research Interns Tap -->
@@ -784,7 +820,12 @@
       </div>
       <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Bogoan Kim</span> &nbsp;|&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ KAIST as a Postdoctoral Researcher)
+          <span class="alumni_name"><a
+              class="alumni_link"
+              href="https://bogoankim.github.io/"
+              target="_blank"
+              >Bogoan Kim</a
+            ></span> &nbsp;|&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025 (Currently @ Naver Cloud as a Research Intern)
@@ -801,13 +842,12 @@
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">
-            Youngseung Jeon
-            <!-- <a
+            <a
               class="alumni_link"
               href="https://sites.google.com/view/youngseung-jeon"
               target="_blank"
               >Youngseung Jeon</a
-            > -->
+            > 
             </span
           >&nbsp;|&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD
           Candidate)

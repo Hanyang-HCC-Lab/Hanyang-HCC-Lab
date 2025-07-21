@@ -1,5 +1,15 @@
 [
 {
+    "index" : 84,
+    "date" : "Sep. 2025",
+    "content" : "Dr. Bogoan Kim is now an Assistant Professor at Chungbuk National University. Congratulations!"
+},
+{
+    "index" : 83,
+    "date" : "Jul. 2025",
+    "content" : "Yeonju will join our lab as a research intern."
+},
+{
     "index" : 82,
     "date" : "Jun. 2025",
     "content" : "Professor Han will serve as an Area Chair for the 12th IEEE International Conference on Data Science and Advanced Analytics (DSAA 2025)."
@@ -311,7 +321,7 @@
 },
 {
     "index" : 20,
-    "date" : "July 2022",
+    "date" : "Jul. 2022",
     "content" :"Our paper <i>\"APOTS: A Framework for Adversarial Prediction of Traffic Speed\"</i> has been accepted to ICDE 2022."
 },
 {
