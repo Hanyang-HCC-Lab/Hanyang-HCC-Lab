@@ -284,7 +284,8 @@
     "hai", "fashion", "nlp"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DLLMHallu.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DLLMHallu.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_LLM_+hallucination_slide.pdf"
       },
   "oral_acceptance_rate": {
     "AR": 0
@@ -337,7 +338,8 @@
   "hai", "fashion", "nlp"
   ],
   "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf"
+      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_RecContents_Slide.pdf"
       },
   "oral_acceptance_rate": {
     "AR": 0

@@ -9,22 +9,24 @@ export default {
       // visibleItemCount: 20, // 기존 주석 코드
     };
   },
+
   computed: {
-    // ★ 추가: 2024년 이상의 뉴스만 필터링
     recentNews() {
       return this.news.filter(newsItem => {
-        const year = new Date(newsItem.date).getFullYear();
+        const yearMatch = newsItem.date.match(/\b(20\d{2})\b/);
+        const year = yearMatch ? parseInt(yearMatch[1]) : 0;
         return year >= 2024;
       });
     },
-    // ★ 추가: 2023년 이전 뉴스만 필터링
     olderNews() {
       return this.news.filter(newsItem => {
-        const year = new Date(newsItem.date).getFullYear();
+        const yearMatch = newsItem.date.match(/\b(20\d{2})\b/);
+        const year = yearMatch ? parseInt(yearMatch[1]) : 0;
         return year < 2024;
       });
-    },
+    }
   },
+
   methods: {
     // ★ 변경: 기존 showMore() 대신 접기/펼치기 토글 메소드로 변경
     toggleOlderNews() {

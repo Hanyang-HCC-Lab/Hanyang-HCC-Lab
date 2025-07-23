@@ -15,10 +15,14 @@
   {
     "index" : 136,
     "year" : 2025,
-    "title" : "Designing a Visual Analytics Tool to Support Analysis Tasks of Digital Mental Health Interventions: A Proof-of-Concept Study.",
+    "title" : "Designing a Visual Analytics Tool to Support Data Analysis Tasks of Digital Mental Health Interventions: Case Study",
     "author" : "Gyuwon Jung, Heejeong Lim, Kyungsik Han, Hyungsook Kim, Uichin Lee.",
     "venue" : "JMIR Human Factors.",
     "date" : "May 2025.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_JMIR_Human_Factors.pdf",
+      "DOI": "https://doi.org/10.2196/64967"
+    },
     "tags" : [
       "hai", "health"
     ]
@@ -626,6 +630,7 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B99%5DA+Study+on+User+Perception+and+Experience+Differences+in+Recommendation+Results+by+Domain+Expertise.pdf",
     "presentation" : "https://youtu.be/L2ZH-R64o3M",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/CHI_LBW_UserPerception_Slide.pdf",
     "ACM" : "https://dl.acm.org/doi/abs/10.1145/3544549.3585641"
   },
   "tags" : [
@@ -792,6 +797,7 @@
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B89%5D+AI_Augmented_Art_Psychotherapy.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/CIKM22_sp0116_poster.pdf",
     "ACM" : "https://dl.acm.org/doi/10.1145/3511808.3557542"
   },
   "acceptance_rate" : {
@@ -845,6 +851,10 @@
   "author" : "Mingon Jeong, Kyungsik Han.",
   "venue" : "The International Conference on Next Generation Computing (ICNGC).",
   "date" : "October 2022.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B93%5D+ICNGC_2022_paper.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/ICNGC_2022_Left_hand_Slide.pdf"
+  },
   "tags" : [
     "hai", 
     "vr"
