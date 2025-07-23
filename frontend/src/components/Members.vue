@@ -3,7 +3,7 @@
     <!-- Start Professor Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Professor</span></span
         >
@@ -52,7 +52,7 @@
     <!-- Start Ph.D. Candidates Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Ph.D. Candidates</span></span
         >
@@ -172,7 +172,7 @@
     <!-- Start MS & PhD Integrated Students Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Ph.D. Students</span></span
         >
@@ -330,7 +330,7 @@
     <!-- Start Research Associates Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Research Associates</span></span
         >
@@ -380,7 +380,7 @@
     <!-- Start MS Students Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">M.S. Students</span></span
         >
@@ -578,7 +578,7 @@
 
    <!-- Start Staff Tap -->
    <div class="container mt-5" style="width: 50%">
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Undergraduate Students</span></span
         >
@@ -771,7 +771,7 @@
 
     <!-- Start Staff Tap -->
     <div class="container mt-5" style="width: 50%">
-      <div class="row-cols-2">
+      <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
           ><span style="font-size: 1.5rem">Administrative Staff</span></span
         >
@@ -910,5 +910,19 @@
 .alumni_link {
   color: rgba(115, 177, 235);
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .memberImage {
+    width: 50%;
+  }
+  .center-on-mobile {
+    text-align: center;
+  }
 }
 </style>
