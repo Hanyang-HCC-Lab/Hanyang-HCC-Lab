@@ -1,5 +1,18 @@
 [
   {
+  "index" : 138,
+  "year" : 2025,
+  "title" : "LLM-Generated Content-Based Explanations for User Experience in Fashion Recommender Systems.",
+  "author" : "Haein Yeo, Taehyung Noh, Kyungsik Han.",
+  "venue" : "Fashion and Textiles.",
+  "kImpact" : [
+    "SCI(E) Q1, JCR IF = 3.7"
+  ],
+  "tags" : [
+    "hai", "fashion", "social"
+  ]
+ },
+  {
     "index" : 137,
     "year" : 2025,
     "title" : "LLM 유해성 공격 전략에 대한 실증적 분석.",
