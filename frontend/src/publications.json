@@ -1,5 +1,21 @@
 [
   {
+  "index" : 139,
+  "year" : 2025,
+  "title" : "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs.",
+  "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
+  "venue" : "ACM International Conference on Information and Knowledge Management (CIKM).",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "additional" : {
+    "AR" : 30.6
+  },
+  "tags" : [
+    "hai","social", "nlp"
+  ]
+ },
+  {
   "index" : 138,
   "year" : 2025,
   "title" : "LLM-Generated Content-Based Explanations for User Experience in Fashion Recommender Systems.",

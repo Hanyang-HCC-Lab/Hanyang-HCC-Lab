@@ -1,8 +1,13 @@
 [
 {
-    "index" : 85,
+    "index" : 86,
     "date" : "Sep. 2025",
     "content" : "Bogoan Kim is now an Assistant Professor at School of Information and Communication Engineering, Chungbuk National University. Wish you all the best!"
+},
+{
+    "index" : 85,
+    "date" : "Aug. 2025",
+    "content" : "Our paper <i>\"Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs\"</i> has been accepted to CIKM 2025."
 },
 {
     "index" : 84,
