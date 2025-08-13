@@ -245,7 +245,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Taehyung_Noh.pdf"
+              href="https://yestaehyung.github.io/"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
