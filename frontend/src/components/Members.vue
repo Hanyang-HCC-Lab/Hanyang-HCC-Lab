@@ -391,43 +391,6 @@
       </div>
       <div class="row row-cols-10">
         
-        
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.png"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Misun Joo
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">주미선</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: "
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Misun_Joo.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-        
 
       <!-- Start Member Profile -->
       <div class="col-12 col-md-3 col-sm-6 text-center">
@@ -769,42 +732,6 @@
         </div>
         <!-- End Member Profile -->
 
-<!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%A7%E1%86%AB.png"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-            Jaehyun Lim
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">임재현</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: jhlim0929@naver.com"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Jaehyun_Lim.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-
       </div>
     </div>
     <!-- Research Interns Tap -->
@@ -859,6 +786,9 @@
         >
       </div>
       <div class="mt-2 mb-5">
+        <p style="font-size: 0.9rem; margin: 0">
+          <span class="alumni_name">Misun Joo</span> &nbsp;|&nbsp; MS 2025
+        </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name"><a
               class="alumni_link"
