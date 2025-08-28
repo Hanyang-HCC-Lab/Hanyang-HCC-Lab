@@ -104,6 +104,9 @@
     "tags" : [
       "hai", "vr"
     ],
+  "kImpact" : [
+      "KCI 등재 학술지"
+  ],
     "date" : "February 2025.",
     "link" : {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_cybersickness.pdf",
@@ -148,6 +151,9 @@
     "tags" : [
       "hai", "dm", "fashion"
     ],
+  "kImpact" : [
+      "KCI 등재 학술지"
+  ],
     "date" : "January 2025.",
     "link" : {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KTCP_metapath.pdf",
@@ -298,11 +304,14 @@
     "year" : 2024,
     "title" : "Reflecting subjectivity of style to support decision making process for fashion designers.",
     "author" : "Myungjin Kim, Misun Joo, Kyungsik Han.",
-    "venue" : "Journal of the HCI Society of Korea.",
+    "venue" : "Journal of the HCI Society of Korea, 19 (3).",
     "date" : "September 2024.",
     "tags" : [
       "hai", "fashion"
     ],
+      "kImpact" : [
+      "KCI 등재 학술지"
+  ],
     "link" : {
       "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5B124%5DReflecting_subjectivity.pdf",
       "DOI" : "https://doi.org/10.17210/jhsk.2024.09.19.3.15"
@@ -549,6 +558,9 @@
     "hai",
     "social"
   ], 
+  "kImpact" : [
+      "KCI 우수등재 학술지"
+  ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B102%5DPolitical_Polarization.pdf",
     "DOI" : "https://doi.org/10.5626/JOK.2023.50.9.771"
@@ -697,6 +709,9 @@
     "hai",
     "social"
   ], 
+  "kImpact" : [
+      "KCI 등재 학술지"
+  ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5B98%5DHCIK_HateSpeech.pdf",
     "DOI" : "https://doi.org/10.17210/jhsk.2023.03.18.1.27"
@@ -894,11 +909,14 @@
   "year" : 2022,
   "title" : "A Study on Mobile Game Design to Support Daily Routines of Individuals with Autism.",
   "author" : "Bogoan Kim, Sung-In Kim, Sangwon Park, Hee Jeong Yoo, Hwajung Hong, Kyungsik Han.", 
-  "venue" : "HCI Korea, 17 (2).",
+  "venue" : "Journal of the HCI Society of Korea, 17 (2).",
   "date" : "June 2022.",
   "tags" : [
     "hai", 
     "health"
+  ],
+  "kImpact" : [
+      "KCI 등재 학술지"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5B87%5D+KCI_%EC%9E%90%ED%8F%90%EC%A6%9D%EC%9D%B4_%EC%9E%88%EB%8A%94_%EA%B0%9C%EC%9D%B8%EC%9D%98_%EB%8D%B0%EC%9D%BC%EB%A6%AC_%EB%A3%A8%ED%8B%B4_%EC%A7%80%EC%9B%90%EC%9D%84_%EC%9C%84%ED%95%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B2%8C%EC%9E%84.pdf",
@@ -1249,6 +1267,9 @@
   "tags" : [
     "hai",
     "vr"
+  ],
+  "kImpact" : [
+      "KCI 등재 학술지"
   ],
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B68%5D+KCI_%EA%B0%80%EC%83%81_%EC%86%8C%EB%B0%A9_%ED%9B%88%EB%A0%A8%EC%97%90%EC%84%9C_%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC_%EC%96%91%EC%8B%9D%EC%97%90_%EB%94%B0%EB%A5%B8_%EC%82%AC%EC%9A%A9%EC%9E%90_%EC%9A%94%EC%9D%B8_%EC%A1%B0%EC%82%AC.pdf",
