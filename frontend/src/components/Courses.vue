@@ -12,6 +12,7 @@
           <li>커리어 개발 (Undergraduate)</li>
           <li>데이터사이언스연구실 현장실습2 (Undergraduate)</li>
           <li>디지털헬스케어 트렌드 리서치 (Graduate)</li>
+          <li>디지털헬스케어의 이해와 응용 (Graduate)</li>
         </ul>
 
         <span class="h5">Spring&nbsp;</span>
