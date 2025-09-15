@@ -1,6 +1,24 @@
 [
+{
+    "index" : 139,
+    "year" : 2025,
+    "title" : "Enhancing Mindfulness-Based Cognitive Therapy in a Virtual Reality: A Prospective Interventional Study.",
+    "author" : "Bogoan Kim*, Dayoung Jeong*, Yoonseon Choi, Yoonyoung Choi, Hyungsook Kim, Kyungsik Han (*equal contribution).",
+    "venue" : "Scientific Reports.",
+    "date" : "Sep 2025.",
+    "kImpact" : [
+      "SCI(E) Q1, JCR IF = 3.8"
+    ],
+    "tags" : [
+      "hai", "vr", "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_Enhancing_Mindfulness.pdf",
+      "DOI": "https://doi.org/10.1038/s41598-025-01359-7"
+    }
+},
   {
-  "index" : 139,
+  "index" : 138,
   "year" : 2025,
   "title" : "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
@@ -16,7 +34,7 @@
   ]
  },
   {
-  "index" : 138,
+  "index" : 137,
   "year" : 2025,
   "title" : "LLM-Generated Content-Based Explanations for User Experience in Fashion Recommender Systems.",
   "author" : "Haein Yeo, Taehyung Noh, Kyungsik Han.",
@@ -29,7 +47,7 @@
   ]
  },
   {
-    "index" : 137,
+    "index" : 136,
     "year" : 2025,
     "title" : "LLM 유해성 공격 전략에 대한 실증적 분석.",
     "author" : "Yeajin Shin, Kyungsik Han, Taehyung Noh, Mingon Jeong.",
@@ -42,7 +60,7 @@
     }
 },
   {
-    "index" : 136,
+    "index" : 135,
     "year" : 2025,
     "title" : "Designing a Visual Analytics Tool to Support Data Analysis Tasks of Digital Mental Health Interventions: Case Study",
     "author" : "Gyuwon Jung, Heejeong Lim, Kyungsik Han, Hyungsook Kim, Uichin Lee.",
@@ -56,20 +74,7 @@
       "hai", "health"
     ]
 },
-  {
-    "index" : 135,
-    "year" : 2025,
-    "title" : "Enhancing Mindfulness-Based Cognitive Therapy in a Virtual Reality: A Prospective Interventional Study.",
-    "author" : "Bogoan Kim*, Dayoung Jeong*, Yoonseon Choi, Yoonyoung Choi, Hyungsook Kim, Kyungsik Han (*equal contribution).",
-    "venue" : "Scientific Reports.",
-    "date" : "May 2025.",
-    "kImpact" : [
-      "SCI(E) Q1, JCR IF = 3.8"
-    ],
-    "tags" : [
-      "hai", "vr", "health"
-    ]
-},
+
 
   {
     "index" : 134,
