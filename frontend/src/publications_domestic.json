@@ -8,6 +8,9 @@
   "link" : {
     "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KDMS25_Poster_PersonaScope.pdf"
   },
+  "award" : {
+    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%EA%B9%80%EC%A0%95%ED%98%84.jpg"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
