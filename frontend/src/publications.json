@@ -1,10 +1,24 @@
 [
 {
+  "index" : 142,
+  "year" : 2025,
+  "title" : "Analyzing the Impact of the Automatic Ball Strike System in Professional Baseball through a Case Study on KBO League Data.",
+  "author" : "Kichang Lee, Kyungsik Han, JeongGil Ko.",
+  "venue" : "Scientific Reports.",
+  "kImpact" : [
+    "SCI(E) Q1, JCR IF = 3.8"
+  ],
+
+  "tags" : [
+    "hai", "cv"
+  ]
+},
+{
   "index" : 141,
   "year" : 2025,
-  "title" : "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
+  "title" : "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
-  "venue" : "The Association for the Advancement of Artificial Intelligence (AAAI)",
+  "venue" : "The Association for the Advancement of Artificial Intelligence (AAAI).",
   "kImpact" : [
     "컴퓨터공학분야 우수국제학술대회"
   ],
