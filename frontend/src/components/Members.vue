@@ -331,55 +331,6 @@
     </div>
     <!-- End MS & PhD Integrated Students Tap -->
 
-    <!-- Start Research Associates Tap -->
-    <div class="container mt-5" style="width: 50%">
-      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row-cols-2 center-on-mobile">
-        <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">Research Associates</span></span
-        >
-      </div>
-      <div class="row row-cols-10">
-
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%AB.webp"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-              Mingon Jeong
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">정민곤</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: mingon21@hanyang.ac.kr"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Mingon_Jeong.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-
-      </div>
-    </div>
-    <!-- End Research Associates Tap -->
 
     <!-- Start MS Students Tap -->
     <div class="container mt-5" style="width: 50%">
@@ -624,42 +575,6 @@
         </div>
         <!-- End Member Profile -->
 
-        <!-- Start Member Profile -->
-        <div class="col-12 col-md-3 col-sm-6 text-center">
-          <img
-            class="rounded-circle mt-3 memberImage"
-            fetchpriority="high"
-            src="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%85%E1%85%B5%E1%86%AB.png"
-          />
-          <div class="text-center mt-1">
-            <p class="member_name" style="font-size: 1rem; margin: 0">
-            Aylin Fathi
-            </p>
-            <p class="member_name" style="font-size: 1rem; margin: 0">아이린</p>
-          </div>
-          <!-- Start Personal Link -->
-          <div class="mt-1">
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="mailto: aylin@hanyang.ac.kr"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
-            >&nbsp;
-            <a
-              type="button"
-              class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_AYLIN_FATHI.pdf"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-solid fa-link" size="lg" />
-            </a>
-          </div>
-          <!-- End Personal Link -->
-        </div>
-        <!-- End Member Profile -->
-
 
         <!-- Start Member Profile -->
         <div class="col-12 col-md-3 col-sm-6 text-center">
@@ -753,6 +668,9 @@
       <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Misun Joo</span> &nbsp;|&nbsp; MS 2025
+        </p>
+        <p style="font-size: 0.9rem; margin: 0">
+          <span class="alumni_name">Mingon Jeong</span> &nbsp;|&nbsp; MS 2025 and undergraduate researcher
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name"><a
