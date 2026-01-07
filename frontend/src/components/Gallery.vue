@@ -22,7 +22,7 @@
             style="max-height: 20rem"
           />
           <div class="card-body">
-            <span class="h6 card-text">[2025.12] Masters Thesis Defense</span>
+            <span class="h6 card-text">[2025.12] Ph.D. and Masters Thesis Defense</span>
           </div>
         </div>
       </div>
