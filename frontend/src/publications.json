@@ -1,15 +1,33 @@
 [
 {
+  "index" : 143,
+  "year" : 2026,
+  "title" : "CALL: Extracting and Evaluating Large Language Model for Online Political Communities.",
+  "author" : "Misun Joo, Jaehoon Kim, Sohyun Park, Kyungsik Han.",
+  "venue" : "Journal of the HCI Society of Korea.",
+  "date" : "March 2026.",
+  "kImpact" : [
+      "KCI 등재 학술지"
+  ],
+  "tags" : [
+    "hai","social", "nlp"
+  ]
+},
+{
   "index" : 142,
   "year" : 2026,
   "title" : "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
   "venue" : "The Association for the Advancement of Artificial Intelligence (AAAI).",
+  "date" : "Jan 2026.",
   "kImpact" : [
     "컴퓨터공학분야 우수국제학술대회"
   ],
   "additional" : {
     "AR" : 17.6
+  },
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI.pdf"
   },
   "tags" : [
     "hai","social", "nlp"
@@ -20,11 +38,15 @@
   "year" : 2025,
   "title" : "Analyzing the Impact of the Automatic Ball Strike System in Professional Baseball through a Case Study on KBO League Data.",
   "author" : "Kichang Lee, Kyungsik Han, JeongGil Ko.",
+  "date" : "Dec 2025.",
   "venue" : "Scientific Reports.",
   "kImpact" : [
     "SCI(E) Q1, JCR IF = 3.8"
   ],
-
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KBO_ScientificReports.pdf",
+    "DOI": "https://doi.org/10.1038/s41598-025-28142-y"
+  },
   "tags" : [
     "hai", "cv"
   ]
@@ -39,6 +61,9 @@
     "kImpact" : [
       "SCI(E) Q1, JCR IF = 5.0"
     ],
+    "link": {
+      "DOI": "https://doi.org/10.1007/s10055-025-01251-9"
+    },
     "tags" : [
       "hai", "vr", "health"
     ]
