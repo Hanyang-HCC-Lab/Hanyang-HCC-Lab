@@ -1,5 +1,20 @@
 [
 {
+    "index" : 95,
+    "date" : "Mar. 2026",
+    "content" : "Beejin will join our lab as a Ph.D student (MS & Ph.D Integrated Course), and Dohoon will join as a master student."
+},
+{
+    "index" : 94,
+    "date" : "Jan. 2026",
+    "content" : "Our paper <i>\"Revisiting Clique and Star Expansions in Hypergraph Representation Learning: Observations, Problems, and Solutions\"</i> has been accepted to IEEE Access."
+},
+{
+    "index" : 93,
+    "date" : "Dec. 2025",
+    "content" : "Professor Han delivered a talk titled <i>\"Deepening Contextual Understanding in Large Language Models for Intelligent Decision-Making and Services\"</i> at the Future Research Information Forum 2025. <a href='https://www.youtube.com/watch?v=qEILLhydOyE' target='_blank'>[Youtube Link]</a>"
+},  
+{
     "index" : 92,
     "date" : "Dec. 2025",
     "content" : "Our paper <i>\"CALL: Extracting and Evaluating Large Language Model for Online Political Communities\"</i> has been accepted to Journal of the HCI Society of Korea."

@@ -632,10 +632,10 @@
       </div>
       <div class="mt-2 mb-5">
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Misun Joo</span> &nbsp;|&nbsp; MS 2025
+          <span class="alumni_name">Misun Joo</span> &nbsp;|&nbsp; MS 2025 
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Mingon Jeong</span> &nbsp;|&nbsp; MS 2025 and undergraduate researcher
+          <span class="alumni_name">Mingon Jeong</span> &nbsp;|&nbsp; MS 2025 and undergraduate researcher (Currently @ The Growth as a Software Engineering Intern)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name"><a
