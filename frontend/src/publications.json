@@ -1,5 +1,56 @@
 [
 {
+  "index" : 147,
+  "year" : 2026,
+  "title" : "QuerySwitch: Supporting the Design Process by Balancing Vagueness through Large Language Models.",
+  "author" : "Myungjin Kim, Bogoan Kim, Kyungsik Han.",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+  "date" : "April 2026.",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "acceptance_rate" : {
+    "AR" : 25.3
+  },
+  "tags" : [
+    "hai", "fashion"
+  ]
+},
+{
+  "index" : 146,
+  "year" : 2026,
+  "title" : "LAPS: Automating Hypothesis-Driven Statistical Analysis of Public Survey Using Large Language Models.",
+  "author" : "Jaehoon Kim*, Dayoung Jeong*, Beejin Son, Hansung Kim, Bogoan Kim, Kyungsik Han (*equal contribution).",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+  "date" : "April 2026.",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "acceptance_rate" : {
+    "AR" : 25.3
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
+  "index" : 145,
+  "year" : 2026,
+  "title" : "\"Can LLMs Persuade Humans with Deception?\": From a Deceptive Strategy Taxonomy to a Large-Scale Empirical Study.",
+  "author" : "Haein Yeo, Seungwan Jin, Taehyung Noh, Yejin Shin, Sangyeon Kang, Sangwoo Heo, Jiwon Chung, Hwarim Hyun, Kyungsik Han.",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI).",
+  "date" : "April 2026.",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "acceptance_rate" : {
+    "AR" : 25.3
+  },
+  "tags" : [
+    "hai", "safety", "nlp"
+  ]
+},
+{
   "index" : 144,
   "year" : 2026,
   "title" : "Revisiting Clique and Star Expansions in Hypergraph Representation Learning: Observations, Problems, and Solutions.",
@@ -32,7 +83,7 @@
   "title" : "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
   "venue" : "The Association for the Advancement of Artificial Intelligence (AAAI).",
-  "date" : "Jan 2026.",
+  "date" : "January 2026.",
   "kImpact" : [
     "컴퓨터공학분야 우수국제학술대회"
   ],
@@ -51,7 +102,7 @@
   "year" : 2025,
   "title" : "Analyzing the Impact of the Automatic Ball Strike System in Professional Baseball through a Case Study on KBO League Data.",
   "author" : "Kichang Lee, Kyungsik Han, JeongGil Ko.",
-  "date" : "Dec 2025.",
+  "date" : "December 2025.",
   "venue" : "Scientific Reports.",
   "kImpact" : [
     "SCI(E) Q1, JCR IF = 3.8"
@@ -70,11 +121,12 @@
     "title" : "VR-ACT: Transforming Clinical Evidence of Acceptance and Commitment Therapy through Virtual Reality for Subthreshold Depression.",
     "author" : "Bogoan Kim, Dayoung Jeong, Yoonseon Choi, Hyungsook Kim, Kyungsik Han.",
     "venue" : "Springer Virtual Reality.",
-    "date" : "Oct 2025.",
+    "date" : "December 2025.",
     "kImpact" : [
       "SCI(E) Q1, JCR IF = 5.0"
     ],
     "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_VR_VR-ACT.pdf",
       "DOI": "https://doi.org/10.1007/s10055-025-01251-9"
     },
     "tags" : [
@@ -87,7 +139,7 @@
     "title" : "Enhancing Mindfulness-Based Cognitive Therapy in a Virtual Reality: A Prospective Interventional Study.",
     "author" : "Bogoan Kim*, Dayoung Jeong*, Yoonseon Choi, Yoonyoung Choi, Hyungsook Kim, Kyungsik Han (*equal contribution).",
     "venue" : "Scientific Reports.",
-    "date" : "Sep 2025.",
+    "date" : "September 2025.",
     "kImpact" : [
       "SCI(E) Q1, JCR IF = 3.8"
     ],
