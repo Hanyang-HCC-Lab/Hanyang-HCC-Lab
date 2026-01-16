@@ -646,7 +646,7 @@
             ></span> &nbsp;|&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
-          <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025 (Currently @ Naver Cloud as a Research Intern)
+          <span class="alumni_name">Someen Park</span> &nbsp;|&nbsp; MS 2025 (Currently @ LINA Life Insurance as an AI Engineer)
         </p>
         <p style="font-size: 0.9rem; margin: 0">
           <span class="alumni_name">Eunji Kim</span> &nbsp;|&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)
