@@ -1,5 +1,121 @@
 [
 {
+  "index" : 66,
+  "year" : 2026,
+  "title" : "Capstone: ToDoc: 개인화 및 RAG 기반의 대규모 언어모델을 활용한 AI 육아 지원 시스템.",
+  "author" : "김재준, 김태우, 류의재, 이우진, 이현동, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai", "social", "health", "nlp"
+  ]
+},
+{
+  "index" : 65,
+  "year" : 2026,
+  "title" : "Capstone: SWELL: 개인화 추천 및 AI 가상 피팅 통합 스와이프형 패션 플랫폼.",
+  "author" : "이동헌, 윤지찬, 정유진, 김나연, 장영욱, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai", "cv", "nlp"
+  ]
+},
+{
+  "index" : 64,
+  "year" : 2026,
+  "title" : "Capstone: BeMARS: 에이전트 추천시스템 기반 비즈니스 인맥 관리 서비스.",
+  "author" : "지문호, 안연주, 이태환, 이태호, 박찬형, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
+  "index" : 63,
+  "year" : 2026,
+  "title" : "Capstone: ‘It-Da’: 텍스트 소통 불안 해소를 위한 LLM 기반 대화 분석 및 시각화 서비스.",
+  "author" : "김나영, 류환희, 박서영, 이연수, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
+  "index" : 62,
+  "year" : 2026,
+  "title" : "Capstone: 안전한 투자 의사결정 지원을 위한 개인화 금융 멘토 FinGuide AI.",
+  "author" : "권승빈, 김우진, 김준수, 정주현, 한경식.",
+  "venue" : "한국HCI학회.",
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+
+{
+  "index" : 61,
+  "year" : 2026,
+  "title" : "대규모 언어모델의 주제별 편향과 모델별 차이.",
+  "author" : "최예나, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Topic_specific_bias_HCIK.pdf"
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+}, 
+{
+  "index" : 60,
+  "year" : 2026,
+  "title" : "대규모 언어 모델을 활용한 커뮤니티 활동 유형 기반의 팬덤 에이전트 구축 및 평가.",
+  "author" : "손비진, 김재훈, 박소현, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Fandom_agent_HCIK.pdf"
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+}, 
+{
+  "index" : 59,
+  "year" : 2026,
+  "title" : "PersonaScope: 적응형 페르소나 기반 장기적 우울 맥락 모델링.",
+  "author" : "김정현, 진승완, 노태형, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_PersonaScope_HCIK.pdf"
+  },
+  "tags" : [
+    "hai", "health", "nlp"
+  ]
+}, 
+{
+  "index" : 58,
+  "year" : 2026,
+  "title" : "대규모 언어모델을 활용한 자율주행 계획의 안전성 평가 프레임워크.",
+  "author" : "김명진, 최예나, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Auto_driving_HCIK.pdf"
+  },
+  "tags" : [
+    "hai", "cv", "nlp", "safety"
+  ]
+}, 
+{
+  "index" : 57,
+  "year" : 2026,
+  "title" : "HILIPS: 산업용 엣지 AI 구축을 위한 의미론적 모호성 해결 및 인간-AI 협업 파이프라인.",
+  "author" : "노태형, 여해인, 손비진, 김정현, 한경식.",
+  "venue" : "한국HCI학회.",
+  "link" : {
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HILIPS_HCIK.pdf"
+  },
+  "tags" : [
+    "hai", "cv", "nlp"
+  ]
+}, 
+{
   "index" : 56,
   "year" : 2025,
   "title" : "Poster: 동적 페르소나 모델링 기반의 개인화된 정신건강 예측.",
