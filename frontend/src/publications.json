@@ -53,19 +53,6 @@
 {
   "index" : 144,
   "year" : 2026,
-  "title" : "Revisiting Clique and Star Expansions in Hypergraph Representation Learning: Observations, Problems, and Solutions.",
-  "author" : "David Yoon Suk Kang, Eujeanne Kim, Kyungsik Han, Sang-Wook Kim.",
-  "venue" : "IEEE Access.",
-    "kImpact" : [
-      "SCI(E) Q2, JCR IF = 3.6"
-    ],
-  "tags" : [
-    "hai", "dm"
-  ]
-},
-{
-  "index" : 143,
-  "year" : 2026,
   "title" : "CALL: Extracting and Evaluating Large Language Model for Online Political Communities.",
   "author" : "Misun Joo, Jaehoon Kim, Sohyun Park, Kyungsik Han.",
   "venue" : "Journal of the HCI Society of Korea.",
@@ -76,6 +63,24 @@
   "tags" : [
     "hai","social", "nlp"
   ]
+},
+{
+  "index" : 143,
+  "year" : 2026,
+  "title" : "Revisiting Clique and Star Expansions in Hypergraph Representation Learning: Observations, Problems, and Solutions.",
+  "author" : "David Yoon Suk Kang, Eujeanne Kim, Kyungsik Han, Sang-Wook Kim.",
+  "venue" : "IEEE Access.",
+    "kImpact" : [
+      "SCI(E) Q2, JCR IF = 3.6"
+    ],
+  "date" : "January 2026.",
+  "tags" : [
+    "hai", "dm"
+  ],
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_IEEE_Access_STARGCN.pdf",
+    "DOI": "https://doi.org/10.1109/ACCESS.2026.3654644"
+  }
 },
 {
   "index" : 142,
