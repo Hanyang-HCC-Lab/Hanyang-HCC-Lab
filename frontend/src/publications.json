@@ -12,6 +12,9 @@
   "acceptance_rate" : {
     "AR" : 25.3
   },
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf"
+  },
   "tags" : [
     "hai", "fashion"
   ]
@@ -29,6 +32,9 @@
   "acceptance_rate" : {
     "AR" : 25.3
   },
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LAPS.pdf"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
@@ -45,6 +51,9 @@
   ],
   "acceptance_rate" : {
     "AR" : 25.3
+  },
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception.pdf"
   },
   "tags" : [
     "hai", "safety", "nlp"
@@ -172,7 +181,8 @@
     "hai","social", "nlp"
   ],
   "link": {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_TRIPLE.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_TRIPLE.pdf",
+    "ACM": "https://dl.acm.org/doi/10.1145/3746252.3760965"
   }
  },
   {
