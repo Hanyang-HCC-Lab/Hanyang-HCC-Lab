@@ -193,7 +193,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Haein_Yeo.pdf"
+              href="https://haaaein.github.io"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
@@ -310,7 +310,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: bijin1111@hanyang.ac.kr"
+              href="mailto: beejinson@hanyang.ac.kr"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
@@ -508,7 +508,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="mailto: kdh0327204@gmail.com"
+              href="mailto: dohoonkwak@hanyang.ac.kr"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-envelope" size="lg" /> </a
