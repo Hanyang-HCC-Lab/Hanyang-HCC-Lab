@@ -1,5 +1,24 @@
 [
 {
+  "index" : 148,
+  "year" : 2026,
+  "title" : "CART: A Context-Aware Decision-Tree Framework for Adaptive Personalized Route Planning with LLMs.",
+  "author" : "Myungjin Kim, Kyungsik Han.",
+  "venue" : "ACM International Conference on Human Factors in Computing Systems (CHI LBW).",
+  "date" : "April 2026.",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "link" : {
+  },
+  "acceptance_rate" : {
+    "AR" : 38.4
+  },
+  "tags" : [
+    "hai", "nlp"
+  ]
+},
+{
   "index" : 147,
   "year" : 2026,
   "title" : "QuerySwitch: Supporting the Design Process by Balancing Vagueness through Large Language Models.",
