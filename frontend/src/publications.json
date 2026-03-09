@@ -31,13 +31,14 @@
   "acceptance_rate" : {
     "AR" : 25.3
   },
+  "award": { "honorable_mention": "" },
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf"
   },
   "tags" : [
     "hai", "fashion"
   ]
-},
+  },
 {
   "index" : 146,
   "year" : 2026,
