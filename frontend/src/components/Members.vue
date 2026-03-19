@@ -229,7 +229,7 @@
             <a
               type="button"
               class="btn btn-circle btn-dark"
-              href="https://yestaehyung.github.io/"
+              href="https://taehyungnoh.com/"
               target="_blank"
             >
               <font-awesome-icon icon="fa-solid fa-link" size="lg" />
