@@ -11,6 +11,7 @@
           <li>글로벌인턴십 (Undergraduate)</li>
           <li>커리어 개발 (Undergraduate)</li>
           <li>데이터사이언스HY-UP(실용연구실습)1 (Undergraduate)</li>
+          <li>인공지능인간요소 (Graduate)</li>
         </ul>
 
       </div>
