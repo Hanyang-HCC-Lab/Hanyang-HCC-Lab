@@ -49,15 +49,17 @@
     </div>
     <!-- End Professor Tap -->
 
-    <!-- Start Ph.D. Candidates Tap -->
+
+<!-- Start Postdoc Researcher Tap -->
     <div class="container mt-5" style="width: 50%">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row-cols-2 center-on-mobile">
         <span style="letter-spacing: normal"
-          ><span style="font-size: 1.5rem">Ph.D. Candidates</span></span
+          ><span style="font-size: 1.5rem">Postdoc Researcher</span></span
         >
       </div>
       <div class="row row-cols-10">
+        
         <!-- Start Member Profile -->
         <div class="col-12 col-md-3 col-sm-6 text-center">
           <img
@@ -94,6 +96,22 @@
           <!-- End Personal Link -->
         </div>
         <!-- End Member Profile -->
+
+      </div>
+    </div>
+    <!-- End Postdoc Researcher Tap -->
+
+
+    <!-- Start Ph.D. Candidates Tap -->
+    <div class="container mt-5" style="width: 50%">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row-cols-2 center-on-mobile">
+        <span style="letter-spacing: normal"
+          ><span style="font-size: 1.5rem">Ph.D. Candidates</span></span
+        >
+      </div>
+      <div class="row row-cols-10">
+
         <!-- Start Member Profile -->
         <div class="col-12 col-md-3 col-sm-6 text-center">
           <img
