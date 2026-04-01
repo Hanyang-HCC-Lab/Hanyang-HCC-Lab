@@ -5,6 +5,11 @@
   "title" : "Capstone: ToDoc: 개인화 및 RAG 기반의 대규모 언어모델을 활용한 AI 육아 지원 시스템.",
   "author" : "김재준, 김태우, 류의재, 이우진, 이현동, 한경식.",
   "venue" : "한국HCI학회.",
+  "link" : {
+    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Paper.pdf",
+    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Poster.pdf",
+    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Video.mp4"
+  },
   "tags" : [
     "hai", "social", "health", "nlp"
   ]
@@ -15,6 +20,11 @@
   "title" : "Capstone: SWELL: 개인화 추천 및 AI 가상 피팅 통합 스와이프형 패션 플랫폼.",
   "author" : "이동헌, 윤지찬, 정유진, 김나연, 장영욱, 한경식.",
   "venue" : "한국HCI학회.",
+  "link" : {
+    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Paper.pdf",
+    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Poster.pdf",
+    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Video.mp4"
+  },
   "tags" : [
     "hai", "cv", "nlp"
   ]
@@ -25,6 +35,11 @@
   "title" : "Capstone: BeMARS: 에이전트 추천시스템 기반 비즈니스 인맥 관리 서비스.",
   "author" : "지문호, 안연주, 이태환, 이태호, 박찬형, 한경식.",
   "venue" : "한국HCI학회.",
+  "link" : {
+    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Paper.pdf",
+    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Poster.pdf",
+    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Video.mp4"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ],
@@ -38,6 +53,11 @@
   "title" : "Capstone: ‘It-Da’: 텍스트 소통 불안 해소를 위한 LLM 기반 대화 분석 및 시각화 서비스.",
   "author" : "김나영, 류환희, 박서영, 이연수, 한경식.",
   "venue" : "한국HCI학회.",
+  "link" : {
+    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Paper.pdf",
+    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Poster.pdf",
+    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Video.mp4"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
@@ -48,6 +68,11 @@
   "title" : "Capstone: 안전한 투자 의사결정 지원을 위한 개인화 금융 멘토 FinGuide AI.",
   "author" : "권승빈, 김우진, 김준수, 정주현, 한경식.",
   "venue" : "한국HCI학회.",
+  "link" : {
+    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Paper.pdf",
+    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Poster.pdf",
+    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Video.mp4"
+  },
   "tags" : [
     "hai", "social", "nlp"
   ]
@@ -60,7 +85,8 @@
   "author" : "최예나, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Topic_specific_bias_HCIK.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Topic_specific_bias_HCIK.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_LLM_Bias_Slides.pdf"
   },
   "tags" : [
     "hai", "social", "nlp"
@@ -73,7 +99,8 @@
   "author" : "손비진, 김재훈, 박소현, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Fandom_agent_HCIK.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Fandom_agent_HCIK.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Fandom_Agent_Slides.pdf"
   },
   "tags" : [
     "hai", "social", "nlp"
@@ -112,7 +139,8 @@
   "author" : "노태형, 여해인, 손비진, 김정현, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HILIPS_HCIK.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HILIPS_HCIK.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_HILIPS_Slides.pdf"
   },
   "tags" : [
     "hai", "cv", "nlp"

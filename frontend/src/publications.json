@@ -10,7 +10,8 @@
     "컴퓨터공학분야 우수국제학술대회"
   ],
   "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART.pdf",
+    "presentation": "https://youtu.be/hYc7b0dYGBA"
   },
   "acceptance_rate" : {
     "AR" : 38.4
@@ -34,7 +35,8 @@
   },
   "award": { "honorable_mention": "" },
   "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf",
+    "presentation": "https://youtu.be/B-w4wE-0srk"
   },
   "tags" : [
     "hai", "fashion"
@@ -54,7 +56,8 @@
     "AR" : 25.3
   },
   "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LAPS.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LAPS.pdf",
+    "presentation": "https://youtu.be/9C1oAUVfdug"
   },
   "tags" : [
     "hai", "social", "nlp"
@@ -74,7 +77,8 @@
     "AR" : 25.3
   },
   "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception.pdf",
+    "presentation": "https://youtu.be/olPdxffw38Q"
   },
   "tags" : [
     "hai", "safety", "nlp"
@@ -90,12 +94,33 @@
   "kImpact" : [
       "KCI 등재 학술지"
   ],
+  "link": {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CALL_HCIK_Journal.pdf"
+  },
   "tags" : [
     "hai","social", "nlp"
   ]
 },
-{
+  {
   "index" : 143,
+  "year" : 2026,
+  "title" : "LLM-Generated Content-Based Explanations for User Experience in Fashion Recommender Systems.",
+  "author" : "Haein Yeo, Taehyung Noh, Kyungsik Han.",
+  "venue" : "Fashion and Textiles.",
+  "date" : "March 2026.",
+  "kImpact" : [
+    "SCI(E) Q1, JCR IF = 3.7"
+  ],
+  "link": {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_Fashion_and_Textiles_Llm-generated+content-based+explanations+for+user+experience+in+fashion+recommender+systems.pdf", 
+    "DOI": "https://doi.org/10.1186/s40691-026-00464-z" 
+  },
+  "tags" : [
+    "hai", "fashion", "social"
+  ]
+ },
+{
+  "index" : 142,
   "year" : 2026,
   "title" : "Revisiting Clique and Star Expansions in Hypergraph Representation Learning: Observations, Problems, and Solutions.",
   "author" : "David Yoon Suk Kang, Eujeanne Kim, Kyungsik Han, Sang-Wook Kim.",
@@ -113,7 +138,7 @@
   }
 },
 {
-  "index" : 142,
+  "index" : 141,
   "year" : 2026,
   "title" : "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
@@ -126,14 +151,16 @@
     "AR" : 17.6
   },
   "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Poster.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Slides.pdf"
   },
   "tags" : [
     "hai","social", "nlp"
   ]
 },
 {
-  "index" : 141,
+  "index" : 140,
   "year" : 2025,
   "title" : "Analyzing the Impact of the Automatic Ball Strike System in Professional Baseball through a Case Study on KBO League Data.",
   "author" : "Kichang Lee, Kyungsik Han, JeongGil Ko.",
@@ -151,7 +178,7 @@
   ]
 },
 {
-    "index" : 140,
+    "index" : 139,
     "year" : 2025,
     "title" : "VR-ACT: Transforming Clinical Evidence of Acceptance and Commitment Therapy through Virtual Reality for Subthreshold Depression.",
     "author" : "Bogoan Kim, Dayoung Jeong, Yoonseon Choi, Hyungsook Kim, Kyungsik Han.",
@@ -169,7 +196,7 @@
     ]
 },
 {
-    "index" : 139,
+    "index" : 138,
     "year" : 2025,
     "title" : "Enhancing Mindfulness-Based Cognitive Therapy in a Virtual Reality: A Prospective Interventional Study.",
     "author" : "Bogoan Kim*, Dayoung Jeong*, Yoonseon Choi, Yoonyoung Choi, Hyungsook Kim, Kyungsik Han (*equal contribution).",
@@ -187,7 +214,7 @@
     }
 },
   {
-  "index" : 138,
+  "index" : 137,
   "year" : 2025,
   "title" : "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs.",
   "author" : "Taehyung Noh, Seungwan Jin, Haein Yeo, Kyungsik Han.",
@@ -203,22 +230,11 @@
   ],
   "link": {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_TRIPLE.pdf",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_Poster.pdf",
     "ACM": "https://dl.acm.org/doi/10.1145/3746252.3760965"
   }
  },
-  {
-  "index" : 137,
-  "year" : 2025,
-  "title" : "LLM-Generated Content-Based Explanations for User Experience in Fashion Recommender Systems.",
-  "author" : "Haein Yeo, Taehyung Noh, Kyungsik Han.",
-  "venue" : "Fashion and Textiles.",
-  "kImpact" : [
-    "SCI(E) Q1, JCR IF = 3.7"
-  ],
-  "tags" : [
-    "hai", "fashion", "social"
-  ]
- },
+
   {
     "index" : 136,
     "year" : 2025,
