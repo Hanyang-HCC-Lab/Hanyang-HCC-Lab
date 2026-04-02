@@ -113,7 +113,8 @@
   "author" : "김정현, 진승완, 노태형, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_PersonaScope_HCIK.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_PersonaScope_HCIK.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_PersonaScope_Slides.pdf.pdf"
   },
   "tags" : [
     "hai", "health", "nlp"
@@ -126,7 +127,8 @@
   "author" : "김명진, 최예나, 한경식.",
   "venue" : "한국HCI학회.",
   "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Auto_driving_HCIK.pdf"
+    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Auto_driving_HCIK.pdf",
+    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Autonomous_Driving_Slides.pdf"
   },
   "tags" : [
     "hai", "cv", "nlp", "safety"
