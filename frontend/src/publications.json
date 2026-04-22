@@ -38,6 +38,7 @@
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf",
     "presentation": "https://youtu.be/B-w4wE-0srk",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch_Slides.pdf",
     "ACM": "https://dl.acm.org/doi/10.1145/3772318.3791729"
   },
   "tags" : [
@@ -83,6 +84,7 @@
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception.pdf",
     "presentation": "https://youtu.be/olPdxffw38Q",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception_Slides.pdf",
     "ACM": "https://dl.acm.org/doi/10.1145/3772318.3791188"
   },
   "tags" : [
