@@ -11,7 +11,8 @@
   ],
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART.pdf",
-    "presentation": "https://youtu.be/hYc7b0dYGBA"
+    "presentation": "https://youtu.be/hYc7b0dYGBA",
+    "ACM": "https://dl.acm.org/doi/10.1145/3772363.3798699"
   },
   "acceptance_rate" : {
     "AR" : 38.4
@@ -33,10 +34,11 @@
   "acceptance_rate" : {
     "AR" : 25.3
   },
-  "award": { "honorable_mention": "" },
+  "award": { "honorable_mention": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/CHI2026_certificate_HM_150(QuerySwitch).pdf" },
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_QuerySwitch.pdf",
-    "presentation": "https://youtu.be/B-w4wE-0srk"
+    "presentation": "https://youtu.be/B-w4wE-0srk",
+    "ACM": "https://dl.acm.org/doi/10.1145/3772318.3791729"
   },
   "tags" : [
     "hai", "fashion"
@@ -57,7 +59,9 @@
   },
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LAPS.pdf",
-    "presentation": "https://youtu.be/9C1oAUVfdug"
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LAPS_Slides.pdf",
+    "presentation": "https://youtu.be/9C1oAUVfdug",
+    "ACM": "https://dl.acm.org/doi/10.1145/3772318.3791665"
   },
   "tags" : [
     "hai", "social", "nlp"
@@ -78,7 +82,8 @@
   },
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception.pdf",
-    "presentation": "https://youtu.be/olPdxffw38Q"
+    "presentation": "https://youtu.be/olPdxffw38Q",
+    "ACM": "https://dl.acm.org/doi/10.1145/3772318.3791188"
   },
   "tags" : [
     "hai", "safety", "nlp"
@@ -95,7 +100,8 @@
       "KCI 등재 학술지"
   ],
   "link": {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CALL_HCIK_Journal.pdf"
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CALL_HCIK_Journal.pdf",
+    "DOI": "https://doi.org/10.17210/jhsk.2026.03.21.1.5"
   },
   "tags" : [
     "hai","social", "nlp"
@@ -153,7 +159,9 @@
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI.pdf",
     "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Poster.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Slides.pdf"
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Slides.pdf",
+    "presentation": "https://www.youtube.com/watch?v=96bo422tDp4",
+    "DOI": "https://doi.org/10.1609/aaai.v40i21.38818"
   },
   "tags" : [
     "hai","social", "nlp"
@@ -231,6 +239,8 @@
   "link": {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_TRIPLE.pdf",
     "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_Poster.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_Slides.pdf",
+    "presentation": "https://www.youtube.com/watch?v=QW6qo4MOeL0",
     "ACM": "https://dl.acm.org/doi/10.1145/3746252.3760965"
   }
  },
