@@ -12,6 +12,8 @@
   "link" : {
     "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART.pdf",
     "presentation": "https://youtu.be/hYc7b0dYGBA",
+    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART_Poster.pdf",
+    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART_Slides.pdf",
     "ACM": "https://dl.acm.org/doi/10.1145/3772363.3798699"
   },
   "acceptance_rate" : {
