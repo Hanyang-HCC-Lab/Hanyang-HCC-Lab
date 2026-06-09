@@ -1,5 +1,34 @@
 [
 {
+  "index" : 71,
+  "year" : 2026,
+  "title" : "LCT: VR 환경에서의 사회불안장애 예측 맥락 인식 멀티모달 LLM 프레임워크.",
+  "author" : "곽도훈, 정다영, 한경식.",
+  "venue" : "한국컴퓨터종합학술대회.",
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT.pdf"
+  },
+  "tags" : [
+    "hai", "vr", "health"
+  ],
+  "award":{
+    "best_paper": ""
+  }
+},
+{
+  "index" : 70,
+  "year" : 2026,
+  "title" : "동적 이해관계자 페르소나 생성 및 시뮬레이션 기반 정책 파급 효과 분석 연구.",
+  "author" : "김정현, 여해인, 손비진, 한경식.",
+  "venue" : "한국컴퓨터종합학술대회.",
+  "link" : {
+    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_Policy_Research.pdf"
+  },
+  "tags" : [
+    "hai", "social", "nlp"
+  ]
+},
+{
   "index" : 69,
   "year" : 2026,
   "title" : "Capstone: ToDoc: 개인화 및 RAG 기반의 대규모 언어모델을 활용한 AI 육아 지원 시스템.",
