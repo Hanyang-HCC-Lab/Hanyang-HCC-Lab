@@ -235,6 +235,7 @@
               Myungjin Kim
             </p>
             <p class="member_name" style="font-size: 1rem; margin: 0">김명진</p>
+            <p class="" style="font-size: 0.65rem; margin: 0;"><b>(AI Seoul Tech Scholarship, 2026-2027)</b></p>
           </div>
           <!-- Start Personal Link -->
           <div class="mt-1">
