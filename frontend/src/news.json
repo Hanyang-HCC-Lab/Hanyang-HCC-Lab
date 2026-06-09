@@ -1,13 +1,28 @@
 [
 {
-    "index" : 100,
+    "index" : 103,
+    "date" : "Jun. 2026",
+    "content" : "Professor Han has joined the editorial board of the Virtual Reality journal."
+},
+{
+    "index" : 102,
+    "date" : "Jun. 2026",
+    "content" : "Myungjin has been selected for the AI Seoul Tech Scholarship (2026-2027)."
+},
+{
+    "index" : 101,
     "date" : "Mar. 2026",
     "content" : "Our paper <i>\"QuerySwitch: Supporting the Design Process by Balancing Vagueness through Large Language Models\"</i> has received an Honorable Mention Award at CHI 2026."
 },
 {
-    "index" : 99,
+    "index" : 100,
     "date" : "Mar. 2026",
     "content" : "Beejin will join our lab as a Ph.D student (MS & Ph.D Integrated Course), and Dohoon will join as a master student."
+},
+{
+    "index" : 99,
+    "date" : "Mar. 2026",
+    "content" : "Taehyung has been selected for the Ph.D. Technical Research Personnel program and has officially begun his military service in the lab."
 },
 {
     "index" : 98,
