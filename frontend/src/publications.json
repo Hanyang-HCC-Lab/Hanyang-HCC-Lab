@@ -1,5 +1,19 @@
 [
 {
+  "index" : 149,
+  "year" : 2026,
+  "title" : "PEAN: Knowledge Graph-based Participatory Exploration Interface for Critical Acceptance of AI-generated News Images.",
+  "author" : "Beejin Son, Sohyun Park, Jaehoon Kim, Kyungsik Han.",
+  "venue" : "Journal of the HCI Society of Korea, 21 (3).",
+  "date" : "September 2026.",
+  "kImpact" : [
+    "KCI 등재 학술지"
+  ],
+  "tags" : [
+    "hai", "social", "nlp", "safety"
+  ]
+},
+{
   "index" : 148,
   "year" : 2026,
   "title" : "CART: A Context-Aware Decision-Tree Framework for Adaptive Personalized Route Planning with LLMs.",
@@ -98,7 +112,7 @@
   "year" : 2026,
   "title" : "CALL: Extracting and Evaluating Large Language Model for Online Political Communities.",
   "author" : "Misun Joo, Jaehoon Kim, Sohyun Park, Kyungsik Han.",
-  "venue" : "Journal of the HCI Society of Korea.",
+  "venue" : "Journal of the HCI Society of Korea, 21 (1).",
   "date" : "March 2026.",
   "kImpact" : [
       "KCI 등재 학술지"

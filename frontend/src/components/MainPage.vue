@@ -15,14 +15,14 @@ export default {
       return this.news.filter(newsItem => {
         const yearMatch = newsItem.date.match(/\b(20\d{2})\b/);
         const year = yearMatch ? parseInt(yearMatch[1]) : 0;
-        return year >= 2024;
+        return year >= 2025;
       });
     },
     olderNews() {
       return this.news.filter(newsItem => {
         const yearMatch = newsItem.date.match(/\b(20\d{2})\b/);
         const year = yearMatch ? parseInt(yearMatch[1]) : 0;
-        return year < 2024;
+        return year < 2025;
       });
     }
   },
@@ -273,7 +273,7 @@ export default {
       <!-- ★ 수정: 토글 버튼 (더보기/접기) -->
       <div v-if="olderNews.length > 0" class="text-center mt-4">
         <button @click="toggleOlderNews" class="more-button">
-          {{ showAllNews ? "Hide" : "Previous news (2023~)" }}
+          {{ showAllNews ? "Hide" : "Previous news (2024~)" }}
         </button>
       </div>
     </div>

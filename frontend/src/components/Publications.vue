@@ -340,6 +340,11 @@ export default {
                 <span v-else style="color: #999900"> Grand Paper Award</span>
               </span>
 
+              <span class="h7" v-if="'outstanding_paper' in paper.award">
+                <a v-if="paper.award.outstanding_paper" :href="paper.award.outstanding_paper" target="_blank" style="color: #999900"> Outstanding Paper Award</a>
+                <span v-else style="color: #999900"> Outstanding Paper Award</span>
+              </span>
+
               <span class="h7" v-if="'honorable_mention' in paper.award">
                 <a v-if="paper.award.honorable_mention" :href="paper.award.honorable_mention" target="_blank" style="color: #999900"> Honorable Mention Award</a>
                 <span v-else style="color: #999900"> Honorable Mention Award</span>
@@ -348,6 +353,11 @@ export default {
               <span class="h7" v-if="'best_presentation' in paper.award">
                 <a v-if="paper.award.best_presentation" :href="paper.award.best_presentation" target="_blank" style="color: #999900"> Best Presentation Award</a>
                 <span v-else style="color: #999900"> Best Presentation Award</span>
+              </span>
+
+              <span class="h7" v-if="'new_challenge' in paper.award">
+                <a v-if="paper.award.new_challenge" :href="paper.award.new_challenge" target="_blank" style="color: #999900"> New Challenge Award</a>
+                <span v-else style="color: #999900"> New Challenge Award</span>
               </span>
             
             </span>

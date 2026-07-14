@@ -5,6 +5,32 @@
 <div class="col-md-4 text-center mb-3">
         <div class="card img-wrapper">
           <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/KCC2026-1.jpg"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2026.06] KCC 2026</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
+            src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/Visiting_deputy_prime_minister(2026).webp"
+            style="max-height: 20rem"
+          />
+          <div class="card-body">
+            <span class="h6 card-text">[2026.06] Official Visit by the Deputy Prime Minister (HY AI Bootcamp)</span>
+          </div>
+        </div>
+      </div>
+<!-- End Picture -->
+<!-- Start Picture -->
+<div class="col-md-4 text-center mb-3">
+        <div class="card img-wrapper">
+          <img
             src="https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/gallery/teacher's_day-26.jpg"
             style="max-height: 20rem"
           />

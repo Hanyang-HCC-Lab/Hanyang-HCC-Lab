@@ -1,8 +1,13 @@
 [
 {
+    "index" : 104,
+    "date" : "Jul. 2026",
+    "content" : "Our paper <i>\"PEAN: Knowledge Graph-based Participatory Exploration Interface for Critical Acceptance of AI-generated News Images.\"</i> has been accepted to Journal of the HCI Society of Korea."
+},
+{
     "index" : 103,
     "date" : "Jun. 2026",
-    "content" : "Professor Han has joined the editorial board of the Virtual Reality journal."
+    "content" : "Professor Han has joined <a href='https://link.springer.com/journal/10055/editorial-board' target='_blank'>the editorial board</a> of the Virtual Reality journal."   
 },
 {
     "index" : 102,
