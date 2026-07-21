@@ -1,5 +1,19 @@
 [
 {
+  "index" : 150,
+  "year" : 2026,
+  "title" : "Poster: CLAPS: A Multi-LLM Framework for Predicting Social Anxiety via Cognitive-Behavioral Theory of Social Anxiety in VR.",
+  "author" : "Dohoon Kwak, Dayoung Jeong, Kyungsik Han.",
+  "venue" : "ACM International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp).",
+  "date" : "October 2026.",
+  "kImpact" : [
+    "컴퓨터공학분야 우수국제학술대회"
+  ],
+  "tags" : [
+    "hai", "vr", "health", "nlp"
+  ]
+},
+{
   "index" : 149,
   "year" : 2026,
   "title" : "PEAN: Knowledge Graph-based Participatory Exploration Interface for Critical Acceptance of AI-generated News Images.",
