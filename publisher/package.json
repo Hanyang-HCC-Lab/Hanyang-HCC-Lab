@@ -1,0 +1,16 @@
+{
+  "name": "hcc-lab-content-publisher",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1106.0",
+    "octokit": "^5.0.5"
+  }
+}

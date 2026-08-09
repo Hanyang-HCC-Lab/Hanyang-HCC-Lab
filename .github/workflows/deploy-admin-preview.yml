@@ -43,6 +43,10 @@ jobs:
 
       - name: Build admin preview
         working-directory: admin
+        env:
+          VITE_HCC_PUBLISH_API_URL: ${{ vars.HCC_PUBLISH_API_URL }}
+          VITE_HCC_COGNITO_USER_POOL_ID: ${{ vars.HCC_COGNITO_USER_POOL_ID }}
+          VITE_HCC_COGNITO_CLIENT_ID: ${{ vars.HCC_COGNITO_CLIENT_ID }}
         run: npm run build
 
       - name: Configure AWS credentials
