@@ -15,6 +15,24 @@ const tagLabels = {
   social: "Social Computing", health: "Digital Health", cv: "Computer Vision",
   nlp: "Natural Language Processing", safety: "AI Safety",
 };
+const memberGroups = [
+  "Professor",
+  "Ph.D. Candidates",
+  "Ph.D. Students",
+  "Research Associates",
+  "M.S. Students",
+  "Undergraduate Students",
+  "Administrative Staff",
+];
+const awardOptions = [
+  ["", "수상 없음"],
+  ["best_paper", "Best Paper Award"],
+  ["grand_paper", "Grand Paper Award"],
+  ["outstanding_paper", "Outstanding Paper Award"],
+  ["honorable_mention", "Honorable Mention Award"],
+  ["best_presentation", "Best Presentation Award"],
+  ["new_challenge", "New Challenge Award"],
+];
 const deepCopy = (value) => JSON.parse(JSON.stringify(value));
 const sourceState = () => ({
   news: deepCopy(initialNews),
@@ -135,6 +153,14 @@ function toggleTag(tag) {
   const paperTags = selected.value.tags || (selected.value.tags = []);
   const index = paperTags.indexOf(tag);
   index === -1 ? paperTags.push(tag) : paperTags.splice(index, 1);
+}
+
+function awardType(award) {
+  return awardOptions.find(([key]) => key && Object.prototype.hasOwnProperty.call(award || {}, key))?.[0] || "";
+}
+
+function setAwardType(type) {
+  selected.value.award = type ? { [type]: "" } : {};
 }
 
 function text(value) {
@@ -382,13 +408,13 @@ onMounted(() => {
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>날짜<input v-model="selected.date" placeholder="Aug. 2026" /></label><label class="full">내용<textarea v-model="selected.content" rows="8" placeholder="뉴스 내용을 입력하세요."></textarea><small>현재 공개 사이트와 동일하게 HTML 강조·링크를 사용할 수 있습니다.</small></label>
             </div>
             <div v-else-if="section === 'members'" class="fields">
-              <label>구분<input v-model="selected.group" placeholder="M.S. Students" /></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label class="full">표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label>
+              <label>구분<select v-model="selected.group"><option v-for="group in memberGroups" :key="group" :value="group">{{ group }}</option></select></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label class="full">표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label>
             </div>
             <div v-else-if="section === 'gallery'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><label class="full">이미지 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label>
             </div>
             <div v-else class="fields">
-              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label>논문 링크<input v-model="selected.link.paper" type="url" placeholder="https://…" /></label><label>ACM/공식 링크<input v-model="selected.link.ACM" type="url" placeholder="https://…" /></label><label>발표 영상<input v-model="selected.link.presentation" type="url" placeholder="https://…" /></label><label>슬라이드 PDF<input v-model="selected.link.slide" type="url" placeholder="https://…" /></label><label>포스터 PDF<input v-model="selected.link.poster" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label class="full">수상·인증 링크<input v-model="selected.award.honorable_mention" type="url" placeholder="https://…" /></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label>논문 링크<input v-model="selected.link.paper" type="url" placeholder="https://…" /></label><label>ACM/공식 링크<input v-model="selected.link.ACM" type="url" placeholder="https://…" /></label><label>발표 영상<input v-model="selected.link.presentation" type="url" placeholder="https://…" /></label><label>슬라이드 PDF<input v-model="selected.link.slide" type="url" placeholder="https://…" /></label><label>포스터 PDF<input v-model="selected.link.poster" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
             </div>
           </form>
         </div>
