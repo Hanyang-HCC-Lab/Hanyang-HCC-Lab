@@ -17,7 +17,10 @@
     "award": {
       "outstanding_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT_Paper_Award.jpg"
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 70,
@@ -35,7 +38,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 69,
@@ -55,7 +61,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 68,
@@ -76,7 +85,10 @@
     "award": {
       "new_challenge": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_CreativeAwrad_NewChallengeAward_SWELL.jpg"
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 67,
@@ -97,7 +109,10 @@
     "award": {
       "grand_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_BeMARS_CA_Grand_Paper_Award.jpg"
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 66,
@@ -116,7 +131,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 65,
@@ -135,7 +153,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 64,
@@ -153,7 +174,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 63,
@@ -171,7 +195,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 62,
@@ -189,7 +216,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 61,
@@ -208,7 +238,10 @@
       "safety"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 60,
@@ -226,7 +259,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 59,
@@ -245,7 +281,10 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 58,
@@ -262,7 +301,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 57,
@@ -283,7 +325,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 56,
@@ -301,7 +345,10 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_myungjin.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 55,
@@ -319,7 +366,10 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_taehyung.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 54,
@@ -337,7 +387,10 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_haein.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 53,
@@ -356,7 +409,10 @@
       "vr"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 52,
@@ -377,7 +433,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 51,
@@ -396,7 +454,10 @@
       "vr",
       "dm"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 50,
@@ -415,7 +476,10 @@
       "social",
       "cv"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 49,
@@ -434,7 +498,10 @@
       "vr",
       "health"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 48,
@@ -453,7 +520,10 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 47,
@@ -472,7 +542,10 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 46,
@@ -491,7 +564,10 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 45,
@@ -510,7 +586,10 @@
       "social",
       "cv"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 44,
@@ -527,7 +606,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 43,
@@ -544,7 +626,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 42,
@@ -561,7 +646,10 @@
       "dm"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 41,
@@ -580,7 +668,10 @@
       "hai",
       "vr"
     ],
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 40,
@@ -600,7 +691,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 39,
@@ -621,7 +714,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 38,
@@ -643,7 +738,9 @@
     "oral_acceptance_rate": {
       "AR": 0
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 37,
@@ -664,7 +761,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 36,
@@ -685,7 +784,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 35,
@@ -705,7 +806,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 34,
@@ -721,7 +824,10 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-34%5D%E1%84%80%E1%85%AA%E1%84%92%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AA%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF_fake_news.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 33,
@@ -738,7 +844,10 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_XR_Poster.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 32,
@@ -756,7 +865,10 @@
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_Cybersickness_Slide.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 31,
@@ -774,7 +886,10 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_VR_locomotion_Poster.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 30,
@@ -792,7 +907,10 @@
     "award": {
       "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/HCIK_2023_best_paper_award.png"
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 29,
@@ -812,7 +930,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 28,
@@ -828,7 +948,10 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-28%5DKSC_HateSpeech.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 27,
@@ -850,7 +973,9 @@
     "oral_acceptance_rate": {
       "AR": 0
     },
-    "acceptance_rate": {}
+    "acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 26,
@@ -866,7 +991,10 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KINGPC2022_MR.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 25,
@@ -886,7 +1014,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 24,
@@ -906,7 +1036,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 23,
@@ -925,7 +1057,9 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 22,
@@ -945,6 +1079,8 @@
       "AR": 0
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "additional": {},
+    "kImpact": []
   }
 ]

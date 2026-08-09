@@ -15,7 +15,12 @@
     "acceptance_rate": {
       "AR": 30.9
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": [
+      "컴퓨터공학분야 우수국제학술대회"
+    ]
   },
   {
     "index": 151,
@@ -33,7 +38,10 @@
     "acceptance_rate": {
       "AR": 30.9
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 150,
@@ -53,7 +61,9 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 149,
@@ -73,7 +83,9 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 148,
@@ -99,7 +111,9 @@
       "hai",
       "nlp"
     ],
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 147,
@@ -126,7 +140,9 @@
     "tags": [
       "hai",
       "fashion"
-    ]
+    ],
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 146,
@@ -152,7 +168,9 @@
       "social",
       "nlp"
     ],
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 145,
@@ -178,7 +196,9 @@
       "safety",
       "nlp"
     ],
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 144,
@@ -200,7 +220,9 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 143,
@@ -222,7 +244,9 @@
       "social"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 142,
@@ -243,7 +267,9 @@
       "DOI": "https://doi.org/10.1109/ACCESS.2026.3654644"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 141,
@@ -256,7 +282,7 @@
       "컴퓨터공학분야 우수국제학술대회"
     ],
     "additional": {
-      "AR": 17.6
+      "AR": ""
     },
     "link": {
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI.pdf",
@@ -270,8 +296,13 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {},
-    "award": {}
+    "acceptance_rate": {
+      "AR": 17.6
+    },
+    "award": {},
+    "oral_acceptance_rate": {
+      "AR": 4.4
+    }
   },
   {
     "index": 140,
@@ -292,7 +323,9 @@
       "cv"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 139,
@@ -314,7 +347,9 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 138,
@@ -336,7 +371,9 @@
       "DOI": "https://doi.org/10.1038/s41598-025-01359-7"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 137,
@@ -363,7 +400,8 @@
       "ACM": "https://dl.acm.org/doi/10.1145/3746252.3760965"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {}
   },
   {
     "index": 136,
@@ -381,7 +419,10 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/TTA_LLM+%E1%84%8B%E1%85%B2%E1%84%92%E1%85%A2%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A7%E1%86%A8+%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8%E1%84%8B%E1%85%A6+%E1%84%83%E1%85%A2%E1%84%92%E1%85%A1%E1%86%AB+%E1%84%89%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%A8+%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 135,
@@ -399,7 +440,10 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 134,
@@ -424,7 +468,9 @@
       "hai",
       "health"
     ],
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 133,
@@ -445,7 +491,9 @@
       "DOI": "https://doi.org/10.5626/KTCP.2025.31.2.98"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 132,
@@ -466,7 +514,9 @@
       "ACM": "https://dl.acm.org/doi/10.1145/3672608.3707881"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 131,
@@ -483,7 +533,10 @@
       "safety"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 130,
@@ -505,7 +558,9 @@
       "DOI": "https://doi.org/10.5626/KTCP.2025.31.1.62"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 129,
@@ -529,7 +584,9 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 128,
@@ -550,7 +607,9 @@
       "fashion"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 127,
@@ -571,7 +630,9 @@
       "cv"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 126,
@@ -595,7 +656,9 @@
       "cv"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 125,
@@ -624,7 +687,8 @@
     "acceptance_rate": {
       "AR": ""
     },
-    "award": {}
+    "award": {},
+    "additional": {}
   },
   {
     "index": 124,
@@ -646,7 +710,9 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 123,
@@ -670,7 +736,9 @@
       "vr"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 122,
@@ -691,7 +759,9 @@
       "DOI": "https://doi.org/10.17210/jhsk.2024.09.19.3.15"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 121,
@@ -717,7 +787,9 @@
       "ECVA": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10886_ECCV_2024_paper.php"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 120,
@@ -738,7 +810,9 @@
       "fashion"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 119,
@@ -763,7 +837,9 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 118,
@@ -787,7 +863,9 @@
       "dm"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 117,
@@ -813,7 +891,9 @@
       "hai",
       "health"
     ],
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 116,
@@ -834,7 +914,9 @@
       "social"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 115,
@@ -856,7 +938,9 @@
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/CSCW2024_HearHere_Presentation.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 114,
@@ -879,7 +963,9 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 113,
@@ -898,7 +984,10 @@
       "dm"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 112,
@@ -915,7 +1004,10 @@
       "nlp"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 111,
@@ -934,7 +1026,10 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 110,
@@ -961,7 +1056,9 @@
     "acceptance_rate": {
       "AR": 25.1
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 109,
@@ -982,7 +1079,9 @@
       "DOI": "https://doi.org/10.5626/JOK.2023.50.9.771"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 108,
@@ -1007,7 +1106,9 @@
     "acceptance_rate": {
       "AR": 25.78
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 107,
@@ -1029,7 +1130,9 @@
       "dm"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 106,
@@ -1053,7 +1156,9 @@
     "acceptance_rate": {
       "AR": 19.2
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 105,
@@ -1079,7 +1184,9 @@
     "acceptance_rate": {
       "AR": 27.6
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 104,
@@ -1102,7 +1209,9 @@
       "fashion"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 103,
@@ -1123,7 +1232,9 @@
       "IEEE": "https://ieeexplore.ieee.org/document/10184833"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 102,
@@ -1144,7 +1255,9 @@
       "DOI": "https://doi.org/10.17210/jhsk.2023.03.18.1.27"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 101,
@@ -1166,7 +1279,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0278970"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 100,
@@ -1188,7 +1303,9 @@
       "IEEE": "https://ieeexplore.ieee.org/document/9996133"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 99,
@@ -1216,7 +1333,9 @@
     "acceptance_rate": {
       "AR": 24.4
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 98,
@@ -1239,7 +1358,9 @@
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/VRST22_Poster.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 97,
@@ -1261,7 +1382,9 @@
       "health"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 96,
@@ -1286,7 +1409,9 @@
     "acceptance_rate": {
       "AR": 29
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 95,
@@ -1309,7 +1434,9 @@
     "acceptance_rate": {
       "AR": 29
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 94,
@@ -1329,7 +1456,9 @@
       "DOI": "https://doi.org/10.1007/s12369-022-00922-w"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 93,
@@ -1347,7 +1476,10 @@
       "vr"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 92,
@@ -1368,7 +1500,9 @@
       "DOI": "https://doi.org/10.17210/jhsk.2022.06.17.2.61"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 91,
@@ -1389,7 +1523,9 @@
       "IEEE": "https://ieeexplore.ieee.org/abstract/document/9835704"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 90,
@@ -1414,7 +1550,9 @@
     "acceptance_rate": {
       "AR": 24.7
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 89,
@@ -1438,7 +1576,9 @@
     "acceptance_rate": {
       "AR": 17.7
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 88,
@@ -1459,7 +1599,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0260080"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 87,
@@ -1482,7 +1624,9 @@
     "acceptance_rate": {
       "AR": 20
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 86,
@@ -1497,7 +1641,10 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 85,
@@ -1514,7 +1661,10 @@
       "vr"
     ],
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 84,
@@ -1535,7 +1685,9 @@
       "DOI": "https://doi.org/10.3390/s21217193"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 83,
@@ -1557,7 +1709,9 @@
       "presentation": "https://youtu.be/GgWCM7BKAOY"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 82,
@@ -1578,7 +1732,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0251140"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 81,
@@ -1602,7 +1758,9 @@
     "acceptance_rate": {
       "AR": 26.3
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 80,
@@ -1628,7 +1786,9 @@
     "acceptance_rate": {
       "AR": 20.6
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 79,
@@ -1653,7 +1813,9 @@
     "acceptance_rate": {
       "AR": 23.6
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 78,
@@ -1671,7 +1833,10 @@
       "DOI": "https://doi.org/10.22174/jcr.2021.58.1.5"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 77,
@@ -1687,7 +1852,10 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 76,
@@ -1703,7 +1871,10 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 75,
@@ -1719,7 +1890,10 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 74,
@@ -1738,7 +1912,10 @@
       "ACM": "https://dl.acm.org/doi/abs/10.1145/3415264.3425469"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 73,
@@ -1759,7 +1936,9 @@
       "DOI": "https://doi.org/10.23019/kingpc.16.5.202010.007"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 72,
@@ -1781,7 +1960,9 @@
       "ACM": "https://dl.acm.org/doi/abs/10.1145/3340531.3412166"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 71,
@@ -1806,7 +1987,9 @@
     "acceptance_rate": {
       "AR": 26
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 70,
@@ -1825,7 +2008,10 @@
       "ACM": "https://dl.acm.org/doi/abs/10.1145/3379503.3403553"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 69,
@@ -1843,7 +2029,10 @@
       "DOI": "https://doi.org/10.1007/978-3-030-60703-6_36"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 68,
@@ -1864,7 +2053,9 @@
       "DOI": "https://doi.org/10.1177/1460458220952909"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 67,
@@ -1885,7 +2076,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0237966"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 66,
@@ -1906,7 +2099,9 @@
       "IEEE": "https://ieeexplore.ieee.org/abstract/document/9170547"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 65,
@@ -1929,7 +2124,9 @@
     "acceptance_rate": {
       "AR": 24
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 64,
@@ -1951,7 +2148,10 @@
     "acceptance_rate": {
       "AR": 23
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 63,
@@ -1968,7 +2168,10 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2020/%5B60%5D+INSAR20_EMA_for_Autism.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 62,
@@ -1989,7 +2192,9 @@
       "DOI": "https://doi.org/10.1249/01.mss.0000676752.92687.0f"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 61,
@@ -2012,7 +2217,9 @@
     "acceptance_rate": {
       "AR": 41
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 60,
@@ -2036,7 +2243,9 @@
     "acceptance_rate": {
       "AR": 24
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 59,
@@ -2055,7 +2264,10 @@
       "ACM": "https://dl.acm.org/doi/abs/10.1145/3373146"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 58,
@@ -2077,7 +2289,9 @@
       "ACM": "https://dl.acm.org/doi/abs/10.1145/3341105.3373923"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 57,
@@ -2099,7 +2313,9 @@
       "DOI": "https://doi.org/10.1007/s11257-020-09260-w"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 56,
@@ -2114,7 +2330,10 @@
     ],
     "link": {},
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 55,
@@ -2138,7 +2357,9 @@
     "acceptance_rate": {
       "AR": 21
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 54,
@@ -2158,7 +2379,9 @@
       "IEEE": "https://ieeexplore.ieee.org/document/8755851"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 53,
@@ -2178,7 +2401,9 @@
       "DOI": "https://doi.org/10.1016/j.compedu.2019.103611"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 52,
@@ -2200,7 +2425,9 @@
       "ACM": "https://dl.acm.org/citation.cfm?id=3328601"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 51,
@@ -2224,7 +2451,9 @@
     "acceptance_rate": {
       "AR": 24
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 50,
@@ -2247,7 +2476,9 @@
     "acceptance_rate": {
       "AR": 26
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 49,
@@ -2267,7 +2498,9 @@
       "IEEE": "https://ieeexplore.ieee.org/document/8494817"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 48,
@@ -2288,7 +2521,9 @@
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B47%5D+Slide-UbiComp_18+-+Leveraging+Mobile+Technology+to+Support+Goal+Setting+of+College+Student.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 47,
@@ -2310,7 +2545,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0204938"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 46,
@@ -2330,7 +2567,9 @@
       "DOI": "https://doi.org/10.1016/j.adhoc.2018.08.021"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 45,
@@ -2351,7 +2590,9 @@
       "DOI": "https://doi.org/10.1007/s11227-018-2477-4"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 44,
@@ -2372,7 +2613,10 @@
     "acceptance_rate": {
       "AR": 25
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
   },
   {
     "index": 43,
@@ -2395,7 +2639,9 @@
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2018/%5B41%5D+Slide-ICWS_18-+Analyzing+the+Role+of+Tags+in+Like+Networks.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 42,
@@ -2416,7 +2662,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0197050"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 41,
@@ -2438,7 +2686,9 @@
       "IEEE": "https://www.computer.org/csdl/magazine/co/2018/06/mco2018060018/13rRUEgs2EU"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 40,
@@ -2460,7 +2710,9 @@
       "DOI": "https://doi.org/10.1371/journal.pone.0192061"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 39,
@@ -2482,7 +2734,9 @@
     "acceptance_rate": {
       "AR": 25
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 38,
@@ -2504,7 +2758,9 @@
     "acceptance_rate": {
       "AR": 39
     },
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   },
   {
     "index": 37,
@@ -2523,6 +2779,8 @@
       "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2017/%5B37%5D_IJD_Coordinating_Community_Cooperation.pdf"
     },
     "acceptance_rate": {},
-    "award": {}
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
   }
 ]
