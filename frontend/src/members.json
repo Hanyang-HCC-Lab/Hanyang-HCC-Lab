@@ -1,0 +1,212 @@
+{
+  "people": [
+    {
+      "index": 1,
+      "group": "Professor",
+      "name": "Kyungsik Han",
+      "nameKo": "한경식",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%92%E1%85%A1%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8+%E1%84%80%E1%85%AD%E1%84%89%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7.webp",
+      "email": "kyungsikhan@hanyang.ac.kr",
+      "link": "https://scholar.google.com/citations?user=htyp0xsAAAAJ&hl=ko"
+    },
+    {
+      "index": 2,
+      "group": "Ph.D. Candidates",
+      "name": "Dayoung Jeong",
+      "nameKo": "정다영",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.webp",
+      "email": "dayoungjeong@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Dayoung_Jeong.pdf"
+    },
+    {
+      "index": 3,
+      "group": "Ph.D. Candidates",
+      "name": "Jaehoon Kim",
+      "nameKo": "김재훈",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.webp",
+      "email": "jaehoonkimm@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Jaehoon_Kim.pdf",
+      "note": "(NRF Korea Ph.D. Fellowship, 2024-2026)"
+    },
+    {
+      "index": 4,
+      "group": "Ph.D. Candidates",
+      "name": "Haein Yeo",
+      "nameKo": "여해인",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.webp",
+      "email": "haeinyeo@hanyang.ac.kr",
+      "link": "https://haaaein.github.io"
+    },
+    {
+      "index": 5,
+      "group": "Ph.D. Candidates",
+      "name": "Taehyung Noh",
+      "nameKo": "노태형",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%82%E1%85%A9%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%BC.webp",
+      "email": "yestaehyung@hanyang.ac.kr",
+      "link": "https://taehyungnoh.com/"
+    },
+    {
+      "index": 6,
+      "group": "Ph.D. Students",
+      "name": "Myungjin Kim",
+      "nameKo": "김명진",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB.webp",
+      "email": "0987someday@naver.com",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Myungjin_Kim.pdf",
+      "note": "(AI Seoul Tech Scholarship, 2026-2027)"
+    },
+    {
+      "index": 7,
+      "group": "Ph.D. Students",
+      "name": "Beejin Son",
+      "nameKo": "손비진",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg",
+      "email": "beejinson@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Beejin_Son.pdf"
+    },
+    {
+      "index": 8,
+      "group": "Research Associates",
+      "name": "Yoonseon Choi",
+      "nameKo": "최윤선",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.png",
+      "email": "dbstjs1008@hanyang.ac.kr",
+      "link": "https://yoonseonchoi.github.io/"
+    },
+    {
+      "index": 9,
+      "group": "M.S. Students",
+      "name": "Junghyun Kim",
+      "nameKo": "김정현",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB.png",
+      "email": "jmmisung@gmail.com",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
+    },
+    {
+      "index": 10,
+      "group": "M.S. Students",
+      "name": "Yena Choi",
+      "nameKo": "최예나",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%A8%E1%84%82%E1%85%A1.png",
+      "email": "yenachoi@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yena_Choi.pdf"
+    },
+    {
+      "index": 11,
+      "group": "M.S. Students",
+      "name": "Dohoon Kwak",
+      "nameKo": "곽도훈",
+      "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%AA%E1%86%A8%E1%84%83%E1%85%A9%E1%84%92%E1%85%AE%E1%86%AB.png",
+      "email": "dohoonkwak@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Dohoon_Kwak.pdf"
+    },
+    {
+      "index": 12,
+      "group": "Undergraduate Students",
+      "name": "Yeonju An",
+      "nameKo": "안연주",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%AE.png",
+      "email": "subw03@hanyang.ac.kr",
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yeonju_An.pdf"
+    },
+    {
+      "index": 13,
+      "group": "Administrative Staff",
+      "name": "Jieun Kim",
+      "nameKo": "김지은",
+      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%B3%E1%86%AB+%E1%84%89%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A2%E1%86%BC%E1%84%82%E1%85%B5%E1%86%B7.png",
+      "email": "jieunkim1835@gmail.com"
+    }
+  ],
+  "alumni": [
+    {
+      "index": 1,
+      "name": "Seungwan Jin &nbsp;",
+      "description": "&nbsp; Postdoctoral Researcher and PhD 2026 (Currently @ KAIST as a Postdoctoral Researcher)"
+    },
+    {
+      "index": 2,
+      "name": "Sohyun Park &nbsp;",
+      "description": "&nbsp; MS 2026 and undergraduate researcher"
+    },
+    {
+      "index": 3,
+      "name": "Misun Joo &nbsp;",
+      "description": "&nbsp; MS 2025"
+    },
+    {
+      "index": 4,
+      "name": "Mingon Jeong &nbsp;",
+      "description": "&nbsp; MS 2025 and undergraduate researcher (Currently @ The Growth as a Software Engineering Intern)"
+    },
+    {
+      "index": 5,
+      "name": "Bogoan Kim &nbsp;",
+      "description": "&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)",
+      "link": "https://bogoankim.github.io/"
+    },
+    {
+      "index": 6,
+      "name": "Someen Park &nbsp;",
+      "description": "&nbsp; MS 2025 (Currently @ LINA Life Insurance as an AI Engineer)"
+    },
+    {
+      "index": 7,
+      "name": "Myungjin Kim &nbsp;",
+      "description": "&nbsp; MS 2024 (Currently @ Hanyang Human-Centered Computing Lab as a Ph.D. Student)",
+      "link": "https://mungjinnie.github.io/"
+    },
+    {
+      "index": 8,
+      "name": "Eunji Kim &nbsp;",
+      "description": "&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)"
+    },
+    {
+      "index": 9,
+      "name": "Hoyoung Choi &nbsp;",
+      "description": "&nbsp; MS 2024 and undergraduate researcher (Currently @ Gauss Labs as an AI Scientist)"
+    },
+    {
+      "index": 10,
+      "name": "Seungwon Paik &nbsp;",
+      "description": "&nbsp; MS 2022 and undergraduate researcher (Currently @ LG Electronics as an AI Researcher)"
+    },
+    {
+      "index": 11,
+      "name": "Youngseung Jeon &nbsp;",
+      "description": "&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD Candidate)",
+      "link": "https://sites.google.com/view/youngseung-jeon"
+    },
+    {
+      "index": 12,
+      "name": "Jaeho Han &nbsp;",
+      "description": "&nbsp;MS 2021 and undergraduate researcher (Currently @ KT)"
+    },
+    {
+      "index": 13,
+      "name": "Woojeong Kim &nbsp;",
+      "description": "&nbsp;MS 2021 and undergraduate researcher (Currently @ Samsung Research)"
+    },
+    {
+      "index": 14,
+      "name": "Jisu Yu &nbsp;",
+      "description": "&nbsp;MS 2021 (Currently @ M3SEN)"
+    },
+    {
+      "index": 15,
+      "name": "Seung-Gon Jeon &nbsp;",
+      "description": "&nbsp;MS 2020 and undergraduate researcher (Currently @ Korea University as a PhD Student)"
+    },
+    {
+      "index": 16,
+      "name": "Soyoung Rhim &nbsp;",
+      "description": "&nbsp;MS 2020 and undergraduate researcher (Currently @ Hyundai Card)"
+    },
+    {
+      "index": 17,
+      "name": "Yonggeol Jo &nbsp;",
+      "description": "&nbsp;MS 2020 (Currently @ Kbank)"
+    }
+  ]
+}
