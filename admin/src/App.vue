@@ -3,6 +3,8 @@ import { computed, ref, watch } from "vue";
 import initialNews from "../../frontend/src/news.json";
 import initialInternational from "../../frontend/src/publications.json";
 import initialDomestic from "../../frontend/src/publications_domestic.json";
+import initialMembers from "../../frontend/src/members.json";
+import initialGallery from "../../frontend/src/gallery.json";
 
 const STORAGE_KEY = "hcc-lab-admin-draft-v2";
 const tags = ["hai", "vr", "dm", "fashion", "social", "health", "cv", "nlp", "safety"];
@@ -16,6 +18,8 @@ const sourceState = () => ({
   news: deepCopy(initialNews),
   international: deepCopy(initialInternational),
   domestic: deepCopy(initialDomestic),
+  members: deepCopy(initialMembers.people),
+  gallery: deepCopy(initialGallery),
 });
 let storedDraft = null;
 try {
@@ -57,9 +61,7 @@ function chooseSection(next) {
   selectedIndex.value = 0;
   checked.value = false;
   validationErrors.value = [];
-  message.value = next === "members" || next === "gallery"
-    ? "이 항목은 아직 Vue 하드코딩 상태입니다. 다음 단계에서 JSON으로 이전합니다."
-    : next === "deployment"
+  message.value = next === "deployment"
       ? "실제 배포는 GitHub Actions에서 직접 실행합니다. 이 화면은 AWS 권한을 보유하지 않습니다."
     : "";
 }
@@ -70,17 +72,24 @@ function selectItem(index) {
 }
 
 function labelFor(item) {
-  return section.value === "news" ? item.content.replace(/<[^>]*>/g, "").slice(0, 68) : item.title;
+  if (section.value === "news") return item.content.replace(/<[^>]*>/g, "").slice(0, 68);
+  if (section.value === "members") return item.name;
+  if (section.value === "gallery") return item.caption;
+  return item.title;
 }
 
 function addItem() {
   if (section.value === "news") {
     const max = Math.max(0, ...state.value.news.map((item) => Number(item.index) || 0));
     state.value.news.unshift({ index: max + 1, date: "Aug. 2026", content: "새 연구실 소식" });
-  } else {
+  } else if (isPublication.value) {
     const items = state.value[section.value];
     const max = Math.max(0, ...items.map((item) => Number(item.index) || 0));
     items.unshift({ index: max + 1, year: 2026, title: "새 논문 제목.", author: "", venue: "", date: "", tags: ["hai"], link: {}, acceptance_rate: {}, award: {} });
+  } else if (section.value === "members") {
+    state.value.members.push({ index: Date.now(), group: "M.S. Students", name: "New member", nameKo: "새 멤버", image: "", email: "", link: "" });
+  } else if (section.value === "gallery") {
+    state.value.gallery.unshift({ index: Date.now(), image: "", caption: "[2026.08] New gallery item" });
   }
   selectedIndex.value = 0;
   message.value = "새 항목을 만들었습니다. 저장하면 이 브라우저의 초안에 반영됩니다.";
@@ -136,6 +145,15 @@ function validateDraft() {
     });
   });
 
+  state.value.members.forEach((item, index) => {
+    const label = `멤버 ${index + 1}`;
+    if (!text(item.group) || !text(item.name) || !text(item.nameKo)) errors.push(`${label}: 구분과 이름을 확인하세요.`);
+    if (!isWebAddress(item.image) || !isWebAddress(item.link)) errors.push(`${label}: 사진 또는 링크 주소가 올바르지 않습니다.`);
+  });
+  state.value.gallery.forEach((item, index) => {
+    if (!text(item.caption) || !isWebAddress(item.image)) errors.push(`갤러리 ${index + 1}: 설명과 이미지 주소를 확인하세요.`);
+  });
+
   validationErrors.value = errors;
   checked.value = true;
   message.value = errors.length
@@ -154,8 +172,8 @@ function downloadJson(payload, filename) {
 }
 
 function downloadDraft() {
-  const payload = isPublication.value ? currentItems.value : state.value.news;
-  const filename = section.value === "news" ? "news.json" : section.value === "international" ? "publications.json" : "publications_domestic.json";
+  const payload = currentItems.value;
+  const filename = { news: "news.json", international: "publications.json", domestic: "publications_domestic.json", members: "members.json", gallery: "gallery.json" }[section.value];
   downloadJson(payload, filename);
   message.value = `${filename} 초안을 내려받았습니다. 자동 게시 연결 전에도 검토용으로 사용할 수 있습니다.`;
 }
@@ -205,10 +223,6 @@ function resetDraft() {
         </div>
       </template>
 
-      <template v-else-if="section === 'members' || section === 'gallery'">
-        <div class="migration"><h2>JSON 이전 준비 중</h2><p>{{ section === "members" ? "Members.vue" : "Gallery.vue" }}의 하드코딩된 항목을 공개 화면 변화 없이 JSON으로 옮긴 뒤 이 편집기에 추가합니다.</p><p>이미지·CV·갤러리 사진 파일은 현재처럼 S3에 먼저 업로드하고, 여기에는 해당 링크와 표시 정보만 입력하게 됩니다.</p></div>
-      </template>
-
       <template v-else-if="section === 'deployment'">
         <div class="deployment">
           <p class="lead">실제 사이트 반영은 GitHub Actions에서만 실행됩니다. 이 관리자 화면은 AWS 자격 증명이나 GitHub 토큰을 보관하지 않습니다.</p>
@@ -219,8 +233,8 @@ function resetDraft() {
 
       <template v-else>
         <div class="content-head">
-          <p>{{ section === "news" ? "홈페이지에 표시할 새 소식을 관리합니다." : "논문 정보와 표시 태그를 관리합니다." }}</p>
-          <div class="actions"><button class="secondary" @click="validateDraft">검사</button><button class="secondary" @click="downloadDraft">JSON 내려받기</button><button class="primary" @click="addItem">{{ section === "news" ? "새 뉴스 추가" : "새 논문 추가" }}</button></div>
+          <p>{{ section === "news" ? "홈페이지에 표시할 새 소식을 관리합니다." : section === "members" ? "사진·CV·개인 링크를 관리합니다." : section === "gallery" ? "S3 갤러리 이미지 주소와 설명을 관리합니다." : "논문 정보와 표시 태그를 관리합니다." }}</p>
+          <div class="actions"><button class="secondary" @click="validateDraft">검사</button><button class="secondary" @click="downloadDraft">JSON 내려받기</button><button class="primary" @click="addItem">{{ section === "news" ? "새 뉴스 추가" : section === "members" ? "새 멤버 추가" : section === "gallery" ? "새 사진 추가" : "새 논문 추가" }}</button></div>
         </div>
         <p v-if="message" class="notice" role="status">{{ message }}</p>
         <ul v-if="checked && validationErrors.length" class="validation-errors"><li v-for="error in validationErrors" :key="error">{{ error }}</li></ul>
@@ -234,6 +248,12 @@ function resetDraft() {
             <div class="form-head"><div><h2>{{ section === "news" ? "뉴스 편집" : "논문 편집" }}</h2><p>수정 내용은 즉시 로컬 초안에 저장됩니다.</p></div><button class="danger" type="button" @click="deleteItem">삭제</button></div>
             <div v-if="section === 'news'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>날짜<input v-model="selected.date" placeholder="Aug. 2026" /></label><label class="full">내용<textarea v-model="selected.content" rows="8" placeholder="뉴스 내용을 입력하세요."></textarea><small>현재 공개 사이트와 동일하게 HTML 강조·링크를 사용할 수 있습니다.</small></label>
+            </div>
+            <div v-else-if="section === 'members'" class="fields">
+              <label>구분<input v-model="selected.group" placeholder="M.S. Students" /></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label class="full">표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label>
+            </div>
+            <div v-else-if="section === 'gallery'" class="fields">
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><label class="full">이미지 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label>
             </div>
             <div v-else class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label>논문 링크<input v-model="selected.link.paper" type="url" placeholder="https://…" /></label><label>ACM/공식 링크<input v-model="selected.link.ACM" type="url" placeholder="https://…" /></label><label>발표 영상<input v-model="selected.link.presentation" type="url" placeholder="https://…" /></label><label>슬라이드 PDF<input v-model="selected.link.slide" type="url" placeholder="https://…" /></label><label>포스터 PDF<input v-model="selected.link.poster" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label class="full">수상·인증 링크<input v-model="selected.award.honorable_mention" type="url" placeholder="https://…" /></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
