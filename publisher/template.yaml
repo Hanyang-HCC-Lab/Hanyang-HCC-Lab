@@ -1,0 +1,117 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Secure content publishing API for the HCC Lab website
+
+Parameters:
+  AllowedAdminEmail:
+    Type: String
+    Description: The only Cognito account allowed to publish website content.
+  GitHubAppId:
+    Type: String
+    Description: Numeric GitHub App ID used for repository automation.
+  GitHubAppInstallationId:
+    Type: String
+    Description: Installation ID of the GitHub App on Hanyang-HCC-Lab/Hanyang-HCC-Lab.
+  GitHubAppPrivateKeySecretArn:
+    Type: String
+    Description: ARN of the Secrets Manager secret containing {"privateKey":"-----BEGIN..."}.
+  GitHubOwner:
+    Type: String
+    Default: Hanyang-HCC-Lab
+  GitHubRepository:
+    Type: String
+    Default: Hanyang-HCC-Lab
+  GitHubBranch:
+    Type: String
+    Default: main
+
+Globals:
+  Function:
+    Runtime: nodejs22.x
+    Timeout: 30
+    MemorySize: 512
+    Architectures:
+      - arm64
+
+Resources:
+  HccAdminUserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: hcc-lab-admin
+      UsernameAttributes:
+        - email
+      AutoVerifiedAttributes:
+        - email
+      AdminCreateUserConfig:
+        AllowAdminCreateUserOnly: true
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 14
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: true
+          RequireUppercase: true
+
+  HccAdminUserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      ClientName: hcc-lab-admin-browser
+      UserPoolId: !Ref HccAdminUserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_PASSWORD_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+      PreventUserExistenceErrors: ENABLED
+
+  PublishingApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      Cors:
+        AllowMethods: "'OPTIONS,POST'"
+        AllowHeaders: "'Authorization,Content-Type'"
+        AllowOrigin: "'https://hcc.hanyang.ac.kr'"
+      Auth:
+        AddDefaultAuthorizerToCorsPreflight: false
+        DefaultAuthorizer: HccAdminAuthorizer
+        Authorizers:
+          HccAdminAuthorizer:
+            UserPoolArn: !GetAtt HccAdminUserPool.Arn
+
+  ContentPublisher:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: .
+      Handler: src/publish.handler
+      Environment:
+        Variables:
+          ALLOWED_ADMIN_EMAIL: !Ref AllowedAdminEmail
+          GITHUB_APP_ID: !Ref GitHubAppId
+          GITHUB_APP_INSTALLATION_ID: !Ref GitHubAppInstallationId
+          GITHUB_APP_PRIVATE_KEY_SECRET_ARN: !Ref GitHubAppPrivateKeySecretArn
+          GITHUB_OWNER: !Ref GitHubOwner
+          GITHUB_REPOSITORY: !Ref GitHubRepository
+          GITHUB_BRANCH: !Ref GitHubBranch
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action: secretsmanager:GetSecretValue
+              Resource: !Ref GitHubAppPrivateKeySecretArn
+      Events:
+        Publish:
+          Type: Api
+          Properties:
+            RestApiId: !Ref PublishingApi
+            Path: /publish
+            Method: post
+
+Outputs:
+  PublishingApiUrl:
+    Description: API endpoint used by the administrator page.
+    Value: !Sub "https://${PublishingApi}.execute-api.${AWS::Region}.amazonaws.com/prod"
+  CognitoUserPoolId:
+    Description: Use this value in the admin preview build configuration.
+    Value: !Ref HccAdminUserPool
+  CognitoUserPoolClientId:
+    Description: Use this value in the admin preview build configuration.
+    Value: !Ref HccAdminUserPoolClient

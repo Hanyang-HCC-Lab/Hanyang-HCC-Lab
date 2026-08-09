@@ -1,10 +1,12 @@
 <script setup>
-import { computed, ref, watch } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
+import { AuthenticationDetails, CognitoUser, CognitoUserPool } from "amazon-cognito-identity-js";
 import initialNews from "../../frontend/src/news.json";
 import initialInternational from "../../frontend/src/publications.json";
 import initialDomestic from "../../frontend/src/publications_domestic.json";
 import initialMembers from "../../frontend/src/members.json";
 import initialGallery from "../../frontend/src/gallery.json";
+import { publishingConfig, publishingConfigured } from "./publish-config";
 
 const STORAGE_KEY = "hcc-lab-admin-draft-v2";
 const tags = ["hai", "vr", "dm", "fashion", "social", "health", "cv", "nlp", "safety"];
@@ -18,7 +20,7 @@ const sourceState = () => ({
   news: deepCopy(initialNews),
   international: deepCopy(initialInternational),
   domestic: deepCopy(initialDomestic),
-  members: deepCopy(initialMembers.people),
+  members: deepCopy(initialMembers),
   gallery: deepCopy(initialGallery),
 });
 let storedDraft = null;
@@ -30,16 +32,25 @@ try {
 // Older browser drafts predate the members/gallery editor. Keep the user's
 // existing news/publication edits, but seed any newly introduced section from
 // the repository so its editor never opens empty.
-function stateFromDraft(draft) {
-  const baseline = sourceState();
-  if (!draft || typeof draft !== "object" || Array.isArray(draft)) return baseline;
+function stateFromDraft(draft, baseline = sourceState()) {
+  const next = deepCopy(baseline);
+  if (!draft || typeof draft !== "object" || Array.isArray(draft)) return next;
 
-  return Object.fromEntries(
-    Object.keys(baseline).map((key) => [key, Array.isArray(draft[key]) ? draft[key] : baseline[key]]),
-  );
+  ["news", "international", "domestic", "gallery"].forEach((key) => {
+    if (Array.isArray(draft[key])) next[key] = draft[key];
+  });
+  // v2 stored only the active-member array. Preserve it while retaining the
+  // alumni collection required by the public Members component.
+  if (Array.isArray(draft.members)) next.members.people = draft.members;
+  if (draft.members && typeof draft.members === "object" && !Array.isArray(draft.members)) {
+    if (Array.isArray(draft.members.people)) next.members.people = draft.members.people;
+    if (Array.isArray(draft.members.alumni)) next.members.alumni = draft.members.alumni;
+  }
+  return next;
 }
 
-const initialState = stateFromDraft(storedDraft);
+const baselineState = ref(sourceState());
+const initialState = stateFromDraft(storedDraft, baselineState.value);
 
 const section = ref("news");
 const state = ref(initialState);
@@ -47,15 +58,20 @@ const selectedIndex = ref(0);
 const message = ref(storedDraft ? "이 브라우저에 저장된 초안을 불러왔습니다." : "현재 홈페이지의 JSON 데이터를 불러왔습니다.");
 const checked = ref(false);
 const validationErrors = ref([]);
+const loginEmail = ref("");
+const loginPassword = ref("");
+const loginMessage = ref("");
+const isAuthenticated = ref(false);
+const publishing = ref(false);
 
 const navItems = [
   ["overview", "개요"], ["news", "소식"], ["international", "국제 논문"],
   ["domestic", "국내 논문"], ["members", "멤버"], ["gallery", "갤러리"], ["deployment", "배포"],
 ];
 const isPublication = computed(() => ["international", "domestic"].includes(section.value));
-const currentItems = computed(() => state.value[section.value] || []);
+const currentItems = computed(() => section.value === "members" ? state.value.members.people : state.value[section.value] || []);
 const selected = computed(() => currentItems.value[selectedIndex.value]);
-const dirty = computed(() => JSON.stringify(state.value) !== JSON.stringify(sourceState()));
+const dirty = computed(() => JSON.stringify(state.value) !== JSON.stringify(baselineState.value));
 
 watch(state, (value) => localStorage.setItem(STORAGE_KEY, JSON.stringify(value)), { deep: true });
 
@@ -99,7 +115,7 @@ function addItem() {
     const max = Math.max(0, ...items.map((item) => Number(item.index) || 0));
     items.unshift({ index: max + 1, year: 2026, title: "새 논문 제목.", author: "", venue: "", date: "", tags: ["hai"], link: {}, acceptance_rate: {}, award: {} });
   } else if (section.value === "members") {
-    state.value.members.push({ index: Date.now(), group: "M.S. Students", name: "New member", nameKo: "새 멤버", image: "", email: "", link: "" });
+    state.value.members.people.push({ index: Date.now(), group: "M.S. Students", name: "New member", nameKo: "새 멤버", image: "", email: "", link: "" });
   } else if (section.value === "gallery") {
     state.value.gallery.unshift({ index: Date.now(), image: "", caption: "[2026.08] New gallery item" });
   }
@@ -157,7 +173,7 @@ function validateDraft() {
     });
   });
 
-  state.value.members.forEach((item, index) => {
+  state.value.members.people.forEach((item, index) => {
     const label = `멤버 ${index + 1}`;
     if (!text(item.group) || !text(item.name) || !text(item.nameKo)) errors.push(`${label}: 구분과 이름을 확인하세요.`);
     if (!isWebAddress(item.image) || !isWebAddress(item.link)) errors.push(`${label}: 사진 또는 링크 주소가 올바르지 않습니다.`);
@@ -170,7 +186,7 @@ function validateDraft() {
   checked.value = true;
   message.value = errors.length
     ? `${errors.length}개의 확인 항목이 있습니다. 수정한 뒤 다시 검사하세요.`
-    : "검사를 통과했습니다. JSON을 내려받아 검토하거나 GitHub 변경으로 옮길 수 있습니다.";
+    : publishingConfigured ? "검사를 통과했습니다. 로그인 후 게시하면 홈페이지 배포가 자동으로 시작됩니다." : "검사를 통과했습니다. JSON을 내려받아 검토할 수 있습니다.";
 }
 
 function downloadJson(payload, filename) {
@@ -184,7 +200,7 @@ function downloadJson(payload, filename) {
 }
 
 function downloadDraft() {
-  const payload = currentItems.value;
+  const payload = section.value === "members" ? state.value.members : currentItems.value;
   const filename = { news: "news.json", international: "publications.json", domestic: "publications_domestic.json", members: "members.json", gallery: "gallery.json" }[section.value];
   downloadJson(payload, filename);
   message.value = `${filename} 초안을 내려받았습니다. 자동 게시 연결 전에도 검토용으로 사용할 수 있습니다.`;
@@ -198,12 +214,109 @@ function downloadAllDrafts() {
 function resetDraft() {
   if (!confirm("브라우저에 저장된 모든 초안을 버리고 현재 저장소 데이터로 되돌릴까요?")) return;
   localStorage.removeItem(STORAGE_KEY);
-  state.value = sourceState();
+  state.value = deepCopy(baselineState.value);
   selectedIndex.value = 0;
   checked.value = false;
   validationErrors.value = [];
   message.value = "초안을 초기화했습니다.";
 }
+
+function getCognitoPool() {
+  if (!publishingConfigured) throw new Error("게시 서비스 설정이 아직 완료되지 않았습니다.");
+  return new CognitoUserPool({ UserPoolId: publishingConfig.userPoolId, ClientId: publishingConfig.clientId });
+}
+
+function restoreSession() {
+  if (!publishingConfigured) return;
+  const user = getCognitoPool().getCurrentUser();
+  if (!user) return;
+  user.getSession((error, session) => {
+    isAuthenticated.value = !error && Boolean(session?.isValid());
+    if (isAuthenticated.value) loginMessage.value = "관리자 로그인 상태입니다.";
+  });
+}
+
+function signIn() {
+  loginMessage.value = "";
+  try {
+    const user = new CognitoUser({ Username: loginEmail.value.trim(), Pool: getCognitoPool() });
+    user.authenticateUser(new AuthenticationDetails({ Username: loginEmail.value.trim(), Password: loginPassword.value }), {
+      onSuccess: () => {
+        isAuthenticated.value = true;
+        loginPassword.value = "";
+        loginMessage.value = "로그인했습니다. 이제 게시할 수 있습니다.";
+      },
+      onFailure: (error) => { loginMessage.value = error.message || "로그인에 실패했습니다."; },
+      newPasswordRequired: () => { loginMessage.value = "임시 비밀번호입니다. AWS 콘솔에서 영구 비밀번호를 설정한 뒤 다시 로그인하세요."; },
+    });
+  } catch (error) {
+    loginMessage.value = error instanceof Error ? error.message : "로그인 설정을 확인하세요.";
+  }
+}
+
+function getIdToken() {
+  return new Promise((resolve, reject) => {
+    const user = getCognitoPool().getCurrentUser();
+    if (!user) return reject(new Error("배포 탭에서 먼저 로그인하세요."));
+    user.getSession((error, session) => {
+      if (error || !session?.isValid()) return reject(new Error("로그인 세션이 만료되었습니다. 다시 로그인하세요."));
+      resolve(session.getIdToken().getJwtToken());
+    });
+  });
+}
+
+async function publishDraft() {
+  validateDraft();
+  if (validationErrors.value.length) return;
+  if (!publishingConfigured) {
+    section.value = "deployment";
+    message.value = "게시 연결 설정이 아직 완료되지 않았습니다.";
+    return;
+  }
+  publishing.value = true;
+  try {
+    const token = await getIdToken();
+    const response = await fetch(`${publishingConfig.apiUrl.replace(/\/$/, "")}/publish`, {
+      method: "POST",
+      headers: { Authorization: token, "Content-Type": "application/json" },
+      body: JSON.stringify(state.value),
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.message || "게시 요청에 실패했습니다.");
+    baselineState.value = deepCopy(state.value);
+    message.value = `${result.message} GitHub Actions가 끝나면 공개 홈페이지에 반영됩니다.`;
+    loginMessage.value = result.commitUrl ? `게시 요청 완료: ${result.commitUrl}` : "게시 요청을 완료했습니다.";
+  } catch (error) {
+    loginMessage.value = error instanceof Error ? error.message : "게시 중 오류가 발생했습니다.";
+  } finally {
+    publishing.value = false;
+  }
+}
+
+async function loadRepositoryData() {
+  const root = "https://raw.githubusercontent.com/Hanyang-HCC-Lab/Hanyang-HCC-Lab/main/frontend/src";
+  try {
+    const [news, international, domestic, members, gallery] = await Promise.all([
+      "news.json", "publications.json", "publications_domestic.json", "members.json", "gallery.json",
+    ].map(async (file) => {
+      const response = await fetch(`${root}/${file}`);
+      if (!response.ok) throw new Error(`${file}을 불러오지 못했습니다.`);
+      return response.json();
+    }));
+    baselineState.value = { news, international, domestic, members, gallery };
+    let latestDraft = storedDraft;
+    try { latestDraft = JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch { /* use initial draft */ }
+    state.value = stateFromDraft(latestDraft, baselineState.value);
+    if (!latestDraft) message.value = "저장소의 최신 JSON 데이터를 불러왔습니다.";
+  } catch {
+    if (!storedDraft) message.value = "기본 데이터를 불러왔습니다. 최신 저장소 확인은 현재 사용할 수 없습니다.";
+  }
+}
+
+onMounted(() => {
+  restoreSession();
+  loadRepositoryData();
+});
 </script>
 
 <template>
@@ -237,9 +350,15 @@ function resetDraft() {
 
       <template v-else-if="section === 'deployment'">
         <div class="deployment">
-          <p class="lead">실제 사이트 반영은 GitHub Actions에서만 실행됩니다. 이 관리자 화면은 AWS 자격 증명이나 GitHub 토큰을 보관하지 않습니다.</p>
-          <ol><li>편집한 JSON을 내려받아 검토합니다.</li><li>검토된 변경을 저장소의 JSON 파일에 반영하고 GitHub에 푸시합니다.</li><li>GitHub Actions에서 먼저 <strong>dry-run</strong>을 실행합니다.</li><li>확인 후 <strong>deploy</strong>를 실행하면 S3 업로드와 CloudFront 캐시 갱신이 진행됩니다.</li></ol>
-          <a class="primary action-link" href="https://github.com/Hanyang-HCC-Lab/Hanyang-HCC-Lab/actions/workflows/deploy-website.yml" target="_blank" rel="noreferrer">GitHub Actions 열기</a>
+          <p class="lead">게시 권한은 AWS 서버에만 있고, 이 브라우저에는 GitHub·AWS 비밀키가 저장되지 않습니다.</p>
+          <template v-if="publishingConfigured">
+            <div v-if="isAuthenticated" class="auth-state"><strong>로그인됨</strong><p>검사를 통과한 초안은 JSON 5개를 한 번에 커밋하고, 공개 홈페이지 배포를 자동으로 시작합니다.</p><button class="primary" :disabled="publishing || !dirty" @click="publishDraft">{{ publishing ? "게시 요청 중…" : dirty ? "지금 게시" : "게시할 변경 없음" }}</button></div>
+            <form v-else class="login-form" @submit.prevent="signIn"><label>관리자 이메일<input v-model="loginEmail" type="email" autocomplete="username" required /></label><label>비밀번호<input v-model="loginPassword" type="password" autocomplete="current-password" required /></label><button class="primary" type="submit">로그인</button></form>
+            <p v-if="loginMessage" class="notice" role="status">{{ loginMessage }}</p>
+          </template>
+          <template v-else>
+            <strong>게시 연결을 준비 중입니다.</strong><p>GitHub App, AWS Cognito, 게시 API를 연결하면 이 화면에서 로그인 후 바로 게시할 수 있습니다.</p>
+          </template>
         </div>
       </template>
 
@@ -274,7 +393,7 @@ function resetDraft() {
         </div>
       </template>
 
-      <footer class="publish-bar"><span>로컬 초안 · 아직 게시되지 않음</span><div><button class="text-button" @click="resetDraft">초안 초기화</button><button class="publish" disabled title="GitHub 자동 게시 연동 후 활성화됩니다.">게시 준비</button></div></footer>
+      <footer class="publish-bar"><span>{{ dirty ? "변경된 로컬 초안 · 아직 게시되지 않음" : "저장소 기준 데이터" }}</span><div><button class="text-button" @click="resetDraft">초안 초기화</button><button class="publish" :disabled="publishing || !publishingConfigured || !dirty" :title="publishingConfigured ? '' : '게시 연결 설정 후 활성화됩니다.'" @click="publishDraft">{{ publishing ? "게시 요청 중…" : publishingConfigured ? "게시" : "게시 연결 필요" }}</button></div></footer>
     </section>
   </main>
 </template>
