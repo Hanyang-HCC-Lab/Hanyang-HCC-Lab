@@ -5,14 +5,16 @@
     "title": "From Preferences to Values: Evaluating Latent User Understanding and Transfer in LLMs",
     "author": "Taehyung Noh, Haein Yeo, Beejin Son, Kyungsik Han.",
     "venue": "ACM International Conference on Information and Knowledge Management (CIKM).",
-    "date": "",
+    "date": "November 2026.",
     "tags": [
       "hai",
       "social",
       "nlp"
     ],
     "link": {},
-    "acceptance_rate": {},
+    "acceptance_rate": {
+      "AR": 30.9
+    },
     "award": {}
   },
   {
@@ -21,14 +23,16 @@
     "title": "Auditing Ethical Value Misalignment in LLM-Based Human Simulation: A Dual-Metric Cross-National Study with Persona Injection",
     "author": "Yena Choi, Kyungsik Han.",
     "venue": "ACM International Conference on Information and Knowledge Management (CIKM).",
-    "date": "",
+    "date": "November 2026.",
     "tags": [
       "hai",
       "nlp",
       "social"
     ],
     "link": {},
-    "acceptance_rate": {},
+    "acceptance_rate": {
+      "AR": 30.9
+    },
     "award": {}
   },
   {
@@ -617,7 +621,9 @@
       "social",
       "nlp"
     ],
-    "acceptance_rate": {},
+    "acceptance_rate": {
+      "AR": ""
+    },
     "award": {}
   },
   {
