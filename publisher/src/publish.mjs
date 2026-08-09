@@ -11,7 +11,14 @@ const targets = {
 
 const json = (statusCode, body) => ({
   statusCode,
-  headers: { "content-type": "application/json; charset=utf-8" },
+  // SAM configures the OPTIONS preflight response, but Lambda proxy responses
+  // need their own CORS header as well. Without this header browsers hide even
+  // successful publish results as "Failed to fetch".
+  headers: {
+    "content-type": "application/json; charset=utf-8",
+    "access-control-allow-origin": "https://hcc.hanyang.ac.kr",
+    vary: "Origin",
+  },
   body: JSON.stringify(body),
 });
 
