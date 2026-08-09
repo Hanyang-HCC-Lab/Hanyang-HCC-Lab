@@ -1,0 +1,67 @@
+name: Deploy HCC Lab Admin Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Choose dry-run first. Deploy uploads only the /admin/ preview.
+        required: true
+        type: choice
+        default: dry-run
+        options:
+          - dry-run
+          - deploy
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: hcc-admin-preview-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: ${{ inputs.mode == 'dry-run' && 'Dry run' || 'Deploy preview' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: admin/package-lock.json
+
+      - name: Install admin dependencies
+        working-directory: admin
+        run: npm ci
+
+      - name: Build admin preview
+        working-directory: admin
+        run: npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6.2.3
+        with:
+          aws-region: ap-northeast-2
+          role-to-assume: arn:aws:iam::570209248132:role/GitHubActionsHccWebsiteDeploy
+          role-session-name: hcc-admin-preview-deploy
+          allowed-account-ids: "570209248132"
+          mask-aws-account-id: true
+
+      - name: Preview admin upload
+        if: inputs.mode == 'dry-run'
+        run: aws s3 sync admin/dist s3://hcc.hanyang.ac.kr/admin --dryrun --no-progress
+
+      - name: Upload admin preview
+        if: inputs.mode == 'deploy'
+        run: aws s3 sync admin/dist s3://hcc.hanyang.ac.kr/admin --no-progress
+
+      - name: Invalidate admin cache
+        if: inputs.mode == 'deploy'
+        run: aws cloudfront create-invalidation --distribution-id E1T8AEW131QA8T --paths "/admin/*" --no-cli-pager
