@@ -33,6 +33,13 @@ const awardOptions = [
   ["best_presentation", "Best Presentation Award"],
   ["new_challenge", "New Challenge Award"],
 ];
+const kImpactLabel = "컴퓨터공학분야 우수국제학술대회";
+const publicationLinkFields = [
+  ["paper", "논문 PDF·공식 링크"], ["ACM", "ACM 링크"], ["DOI", "DOI 링크"],
+  ["ACL", "ACL Anthology 링크"], ["IEEE", "IEEE 링크"], ["ECVA", "ECVA 링크"],
+  ["presentation", "발표 영상"], ["slide", "슬라이드 PDF"], ["poster", "포스터 PDF"],
+  ["demo", "데모 링크"], ["media", "언론·미디어 링크"],
+];
 const deepCopy = (value) => JSON.parse(JSON.stringify(value));
 const sourceState = () => ({
   news: deepCopy(initialNews),
@@ -84,10 +91,14 @@ const publishing = ref(false);
 
 const navItems = [
   ["overview", "개요"], ["news", "소식"], ["international", "국제 논문"],
-  ["domestic", "국내 논문"], ["members", "멤버"], ["gallery", "갤러리"], ["deployment", "배포"],
+  ["domestic", "국내 논문"], ["members", "멤버"], ["alumni", "Alumni"], ["gallery", "갤러리"], ["deployment", "배포"],
 ];
 const isPublication = computed(() => ["international", "domestic"].includes(section.value));
-const currentItems = computed(() => section.value === "members" ? state.value.members.people : state.value[section.value] || []);
+const currentItems = computed(() => {
+  if (section.value === "members") return state.value.members.people;
+  if (section.value === "alumni") return state.value.members.alumni;
+  return state.value[section.value] || [];
+});
 const selected = computed(() => currentItems.value[selectedIndex.value]);
 const dirty = computed(() => JSON.stringify(state.value) !== JSON.stringify(baselineState.value));
 
@@ -98,6 +109,8 @@ function ensurePublication(item) {
   if (!item.acceptance_rate) item.acceptance_rate = {};
   if (!item.oral_acceptance_rate) item.oral_acceptance_rate = {};
   if (!item.award) item.award = {};
+  if (!item.additional) item.additional = {};
+  if (!Array.isArray(item.kImpact)) item.kImpact = [];
 }
 
 function chooseSection(next) {
@@ -121,6 +134,7 @@ function selectItem(index) {
 function labelFor(item) {
   if (section.value === "news") return item.content.replace(/<[^>]*>/g, "").slice(0, 68);
   if (section.value === "members") return item.name;
+  if (section.value === "alumni") return item.name.replace(/&nbsp;/g, "").trim();
   if (section.value === "gallery") return item.caption;
   return item.title;
 }
@@ -132,9 +146,12 @@ function addItem() {
   } else if (isPublication.value) {
     const items = state.value[section.value];
     const max = Math.max(0, ...items.map((item) => Number(item.index) || 0));
-    items.unshift({ index: max + 1, year: 2026, title: "새 논문 제목.", author: "", venue: "", date: "", tags: ["hai"], link: {}, acceptance_rate: {}, oral_acceptance_rate: {}, award: {} });
+    items.unshift({ index: max + 1, year: 2026, title: "새 논문 제목.", author: "", venue: "", date: "", tags: ["hai"], link: {}, acceptance_rate: {}, oral_acceptance_rate: {}, additional: {}, award: {}, kImpact: [] });
   } else if (section.value === "members") {
     state.value.members.people.push({ index: Date.now(), group: "M.S. Students", name: "New member", nameKo: "새 멤버", image: "", email: "", link: "" });
+  } else if (section.value === "alumni") {
+    const max = Math.max(0, ...state.value.members.alumni.map((item) => Number(item.index) || 0));
+    state.value.members.alumni.unshift({ index: max + 1, name: "New alumni", description: "" });
   } else if (section.value === "gallery") {
     state.value.gallery.unshift({ index: Date.now(), image: "", caption: "[2026.08] New gallery item" });
   }
@@ -161,6 +178,26 @@ function awardType(award) {
 
 function setAwardType(type) {
   selected.value.award = type ? { [type]: "" } : {};
+}
+
+function hasKImpact(item) {
+  return Array.isArray(item.kImpact) && item.kImpact.includes(kImpactLabel);
+}
+
+function toggleKImpact(enabled) {
+  const labels = Array.isArray(selected.value.kImpact) ? selected.value.kImpact : [];
+  const index = labels.indexOf(kImpactLabel);
+  if (enabled && index === -1) labels.push(kImpactLabel);
+  if (!enabled && index !== -1) labels.splice(index, 1);
+  selected.value.kImpact = labels;
+}
+
+function kImpactText(item) {
+  return Array.isArray(item.kImpact) ? item.kImpact.join("\n") : "";
+}
+
+function setKImpactText(value) {
+  selected.value.kImpact = value.split("\n").map((label) => label.trim()).filter(Boolean);
 }
 
 function text(value) {
@@ -205,6 +242,10 @@ function validateDraft() {
     if (!text(item.group) || !text(item.name) || !text(item.nameKo)) errors.push(`${label}: 구분과 이름을 확인하세요.`);
     if (!isWebAddress(item.image) || !isWebAddress(item.link)) errors.push(`${label}: 사진 또는 링크 주소가 올바르지 않습니다.`);
   });
+  state.value.members.alumni.forEach((item, index) => {
+    if (!text(item.name)) errors.push(`Alumni ${index + 1}: 이름이 필요합니다.`);
+    if (!isWebAddress(item.link)) errors.push(`Alumni ${index + 1}: 링크 주소가 올바르지 않습니다.`);
+  });
   state.value.gallery.forEach((item, index) => {
     if (!text(item.caption) || !isWebAddress(item.image)) errors.push(`갤러리 ${index + 1}: 설명과 이미지 주소를 확인하세요.`);
   });
@@ -227,8 +268,8 @@ function downloadJson(payload, filename) {
 }
 
 function downloadDraft() {
-  const payload = section.value === "members" ? state.value.members : currentItems.value;
-  const filename = { news: "news.json", international: "publications.json", domestic: "publications_domestic.json", members: "members.json", gallery: "gallery.json" }[section.value];
+  const payload = ["members", "alumni"].includes(section.value) ? state.value.members : currentItems.value;
+  const filename = { news: "news.json", international: "publications.json", domestic: "publications_domestic.json", members: "members.json", alumni: "members.json", gallery: "gallery.json" }[section.value];
   downloadJson(payload, filename);
   message.value = `${filename} 초안을 내려받았습니다. 자동 게시 연결 전에도 검토용으로 사용할 수 있습니다.`;
 }
@@ -391,30 +432,33 @@ onMounted(() => {
 
       <template v-else>
         <div class="content-head">
-          <p>{{ section === "news" ? "홈페이지에 표시할 새 소식을 관리합니다." : section === "members" ? "사진·CV·개인 링크를 관리합니다." : section === "gallery" ? "S3 갤러리 이미지 주소와 설명을 관리합니다." : "논문 정보와 표시 태그를 관리합니다." }}</p>
-          <div class="actions"><button class="secondary" @click="validateDraft">검사</button><button class="secondary" @click="downloadDraft">JSON 내려받기</button><button class="primary" @click="addItem">{{ section === "news" ? "새 뉴스 추가" : section === "members" ? "새 멤버 추가" : section === "gallery" ? "새 사진 추가" : "새 논문 추가" }}</button></div>
+          <p>{{ section === "news" ? "홈페이지에 표시할 새 소식을 관리합니다." : section === "members" ? "사진·CV·개인 링크를 관리합니다." : section === "alumni" ? "졸업생·수료생의 소개와 현재 소속 링크를 관리합니다." : section === "gallery" ? "S3 갤러리 이미지 주소와 설명을 관리합니다." : "논문 정보와 표시 태그를 관리합니다." }}</p>
+          <div class="actions"><button class="secondary" @click="validateDraft">검사</button><button class="secondary" @click="downloadDraft">JSON 내려받기</button><button class="primary" @click="addItem">{{ section === "news" ? "새 뉴스 추가" : section === "members" ? "새 멤버 추가" : section === "alumni" ? "새 Alumni 추가" : section === "gallery" ? "새 사진 추가" : "새 논문 추가" }}</button></div>
         </div>
         <p v-if="message" class="notice" role="status">{{ message }}</p>
         <ul v-if="checked && validationErrors.length" class="validation-errors"><li v-for="error in validationErrors" :key="error">{{ error }}</li></ul>
         <div class="editor-grid">
           <section class="list-panel" aria-label="콘텐츠 목록">
             <button v-for="(item, index) in currentItems" :key="item.index" class="content-row" :class="{ selected: selectedIndex === index }" @click="selectItem(index)">
-              <span class="item-index">{{ item.index }}</span><span><strong>{{ labelFor(item) }}</strong><small>{{ section === "news" ? item.date : section === "members" ? item.group : section === "gallery" ? "갤러리 이미지" : `${item.year} · ${item.venue || "학회/저널 미입력"}` }}</small></span>
+              <span class="item-index">{{ item.index }}</span><span><strong>{{ labelFor(item) }}</strong><small>{{ section === "news" ? item.date : section === "members" ? item.group : section === "alumni" ? item.description : section === "gallery" ? "갤러리 이미지" : `${item.year} · ${item.venue || "학회/저널 미입력"}` }}</small></span>
             </button>
           </section>
           <form v-if="selected" class="edit-panel" @submit.prevent>
-            <div class="form-head"><div><h2>{{ section === "news" ? "뉴스 편집" : section === "members" ? "멤버 편집" : section === "gallery" ? "갤러리 편집" : "논문 편집" }}</h2><p>수정 내용은 즉시 로컬 초안에 저장됩니다.</p></div><button class="danger" type="button" @click="deleteItem">삭제</button></div>
+            <div class="form-head"><div><h2>{{ section === "news" ? "뉴스 편집" : section === "members" ? "멤버 편집" : section === "alumni" ? "Alumni 편집" : section === "gallery" ? "갤러리 편집" : "논문 편집" }}</h2><p>수정 내용은 즉시 로컬 초안에 저장됩니다.</p></div><button class="danger" type="button" @click="deleteItem">삭제</button></div>
             <div v-if="section === 'news'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>날짜<input v-model="selected.date" placeholder="Aug. 2026" /></label><label class="full">내용<textarea v-model="selected.content" rows="8" placeholder="뉴스 내용을 입력하세요."></textarea><small>현재 공개 사이트와 동일하게 HTML 강조·링크를 사용할 수 있습니다.</small></label>
             </div>
             <div v-else-if="section === 'members'" class="fields">
-              <label>구분<select v-model="selected.group"><option v-for="group in memberGroups" :key="group" :value="group">{{ group }}</option></select></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label class="full">표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label>
+              <label>구분<select v-model="selected.group"><option v-for="group in memberGroups" :key="group" :value="group">{{ group }}</option></select></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label>표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label><label>기타 설명<input v-model="selected.description" placeholder="선택 사항" /></label>
+            </div>
+            <div v-else-if="section === 'alumni'" class="fields">
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label>이름<input v-model="selected.name" placeholder="예: Hong Gil-dong" /></label><label class="full">소개·현재 소속<input v-model="selected.description" placeholder="예: MS 2026 (Currently @ …)" /></label><label class="full">개인 웹사이트·현재 소속 링크<input v-model="selected.link" type="url" placeholder="https://… (선택 사항)" /></label>
             </div>
             <div v-else-if="section === 'gallery'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><label class="full">이미지 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label>
             </div>
             <div v-else class="fields">
-              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label>논문 링크<input v-model="selected.link.paper" type="url" placeholder="https://…" /></label><label>ACM/공식 링크<input v-model="selected.link.ACM" type="url" placeholder="https://…" /></label><label>발표 영상<input v-model="selected.link.presentation" type="url" placeholder="https://…" /></label><label>슬라이드 PDF<input v-model="selected.link.slide" type="url" placeholder="https://…" /></label><label>포스터 PDF<input v-model="selected.link.poster" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label v-for="[key, label] in publicationLinkFields" :key="key">{{ label }}<input v-model="selected.link[key]" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>기타 수락률·통계 (%)<input v-model.number="selected.additional.AR" type="number" min="0" max="100" step="0.1" /></label><label class="checkbox-field"><input type="checkbox" :checked="hasKImpact(selected)" @change="toggleKImpact($event.target.checked)" />컴퓨터공학분야 우수국제학술대회</label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><label class="full">학술지·학회 등재 정보<textarea :value="kImpactText(selected)" @input="setKImpactText($event.target.value)" rows="3" placeholder="한 줄에 하나씩 입력하세요."></textarea><small>예: 컴퓨터공학분야 우수국제학술대회, SCI(E) Q1, KCI 등재 학술지</small></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
             </div>
           </form>
         </div>

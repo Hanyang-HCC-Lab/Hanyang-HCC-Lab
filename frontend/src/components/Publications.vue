@@ -312,7 +312,7 @@ export default {
             
 
             <!-- KImpact 존재하면 표출-->
-            <span class="h7" style="color: red" v-if="paper.kImpact"
+            <span class="h7" style="color: red" v-if="paper.kImpact && paper.kImpact.length"
               ><i
                 >&nbsp;[<span
                   class="h7"
