@@ -1,806 +1,950 @@
 [
-{
-  "index" : 71,
-  "year" : 2026,
-  "title" : "LCT: VR 환경에서의 사회불안장애 예측 맥락 인식 멀티모달 LLM 프레임워크.",
-  "author" : "곽도훈, 정다영, 한경식.",
-  "venue" : "한국컴퓨터종합학술대회.",
-  "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT_Slides.pdf"
+  {
+    "index": 71,
+    "year": 2026,
+    "title": "LCT: VR 환경에서의 사회불안장애 예측 맥락 인식 멀티모달 LLM 프레임워크.",
+    "author": "곽도훈, 정다영, 한경식.",
+    "venue": "한국컴퓨터종합학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "vr",
+      "health"
+    ],
+    "award": {
+      "outstanding_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT_Paper_Award.jpg"
+    },
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "vr", "health"
-  ],
-  "award":{
-    "outstanding_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_LCT_Paper_Award.jpg"
-  }
-},
-{
-  "index" : 70,
-  "year" : 2026,
-  "title" : "동적 이해관계자 페르소나 생성 및 시뮬레이션 기반 정책 파급 효과 분석 연구.",
-  "author" : "김정현, 여해인, 손비진, 한경식.",
-  "venue" : "한국컴퓨터종합학술대회.",
-  "link" : {
-    "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_Policy_Research.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_Policy_Research_Slides.pdf"
+  {
+    "index": 70,
+    "year": 2026,
+    "title": "동적 이해관계자 페르소나 생성 및 시뮬레이션 기반 정책 파급 효과 분석 연구.",
+    "author": "김정현, 여해인, 손비진, 한경식.",
+    "venue": "한국컴퓨터종합학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_Policy_Research.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_KCC_Policy_Research_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 69,
-  "year" : 2026,
-  "title" : "Capstone: ToDoc: 개인화 및 RAG 기반의 대규모 언어모델을 활용한 AI 육아 지원 시스템.",
-  "author" : "김재준, 김태우, 류의재, 이우진, 이현동, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Paper.pdf",
-    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Poster.pdf",
-    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Video.mp4"
+  {
+    "index": 69,
+    "year": 2026,
+    "title": "Capstone: ToDoc: 개인화 및 RAG 기반의 대규모 언어모델을 활용한 AI 육아 지원 시스템.",
+    "author": "김재준, 김태우, 류의재, 이우진, 이현동, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Paper.pdf",
+      "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Poster.pdf",
+      "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team2_Video.mp4"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "health",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "health", "nlp"
-  ]
-},
-{
-  "index" : 68,
-  "year" : 2026,
-  "title" : "Capstone: SWELL: 개인화 추천 및 AI 가상 피팅 통합 스와이프형 패션 플랫폼.",
-  "author" : "이동헌, 윤지찬, 정유진, 김나연, 장영욱, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Paper.pdf",
-    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Poster.pdf",
-    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Video.mp4"
+  {
+    "index": 68,
+    "year": 2026,
+    "title": "Capstone: SWELL: 개인화 추천 및 AI 가상 피팅 통합 스와이프형 패션 플랫폼.",
+    "author": "이동헌, 윤지찬, 정유진, 김나연, 장영욱, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Paper.pdf",
+      "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Poster.pdf",
+      "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team7_Video.mp4"
+    },
+    "tags": [
+      "hai",
+      "cv",
+      "nlp"
+    ],
+    "award": {
+      "new_challenge": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_CreativeAwrad_NewChallengeAward_SWELL.jpg"
+    },
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "cv", "nlp"
-  ],
-  "award" : {
-    "new_challenge" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_CreativeAwrad_NewChallengeAward_SWELL.jpg"
-  }
-},
-{
-  "index" : 67,
-  "year" : 2026,
-  "title" : "Capstone: BeMARS: 에이전트 추천시스템 기반 비즈니스 인맥 관리 서비스.",
-  "author" : "지문호, 안연주, 이태환, 이태호, 박찬형, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Paper.pdf",
-    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Poster.pdf",
-    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Video.mp4"
+  {
+    "index": 67,
+    "year": 2026,
+    "title": "Capstone: BeMARS: 에이전트 추천시스템 기반 비즈니스 인맥 관리 서비스.",
+    "author": "지문호, 안연주, 이태환, 이태호, 박찬형, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Paper.pdf",
+      "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Poster.pdf",
+      "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team8_Video.mp4"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "award": {
+      "grand_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_BeMARS_CA_Grand_Paper_Award.jpg"
+    },
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ],
-  "award" : {
-    "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_BeMARS_CA_Grand_Paper_Award.jpg"
-  }
-},
-{
-  "index" : 66,
-  "year" : 2026,
-  "title" : "Capstone: ‘It-Da’: 텍스트 소통 불안 해소를 위한 LLM 기반 대화 분석 및 시각화 서비스.",
-  "author" : "김나영, 류환희, 박서영, 이연수, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Paper.pdf",
-    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Poster.pdf",
-    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Video.mp4"
+  {
+    "index": 66,
+    "year": 2026,
+    "title": "Capstone: ‘It-Da’: 텍스트 소통 불안 해소를 위한 LLM 기반 대화 분석 및 시각화 서비스.",
+    "author": "김나영, 류환희, 박서영, 이연수, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Paper.pdf",
+      "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Poster.pdf",
+      "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team10_Video.mp4"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 65,
-  "year" : 2026,
-  "title" : "Capstone: 안전한 투자 의사결정 지원을 위한 개인화 금융 멘토 FinGuide AI.",
-  "author" : "권승빈, 김우진, 김준수, 정주현, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Paper.pdf",
-    "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Poster.pdf",
-    "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Video.mp4"
+  {
+    "index": 65,
+    "year": 2026,
+    "title": "Capstone: 안전한 투자 의사결정 지원을 위한 개인화 금융 멘토 FinGuide AI.",
+    "author": "권승빈, 김우진, 김준수, 정주현, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Paper.pdf",
+      "poster": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Poster.pdf",
+      "presentation": "https://s3.ap-northeast-2.amazonaws.com/aibootcamp.hanyang.ac.kr/project-archive-page/src/assets/year_1/hcik_2026/Team14_Video.mp4"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-
-{
-  "index" : 64,
-  "year" : 2026,
-  "title" : "대규모 언어모델의 주제별 편향과 모델별 차이.",
-  "author" : "최예나, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Topic_specific_bias_HCIK.pdf",
-    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_LLM_Bias_Slides.pdf"
+  {
+    "index": 64,
+    "year": 2026,
+    "title": "대규모 언어모델의 주제별 편향과 모델별 차이.",
+    "author": "최예나, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Topic_specific_bias_HCIK.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_LLM_Bias_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-}, 
-{
-  "index" : 63,
-  "year" : 2026,
-  "title" : "대규모 언어 모델을 활용한 커뮤니티 활동 유형 기반의 팬덤 에이전트 구축 및 평가.",
-  "author" : "손비진, 김재훈, 박소현, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Fandom_agent_HCIK.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Fandom_Agent_Slides.pdf"
+  {
+    "index": 63,
+    "year": 2026,
+    "title": "대규모 언어 모델을 활용한 커뮤니티 활동 유형 기반의 팬덤 에이전트 구축 및 평가.",
+    "author": "손비진, 김재훈, 박소현, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Fandom_agent_HCIK.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Fandom_Agent_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-}, 
-{
-  "index" : 62,
-  "year" : 2026,
-  "title" : "PersonaScope: 적응형 페르소나 기반 장기적 우울 맥락 모델링.",
-  "author" : "김정현, 진승완, 노태형, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_PersonaScope_HCIK.pdf",
-    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_PersonaScope_Slides.pdf.pdf"
+  {
+    "index": 62,
+    "year": 2026,
+    "title": "PersonaScope: 적응형 페르소나 기반 장기적 우울 맥락 모델링.",
+    "author": "김정현, 진승완, 노태형, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_PersonaScope_HCIK.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_PersonaScope_Slides.pdf.pdf"
+    },
+    "tags": [
+      "hai",
+      "health",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "health", "nlp"
-  ]
-}, 
-{
-  "index" : 61,
-  "year" : 2026,
-  "title" : "대규모 언어모델을 활용한 자율주행 계획의 안전성 평가 프레임워크.",
-  "author" : "김명진, 최예나, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Auto_driving_HCIK.pdf",
-    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Autonomous_Driving_Slides.pdf"
+  {
+    "index": 61,
+    "year": 2026,
+    "title": "대규모 언어모델을 활용한 자율주행 계획의 안전성 평가 프레임워크.",
+    "author": "김명진, 최예나, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_Auto_driving_HCIK.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_Autonomous_Driving_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "cv",
+      "nlp",
+      "safety"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "cv", "nlp", "safety"
-  ]
-}, 
-{
-  "index" : 60,
-  "year" : 2026,
-  "title" : "HILIPS: 산업용 엣지 AI 구축을 위한 의미론적 모호성 해결 및 인간-AI 협업 파이프라인.",
-  "author" : "노태형, 여해인, 손비진, 김정현, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HILIPS_HCIK.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_HILIPS_Slides.pdf"
+  {
+    "index": 60,
+    "year": 2026,
+    "title": "HILIPS: 산업용 엣지 AI 구축을 위한 의미론적 모호성 해결 및 인간-AI 협업 파이프라인.",
+    "author": "노태형, 여해인, 손비진, 김정현, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HILIPS_HCIK.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_HCIK_HILIPS_Slides.pdf"
+    },
+    "tags": [
+      "hai",
+      "cv",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "cv", "nlp"
-  ]
-}, 
-{
-  "index" : 59,
-  "year" : 2025,
-  "title" : "Poster: 동적 페르소나 모델링 기반의 개인화된 정신건강 예측.",
-  "author" : "김정현, 진승완, 노태형, 한경식.",
-  "venue" : "한국데이터마이닝학회 하계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KDMS25_Poster_PersonaScope.pdf"
+  {
+    "index": 59,
+    "year": 2025,
+    "title": "Poster: 동적 페르소나 모델링 기반의 개인화된 정신건강 예측.",
+    "author": "김정현, 진승완, 노태형, 한경식.",
+    "venue": "한국데이터마이닝학회 하계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KDMS25_Poster_PersonaScope.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%EA%B9%80%EC%A0%95%ED%98%84.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%EA%B9%80%EC%A0%95%ED%98%84.jpg"
+  {
+    "index": 58,
+    "year": 2025,
+    "title": "Poster: LLM-based Online Fandom Activity Taxonomy Classification.",
+    "author": "Aylin Fathi, 김재훈, 한경식.",
+    "venue": "한국데이터마이닝학회 하계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KDMS25_Poster_LLM-based_Online_Fandom_Activity_Taxonomy_Classification.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-}, 
-{
-  "index" : 58,
-  "year" : 2025,
-  "title" : "Poster: LLM-based Online Fandom Activity Taxonomy Classification.",
-  "author" : "Aylin Fathi, 김재훈, 한경식.",
-  "venue" : "한국데이터마이닝학회 하계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KDMS25_Poster_LLM-based_Online_Fandom_Activity_Taxonomy_Classification.pdf"
+  {
+    "index": 57,
+    "year": 2025,
+    "title": "지식 그래프를 활용한 정치 성향별 뉴스 이미지 생성.",
+    "author": "손비진, 박소현, 김재훈, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KCC_KG_Image.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KCC2025_KG_Slide.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-}, 
-{
-  "index" : 57,
-  "year" : 2025,
-  "title" : "지식 그래프를 활용한 정치 성향별 뉴스 이미지 생성.",
-  "author" : "손비진, 박소현, 김재훈, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai", "social", "nlp"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_KCC_KG_Image.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/KCC2025_KG_Slide.pdf"
+  {
+    "index": 56,
+    "year": 2025,
+    "title": "Poster: 패션 디자이너의 추상적 표현을 기반으로 상호작용하는 생성형 인공지능 시스템.",
+    "author": "김명진, 김보관, 한경식.",
+    "venue": "한국의류산업학회 춘계학술대회.",
+    "tags": [
+      "hai",
+      "fashion",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_myungjin.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_myungjin.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-{
-  "index" : 56,
-  "year" : 2025,
-  "title" : "Poster: 패션 디자이너의 추상적 표현을 기반으로 상호작용하는 생성형 인공지능 시스템.",
-  "author" : "김명진, 김보관, 한경식.",
-  "venue" : "한국의류산업학회 춘계학술대회.",
-  "tags" : [
-    "hai", "fashion", "nlp"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_myungjin.pdf",
-    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_myungjin.pdf"
-  }
-},
-{
-  "index" : 55,
-  "year" : 2025,
-  "title" : "Poster: LLM 기반 프로필 생성 및 패션 개인화 작업의 활용 방안.",
-  "author" : "노태형, 여해인, 한경식.",
-  "venue" : "한국의류산업학회 춘계학술대회.",
-  "tags" : [
-    "hai", "fashion", "nlp"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_taehyung.pdf",
-    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_taehyung.pdf"
-  }
-},
-{
-  "index" : 54,
-  "year" : 2025,
-  "title" : "Poster: LLM 기반 콘텐츠 추천 설명이 패션 추천 시스템 사용자 경험에 미치는 영향.",
-  "author" : "여해인, 노태형, 한경식.",
-  "venue" : "한국의류산업학회 춘계학술대회.",
-  "tags" : [
-    "hai", "fashion", "nlp"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_haein.pdf",
-    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_haein.pdf"
-    
-  }
-},
-{
-  "index" : 53,
-  "year" : 2025,
-  "title" : "AI for Humanity.",
-  "author" : "박소민, 김재훈, 박소현, 박규동, 한경식.",
-  "venue" : "정보과학회지(Communications of the Korean Institute of Information Scientists and Engineers). 2025년 1월호.",
-  "link": {
-    "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_01_AI+for+Humanity.pdf"
+  {
+    "index": 55,
+    "year": 2025,
+    "title": "Poster: LLM 기반 프로필 생성 및 패션 개인화 작업의 활용 방안.",
+    "author": "노태형, 여해인, 한경식.",
+    "venue": "한국의류산업학회 춘계학술대회.",
+    "tags": [
+      "hai",
+      "fashion",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_taehyung.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_taehyung.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "cv", "nlp", "vr"
-  ]
-},
-{
-  "index" : 52,
-  "year" : 2025,
-  "title" : "우울증 완화를 위한 가상현실 기반 마음챙김: 콘텐츠 개발과 데이터 분석을 중심으로.",
-  "author" : "최윤선, 김보관, 정다영, 김형숙, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link": {
-    "paper":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_HCIK_VR-Mindfulness.pdf",
-    "slide":"https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/HCIK2025_VR_Slide.pdf"},
-  "tags" : [
-    "hai", "vr", "health"
-  ],
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-{
-  "index" : 51,
-  "year" : 2024,
-  "title" : "Poster: LLM을 활용한 가상현실에서의 사이버멀미 선제적 예측 모델 및 개인 맞춤형 모델 개발.",
-  "author" : "최윤선, 정다영, 김보관, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+  {
+    "index": 54,
+    "year": 2025,
+    "title": "Poster: LLM 기반 콘텐츠 추천 설명이 패션 추천 시스템 사용자 경험에 미치는 영향.",
+    "author": "여해인, 노태형, 한경식.",
+    "venue": "한국의류산업학회 춘계학술대회.",
+    "tags": [
+      "hai",
+      "fashion",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_paper_haein.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/SFTI25_poster_haein.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "award" : {
-    "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+  {
+    "index": 53,
+    "year": 2025,
+    "title": "AI for Humanity.",
+    "author": "박소민, 김재훈, 박소현, 박규동, 한경식.",
+    "venue": "정보과학회지(Communications of the Korean Institute of Information Scientists and Engineers). 2025년 1월호.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_01_AI+for+Humanity.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "cv",
+      "nlp",
+      "vr"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "vr", "dm"
-  ]
-},
-{
-  "index" : 50,
-  "year" : 2024,
-  "title" : "Poster: AI 생성 이미지가 정치 뉴스 인식 및 이해에 미치는 영향.",
-  "author" : "손비진, 박소현, 김재훈, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.pdf"
+  {
+    "index": 52,
+    "year": 2025,
+    "title": "우울증 완화를 위한 가상현실 기반 마음챙김: 콘텐츠 개발과 데이터 분석을 중심으로.",
+    "author": "최윤선, 김보관, 정다영, 김형숙, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_HCIK_VR-Mindfulness.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/HCIK2025_VR_Slide.pdf"
+    },
+    "tags": [
+      "hai",
+      "vr",
+      "health"
+    ],
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "award" : {
-    "grand_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg"
+  {
+    "index": 51,
+    "year": 2024,
+    "title": "Poster: LLM을 활용한 가상현실에서의 사이버멀미 선제적 예측 모델 및 개인 맞춤형 모델 개발.",
+    "author": "최윤선, 정다영, 김보관, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+    },
+    "award": {
+      "grand_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "vr",
+      "dm"
+    ],
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "social", "cv"
-  ]
-},
-{
-  "index" : 49,
-  "year" : 2024,
-  "title" : "Poster: 멀티모달 데이터를 통한 VR 기반 마음챙김 인지치료(VR-MBCT) 효과성 검증 연구.",
-  "author" : "정다영, 김보관, 최윤선, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.pdf"
+  {
+    "index": 50,
+    "year": 2024,
+    "title": "Poster: AI 생성 이미지가 정치 뉴스 인식 및 이해에 미치는 영향.",
+    "author": "손비진, 박소현, 김재훈, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.pdf"
+    },
+    "award": {
+      "grand_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A2%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "cv"
+    ],
+    "acceptance_rate": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.jpg"
+  {
+    "index": 49,
+    "year": 2024,
+    "title": "Poster: 멀티모달 데이터를 통한 VR 기반 마음챙김 인지치료(VR-MBCT) 효과성 검증 연구.",
+    "author": "정다영, 김보관, 최윤선, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%83%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%BC.jpg"
+    },
+    "tags": [
+      "hai",
+      "vr",
+      "health"
+    ],
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "vr", "health"
-  ]
-},
-{
-  "index" : 48,
-  "year" : 2024,
-  "title" : "Poster: LLM을 활용한 한국 온라인 커뮤니티의 정치 성향 표현 및 분석 연구.",
-  "author" : "주미선, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+  {
+    "index": 48,
+    "year": 2024,
+    "title": "Poster: LLM을 활용한 한국 온라인 커뮤니티의 정치 성향 표현 및 분석 연구.",
+    "author": "주미선, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%B5%E1%84%89%E1%85%A5%E1%86%AB.jpg"
+  {
+    "index": 47,
+    "year": 2024,
+    "title": "Poster: 온라인 텍스트에서 성격을 예측하기 위한 다중 에이전트 비교 평가 연구.",
+    "author": "여해인, 노태형, 진승완, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 47,
-  "year" : 2024,
-  "title" : "Poster: 온라인 텍스트에서 성격을 예측하기 위한 다중 에이전트 비교 평가 연구.",
-  "author" : "여해인, 노태형, 진승완, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.pdf"
+  {
+    "index": 46,
+    "year": 2024,
+    "title": "Poster: LLM In-context learning 기반 암시적 혐오표현 탐지 개선 전략.",
+    "author": "김재훈, 진승완, 박소민, 박소현, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.jpg"
+  {
+    "index": 45,
+    "year": 2024,
+    "title": "Poster: 정치 뉴스에서 AI 생성 이미지의 역할과 독자 인식 분석.",
+    "author": "박소현, 김재훈, 박소민, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.jpg"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "cv"
+    ],
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 46,
-  "year" : 2024,
-  "title" : "Poster: LLM In-context learning 기반 암시적 혐오표현 탐지 개선 전략.",
-  "author" : "김재훈, 진승완, 박소민, 박소현, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.pdf"
+  {
+    "index": 44,
+    "year": 2024,
+    "title": "Poster: 개인화된 추천을 위한 멀티 에이전트 기반 사용자 프로필 생성.",
+    "author": "노태형, 진승완, 여해인, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%82%E1%85%A9%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%BC.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A2%E1%84%92%E1%85%AE%E1%86%AB.jpg"
+  {
+    "index": 43,
+    "year": 2024,
+    "title": "Poster: LLM 기반 에이전트를 활용한 설문 데이터 분석 방법론 연구: 한국근로환경조사(KWCS) 데이터를 중심으로.",
+    "author": "박소민, 정다영, 김재훈, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%86%E1%85%B5%E1%86%AB.pdf"
+    },
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 45,
-  "year" : 2024,
-  "title" : "Poster: 정치 뉴스에서 AI 생성 이미지의 역할과 독자 인식 분석.",
-  "author" : "박소현, 김재훈, 박소민, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.pdf"
+  {
+    "index": 42,
+    "year": 2024,
+    "title": "Poster: VR 환경에서의 Transformer 기반 Human Activity Recognition.",
+    "author": "정민곤, 한경식.",
+    "venue": "한국데이터마이닝학회 추계학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%AB.pdf"
+    },
+    "tags": [
+      "hai",
+      "vr",
+      "dm"
+    ],
+    "acceptance_rate": {},
+    "award": {}
   },
-  "award" : {
-    "best_paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/2024_KDMS_%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%AE%E1%84%89%E1%85%AE%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB.jpg"
+  {
+    "index": 41,
+    "year": 2024,
+    "title": "Poster: 장기 시계열 예측 모델을 활용한 가상현실에서의 사이버멀미 선제적 예측.",
+    "author": "최윤선, 정다영, 김보관, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-41%5Dcybersickness.pdf",
+      "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC2024_TimeSeries_Poster.pdf"
+    },
+    "award": {
+      "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC_2024_best_presentation_award.jpg"
+    },
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "acceptance_rate": {}
   },
-  "tags" : [
-    "hai", "social", "cv"
-  ]
-},
-{
-  "index" : 44,
-  "year" : 2024,
-  "title" : "Poster: 개인화된 추천을 위한 멀티 에이전트 기반 사용자 프로필 생성.",
-  "author" : "노태형, 진승완, 여해인, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%82%E1%85%A9%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%BC.pdf"
+  {
+    "index": 40,
+    "year": 2024,
+    "title": "온라인 커뮤니티의 혐오 표현 양상: 19대 대통령 선거와 20대 대통령 선거를 기반으로.",
+    "author": "박소민, 김재훈, 박소현, 진승완, 한경식.",
+    "venue": "한국HCI학회.",
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-40%5Dkorea_election.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/HCI2024_PoliticalElection_Slide.pdf"
+    },
+    "tags": [
+      "hai",
+      "social"
+    ],
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 43,
-  "year" : 2024,
-  "title" : "Poster: LLM 기반 에이전트를 활용한 설문 데이터 분석 방법론 연구: 한국근로환경조사(KWCS) 데이터를 중심으로.",
-  "author" : "박소민, 정다영, 김재훈, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%87%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A9%E1%84%86%E1%85%B5%E1%86%AB.pdf"
-  },
-  "tags" : [
-    "hai", "social", "nlp"
-  ]
-},
-{
-  "index" : 42,
-  "year" : 2024,
-  "title" : "Poster: VR 환경에서의 Transformer 기반 Human Activity Recognition.",
-  "author" : "정민곤, 한경식.",
-  "venue" : "한국데이터마이닝학회 추계학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%86%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%B5%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AC_%E1%84%91%E1%85%A9%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%AB.pdf"
-  },
-  "tags" : [
-    "hai", "vr", "dm"
-  ]
-},
-{
-  "index" : 41,
-  "year" : 2024,
-  "title" : "Poster: 장기 시계열 예측 모델을 활용한 가상현실에서의 사이버멀미 선제적 예측.",
-  "author" : "최윤선, 정다영, 김보관, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-41%5Dcybersickness.pdf",
-    "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC2024_TimeSeries_Poster.pdf"
-  },
-  "award" : {
-    "best_presentation" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/KCC_2024_best_presentation_award.jpg"
-  },
-  "tags" : [
-    "hai", "vr"
-  ]
-},
-{
-  "index" : 40,
-  "year" : 2024,
-  "title" : "온라인 커뮤니티의 혐오 표현 양상: 19대 대통령 선거와 20대 대통령 선거를 기반으로.",
-  "author" : "박소민, 김재훈, 박소현, 진승완, 한경식.",
-  "venue" : "한국HCI학회.",
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/%5BD-40%5Dkorea_election.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2024/HCI2024_PoliticalElection_Slide.pdf"
-  },
-  "tags" : [
-    "hai", "social"
-  ],
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-{
-  "index" : 39,
-  "year" : 2023,
-  "title" : "대규모 언어모델의 환각 현상 완화를 위한 딥러닝 기반 시각적인 힌트 사용 방법.",
-  "author" : "노태형, 여해인, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai", "fashion", "nlp"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DLLMHallu.pdf",
+  {
+    "index": 39,
+    "year": 2023,
+    "title": "대규모 언어모델의 환각 현상 완화를 위한 딥러닝 기반 시각적인 힌트 사용 방법.",
+    "author": "노태형, 여해인, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "fashion",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-39%5DLLMHallu.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_LLM_+hallucination_slide.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
   {
-  "index" : 38,
-  "year" : 2023,
-  "title" : "메타패스 기반 이종 그래프 모델을 활용한 패션 커뮤니티 사용자의 패션 착장 선호도 연구.",
-  "author" : "김은지, 여해인, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai", "fashion"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DGLAM.pdf",
+    "index": 38,
+    "year": 2023,
+    "title": "메타패스 기반 이종 그래프 모델을 활용한 패션 커뮤니티 사용자의 패션 착장 선호도 연구.",
+    "author": "김은지, 여해인, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "fashion"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-38%5DGLAM.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_GLAM_Slide.pdf"
-      },
-  "award":{
-    "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC_2023_best_presentation_award.jpg"
+    },
+    "award": {
+      "best_presentation": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC_2023_best_presentation_award.jpg"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
   {
-  "index" : 37,
-  "year" : 2023,
-  "title" : "사회불안 매개 요인과 센서 데이터 분석을 통한 가상환경 기반 사회불안 조성 연구.",
-  "author" : "김은지, 진승완, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai", "vr", "health"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-37%5DXR.pdf",
+    "index": 37,
+    "year": 2023,
+    "title": "사회불안 매개 요인과 센서 데이터 분석을 통한 가상환경 기반 사회불안 조성 연구.",
+    "author": "김은지, 진승완, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "vr",
+      "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-37%5DXR.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_XR_Slide.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-  {
-  "index" : 36,
-  "year" : 2023,
-  "title" : "대규모 언어 모델을 통한 콘텐츠 기반 추천 설명 생성 방안.",
-  "author" : "여해인, 노태형, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-  "hai", "fashion", "nlp"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf",
-      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_RecContents_Slide.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
   {
-  "index" : 35,
-  "year" : 2023,
-  "title" : "CoFashion: 패션 디자이너의 창의적 사고를 돕는 인공지능 기반 웹 인터페이스.",
-  "author" : "주미선, 김명진, 김보관, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai","fashion"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf",
+    "index": 36,
+    "year": 2023,
+    "title": "대규모 언어 모델을 통한 콘텐츠 기반 추천 설명 생성 방안.",
+    "author": "여해인, 노태형, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "fashion",
+      "nlp"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-36%5DLLMRec.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_RecContents_Slide.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 35,
+    "year": 2023,
+    "title": "CoFashion: 패션 디자이너의 창의적 사고를 돕는 인공지능 기반 웹 인터페이스.",
+    "author": "주미선, 김명진, 김보관, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "fashion"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-35%5DCoFashion.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/KSC2023_CoFashion_Slide.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-  
-{
-  "index" : 34,
-  "year" : 2023,
-  "title" : "가짜 뉴스 막는 AI 기술.",
-  "author" : "한경식.",
-  "venue" : "과학과 기술(The Science & Technology). 2023년 5월호.",
-  "tags" : [
-    "hai",
-    "social"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-34%5D%E1%84%80%E1%85%AA%E1%84%92%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AA%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF_fake_news.pdf"
-      }
-},
-
-{
-  "index" : 33,
-  "year" : 2023,
-  "title" : "Capstone: 가상 현실 기반 사회 불안 환경 디자인 연구.",
-  "author" : "채예진, 김은지, 진승완, 박소현.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "health"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-33%5DHCIK_Social_Anxiety.pdf",
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 34,
+    "year": 2023,
+    "title": "가짜 뉴스 막는 AI 기술.",
+    "author": "한경식.",
+    "venue": "과학과 기술(The Science & Technology). 2023년 5월호.",
+    "tags": [
+      "hai",
+      "social"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-34%5D%E1%84%80%E1%85%AA%E1%84%92%E1%85%A1%E1%86%A8%E1%84%80%E1%85%AA%E1%84%80%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF_fake_news.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 33,
+    "year": 2023,
+    "title": "Capstone: 가상 현실 기반 사회 불안 환경 디자인 연구.",
+    "author": "채예진, 김은지, 진승완, 박소현.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-33%5DHCIK_Social_Anxiety.pdf",
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_XR_Poster.pdf"
-      }
-},
-
-{
-  "index" : 32,
-  "year" : 2023,
-  "title" : "Capstone: 가상 현실 상의 사이버 멀미 예측을 위한 모델 구축.",
-  "author" : "백유진, 유승길, 정유리, 정다영, 최호영.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "vr"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-32%5DHCIK_Cybersickness.pdf",
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 32,
+    "year": 2023,
+    "title": "Capstone: 가상 현실 상의 사이버 멀미 예측을 위한 모델 구축.",
+    "author": "백유진, 유승길, 정유리, 정다영, 최호영.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-32%5DHCIK_Cybersickness.pdf",
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_VR_Poster.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_Cybersickness_Slide.pdf"
-      }
-},
-
-{
-  "index" : 31,
-  "year" : 2023,
-  "title" : "Capstone: 이동장애인의 실재감을 포용하는 가상 환경 유니버설 디자인을 위한 그룹 간 사용자 경험 비교 연구.",
-  "author" : "오지영, 윤은서, 정민곤, 김재훈.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "vr"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DHCIK_Locomotion_capstone.pdf",
-      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DSlide-HCIK_Locomotion_capstone.pdf",
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 31,
+    "year": 2023,
+    "title": "Capstone: 이동장애인의 실재감을 포용하는 가상 환경 유니버설 디자인을 위한 그룹 간 사용자 경험 비교 연구.",
+    "author": "오지영, 윤은서, 정민곤, 김재훈.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DHCIK_Locomotion_capstone.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-31%5DSlide-HCIK_Locomotion_capstone.pdf",
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/SKCC_VR_locomotion_Poster.pdf"
-      }
-},
-
-{
-  "index" : 30,
-  "year" : 2023,
-  "title" : "Poster: 우울증상 정도와 마음건강 앱 활동 로그 관계.",
-  "author" : "김명진, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "health"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-30%5DHCIK_Mental.pdf"
-      },
-  "award":{
-    "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/HCIK_2023_best_paper_award.png"
-  }
-},
-
-{
-  "index" : 29,
-  "year" : 2023,
-  "title" : "가상 현실에서 제자리 걸음의 추가 센서 대체 이동 방향 결정.",
-  "author" : "정민곤, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "vr"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DHCIK_Locomotion.pdf",
-      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DSlide-HCIK_Locomotion.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-
-{
-  "index" : 28,
-  "year" : 2022,
-  "title" : "Poster: 주제 및 주요 온라인 커뮤니티에 대한 혐오표현 분석.",
-  "author" : "박소현, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai",
-    "social"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-28%5DKSC_HateSpeech.pdf"
-      }
-},
-
-{
-  "index" : 27,
-  "year" : 2022,
-  "title" : "정치 양극화 완화를 위한 AI 웹 인터페이스 구축.",
-  "author" : "김재훈, 박소현, 한경식.",
-  "venue" : "한국소프트웨어종합학술대회.",
-  "tags" : [
-    "hai",
-    "social"
-  ],
-  "link" : {
-      "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DKSC_PoliticalPolarization.pdf",
-      "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DSlide-KSC_PoliticalPolarization.pdf"
-      },
-  "award": {
-    "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KSC_2022_best_paper_award.jpg"
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-
-{
-  "index" : 26,
-  "year" : 2022,
-  "title" : "Poster: MR환경에서 사용자 경험 증진을 위한 Human+AI 연구 방향.",
-  "author" : "한경식.",
-  "venue" : "한국차세대컴퓨팅학회 춘계학술대회.",
-  "tags" : [
-    "hai",
-    "vr"
-  ],
-  "link" : {"paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KINGPC2022_MR.pdf"
-      }
-},
-
-{
-  "index" : 25,
-  "year" : 2022,
-  "title" : "가상 현실에서의 멀티 모달, 딥러닝 기반 사이버 멀미 예측.",
-  "author" : "정다영, 백승원, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "vr"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf",
-    "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/HCIK2022_Cybersickness_Slide.pdf"
-      },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-{
-  "index" : 24,
-  "year" : 2022,
-  "title" : "스트레스 인지 및 관리를 위한 AI 기반 지원 어플리케이션(MindScope)의 개발과 사용자 스터디.",
-  "author" : "정민곤, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "health"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DHCIK_MindScope.pdf",
-    "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DSlide-HCIK_MindScope.pdf"
+  {
+    "index": 30,
+    "year": 2023,
+    "title": "Poster: 우울증상 정도와 마음건강 앱 활동 로그 관계.",
+    "author": "김명진, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-30%5DHCIK_Mental.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/HCIK_2023_best_paper_award.png"
+    },
+    "acceptance_rate": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-{
-  "index" : 23,
-  "year" : 2022,
-  "title" : "정량적인 기준 기반의 Fashion style 에 관한 연구: 전문가 지식 및 딥러닝 결합 모델링 중심으로.",
-  "author" : "전영승, 노태형, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "fashion"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-23%5DHCIK_FashionStyle.pdf"
+  {
+    "index": 29,
+    "year": 2023,
+    "title": "가상 현실에서 제자리 걸음의 추가 센서 대체 이동 방향 결정.",
+    "author": "정민곤, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DHCIK_Locomotion.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/%5BD-29%5DSlide-HCIK_Locomotion.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
-  }
-},
-
-{
-  "index" : 22,
-  "year" : 2022,
-  "title" : "미술 심리 치료 분야의 의사결정 지원을 위한 비지도학습 기반의 AI 모델 적용에 관한 연구.",
-  "author" : "최호영, 진승완, 한경식.",
-  "venue" : "한국HCI학회.",
-  "tags" : [
-    "hai",
-    "health"
-  ],
-  "link" : {
-    "paper" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DHCIK_Art-Psychotherapy.pdf",
-     "slide" : "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DSlide-HCIK_Art-Psychotherapy.pdf"
+  {
+    "index": 28,
+    "year": 2022,
+    "title": "Poster: 주제 및 주요 온라인 커뮤니티에 대한 혐오표현 분석.",
+    "author": "박소현, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "social"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-28%5DKSC_HateSpeech.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
   },
-  "oral_acceptance_rate": {
-    "AR": 0
+  {
+    "index": 27,
+    "year": 2022,
+    "title": "정치 양극화 완화를 위한 AI 웹 인터페이스 구축.",
+    "author": "김재훈, 박소현, 한경식.",
+    "venue": "한국소프트웨어종합학술대회.",
+    "tags": [
+      "hai",
+      "social"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DKSC_PoliticalPolarization.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-27%5DSlide-KSC_PoliticalPolarization.pdf"
+    },
+    "award": {
+      "best_paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KSC_2022_best_paper_award.jpg"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {}
+  },
+  {
+    "index": 26,
+    "year": 2022,
+    "title": "Poster: MR환경에서 사용자 경험 증진을 위한 Human+AI 연구 방향.",
+    "author": "한경식.",
+    "venue": "한국차세대컴퓨팅학회 춘계학술대회.",
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/KINGPC2022_MR.pdf"
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 25,
+    "year": 2022,
+    "title": "가상 현실에서의 멀티 모달, 딥러닝 기반 사이버 멀미 예측.",
+    "author": "정다영, 백승원, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "vr"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-25%5DHCIK_Cybersickness.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/HCIK2022_Cybersickness_Slide.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 24,
+    "year": 2022,
+    "title": "스트레스 인지 및 관리를 위한 AI 기반 지원 어플리케이션(MindScope)의 개발과 사용자 스터디.",
+    "author": "정민곤, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DHCIK_MindScope.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-24%5DSlide-HCIK_MindScope.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 23,
+    "year": 2022,
+    "title": "정량적인 기준 기반의 Fashion style 에 관한 연구: 전문가 지식 및 딥러닝 결합 모델링 중심으로.",
+    "author": "전영승, 노태형, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "fashion"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-23%5DHCIK_FashionStyle.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
+  },
+  {
+    "index": 22,
+    "year": 2022,
+    "title": "미술 심리 치료 분야의 의사결정 지원을 위한 비지도학습 기반의 AI 모델 적용에 관한 연구.",
+    "author": "최호영, 진승완, 한경식.",
+    "venue": "한국HCI학회.",
+    "tags": [
+      "hai",
+      "health"
+    ],
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DHCIK_Art-Psychotherapy.pdf",
+      "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2022/%5BD-22%5DSlide-HCIK_Art-Psychotherapy.pdf"
+    },
+    "oral_acceptance_rate": {
+      "AR": 0
+    },
+    "acceptance_rate": {},
+    "award": {}
   }
-}]
+]
