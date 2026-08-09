@@ -40,6 +40,30 @@ export default {
       this.showTopic = targetTopic;
     },
 
+    // The admin editor initializes optional fields as empty objects.  Only
+    // render a metadata row when its actual value has been filled in.
+    hasValue(value) {
+      return value !== undefined && value !== null && String(value).trim() !== "";
+    },
+
+    hasAward(award) {
+      return Boolean(
+        award &&
+          [
+            "best_paper",
+            "grand_paper",
+            "outstanding_paper",
+            "honorable_mention",
+            "best_presentation",
+            "new_challenge",
+          ].some((key) => this.hasValue(award[key]))
+      );
+    },
+
+    hasLink(link) {
+      return Boolean(link && Object.values(link).some((value) => this.hasValue(value)));
+    },
+
     changeType() {
       if (this.international == true) {
         this.publications = this.pubDomestic;
@@ -299,7 +323,7 @@ export default {
               ></span
             >
             <!-- AR 존재하면 표출-->
-            <span class="h7" style="color: #a9a9a9" v-if="paper.acceptance_rate"
+            <span class="h7" style="color: #a9a9a9" v-if="hasValue(paper.acceptance_rate && paper.acceptance_rate.AR)"
               ><i>
                 Acceptance Rate:
                 <span
@@ -326,44 +350,38 @@ export default {
 
             
             <!-- Award 존재하면 표출-->
-            <span class="h7" style="color: #999900" v-if="paper.award">
+            <span class="h7" style="color: #999900" v-if="hasAward(paper.award)">
               <br />
               <!-- <font-awesome-icon icon="fas fa-medal" size="xs" /> -->
               <font-awesome-icon icon="fas fa-trophy" size="xs" />
-              <span class="h7" v-if="'best_paper' in paper.award">
-                <a v-if="paper.award.best_paper" :href="paper.award.best_paper" target="_blank" style="color: #999900"> Best Paper Award</a>
-                <span v-else style="color: #999900"> Best Paper Award</span>
+              <span class="h7" v-if="hasValue(paper.award.best_paper)">
+                <a :href="paper.award.best_paper" target="_blank" style="color: #999900"> Best Paper Award</a>
               </span>
 
-              <span class="h7" v-if="'grand_paper' in paper.award">
-                <a v-if="paper.award.grand_paper" :href="paper.award.grand_paper" target="_blank" style="color: #999900"> Grand Paper Award</a>
-                <span v-else style="color: #999900"> Grand Paper Award</span>
+              <span class="h7" v-if="hasValue(paper.award.grand_paper)">
+                <a :href="paper.award.grand_paper" target="_blank" style="color: #999900"> Grand Paper Award</a>
               </span>
 
-              <span class="h7" v-if="'outstanding_paper' in paper.award">
-                <a v-if="paper.award.outstanding_paper" :href="paper.award.outstanding_paper" target="_blank" style="color: #999900"> Outstanding Paper Award</a>
-                <span v-else style="color: #999900"> Outstanding Paper Award</span>
+              <span class="h7" v-if="hasValue(paper.award.outstanding_paper)">
+                <a :href="paper.award.outstanding_paper" target="_blank" style="color: #999900"> Outstanding Paper Award</a>
               </span>
 
-              <span class="h7" v-if="'honorable_mention' in paper.award">
-                <a v-if="paper.award.honorable_mention" :href="paper.award.honorable_mention" target="_blank" style="color: #999900"> Honorable Mention Award</a>
-                <span v-else style="color: #999900"> Honorable Mention Award</span>
+              <span class="h7" v-if="hasValue(paper.award.honorable_mention)">
+                <a :href="paper.award.honorable_mention" target="_blank" style="color: #999900"> Honorable Mention Award</a>
               </span>
 
-              <span class="h7" v-if="'best_presentation' in paper.award">
-                <a v-if="paper.award.best_presentation" :href="paper.award.best_presentation" target="_blank" style="color: #999900"> Best Presentation Award</a>
-                <span v-else style="color: #999900"> Best Presentation Award</span>
+              <span class="h7" v-if="hasValue(paper.award.best_presentation)">
+                <a :href="paper.award.best_presentation" target="_blank" style="color: #999900"> Best Presentation Award</a>
               </span>
 
-              <span class="h7" v-if="'new_challenge' in paper.award">
-                <a v-if="paper.award.new_challenge" :href="paper.award.new_challenge" target="_blank" style="color: #999900"> New Challenge Award</a>
-                <span v-else style="color: #999900"> New Challenge Award</span>
+              <span class="h7" v-if="hasValue(paper.award.new_challenge)">
+                <a :href="paper.award.new_challenge" target="_blank" style="color: #999900"> New Challenge Award</a>
               </span>
             
             </span>
 
             <!-- Link 존재하면 표출-->
-            <span class="h7" style="color: red" v-if="paper.link">
+            <span class="h7" style="color: red" v-if="hasLink(paper.link)">
               <br />
               <span class="h7" v-if="paper.link.ACM"
                 ><a
