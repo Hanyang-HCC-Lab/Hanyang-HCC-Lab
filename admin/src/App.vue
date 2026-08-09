@@ -27,7 +27,19 @@ try {
 } catch {
   localStorage.removeItem(STORAGE_KEY);
 }
-const initialState = storedDraft || sourceState();
+// Older browser drafts predate the members/gallery editor. Keep the user's
+// existing news/publication edits, but seed any newly introduced section from
+// the repository so its editor never opens empty.
+function stateFromDraft(draft) {
+  const baseline = sourceState();
+  if (!draft || typeof draft !== "object" || Array.isArray(draft)) return baseline;
+
+  return Object.fromEntries(
+    Object.keys(baseline).map((key) => [key, Array.isArray(draft[key]) ? draft[key] : baseline[key]]),
+  );
+}
+
+const initialState = stateFromDraft(storedDraft);
 
 const section = ref("news");
 const state = ref(initialState);
@@ -180,7 +192,7 @@ function downloadDraft() {
 
 function downloadAllDrafts() {
   downloadJson(state.value, "hcc-lab-content-draft.json");
-  message.value = "뉴스와 논문 전체 초안을 하나의 검토 파일로 내려받았습니다.";
+  message.value = "뉴스·논문·멤버·갤러리 전체 초안을 하나의 검토 파일로 내려받았습니다.";
 }
 
 function resetDraft() {
@@ -217,7 +229,7 @@ function resetDraft() {
 
       <template v-if="section === 'overview'">
         <div class="overview">
-          <p class="lead">이 페이지에서 뉴스와 논문 정보를 안전한 로컬 초안으로 편집할 수 있습니다. 저장소·S3·CloudFront는 직접 변경하지 않습니다.</p>
+          <p class="lead">이 페이지에서 뉴스·논문·멤버·갤러리 정보를 안전한 로컬 초안으로 편집할 수 있습니다. 저장소·S3·CloudFront는 직접 변경하지 않습니다.</p>
           <dl class="counts"><div><dt>News</dt><dd>{{ state.news.length }}</dd></div><div><dt>International</dt><dd>{{ state.international.length }}</dd></div><div><dt>Domestic</dt><dd>{{ state.domestic.length }}</dd></div></dl>
           <div class="next-step"><strong>현재 가능한 작업</strong><p>뉴스·논문 초안 편집 → 검사 → JSON 검토 파일 내려받기. 실제 배포는 GitHub Actions에서 수동으로 실행합니다.</p><div class="overview-actions"><button class="secondary" @click="validateDraft">전체 검사</button><button class="primary" @click="downloadAllDrafts">전체 초안 내려받기</button></div></div>
         </div>
@@ -241,11 +253,11 @@ function resetDraft() {
         <div class="editor-grid">
           <section class="list-panel" aria-label="콘텐츠 목록">
             <button v-for="(item, index) in currentItems" :key="item.index" class="content-row" :class="{ selected: selectedIndex === index }" @click="selectItem(index)">
-              <span class="item-index">{{ item.index }}</span><span><strong>{{ labelFor(item) }}</strong><small>{{ section === "news" ? item.date : `${item.year} · ${item.venue || "학회/저널 미입력"}` }}</small></span>
+              <span class="item-index">{{ item.index }}</span><span><strong>{{ labelFor(item) }}</strong><small>{{ section === "news" ? item.date : section === "members" ? item.group : section === "gallery" ? "갤러리 이미지" : `${item.year} · ${item.venue || "학회/저널 미입력"}` }}</small></span>
             </button>
           </section>
           <form v-if="selected" class="edit-panel" @submit.prevent>
-            <div class="form-head"><div><h2>{{ section === "news" ? "뉴스 편집" : "논문 편집" }}</h2><p>수정 내용은 즉시 로컬 초안에 저장됩니다.</p></div><button class="danger" type="button" @click="deleteItem">삭제</button></div>
+            <div class="form-head"><div><h2>{{ section === "news" ? "뉴스 편집" : section === "members" ? "멤버 편집" : section === "gallery" ? "갤러리 편집" : "논문 편집" }}</h2><p>수정 내용은 즉시 로컬 초안에 저장됩니다.</p></div><button class="danger" type="button" @click="deleteItem">삭제</button></div>
             <div v-if="section === 'news'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>날짜<input v-model="selected.date" placeholder="Aug. 2026" /></label><label class="full">내용<textarea v-model="selected.content" rows="8" placeholder="뉴스 내용을 입력하세요."></textarea><small>현재 공개 사이트와 동일하게 HTML 강조·링크를 사용할 수 있습니다.</small></label>
             </div>
