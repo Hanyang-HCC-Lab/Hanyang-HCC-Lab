@@ -1,0 +1,9 @@
+[
+  {
+    "AllowedHeaders": ["Content-Type"],
+    "AllowedMethods": ["PUT"],
+    "AllowedOrigins": ["https://hcc.hanyang.ac.kr"],
+    "ExposeHeaders": ["ETag"],
+    "MaxAgeSeconds": 3000
+  }
+]

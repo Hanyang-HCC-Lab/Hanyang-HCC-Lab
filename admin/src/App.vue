@@ -88,6 +88,8 @@ const loginPassword = ref("");
 const loginMessage = ref("");
 const isAuthenticated = ref(false);
 const publishing = ref(false);
+const uploading = ref("");
+const uploadMessage = ref("");
 
 const navItems = [
   ["overview", "개요"], ["news", "소식"], ["international", "국제 논문"],
@@ -333,6 +335,56 @@ function getIdToken() {
   });
 }
 
+async function uploadAsset(event, kind, targetKey) {
+  const file = event.target.files?.[0];
+  // Let a person select the exact same file again after fixing an error.
+  event.target.value = "";
+  if (!file) return;
+  if (!publishingConfigured) {
+    uploadMessage.value = "업로드 서비스 설정이 아직 완료되지 않았습니다.";
+    return;
+  }
+  if (!isAuthenticated.value) {
+    uploadMessage.value = "파일 업로드는 배포 탭에서 로그인한 뒤 사용할 수 있습니다.";
+    section.value = "deployment";
+    return;
+  }
+
+  uploading.value = `${kind}:${targetKey}`;
+  uploadMessage.value = `“${file.name}” 파일을 올릴 준비를 하고 있습니다…`;
+  try {
+    const token = await getIdToken();
+    const response = await fetch(`${publishingConfig.apiUrl.replace(/\/$/, "")}/upload-url`, {
+      method: "POST",
+      headers: { Authorization: token, "Content-Type": "application/json" },
+      body: JSON.stringify({ kind, filename: file.name, year: selected.value?.year }),
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.message || "업로드 주소를 만들지 못했습니다.");
+
+    const uploadResponse = await fetch(result.uploadUrl, {
+      method: "PUT",
+      headers: { "Content-Type": result.contentType },
+      body: file,
+    });
+    if (!uploadResponse.ok) throw new Error("S3에 파일을 올리지 못했습니다.");
+
+    if (targetKey === "image") selected.value.image = result.publicUrl;
+    else if (targetKey === "link") selected.value.link = result.publicUrl;
+    else selected.value.link[targetKey] = result.publicUrl;
+    uploadMessage.value = "업로드했습니다. 링크 칸에 주소를 자동으로 넣었습니다. 게시 버튼을 누르면 홈페이지에 반영됩니다.";
+  } catch (error) {
+    const reason = error instanceof Error ? error.message : "파일 업로드 중 오류가 발생했습니다.";
+    uploadMessage.value = `${reason} S3 CORS 설정이 아직 없으면 한 번만 추가해야 합니다.`;
+  } finally {
+    uploading.value = "";
+  }
+}
+
+function uploadingAsset(kind, targetKey) {
+  return uploading.value === `${kind}:${targetKey}`;
+}
+
 async function publishDraft() {
   validateDraft();
   if (validationErrors.value.length) return;
@@ -436,6 +488,7 @@ onMounted(() => {
           <div class="actions"><button class="secondary" @click="validateDraft">검사</button><button class="secondary" @click="downloadDraft">JSON 내려받기</button><button class="primary" @click="addItem">{{ section === "news" ? "새 뉴스 추가" : section === "members" ? "새 멤버 추가" : section === "alumni" ? "새 Alumni 추가" : section === "gallery" ? "새 사진 추가" : "새 논문 추가" }}</button></div>
         </div>
         <p v-if="message" class="notice" role="status">{{ message }}</p>
+        <p v-if="uploadMessage" class="notice upload-notice" role="status">{{ uploadMessage }}</p>
         <ul v-if="checked && validationErrors.length" class="validation-errors"><li v-for="error in validationErrors" :key="error">{{ error }}</li></ul>
         <div class="editor-grid">
           <section class="list-panel" aria-label="콘텐츠 목록">
@@ -449,16 +502,16 @@ onMounted(() => {
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>날짜<input v-model="selected.date" placeholder="Aug. 2026" /></label><label class="full">내용<textarea v-model="selected.content" rows="8" placeholder="뉴스 내용을 입력하세요."></textarea><small>현재 공개 사이트와 동일하게 HTML 강조·링크를 사용할 수 있습니다.</small></label>
             </div>
             <div v-else-if="section === 'members'" class="fields">
-              <label>구분<select v-model="selected.group"><option v-for="group in memberGroups" :key="group" :value="group">{{ group }}</option></select></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><label class="full">사진 주소<input v-model="selected.image" type="url" placeholder="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/…" /></label><label>이메일<input v-model="selected.email" type="email" /></label><label>CV·개인 웹사이트<input v-model="selected.link" type="url" placeholder="https://…" /></label><label>표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label><label>기타 설명<input v-model="selected.description" placeholder="선택 사항" /></label>
+              <label>구분<select v-model="selected.group"><option v-for="group in memberGroups" :key="group" :value="group">{{ group }}</option></select></label><label>번호<input v-model.number="selected.index" type="number" /></label><label>영문 이름<input v-model="selected.name" /></label><label>한글 이름<input v-model="selected.nameKo" /></label><div class="asset-field full"><label>사진 주소</label><div class="asset-input"><input v-model="selected.image" type="url" placeholder="https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/…" /><label class="upload-button">{{ uploadingAsset('member-image', 'image') ? '업로드 중…' : '사진 파일 올리기' }}<input type="file" accept="image/jpeg,image/png,image/webp,image/gif" :disabled="uploadingAsset('member-image', 'image')" @change="uploadAsset($event, 'member-image', 'image')" /></label></div><small>JPG, PNG, WEBP, GIF 파일을 선택하면 주소가 자동으로 입력됩니다.</small></div><label>이메일<input v-model="selected.email" type="email" /></label><div class="asset-field"><label>CV·개인 웹사이트</label><div class="asset-input"><input v-model="selected.link" type="url" placeholder="https://…" /><label class="upload-button">{{ uploadingAsset('member-cv', 'link') ? '업로드 중…' : 'CV PDF 올리기' }}<input type="file" accept="application/pdf,.pdf" :disabled="uploadingAsset('member-cv', 'link')" @change="uploadAsset($event, 'member-cv', 'link')" /></label></div><small>PDF를 올리면 기존 링크를 그 CV 주소로 바꿉니다.</small></div><label>표시 문구<input v-model="selected.note" placeholder="선택 사항" /></label><label>기타 설명<input v-model="selected.description" placeholder="선택 사항" /></label>
             </div>
             <div v-else-if="section === 'alumni'" class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>이름<input v-model="selected.name" placeholder="예: Hong Gil-dong" /></label><label class="full">소개·현재 소속<input v-model="selected.description" placeholder="예: MS 2026 (Currently @ …)" /></label><label class="full">개인 웹사이트·현재 소속 링크<input v-model="selected.link" type="url" placeholder="https://… (선택 사항)" /></label>
             </div>
             <div v-else-if="section === 'gallery'" class="fields">
-              <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><label class="full">이미지 주소<input v-model="selected.image" type="url" placeholder="https://…" /></label>
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><div class="asset-field full"><label>이미지 주소</label><div class="asset-input"><input v-model="selected.image" type="url" placeholder="https://…" /><label class="upload-button">{{ uploadingAsset('gallery', 'image') ? '업로드 중…' : '갤러리 사진 올리기' }}<input type="file" accept="image/jpeg,image/png,image/webp,image/gif" :disabled="uploadingAsset('gallery', 'image')" @change="uploadAsset($event, 'gallery', 'image')" /></label></div><small>JPG, PNG, WEBP, GIF 파일을 선택하면 갤러리 S3 경로를 자동으로 넣습니다.</small></div>
             </div>
             <div v-else class="fields">
-              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><label v-for="[key, label] in publicationLinkFields" :key="key">{{ label }}<input v-model="selected.link[key]" type="url" placeholder="https://…" /></label><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>기타 수락률·통계 (%)<input v-model.number="selected.additional.AR" type="number" min="0" max="100" step="0.1" /></label><label class="checkbox-field"><input type="checkbox" :checked="hasKImpact(selected)" @change="toggleKImpact($event.target.checked)" />컴퓨터공학분야 우수국제학술대회</label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><label class="full">학술지·학회 등재 정보<textarea :value="kImpactText(selected)" @input="setKImpactText($event.target.value)" rows="3" placeholder="한 줄에 하나씩 입력하세요."></textarea><small>예: 컴퓨터공학분야 우수국제학술대회, SCI(E) Q1, KCI 등재 학술지</small></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><template v-for="[key, label] in publicationLinkFields" :key="key"><div v-if="['paper', 'slide', 'poster'].includes(key)" class="asset-field"><label>{{ label }}</label><div class="asset-input"><input v-model="selected.link[key]" type="url" placeholder="https://…" /><label class="upload-button">{{ uploadingAsset('publication', key) ? '업로드 중…' : 'PDF 올리기' }}<input type="file" accept="application/pdf,.pdf" :disabled="uploadingAsset('publication', key)" @change="uploadAsset($event, 'publication', key)" /></label></div><small>{{ selected.year }}년 폴더에 PDF를 올리고 링크를 자동으로 넣습니다.</small></div><label v-else>{{ label }}<input v-model="selected.link[key]" type="url" placeholder="https://…" /></label></template><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>기타 수락률·통계 (%)<input v-model.number="selected.additional.AR" type="number" min="0" max="100" step="0.1" /></label><label class="checkbox-field"><input type="checkbox" :checked="hasKImpact(selected)" @change="toggleKImpact($event.target.checked)" />컴퓨터공학분야 우수국제학술대회</label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><label class="full">학술지·학회 등재 정보<textarea :value="kImpactText(selected)" @input="setKImpactText($event.target.value)" rows="3" placeholder="한 줄에 하나씩 입력하세요."></textarea><small>예: 컴퓨터공학분야 우수국제학술대회, SCI(E) Q1, KCI 등재 학술지</small></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
             </div>
           </form>
         </div>

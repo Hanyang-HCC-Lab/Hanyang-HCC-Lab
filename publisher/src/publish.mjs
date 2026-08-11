@@ -1,4 +1,6 @@
 import { GetSecretValueCommand, SecretsManagerClient } from "@aws-sdk/client-secrets-manager";
+import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { App } from "octokit";
 
 const targets = {
@@ -21,6 +23,75 @@ const json = (statusCode, body) => ({
   },
   body: JSON.stringify(body),
 });
+
+const s3 = new S3Client({});
+const assetKinds = {
+  "member-image": {
+    bucket: () => process.env.MEMBER_ASSETS_BUCKET,
+    prefix: "image/members",
+    publicUrl: (bucket, key, region) => `https://${bucket}.s3.${region}.amazonaws.com/${encodeKey(key)}`,
+    extensions: ["jpg", "jpeg", "png", "webp", "gif"],
+    contentTypes: { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp", gif: "image/gif" },
+  },
+  "member-cv": {
+    bucket: () => process.env.MEMBER_ASSETS_BUCKET,
+    prefix: "Lab-members-CV",
+    publicUrl: (bucket, key, region) => `https://${bucket}.s3.${region}.amazonaws.com/${encodeKey(key)}`,
+    extensions: ["pdf"],
+    contentTypes: { pdf: "application/pdf" },
+  },
+  gallery: {
+    bucket: () => process.env.WEBSITE_ASSETS_BUCKET,
+    prefix: "image/gallery",
+    // hcc.hanyang.ac.kr contains dots, so use S3 path-style URLs to avoid a
+    // wildcard-certificate mismatch in browsers.
+    publicUrl: (bucket, key, region) => `https://s3.${region}.amazonaws.com/${bucket}/${encodeKey(key)}`,
+    extensions: ["jpg", "jpeg", "png", "webp", "gif"],
+    contentTypes: { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp", gif: "image/gif" },
+  },
+  publication: {
+    bucket: () => process.env.PUBLICATION_ASSETS_BUCKET,
+    prefix: null,
+    publicUrl: (bucket, key, region) => `https://${bucket}.s3.${region}.amazonaws.com/${encodeKey(key)}`,
+    extensions: ["pdf"],
+    contentTypes: { pdf: "application/pdf" },
+  },
+};
+
+function encodeKey(key) {
+  return key.split("/").map(encodeURIComponent).join("/");
+}
+
+function fileExtension(filename) {
+  const extension = String(filename || "").trim().split(".").pop()?.toLowerCase();
+  return extension && extension !== String(filename || "").trim().toLowerCase() ? extension : "";
+}
+
+function safeFilename(filename) {
+  const value = String(filename || "").trim().normalize("NFC");
+  if (!value || value.length > 160 || /[\\/\x00-\x1f]/.test(value)) throw new Error("파일 이름을 확인하세요.");
+  return value.replace(/\s+/g, " ");
+}
+
+export function getUploadTarget(payload) {
+  const kind = assetKinds[payload?.kind];
+  if (!kind) throw new Error("지원하지 않는 업로드 종류입니다.");
+  const filename = safeFilename(payload.filename);
+  const extension = fileExtension(filename);
+  if (!kind.extensions.includes(extension)) throw new Error(`${kind.extensions.join(", ").toUpperCase()} 파일만 올릴 수 있습니다.`);
+  const year = Number(payload.year);
+  if (payload.kind === "publication" && (!Number.isInteger(year) || year < 2000 || year > 2100)) {
+    throw new Error("논문 자료에는 올바른 연도를 입력하세요.");
+  }
+
+  const timestamp = new Date().toISOString().replace(/[-:.TZ]/g, "");
+  const key = payload.kind === "publication"
+    ? `${year}/${timestamp}-${filename}`
+    : `${kind.prefix}/${timestamp}-${filename}`;
+  const bucket = kind.bucket();
+  if (!bucket) throw new Error("업로드 버킷 설정이 누락되었습니다.");
+  return { bucket, key, contentType: kind.contentTypes[extension], publicUrl: kind.publicUrl(bucket, key, process.env.AWS_REGION || "ap-northeast-2") };
+}
 
 function getClaims(event) {
   return event.requestContext?.authorizer?.claims || {};
@@ -94,12 +165,27 @@ async function commitContent(payload) {
   return commit.html_url;
 }
 
+async function createUploadUrl(payload) {
+  const target = getUploadTarget(payload);
+  const uploadUrl = await getSignedUrl(s3, new PutObjectCommand({
+    Bucket: target.bucket,
+    Key: target.key,
+    ContentType: target.contentType,
+  }), { expiresIn: 120 });
+  return { ...target, uploadUrl };
+}
+
 export async function handler(event) {
   const email = String(getClaims(event).email || "").toLowerCase();
   if (!email || email !== String(process.env.ALLOWED_ADMIN_EMAIL || "").toLowerCase()) return json(403, { message: "게시 권한이 없습니다." });
 
   try {
     const payload = JSON.parse(event.body || "{}");
+    const path = event.resource || event.requestContext?.resourcePath || event.path || "";
+    if (path.endsWith("/upload-url")) {
+      const upload = await createUploadUrl(payload);
+      return json(200, { message: "업로드 주소를 만들었습니다.", uploadUrl: upload.uploadUrl, publicUrl: upload.publicUrl, contentType: upload.contentType });
+    }
     verifyPayload(payload);
     const commitUrl = await commitContent(payload);
     return json(200, { message: "GitHub 커밋과 홈페이지 배포를 시작했습니다.", commitUrl });

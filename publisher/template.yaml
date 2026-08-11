@@ -24,6 +24,18 @@ Parameters:
   GitHubBranch:
     Type: String
     Default: main
+  WebsiteAssetsBucket:
+    Type: String
+    Default: hcc.hanyang.ac.kr
+    Description: Existing S3 bucket for public gallery images.
+  MemberAssetsBucket:
+    Type: String
+    Default: hyhccl
+    Description: Existing S3 bucket for member images and CV files.
+  PublicationAssetsBucket:
+    Type: String
+    Default: astlyi
+    Description: Existing S3 bucket for paper, poster, and slide PDFs.
 
 Globals:
   Function:
@@ -93,17 +105,33 @@ Resources:
           GITHUB_OWNER: !Ref GitHubOwner
           GITHUB_REPOSITORY: !Ref GitHubRepository
           GITHUB_BRANCH: !Ref GitHubBranch
+          WEBSITE_ASSETS_BUCKET: !Ref WebsiteAssetsBucket
+          MEMBER_ASSETS_BUCKET: !Ref MemberAssetsBucket
+          PUBLICATION_ASSETS_BUCKET: !Ref PublicationAssetsBucket
       Policies:
         - Statement:
             - Effect: Allow
               Action: secretsmanager:GetSecretValue
               Resource: !Ref GitHubAppPrivateKeySecretArn
+            - Effect: Allow
+              Action: s3:PutObject
+              Resource:
+                - !Sub "arn:${AWS::Partition}:s3:::${WebsiteAssetsBucket}/image/gallery/*"
+                - !Sub "arn:${AWS::Partition}:s3:::${MemberAssetsBucket}/image/members/*"
+                - !Sub "arn:${AWS::Partition}:s3:::${MemberAssetsBucket}/Lab-members-CV/*"
+                - !Sub "arn:${AWS::Partition}:s3:::${PublicationAssetsBucket}/20*/*"
       Events:
         Publish:
           Type: Api
           Properties:
             RestApiId: !Ref PublishingApi
             Path: /publish
+            Method: post
+        UploadUrl:
+          Type: Api
+          Properties:
+            RestApiId: !Ref PublishingApi
+            Path: /upload-url
             Method: post
 
 Outputs:
