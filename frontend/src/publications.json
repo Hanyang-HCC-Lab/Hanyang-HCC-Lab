@@ -61,7 +61,9 @@
       "health",
       "nlp"
     ],
-    "link": {},
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/20260815080142864-Ubicomp%20poster%20final.pdf"
+    },
     "acceptance_rate": {},
     "award": {},
     "oral_acceptance_rate": {},
@@ -100,7 +102,7 @@
       "컴퓨터공학분야 우수국제학술대회"
     ],
     "link": {
-      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART.pdf",
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/20260815080611504-2026_UBICOMP.pdf",
       "presentation": "https://youtu.be/hYc7b0dYGBA",
       "poster": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART_Poster.pdf",
       "slide": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_LBW_CART_Slides.pdf",
