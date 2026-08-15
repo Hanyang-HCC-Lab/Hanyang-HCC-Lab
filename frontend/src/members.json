@@ -122,91 +122,91 @@
   "alumni": [
     {
       "index": 1,
-      "name": "Seungwan Jin &nbsp;",
-      "description": "&nbsp; Postdoctoral Researcher and PhD 2026 (Currently @ KAIST as a Postdoctoral Researcher)"
+      "name": "Seungwan Jin",
+      "description": "Postdoctoral Researcher and PhD 2026 (Currently @ KAIST as a Postdoctoral Researcher)"
     },
     {
       "index": 2,
-      "name": "Sohyun Park &nbsp;",
-      "description": "&nbsp; MS 2026 and undergraduate researcher"
+      "name": "Sohyun Park",
+      "description": "MS 2026 and undergraduate researcher"
     },
     {
       "index": 3,
-      "name": "Misun Joo &nbsp;",
-      "description": "&nbsp; MS 2025"
+      "name": "Misun Joo",
+      "description": "MS 2025"
     },
     {
       "index": 4,
-      "name": "Mingon Jeong &nbsp;",
-      "description": "&nbsp; MS 2025 and undergraduate researcher (Currently @ The Growth as a Software Engineering Intern)"
+      "name": "Mingon Jeong",
+      "description": "MS 2025 and undergraduate researcher (Currently @ The Growth as a Software Engineering Intern)"
     },
     {
       "index": 5,
-      "name": "Bogoan Kim &nbsp;",
-      "description": "&nbsp; Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)",
+      "name": "Bogoan Kim",
+      "description": "Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)",
       "link": "https://bogoankim.github.io/"
     },
     {
       "index": 6,
-      "name": "Someen Park &nbsp;",
-      "description": "&nbsp; MS 2025 (Currently @ LINA Life Insurance as an AI Engineer)"
+      "name": "Someen Park",
+      "description": "MS 2025 (Currently @ LINA Life Insurance as an AI Engineer)"
     },
     {
       "index": 7,
-      "name": "Myungjin Kim &nbsp;",
-      "description": "&nbsp; MS 2024 (Currently @ Hanyang Human-Centered Computing Lab as a Ph.D. Student)",
+      "name": "Myungjin Kim",
+      "description": "MS 2024 (Currently @ Hanyang Human-Centered Computing Lab as a Ph.D. Student)",
       "link": "https://mungjinnie.github.io/"
     },
     {
       "index": 8,
-      "name": "Eunji Kim &nbsp;",
-      "description": "&nbsp; MS 2024 (Currently @ CJ Logistics as an AI Engineer)"
+      "name": "Eunji Kim",
+      "description": "MS 2024 (Currently @ CJ Logistics as an AI Engineer)"
     },
     {
       "index": 9,
-      "name": "Hoyoung Choi &nbsp;",
-      "description": "&nbsp; MS 2024 and undergraduate researcher (Currently @ Gauss Labs as an AI Scientist)"
+      "name": "Hoyoung Choi",
+      "description": "MS 2024 and undergraduate researcher (Currently @ Gauss Labs as an AI Scientist)"
     },
     {
       "index": 10,
-      "name": "Seungwon Paik &nbsp;",
-      "description": "&nbsp; MS 2022 and undergraduate researcher (Currently @ LG Electronics as an AI Researcher)"
+      "name": "Seungwon Paik",
+      "description": "MS 2022 and undergraduate researcher (Currently @ LG Electronics as an AI Researcher)"
     },
     {
       "index": 11,
-      "name": "Youngseung Jeon &nbsp;",
-      "description": "&nbsp; Researcher and MS 2021 (Currently @ UCLA as a PhD Candidate)",
+      "name": "Youngseung Jeon",
+      "description": "Researcher and MS 2021 (Currently @ UCLA as a PhD Candidate)",
       "link": "https://sites.google.com/view/youngseung-jeon"
     },
     {
       "index": 12,
-      "name": "Jaeho Han &nbsp;",
-      "description": "&nbsp;MS 2021 and undergraduate researcher (Currently @ KT)"
+      "name": "Jaeho Han",
+      "description": "MS 2021 and undergraduate researcher (Currently @ KT)"
     },
     {
       "index": 13,
-      "name": "Woojeong Kim &nbsp;",
-      "description": "&nbsp;MS 2021 and undergraduate researcher (Currently @ Samsung Research)"
+      "name": "Woojeong Kim",
+      "description": "MS 2021 and undergraduate researcher (Currently @ Samsung Research)"
     },
     {
       "index": 14,
-      "name": "Jisu Yu &nbsp;",
-      "description": "&nbsp;MS 2021 (Currently @ M3SEN)"
+      "name": "Jisu Yu",
+      "description": "MS 2021 (Currently @ M3SEN)"
     },
     {
       "index": 15,
-      "name": "Seung-Gon Jeon &nbsp;",
-      "description": "&nbsp;MS 2020 and undergraduate researcher (Currently @ Korea University as a PhD Student)"
+      "name": "Seung-Gon Jeon",
+      "description": "MS 2020 and undergraduate researcher (Currently @ Korea University as a PhD Student)"
     },
     {
       "index": 16,
-      "name": "Soyoung Rhim &nbsp;",
-      "description": "&nbsp;MS 2020 and undergraduate researcher (Currently @ Hyundai Card)"
+      "name": "Soyoung Rhim",
+      "description": "MS 2020 and undergraduate researcher (Currently @ Hyundai Card)"
     },
     {
       "index": 17,
-      "name": "Yonggeol Jo &nbsp;",
-      "description": "&nbsp;MS 2020 (Currently @ Kbank)"
+      "name": "Yonggeol Jo",
+      "description": "MS 2020 (Currently @ Kbank)"
     }
   ]
 }
