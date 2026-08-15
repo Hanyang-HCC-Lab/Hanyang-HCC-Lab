@@ -7,7 +7,9 @@ invalidated after a real deployment.
 ## Safe initial configuration
 
 The GitHub Actions workflow is manual-only. A normal GitHub push does **not**
-deploy the website.
+deploy the website. The authenticated administrator page is the exception: a
+successful content publish dispatches this same workflow automatically with
+`mode: deploy` after committing the five JSON data files.
 
 1. Commit and push the workflow file once. This makes it appear in GitHub
    Actions, but does not deploy anything.
@@ -40,3 +42,6 @@ every push to `main` is desired:
 ```
 
 Do not add this until the lab is comfortable with the manual workflow.
+
+For the complete content-management, asset-upload, AWS, and handoff procedure,
+see [Website administrator operations and handoff](website-admin-handoff.md).
