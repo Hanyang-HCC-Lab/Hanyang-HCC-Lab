@@ -1,209 +1,34 @@
+<script setup>
+import courses from "../courses.json";
+
+const terms = ["Fall", "Spring"];
+const courseYears = [...new Set(courses.map((course) => course.year))]
+  .sort((a, b) => b - a)
+  .map((year) => ({
+    year,
+    semesters: terms
+      .map((term) => ({
+        term,
+        courses: courses.filter((course) => course.year === year && course.term === term),
+      }))
+      .filter((semester) => semester.courses.length),
+  }));
+</script>
+
 <template>
   <div class="container mt-5" style="width: 75%">
-
-  <!-- Start 2026 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2026</span>
+    <div v-for="courseYear in courseYears" :key="courseYear.year" class="mb-5">
+      <span style="font-size: 1.75rem; font-weight: bold">{{ courseYear.year }}</span>
       <div class="item-content mt-3">
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>글로벌인턴십 (Undergraduate)</li>
-          <li>커리어 개발 (Undergraduate)</li>
-          <li>데이터사이언스HY-UP(실용연구실습)1 (Undergraduate)</li>
-          <li>인공지능인간요소 (Graduate)</li>
-        </ul>
-
+        <template v-for="semester in courseYear.semesters" :key="semester.term">
+          <span class="h5">{{ semester.term }}&nbsp;</span>
+          <ul style="font-size: 1.15rem">
+            <li v-for="course in semester.courses" :key="course.index">
+              {{ course.name }} ({{ course.level }})
+            </li>
+          </ul>
+        </template>
       </div>
     </div>
-    <!-- End 2026 Courses -->
-
-  <!-- Start 2025 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2025</span>
-      <div class="item-content mt-3">
-
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>인간-컴퓨터상호작용 (Undergraduate)</li>
-          <li>커리어 개발 (Undergraduate)</li>
-          <li>데이터사이언스연구실 현장실습2 (Undergraduate)</li>
-          <li>디지털헬스케어 트렌드 리서치 (Graduate)</li>
-          <li>디지털헬스케어의 이해와 응용 (Graduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>소프트웨어 입문 설계 (Undergraduate)</li>
-          <li>컴퓨테이셔널 소셜사이언스 (Undergraduate)</li>
-          <li>데이터사이언스연구실 현장실습1 (Undergraduate)</li>
-          <li>디지털헬스케어데이터 이해 및 분석 (Graduate)</li>
-          <li>인공지능 인간요소 (Graduate)</li>
-          <li>석사주제탐색연구 (Graduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2025 Courses -->
-
-    <!-- Start 2024 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2024</span>
-      <div class="item-content mt-3">
-
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>인간-컴퓨터상호작용 (Undergraduate)</li>
-          <li>인공지능프로젝트2 (Undergraduate)</li>
-          <li>창의적소프트웨어 프로그래밍 (Undergraduate)</li>
-          <li>데이터사이언스연구실 현장실습2 (Undergraduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>소프트웨어 입문 설계 (Undergraduate)</li>
-          <li>커리어 개발 (Undergraduate)</li>
-          <li>인공지능프로젝트1 (Undergraduate)</li>
-          <li>컴퓨테이셔널 소셜사이언스 (Undergraduate)</li>
-          <li>데이터사이언스연구실 현장실습1 (Undergraduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2024 Courses -->
-
-    <!-- Start 2023 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2023</span>
-      <div class="item-content mt-3">
-
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>인간-컴퓨터상호작용 (Undergraduate)</li>
-          <li>인공지능프로젝트2 (Undergraduate)</li>
-          <li>창의적소프트웨어 프로그래밍 (Undergraduate)</li>
-          <li>커리어 개발 (Undergraduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>소프트웨어 입문 설계 (Undergraduate)</li>
-          <li>커리어 개발 (Undergraduate)</li>
-          <li>인공지능 인간요소 (Graduate)</li>
-          <li>석사주제탐색연구 (Graduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2023 Courses -->
-
-    <!-- Start 2022 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2022</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>인간-컴퓨터상호작용 (Undergraduate)</li>
-          <li>인간 중심 인공지능 (Graduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>소프트웨어 입문 설계 (Undergraduate)</li>
-          <li>인공지능 인간요소 (Graduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2022 Courses -->
-
-    <!-- Start 2021 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2021</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>창의적소프트웨어 프로그래밍 (Undergraduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2021 Courses -->
-
-    <!-- Start 2020 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2020</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>집중교육 (Undergraduate)</li>
-          <li>빅데이터 (Graduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-          <li>인간-컴퓨터 상호작용 (Undergraduate)</li>
-          <li>고급 ​인간-컴퓨터 상호작용 (Graduate)</li>
-          <li>빅데이터 (Graduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2020 Courses -->
-
-    <!-- Start 2019 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2019</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>집중교육 (Undergraduate)</li>
-          <li>인문사회데이터분석 캡스톤디자인 (Undergraduate)</li>
-          <li>빅데이터 (Graduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-          <li>빅데이터 (Graduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2019 Courses -->
-
-    <!-- Start 2018 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2018</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>인간-컴퓨터 상호작용 (Undergraduate)</li>
-          <li>인문사회 데이터분석 (Graduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2018 Courses -->
-
-    <!-- Start 2017 Courses -->
-    <div class="mb-5">
-      <span style="font-size: 1.75rem; font-weight: bold">2017</span>
-      <div class="item-content mt-3">
-        <span class="h5">Fall&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-        </ul>
-
-        <span class="h5">Spring&nbsp;</span>
-        <ul style="font-size: 1.15rem">
-          <li>자료구조 및 실습 (Undergraduate)</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 2017 Courses -->
   </div>
 </template>

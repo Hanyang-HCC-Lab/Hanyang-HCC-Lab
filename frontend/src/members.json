@@ -67,15 +67,6 @@
     },
     {
       "index": 8,
-      "group": "Research Associates",
-      "name": "Yoonseon Choi",
-      "nameKo": "최윤선",
-      "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%B2%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AB.png",
-      "email": "dbstjs1008@hanyang.ac.kr",
-      "link": "https://yoonseonchoi.github.io/"
-    },
-    {
-      "index": 9,
       "group": "M.S. Students",
       "name": "Junghyun Kim",
       "nameKo": "김정현",
@@ -84,7 +75,7 @@
       "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
     },
     {
-      "index": 10,
+      "index": 9,
       "group": "M.S. Students",
       "name": "Yena Choi",
       "nameKo": "최예나",
@@ -93,13 +84,22 @@
       "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yena_Choi.pdf"
     },
     {
-      "index": 11,
+      "index": 10,
       "group": "M.S. Students",
       "name": "Dohoon Kwak",
       "nameKo": "곽도훈",
       "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%80%E1%85%AA%E1%86%A8%E1%84%83%E1%85%A9%E1%84%92%E1%85%AE%E1%86%AB.png",
       "email": "dohoonkwak@hanyang.ac.kr",
       "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Dohoon_Kwak.pdf"
+    },
+    {
+      "index": 11,
+      "group": "M.S. Students",
+      "name": "Sooyeon Kim",
+      "nameKo": "김수연",
+      "image": "",
+      "email": "",
+      "link": ""
     },
     {
       "index": 12,
@@ -132,79 +132,85 @@
     },
     {
       "index": 3,
+      "name": "Yoonseon Choi",
+      "description": "MS 2026 (Currently @ EY Han Young as an Intern)",
+      "link": "https://yoonseonchoi.github.io/"
+    },
+    {
+      "index": 4,
       "name": "Misun Joo",
       "description": "MS 2025"
     },
     {
-      "index": 4,
+      "index": 5,
       "name": "Mingon Jeong",
       "description": "MS 2025 and undergraduate researcher (Currently @ The Growth as a Software Engineering Intern)"
     },
     {
-      "index": 5,
+      "index": 6,
       "name": "Bogoan Kim",
       "description": "Postdoctoral Researcher and PhD 2025 (Currently @ Chungbuk National University as an Assistant Professor)",
       "link": "https://bogoankim.github.io/"
     },
     {
-      "index": 6,
+      "index": 7,
       "name": "Someen Park",
       "description": "MS 2025 (Currently @ LINA Life Insurance as an AI Engineer)"
     },
     {
-      "index": 7,
+      "index": 8,
       "name": "Myungjin Kim",
       "description": "MS 2024 (Currently @ Hanyang Human-Centered Computing Lab as a Ph.D. Student)",
       "link": "https://mungjinnie.github.io/"
     },
     {
-      "index": 8,
+      "index": 9,
       "name": "Eunji Kim",
       "description": "MS 2024 (Currently @ CJ Logistics as an AI Engineer)"
     },
     {
-      "index": 9,
+      "index": 10,
       "name": "Hoyoung Choi",
       "description": "MS 2024 and undergraduate researcher (Currently @ Gauss Labs as an AI Scientist)"
     },
     {
-      "index": 10,
+      "index": 11,
       "name": "Seungwon Paik",
       "description": "MS 2022 and undergraduate researcher (Currently @ LG Electronics as an AI Researcher)"
     },
     {
-      "index": 11,
+      "index": 12,
       "name": "Youngseung Jeon",
       "description": "Researcher and MS 2021 (Currently @ UCLA as a PhD Candidate)",
       "link": "https://sites.google.com/view/youngseung-jeon"
     },
     {
-      "index": 12,
+      "index": 13,
       "name": "Jaeho Han",
       "description": "MS 2021 and undergraduate researcher (Currently @ KT)"
     },
     {
-      "index": 13,
+      "index": 14,
       "name": "Woojeong Kim",
       "description": "MS 2021 and undergraduate researcher (Currently @ Samsung Research)"
     },
     {
-      "index": 14,
+      "index": 15,
       "name": "Jisu Yu",
       "description": "MS 2021 (Currently @ M3SEN)"
     },
     {
-      "index": 15,
+      "index": 16,
       "name": "Seung-Gon Jeon",
       "description": "MS 2020 and undergraduate researcher (Currently @ Korea University as a PhD Student)"
     },
     {
-      "index": 16,
+      "index": 17,
       "name": "Soyoung Rhim",
       "description": "MS 2020 and undergraduate researcher (Currently @ Hyundai Card)"
     },
     {
-      "index": 17,
+      "index": 18,
       "name": "Yonggeol Jo",
       "description": "MS 2020 (Currently @ Kbank)"
     }
