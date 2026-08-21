@@ -1,5 +1,26 @@
 [
   {
+    "index": 153,
+    "year": 2026,
+    "title": "TIGRIS: Integrating Policy Knowledge Graphs and Theory of Change for Institutionally Grounded Policy Impact Simulation.",
+    "author": "Haein Yeo, Junghyun Kim, Beejin Son, Kyungsik Han.",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026.",
+    "date": "October 2026.",
+    "kImpact": [
+      "컴퓨터공학분야 우수국제학술대회"
+    ],
+    "tags": [
+      "hai",
+      "social",
+      "nlp"
+    ],
+    "link": {},
+    "acceptance_rate": {},
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
+  },
+  {
     "index": 152,
     "year": 2026,
     "title": "From Preferences to Values: Evaluating Latent User Understanding and Transfer in LLMs",
