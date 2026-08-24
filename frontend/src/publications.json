@@ -32,7 +32,10 @@
       "social",
       "nlp"
     ],
-    "link": {},
+    "link": {
+      "paper": "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/20260824082516477-2026_CIKM_PALETTE.pdf",
+      "DOI": "https://doi.org/10.1145/3799682.3840043"
+    },
     "acceptance_rate": {
       "AR": 30.9
     },
