@@ -94,6 +94,7 @@ const isAuthenticated = ref(false);
 const publishing = ref(false);
 const uploading = ref("");
 const uploadMessage = ref("");
+const galleryPreviewIndex = ref(0);
 
 const navItems = [
   ["overview", "개요"], ["news", "소식"], ["international", "국제 논문"],
@@ -120,7 +121,7 @@ const sectionDescription = computed(() => section.value === "news"
     : section.value === "alumni"
       ? "졸업생·수료생의 소개와 현재 소속 링크를 관리합니다."
       : section.value === "gallery"
-        ? "S3 갤러리 이미지 주소와 설명을 관리합니다."
+        ? "한 이벤트의 사진과 표시 순서를 함께 관리합니다."
         : "논문 정보와 표시 태그를 관리합니다.");
 
 watch(state, (value) => {
@@ -163,6 +164,10 @@ function matchesQuery(item) {
 watch(query, () => {
   const firstMatch = currentItems.value.findIndex(matchesQuery);
   if (firstMatch !== -1 && !matchesQuery(selected.value)) selectedIndex.value = firstMatch;
+});
+
+watch(() => [section.value, selectedIndex.value], () => {
+  galleryPreviewIndex.value = 0;
 });
 
 function selectItem(index) {
@@ -244,6 +249,56 @@ function text(value) {
   return String(value || "").trim();
 }
 
+function galleryImages(item) {
+  const images = Array.isArray(item?.images) ? item.images : [];
+  return images.length ? images : text(item?.image) ? [item.image] : [];
+}
+
+function replaceGalleryImages(images) {
+  if (!selected.value) return;
+  selected.value.image = images[0] || "";
+  if (images.length > 1 || (images.length === 1 && !text(images[0]))) selected.value.images = images;
+  else delete selected.value.images;
+  galleryPreviewIndex.value = Math.min(galleryPreviewIndex.value, Math.max(0, images.length - 1));
+}
+
+function addGalleryImageField() {
+  replaceGalleryImages([...galleryImages(selected.value), ""]);
+}
+
+function updateGalleryImage(index, value) {
+  const images = [...galleryImages(selected.value)];
+  images[index] = value;
+  replaceGalleryImages(images);
+}
+
+function moveGalleryImage(index, direction) {
+  const images = [...galleryImages(selected.value)];
+  const nextIndex = index + direction;
+  if (nextIndex < 0 || nextIndex >= images.length) return;
+  [images[index], images[nextIndex]] = [images[nextIndex], images[index]];
+  replaceGalleryImages(images);
+  galleryPreviewIndex.value = nextIndex;
+}
+
+function removeGalleryImage(index) {
+  const images = [...galleryImages(selected.value)];
+  images.splice(index, 1);
+  replaceGalleryImages(images);
+}
+
+function galleryPreviewImage() {
+  const images = galleryImages(selected.value);
+  if (!images.length) return "";
+  return images[Math.min(galleryPreviewIndex.value, images.length - 1)];
+}
+
+function stepGalleryPreview(direction) {
+  const images = galleryImages(selected.value);
+  if (images.length < 2) return;
+  galleryPreviewIndex.value = (galleryPreviewIndex.value + direction + images.length) % images.length;
+}
+
 function isWebAddress(value) {
   if (!text(value)) return true;
   try {
@@ -287,7 +342,10 @@ function validateDraft() {
     if (!isWebAddress(item.link)) errors.push(`Alumni ${index + 1}: 링크 주소가 올바르지 않습니다.`);
   });
   state.value.gallery.forEach((item, index) => {
-    if (!text(item.caption) || !isWebAddress(item.image)) errors.push(`갤러리 ${index + 1}: 설명과 이미지 주소를 확인하세요.`);
+    const images = galleryImages(item);
+    if (!text(item.caption) || !images.length || images.some((image) => !text(image) || !isWebAddress(image))) {
+      errors.push(`갤러리 ${index + 1}: 설명과 모든 이미지 주소를 확인하세요.`);
+    }
   });
 
   validationErrors.value = errors;
@@ -395,47 +453,78 @@ function getIdToken() {
   });
 }
 
-async function uploadAsset(event, kind, targetKey) {
-  const file = event.target.files?.[0];
-  // Let a person select the exact same file again after fixing an error.
-  event.target.value = "";
-  if (!file) return;
+async function uploadFile(file, kind) {
+  const token = await getIdToken();
+  const response = await fetch(`${publishingConfig.apiUrl.replace(/\/$/, "")}/upload-url`, {
+    method: "POST",
+    headers: { Authorization: token, "Content-Type": "application/json" },
+    body: JSON.stringify({ kind, filename: file.name, year: selected.value?.year }),
+  });
+  const result = await response.json();
+  if (!response.ok) throw new Error(result.message || "업로드 주소를 만들지 못했습니다.");
+
+  const uploadResponse = await fetch(result.uploadUrl, {
+    method: "PUT",
+    headers: { "Content-Type": result.contentType },
+    body: file,
+  });
+  if (!uploadResponse.ok) throw new Error("S3에 파일을 올리지 못했습니다.");
+  return result.publicUrl;
+}
+
+function uploadReady() {
   if (!publishingConfigured) {
     uploadMessage.value = "업로드 서비스 설정이 아직 완료되지 않았습니다.";
-    return;
+    return false;
   }
   if (!isAuthenticated.value) {
     uploadMessage.value = "파일 업로드는 배포 탭에서 로그인한 뒤 사용할 수 있습니다.";
     section.value = "deployment";
-    return;
+    return false;
   }
+  return true;
+}
+
+async function uploadAsset(event, kind, targetKey) {
+  const file = event.target.files?.[0];
+  // Let a person select the exact same file again after fixing an error.
+  event.target.value = "";
+  if (!file || !uploadReady()) return;
 
   uploading.value = `${kind}:${targetKey}`;
   uploadMessage.value = `“${file.name}” 파일을 올릴 준비를 하고 있습니다…`;
   try {
-    const token = await getIdToken();
-    const response = await fetch(`${publishingConfig.apiUrl.replace(/\/$/, "")}/upload-url`, {
-      method: "POST",
-      headers: { Authorization: token, "Content-Type": "application/json" },
-      body: JSON.stringify({ kind, filename: file.name, year: selected.value?.year }),
-    });
-    const result = await response.json();
-    if (!response.ok) throw new Error(result.message || "업로드 주소를 만들지 못했습니다.");
+    const publicUrl = await uploadFile(file, kind);
 
-    const uploadResponse = await fetch(result.uploadUrl, {
-      method: "PUT",
-      headers: { "Content-Type": result.contentType },
-      body: file,
-    });
-    if (!uploadResponse.ok) throw new Error("S3에 파일을 올리지 못했습니다.");
-
-    if (targetKey === "image") selected.value.image = result.publicUrl;
-    else if (targetKey === "link") selected.value.link = result.publicUrl;
-    else selected.value.link[targetKey] = result.publicUrl;
+    if (targetKey === "image") selected.value.image = publicUrl;
+    else if (targetKey === "link") selected.value.link = publicUrl;
+    else selected.value.link[targetKey] = publicUrl;
     uploadMessage.value = "업로드했습니다. 링크 칸에 주소를 자동으로 넣었습니다. 게시 버튼을 누르면 홈페이지에 반영됩니다.";
   } catch (error) {
     const reason = error instanceof Error ? error.message : "파일 업로드 중 오류가 발생했습니다.";
     uploadMessage.value = `${reason} S3 CORS 설정이 아직 없으면 한 번만 추가해야 합니다.`;
+  } finally {
+    uploading.value = "";
+  }
+}
+
+async function uploadGalleryImages(event) {
+  const files = Array.from(event.target.files || []);
+  event.target.value = "";
+  if (!files.length || !uploadReady()) return;
+
+  uploading.value = "gallery:images";
+  const images = galleryImages(selected.value).filter((image) => text(image));
+  try {
+    for (const [index, file] of files.entries()) {
+      uploadMessage.value = `${files.length}장 중 ${index + 1}장, “${file.name}” 파일을 올리고 있습니다…`;
+      images.push(await uploadFile(file, "gallery"));
+      replaceGalleryImages([...images]);
+    }
+    uploadMessage.value = `${files.length}장의 사진을 추가했습니다. 첫 사진이 대표 이미지로 표시됩니다.`;
+  } catch (error) {
+    const reason = error instanceof Error ? error.message : "파일 업로드 중 오류가 발생했습니다.";
+    uploadMessage.value = `${reason} 완료된 사진은 목록에 유지했습니다.`;
   } finally {
     uploading.value = "";
   }
@@ -604,7 +693,27 @@ onBeforeUnmount(() => window.removeEventListener("keydown", handleKeyboardShortc
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>이름<input v-model="selected.name" placeholder="예: Hong Gil-dong" /></label><label class="full">소개·현재 소속<input v-model="selected.description" placeholder="예: MS 2026 (Currently @ …)" /></label><label class="full">개인 웹사이트·현재 소속 링크<input v-model="selected.link" type="url" placeholder="https://… (선택 사항)" /></label>
             </div>
             <div v-else-if="section === 'gallery'" class="fields">
-              <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label><div class="asset-field full"><label>이미지 주소</label><div class="asset-input"><input v-model="selected.image" type="url" placeholder="https://…" /><label class="upload-button">{{ uploadingAsset('gallery', 'image') ? '업로드 중…' : '갤러리 사진 올리기' }}<input type="file" accept="image/jpeg,image/png,image/webp,image/gif" :disabled="uploadingAsset('gallery', 'image')" @change="uploadAsset($event, 'gallery', 'image')" /></label></div><small>JPG, PNG, WEBP, GIF 파일을 선택하면 갤러리 S3 경로를 자동으로 넣습니다.</small></div>
+              <label>번호<input v-model.number="selected.index" type="number" /></label><label class="full">설명<input v-model="selected.caption" placeholder="[2026.08] Event name" /></label>
+              <div class="asset-field gallery-assets full">
+                <div class="gallery-assets-head"><div><strong>이벤트 사진</strong><span>{{ galleryImages(selected).length }}장</span></div><small>첫 사진이 카드의 대표 이미지입니다. 공개 화면에서는 자동 재생 없이 직접 넘겨볼 수 있습니다.</small></div>
+                <div v-if="galleryImages(selected).length" class="gallery-image-list">
+                  <div v-for="(image, imageIndex) in galleryImages(selected)" :key="`${selected.index}-${imageIndex}`" class="gallery-image-row">
+                    <div class="gallery-image-thumb"><img v-if="image" :src="image" alt="" /><span v-else>{{ imageIndex + 1 }}</span><b v-if="imageIndex === 0">대표</b></div>
+                    <label><span>사진 {{ imageIndex + 1 }} 주소</span><input :value="image" type="url" placeholder="https://…" @input="updateGalleryImage(imageIndex, $event.target.value)" /></label>
+                    <div class="gallery-image-actions">
+                      <button type="button" :disabled="imageIndex === 0" :aria-label="`사진 ${imageIndex + 1}을 앞으로 이동`" @click="moveGalleryImage(imageIndex, -1)">↑</button>
+                      <button type="button" :disabled="imageIndex === galleryImages(selected).length - 1" :aria-label="`사진 ${imageIndex + 1}을 뒤로 이동`" @click="moveGalleryImage(imageIndex, 1)">↓</button>
+                      <button class="remove" type="button" :aria-label="`사진 ${imageIndex + 1} 삭제`" @click="removeGalleryImage(imageIndex)">삭제</button>
+                    </div>
+                  </div>
+                </div>
+                <div v-else class="gallery-images-empty"><strong>아직 사진이 없습니다.</strong><span>파일을 선택하거나 URL 입력 칸을 추가하세요.</span></div>
+                <div class="gallery-upload-actions">
+                  <label class="upload-button">{{ uploadingAsset('gallery', 'images') ? '사진 업로드 중…' : '사진 파일 추가' }}<input type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple :disabled="uploadingAsset('gallery', 'images')" @change="uploadGalleryImages" /></label>
+                  <button class="secondary" type="button" :disabled="uploadingAsset('gallery', 'images')" @click="addGalleryImageField">URL 입력 칸 추가</button>
+                </div>
+                <small>JPG, PNG, WEBP, GIF 파일을 여러 장 선택할 수 있습니다. ↑ ↓ 버튼으로 표시 순서를 바꿉니다.</small>
+              </div>
             </div>
             <div v-else class="fields">
               <label>번호<input v-model.number="selected.index" type="number" /></label><label>연도<input v-model.number="selected.year" type="number" /></label><label class="full">제목<input v-model="selected.title" /></label><label class="full">저자<input v-model="selected.author" /></label><label>학회·저널<input v-model="selected.venue" /></label><label>발행 정보<input v-model="selected.date" /></label><template v-for="[key, label] in publicationLinkFields" :key="key"><div v-if="['paper', 'slide', 'poster'].includes(key)" class="asset-field"><label>{{ label }}</label><div class="asset-input"><input v-model="selected.link[key]" type="url" placeholder="https://…" /><label class="upload-button">{{ uploadingAsset('publication', key) ? '업로드 중…' : 'PDF 올리기' }}<input type="file" accept="application/pdf,.pdf" :disabled="uploadingAsset('publication', key)" @change="uploadAsset($event, 'publication', key)" /></label></div><small>{{ selected.year }}년 폴더에 PDF를 올리고 링크를 자동으로 넣습니다.</small></div><label v-else>{{ label }}<input v-model="selected.link[key]" type="url" placeholder="https://…" /></label></template><label>수락률 (%)<input v-model.number="selected.acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>Oral 수락률 (%)<input v-model.number="selected.oral_acceptance_rate.AR" type="number" min="0" max="100" step="0.1" /></label><label>기타 수락률·통계 (%)<input v-model.number="selected.additional.AR" type="number" min="0" max="100" step="0.1" /></label><label class="checkbox-field"><input type="checkbox" :checked="hasKImpact(selected)" @change="toggleKImpact($event.target.checked)" />컴퓨터공학분야 우수국제학술대회</label><label>수상 종류<select :value="awardType(selected.award)" @change="setAwardType($event.target.value)"><option v-for="[value, label] in awardOptions" :key="value" :value="value">{{ label }}</option></select></label><label v-if="awardType(selected.award)">수상 인증 링크<input v-model="selected.award[awardType(selected.award)]" type="url" placeholder="https://…" /></label><label class="full">학술지·학회 등재 정보<textarea :value="kImpactText(selected)" @input="setKImpactText($event.target.value)" rows="3" placeholder="한 줄에 하나씩 입력하세요."></textarea><small>예: 컴퓨터공학분야 우수국제학술대회, SCI(E) Q1, KCI 등재 학술지</small></label><fieldset class="full"><legend>연구 태그</legend><button v-for="tag in tags" :key="tag" type="button" class="tag" :class="{ chosen: selected.tags?.includes(tag) }" @click="toggleTag(tag)">{{ tagLabels[tag] }}</button></fieldset>
@@ -639,7 +748,17 @@ onBeforeUnmount(() => window.removeEventListener("keydown", handleKeyboardShortc
                       <h2>Alumni</h2><p><a v-if="selected.link" :href="selected.link" target="_blank">{{ selected.name.replace(/&nbsp;/g, '').trim() }}</a><strong v-else>{{ selected.name.replace(/&nbsp;/g, '').trim() }}</strong><span>&nbsp;|&nbsp; {{ selected.description }}</span></p>
                     </div>
                     <div v-else class="site-content site-gallery">
-                      <div class="site-gallery-card"><img v-if="selected.image" :src="selected.image" :alt="selected.caption" /><div>{{ selected.caption }}</div></div>
+                      <div class="site-gallery-card">
+                        <div class="site-gallery-media">
+                          <img v-if="galleryPreviewImage()" :src="galleryPreviewImage()" :alt="selected.caption" />
+                          <template v-if="galleryImages(selected).length > 1">
+                            <button class="site-gallery-nav previous" type="button" :aria-label="`${selected.caption} 이전 사진`" @click="stepGalleryPreview(-1)">‹</button>
+                            <button class="site-gallery-nav next" type="button" :aria-label="`${selected.caption} 다음 사진`" @click="stepGalleryPreview(1)">›</button>
+                            <span class="site-gallery-count">{{ galleryPreviewIndex + 1 }} / {{ galleryImages(selected).length }}</span>
+                          </template>
+                        </div>
+                        <div class="site-gallery-caption">{{ selected.caption }}</div>
+                      </div>
                     </div>
                   </article>
                 </div>
