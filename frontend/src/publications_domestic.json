@@ -5,7 +5,9 @@
     "title": "Poster: 멀티모달 맥락 정보 기반 산업 이미지 의미 라벨링.",
     "author": "임동현, 노태형, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Multimodal_Context_Mining_Poster.pdf"
+    },
     "tags": [
       "hai",
       "cv"
@@ -22,7 +24,9 @@
     "title": "Poster: ECRA: An Evidence-Based Framework for Structured Course Review Analysis.",
     "author": "정재희, 정다영, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_ECRA_Poster.pdf"
+    },
     "tags": [
       "hai",
       "nlp"
@@ -39,7 +43,9 @@
     "title": "Poster: 학술 검색 사용자의 탐색 의도 구체화를 지원하는 대화형 탐색 인터페이스 설계.",
     "author": "김재현, 정다영, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Academic_Search_Interface_Poster.pdf"
+    },
     "tags": [
       "hai",
       "nlp"
@@ -56,7 +62,9 @@
     "title": "Poster: 검색 증강 페르소나 에이전트를 활용한 설문조사 프레임워크.",
     "author": "이장빈, 김재훈, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Retrieval_Augmented_Persona_Agents_Poster.pdf"
+    },
     "tags": [
       "hai",
       "social",
@@ -74,7 +82,9 @@
     "title": "Poster: LLM 기반 지원 시스템을 위한 사용자의 모호한 정도 표현 유형 분석 및 분류 프롬프트 설계.",
     "author": "박장우, 김명진, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Vague_Expression_Classification_Poster.pdf"
+    },
     "tags": [
       "hai",
       "nlp"
@@ -91,7 +101,9 @@
     "title": "Poster: 학술 검색 세션의 탐색 맥락 구조화를 위한 대규모 로그 기반 탐색 행동 분석 및 지식그래프 구축.",
     "author": "안연주, 정다영, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Academic_Search_Context_Poster.pdf"
+    },
     "tags": [
       "dm",
       "social",
@@ -106,10 +118,12 @@
   {
     "index": 77,
     "year": 2026,
-    "title": "Poster: 사용자 요구 변화 추적을 위한 대화형 쇼핑 추천.",
+    "title": "Poster: 사용자 요구 변화를 추적하는 다중 턴 쇼핑 에이전트.",
     "author": "김진욱, 노태형, 여해인, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Multi_Turn_Shopping_Agent_Poster.pdf"
+    },
     "tags": [
       "hai",
       "dm",
@@ -127,7 +141,9 @@
     "title": "Poster: 사회조사 설문 응답 예측에서 LLM 기반 문항 선택의 효과 분석.",
     "author": "김나연, 김재훈, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_LLM_Question_Selection_Poster.pdf"
+    },
     "tags": [
       "hai",
       "social",
@@ -143,9 +159,11 @@
     "index": 75,
     "year": 2026,
     "title": "Poster: Hidden Intention과 소비자 가치 이론 기반 대화형 쇼핑 에이전트 평가 프레임워크 제안.",
-    "author": "이하나, 노태형, 여해인, 한경식.",
+    "author": "이하나, 여해인, 노태형, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Hidden_Intention_Evaluation_Poster.pdf"
+    },
     "tags": [
       "hai",
       "dm",
@@ -163,7 +181,9 @@
     "title": "Poster: 저널리즘 맥락 유지를 위한 AI 이미지 프롬프트 생성 프레임워크.",
     "author": "김동희, 손비진, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Journalism_Image_Prompt_Poster.pdf"
+    },
     "tags": [
       "hai",
       "social",
@@ -182,7 +202,9 @@
     "title": "Poster: 정책 유형론 기반 LLM 에이전트 정책 시뮬레이션 평가 프레임워크.",
     "author": "정민서, 여해인, 김정현, 손비진, 한경식.",
     "venue": "한국데이터마이닝학회 하계학술대회.",
-    "link": {},
+    "link": {
+      "poster": "https://hcc.hanyang.ac.kr/papers/2026/2026_KDMS_Policy_Simulation_Evaluation_Poster.pdf"
+    },
     "tags": [
       "hai",
       "social",
