@@ -117,6 +117,33 @@
       "nameKo": "김지은",
       "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%B3%E1%86%AB+%E1%84%89%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A2%E1%86%BC%E1%84%82%E1%85%B5%E1%86%B7.png",
       "email": "jieunkim1835@gmail.com"
+    },
+    {
+      "index": 14,
+      "group": "Undergraduate Students",
+      "name": "Jaehyun Kim",
+      "nameKo": "김재현",
+      "image": "https://hcc.hanyang.ac.kr/image/members/jaehyun-kim.png",
+      "email": "",
+      "link": ""
+    },
+    {
+      "index": 15,
+      "group": "Undergraduate Students",
+      "name": "Minseo Jeong",
+      "nameKo": "정민서",
+      "image": "https://hcc.hanyang.ac.kr/image/members/minseo-jeong.png",
+      "email": "",
+      "link": ""
+    },
+    {
+      "index": 16,
+      "group": "Undergraduate Students",
+      "name": "Jonghyun Noh",
+      "nameKo": "노종현",
+      "image": "https://hcc.hanyang.ac.kr/image/members/jonghyun-noh.png",
+      "email": "",
+      "link": ""
     }
   ],
   "alumni": [
