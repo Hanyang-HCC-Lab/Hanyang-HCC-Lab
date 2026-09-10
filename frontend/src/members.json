@@ -35,7 +35,8 @@
       "nameKo": "여해인",
       "image": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/image/members/%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AB.webp",
       "email": "haeinyeo@hanyang.ac.kr",
-      "link": "https://haaaein.github.io"
+      "link": "https://haaaein.github.io",
+      "note": "(NRF Korea Ph.D. Fellowship, 2026-2028)"
     },
     {
       "index": 5,
@@ -72,7 +73,8 @@
       "nameKo": "김정현",
       "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%92%E1%85%A7%E1%86%AB.png",
       "email": "jmmisung@gmail.com",
-      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf"
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Junghyun_Kim.pdf",
+      "note": "(NRF Korea Master's Fellowship, 2026-2027)"
     },
     {
       "index": 9,
@@ -81,7 +83,8 @@
       "nameKo": "최예나",
       "image": "https://s3.ap-northeast-2.amazonaws.com/hcc.hanyang.ac.kr/image/members/%E1%84%8E%E1%85%AC%E1%84%8B%E1%85%A8%E1%84%82%E1%85%A1.png",
       "email": "yenachoi@hanyang.ac.kr",
-      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yena_Choi.pdf"
+      "link": "https://hyhccl.s3.ap-northeast-2.amazonaws.com/Lab-members-CV/CV_Yena_Choi.pdf",
+      "note": "(NRF Korea Master's Fellowship, 2026-2027)"
     },
     {
       "index": 10,
