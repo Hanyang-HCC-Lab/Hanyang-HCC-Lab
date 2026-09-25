@@ -1,5 +1,20 @@
 [
   {
+    "index": 154,
+    "year": 2026,
+    "title": "Dynamic Context Modeling for Longitudinal Mental Health Monitoring under Distribution Shift",
+    "author": "Seungwan Jin, Taehyung Noh, Junghyun Kim, Uichin Lee, Kyungsik Han.",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS).",
+    "date": "2026.",
+    "kImpact": [],
+    "tags": ["health"],
+    "link": {},
+    "acceptance_rate": {"AR": 25.7},
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
+  },
+  {
     "index": 153,
     "year": 2026,
     "title": "TIGRIS: Integrating Policy Knowledge Graphs and Theory of Change for Institutionally Grounded Policy Impact Simulation.",
