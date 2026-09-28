@@ -29,7 +29,9 @@
       "social",
       "nlp"
     ],
-    "link": {},
+    "link": {
+      "paper": "https://hcc.hanyang.ac.kr/papers/2026/2026_EMNLP_TIGRIS.pdf"
+    },
     "acceptance_rate": {},
     "award": {},
     "oral_acceptance_rate": {},
