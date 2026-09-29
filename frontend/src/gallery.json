@@ -1,5 +1,14 @@
 [
   {
+    "index": 108,
+    "image": "https://hcc.hanyang.ac.kr/image/gallery/2026_09_Lab_Retreat_1.jpg",
+    "images": [
+      "https://hcc.hanyang.ac.kr/image/gallery/2026_09_Lab_Retreat_1.jpg",
+      "https://hcc.hanyang.ac.kr/image/gallery/2026_09_Lab_Retreat_2.jpg"
+    ],
+    "caption": "[2026.09] Lab Retreat"
+  },
+  {
     "index": 107,
     "image": "https://hcc.hanyang.ac.kr/image/gallery/2026_KDMS_Group.jpg",
     "caption": "[2026.08] KDMS 2026"
