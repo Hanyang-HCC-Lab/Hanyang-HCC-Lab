@@ -1,5 +1,21 @@
 [
   {
+    "index": 84,
+    "year": 2026,
+    "title": "검색 로그 분석을 통한 학술 정보 서비스 이용자의 정보 탐색 행태 유형화.",
+    "author": "지현, 정다영, 김재훈, 한경식, 유수현.",
+    "venue": "한국인터넷정보학회 추계학술발표대회.",
+    "link": {
+      "paper": "https://hcc.hanyang.ac.kr/papers/2026/2026_KSII_Search_Behavior.pdf"
+    },
+    "tags": ["dm"],
+    "acceptance_rate": {},
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {},
+    "kImpact": []
+  },
+  {
     "index": 83,
     "year": 2026,
     "title": "Poster: 멀티모달 맥락 정보 기반 산업 이미지 의미 라벨링.",
