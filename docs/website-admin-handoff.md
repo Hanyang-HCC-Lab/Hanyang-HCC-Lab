@@ -115,6 +115,7 @@
 - 링크가 없으면 해당 키를 빼거나 빈 `link` 객체를 사용합니다.
 - “컴퓨터공학분야 우수국제학술대회” 표시는 `kImpact` 배열에서 관리합니다.
 - Acceptance Rate와 Oral Acceptance Rate는 서로 다른 값입니다.
+- `acceptance_rate`에 선택 사항인 `note` 문자열을 넣으면 수락률 뒤에 계산 범위를 표시합니다. 예: `{ "AR": 29.7, "note": "Main + Findings" }`.
 
 ### 3.3 멤버와 Alumni
 
