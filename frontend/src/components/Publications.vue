@@ -331,7 +331,7 @@ export default {
                   style="color: #a9a9a9"
                   v-html="paper.acceptance_rate.AR"
                 ></span
-                >%</i
+                >%<span v-if="paper.acceptance_rate.note"> ({{ paper.acceptance_rate.note }})</span></i
               >
             </span>
             <!-- Oral AR 존재하면 표출-->
