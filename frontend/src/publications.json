@@ -75,7 +75,10 @@
       "nlp",
       "social"
     ],
-    "link": {},
+    "link": {
+      "paper": "https://hcc.hanyang.ac.kr/papers/2026/2026_CIKM_MIRAGE.pdf",
+      "DOI": "https://doi.org/10.1145/3799682.3840045"
+    },
     "acceptance_rate": {
       "AR": 30.9
     },
