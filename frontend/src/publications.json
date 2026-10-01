@@ -5,8 +5,8 @@
     "title": "Dynamic Context Modeling for Longitudinal Mental Health Monitoring under Distribution Shift",
     "author": "Seungwan Jin, Taehyung Noh, Junghyun Kim, Uichin Lee, Kyungsik Han.",
     "venue": "Advances in Neural Information Processing Systems (NeurIPS).",
-    "date": "2026.",
-    "kImpact": [],
+    "date": "December 2026.",
+    "kImpact": ["컴퓨터공학분야 우수국제학술대회"],
     "tags": ["health", "nlp"],
     "link": {},
     "acceptance_rate": {"AR": 25.7},
@@ -32,7 +32,7 @@
     "link": {
       "paper": "https://hcc.hanyang.ac.kr/papers/2026/2026_EMNLP_TIGRIS.pdf"
     },
-    "acceptance_rate": {},
+    "acceptance_rate": {"AR": 14.3},
     "award": {},
     "oral_acceptance_rate": {},
     "additional": {}
