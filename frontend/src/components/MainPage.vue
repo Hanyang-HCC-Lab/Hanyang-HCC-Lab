@@ -75,6 +75,17 @@ export default {
                       >email us</a
                     ></span
                   >).
+                </span>
+                <br />
+                <span style="display: inline-block; margin-top: 0.75em; letter-spacing: 0.09em">
+                  We are also recruiting postdoctoral researchers.
+                  <a
+                    href="https://forms.gle/kXkBzHpj3QUtpaaTA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="text-decoration: underline"
+                    >Apply here</a
+                  >.
                 </span></span
               ></span
             ></span
