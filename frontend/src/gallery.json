@@ -1,5 +1,14 @@
 [
   {
+    "index": 109,
+    "image": "https://hcc.hanyang.ac.kr/image/gallery/2026_10_UbiComp_1.jpg",
+    "images": [
+      "https://hcc.hanyang.ac.kr/image/gallery/2026_10_UbiComp_1.jpg",
+      "https://hcc.hanyang.ac.kr/image/gallery/2026_10_UbiComp_2.png"
+    ],
+    "caption": "[2026.10] UbiComp / ISWC 2026"
+  },
+  {
     "index": 108,
     "image": "https://hcc.hanyang.ac.kr/image/gallery/2026_09_Lab_Retreat_1.jpg",
     "images": [
