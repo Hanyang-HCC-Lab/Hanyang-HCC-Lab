@@ -88,7 +88,7 @@ export default {
 <style scoped>
 .img-wrapper { position: relative; width: 95%; height: 25rem; max-height: 95%; overflow: hidden; }
 .gallery-media { background: #eef0f2; flex: 0 0 20rem; height: 20rem; overflow: hidden; position: relative; }
-.gallery-media img { display: block; height: 100%; margin: auto; object-fit: cover; width: 100%; }
+.gallery-media img { display: block; height: 100%; margin: auto; object-fit: contain; width: 100%; }
 .gallery-nav {
   align-items: center;
   background: rgba(10, 17, 28, .72);
