@@ -7,7 +7,10 @@ export default {
   },
   computed: {
     groups() {
-      return [...new Set(this.members.people.map((person) => person.group))].map((name) => ({
+      const names = [...new Set(this.members.people.map((person) => person.group))];
+      const staffIndex = names.indexOf("Administrative Staff");
+      if (staffIndex !== -1) names.push(...names.splice(staffIndex, 1));
+      return names.map((name) => ({
         name,
         people: this.members.people.filter((person) => person.group === name),
       }));
