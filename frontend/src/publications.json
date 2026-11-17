@@ -4,8 +4,9 @@
     "year": 2026,
     "title": "HILIPS: A human-in-the-loop image labeling pipeline for visual-semantic ambiguity.",
     "author": "Taehyung Noh, Beejin Son, Junghyun Kim, Haein Yeo, Kyungsik Han.",
-    "venue": "SoftwareX, 36, 103173.",
+    "venue": "Elsevier SoftwareX, 36, 103173.",
     "date": "December 2026.",
+    "kImpact": ["SCI(E) Q3, JCR 2025 IF = 1.9"],
     "tags": ["hai", "cv"],
     "link": {
       "DOI": "https://doi.org/10.1016/j.softx.2026.103173"
