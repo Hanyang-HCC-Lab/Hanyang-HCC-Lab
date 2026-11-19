@@ -1,5 +1,20 @@
 [
   {
+    "index": 156,
+    "year": 2026,
+    "title": "VRS-LLM: Personalized Prediction of Virtual Reality Sickness Using Large Language Models Based on Multimodal Time-Series Data",
+    "author": "Yoonseon Choi, Dayoung Jeong, Bogoan Kim, Kyungsik Han.",
+    "venue": "Springer Virtual Reality.",
+    "date": "November 2026 (accepted).",
+    "kImpact": ["SCI(E) Q1, JCR IF = 5.4"],
+    "tags": ["vr", "health", "nlp"],
+    "link": {},
+    "acceptance_rate": {},
+    "award": {},
+    "oral_acceptance_rate": {},
+    "additional": {}
+  },
+  {
     "index": 155,
     "year": 2026,
     "title": "HILIPS: A human-in-the-loop image labeling pipeline for visual-semantic ambiguity.",
